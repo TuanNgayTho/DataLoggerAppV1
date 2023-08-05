@@ -50,7 +50,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(112, 69);
+            this.pictureBox1.Location = new System.Drawing.Point(112, 46);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(76, 60);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -62,7 +62,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bauhaus 93", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(93, 135);
+            this.label1.Location = new System.Drawing.Point(93, 112);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(114, 36);
             this.label1.TabIndex = 1;
@@ -71,7 +71,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(20, 228);
+            this.pictureBox2.Location = new System.Drawing.Point(20, 205);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(39, 32);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -81,7 +81,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(16, 298);
+            this.pictureBox3.Location = new System.Drawing.Point(16, 275);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(39, 32);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -92,7 +92,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.panel1.Location = new System.Drawing.Point(22, 266);
+            this.panel1.Location = new System.Drawing.Point(22, 243);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(267, 1);
             this.panel1.TabIndex = 4;
@@ -101,7 +101,7 @@
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel2.Controls.Add(this.button1);
-            this.panel2.Location = new System.Drawing.Point(22, 336);
+            this.panel2.Location = new System.Drawing.Point(22, 313);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(267, 1);
             this.panel2.TabIndex = 5;
@@ -121,7 +121,7 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.SystemColors.Control;
-            this.button2.Location = new System.Drawing.Point(20, 380);
+            this.button2.Location = new System.Drawing.Point(20, 357);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(269, 36);
             this.button2.TabIndex = 6;
@@ -132,8 +132,8 @@
             // lblExit
             // 
             this.lblExit.AutoSize = true;
-            this.lblExit.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblExit.Location = new System.Drawing.Point(128, 439);
+            this.lblExit.ForeColor = System.Drawing.Color.LightCoral;
+            this.lblExit.Location = new System.Drawing.Point(128, 422);
             this.lblExit.Name = "lblExit";
             this.lblExit.Size = new System.Drawing.Size(47, 24);
             this.lblExit.TabIndex = 7;
@@ -144,7 +144,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(190, 353);
+            this.label2.Location = new System.Drawing.Point(190, 330);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(105, 24);
             this.label2.TabIndex = 8;
@@ -155,7 +155,7 @@
             // 
             this.txtUser.BackColor = System.Drawing.SystemColors.Control;
             this.txtUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtUser.Location = new System.Drawing.Point(60, 234);
+            this.txtUser.Location = new System.Drawing.Point(60, 211);
             this.txtUser.Multiline = true;
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(224, 32);
@@ -166,7 +166,7 @@
             // 
             this.txtPassWord.BackColor = System.Drawing.SystemColors.Control;
             this.txtPassWord.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPassWord.Location = new System.Drawing.Point(60, 303);
+            this.txtPassWord.Location = new System.Drawing.Point(60, 280);
             this.txtPassWord.Multiline = true;
             this.txtPassWord.Name = "txtPassWord";
             this.txtPassWord.Size = new System.Drawing.Size(224, 32);
@@ -190,11 +190,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "LoginPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LoginPage";
             this.Load += new System.EventHandler(this.LoginPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

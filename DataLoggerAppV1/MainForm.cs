@@ -110,7 +110,7 @@ namespace DataLoggerAppV1
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            new LoginPage().Show();
+            new LoginPage().ShowDialog();
         }
 
 
@@ -132,7 +132,7 @@ namespace DataLoggerAppV1
             }
             else
             {
-                new LoginPage().Show();
+                new LoginPage().ShowDialog();
             }
         }
 
@@ -146,6 +146,16 @@ namespace DataLoggerAppV1
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void MainForm_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            new QuitForm().ShowDialog();
         }
     }
 }

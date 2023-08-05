@@ -41,17 +41,17 @@
             this.lblNameOfPage = new System.Windows.Forms.Label();
             this.lblSystemName = new System.Windows.Forms.Label();
             this.pnlFormLoader = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.btnSettings);
             this.panel1.Controls.Add(this.btnExport);
@@ -76,9 +76,10 @@
             // 
             // lblUserName
             // 
-            this.lblUserName.Location = new System.Drawing.Point(0, 197);
+            this.lblUserName.Font = new System.Drawing.Font("Bauhaus 93", 24F, System.Drawing.FontStyle.Bold);
+            this.lblUserName.Location = new System.Drawing.Point(0, 90);
             this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(187, 24);
+            this.lblUserName.Size = new System.Drawing.Size(187, 44);
             this.lblUserName.TabIndex = 1;
             this.lblUserName.Text = "User Name";
             this.lblUserName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -87,9 +88,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-3, 83);
+            this.pictureBox1.Location = new System.Drawing.Point(49, 21);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(193, 111);
+            this.pictureBox1.Size = new System.Drawing.Size(95, 66);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -163,17 +164,18 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.lblNameOfPage);
             this.panel3.Controls.Add(this.lblSystemName);
-            this.panel3.Location = new System.Drawing.Point(183, -8);
+            this.panel3.Location = new System.Drawing.Point(181, -3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1760, 90);
+            this.panel3.Size = new System.Drawing.Size(1762, 88);
             this.panel3.TabIndex = 1;
             // 
             // lblNameOfPage
             // 
             this.lblNameOfPage.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNameOfPage.Location = new System.Drawing.Point(1601, 64);
+            this.lblNameOfPage.Location = new System.Drawing.Point(1602, 62);
             this.lblNameOfPage.Name = "lblNameOfPage";
             this.lblNameOfPage.Size = new System.Drawing.Size(135, 22);
             this.lblNameOfPage.TabIndex = 1;
@@ -184,7 +186,7 @@
             // lblSystemName
             // 
             this.lblSystemName.Font = new System.Drawing.Font("Times New Roman", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSystemName.Location = new System.Drawing.Point(571, 8);
+            this.lblSystemName.Location = new System.Drawing.Point(571, 7);
             this.lblSystemName.Name = "lblSystemName";
             this.lblSystemName.Size = new System.Drawing.Size(630, 82);
             this.lblSystemName.TabIndex = 1;
@@ -200,13 +202,16 @@
             this.pnlFormLoader.Size = new System.Drawing.Size(1727, 994);
             this.pnlFormLoader.TabIndex = 2;
             // 
-            // panel4
+            // pictureBox2
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.panel4.Location = new System.Drawing.Point(0, 348);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(193, 5);
-            this.panel4.TabIndex = 5;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(1695, 5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 33);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // MainForm
             // 
@@ -225,10 +230,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Click += new System.EventHandler(this.MainForm_Click);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -247,7 +254,7 @@
         private System.Windows.Forms.Label lblNameOfPage;
         private System.Windows.Forms.Label lblSystemName;
         private System.Windows.Forms.Panel pnlFormLoader;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
