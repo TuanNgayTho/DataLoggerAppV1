@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.lblUserName = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSettings = new System.Windows.Forms.Button();
@@ -38,10 +39,12 @@
             this.btnAlarmList = new System.Windows.Forms.Button();
             this.btnDashboard = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblNameOfPage = new System.Windows.Forms.Label();
             this.lblSystemName = new System.Windows.Forms.Label();
             this.pnlFormLoader = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -52,6 +55,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.btnSettings);
             this.panel1.Controls.Add(this.btnExport);
@@ -61,23 +65,34 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(193, 1080);
+            this.panel1.Size = new System.Drawing.Size(208, 1080);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.lblUserName);
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Location = new System.Drawing.Point(3, 3);
+            this.panel2.Location = new System.Drawing.Point(3, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(187, 345);
+            this.panel2.Size = new System.Drawing.Size(187, 440);
             this.panel2.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Bauhaus 93", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(-3, 73);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(205, 44);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Menu Bar";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUserName
             // 
-            this.lblUserName.Font = new System.Drawing.Font("Bauhaus 93", 24F, System.Drawing.FontStyle.Bold);
-            this.lblUserName.Location = new System.Drawing.Point(0, 90);
+            this.lblUserName.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserName.Location = new System.Drawing.Point(0, 228);
             this.lblUserName.Name = "lblUserName";
             this.lblUserName.Size = new System.Drawing.Size(187, 44);
             this.lblUserName.TabIndex = 1;
@@ -88,9 +103,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(49, 21);
+            this.pictureBox1.Location = new System.Drawing.Point(25, 154);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(95, 66);
+            this.pictureBox1.Size = new System.Drawing.Size(138, 90);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -101,10 +116,10 @@
             this.btnSettings.FlatAppearance.BorderSize = 0;
             this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSettings.Image = ((System.Drawing.Image)(resources.GetObject("btnSettings.Image")));
-            this.btnSettings.Location = new System.Drawing.Point(0, 852);
+            this.btnSettings.Location = new System.Drawing.Point(0, 916);
             this.btnSettings.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(193, 73);
+            this.btnSettings.Size = new System.Drawing.Size(208, 73);
             this.btnSettings.TabIndex = 1;
             this.btnSettings.Text = "Settings";
             this.btnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -117,10 +132,10 @@
             this.btnExport.FlatAppearance.BorderSize = 0;
             this.btnExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExport.Image = ((System.Drawing.Image)(resources.GetObject("btnExport.Image")));
-            this.btnExport.Location = new System.Drawing.Point(0, 717);
+            this.btnExport.Location = new System.Drawing.Point(0, 782);
             this.btnExport.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(193, 73);
+            this.btnExport.Size = new System.Drawing.Size(208, 73);
             this.btnExport.TabIndex = 1;
             this.btnExport.Text = "Export";
             this.btnExport.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -133,10 +148,10 @@
             this.btnAlarmList.FlatAppearance.BorderSize = 0;
             this.btnAlarmList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlarmList.Image = ((System.Drawing.Image)(resources.GetObject("btnAlarmList.Image")));
-            this.btnAlarmList.Location = new System.Drawing.Point(0, 582);
+            this.btnAlarmList.Location = new System.Drawing.Point(0, 648);
             this.btnAlarmList.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnAlarmList.Name = "btnAlarmList";
-            this.btnAlarmList.Size = new System.Drawing.Size(193, 73);
+            this.btnAlarmList.Size = new System.Drawing.Size(208, 73);
             this.btnAlarmList.TabIndex = 1;
             this.btnAlarmList.Text = "Alarm List";
             this.btnAlarmList.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -150,10 +165,10 @@
             this.btnDashboard.FlatAppearance.BorderSize = 0;
             this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
-            this.btnDashboard.Location = new System.Drawing.Point(0, 448);
+            this.btnDashboard.Location = new System.Drawing.Point(0, 514);
             this.btnDashboard.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(193, 73);
+            this.btnDashboard.Size = new System.Drawing.Size(208, 73);
             this.btnDashboard.TabIndex = 1;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -164,20 +179,32 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.lblNameOfPage);
+            this.panel3.Controls.Add(this.pictureBox2);
+            this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.lblSystemName);
-            this.panel3.Location = new System.Drawing.Point(181, -3);
+            this.panel3.Location = new System.Drawing.Point(-6, -3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1762, 88);
+            this.panel3.Size = new System.Drawing.Size(1949, 80);
             this.panel3.TabIndex = 1;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(1879, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 33);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // lblNameOfPage
             // 
             this.lblNameOfPage.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNameOfPage.Location = new System.Drawing.Point(1602, 62);
+            this.lblNameOfPage.Location = new System.Drawing.Point(1804, 56);
             this.lblNameOfPage.Name = "lblNameOfPage";
-            this.lblNameOfPage.Size = new System.Drawing.Size(135, 22);
+            this.lblNameOfPage.Size = new System.Drawing.Size(115, 22);
             this.lblNameOfPage.TabIndex = 1;
             this.lblNameOfPage.Text = "Page Name";
             this.lblNameOfPage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -185,10 +212,10 @@
             // 
             // lblSystemName
             // 
-            this.lblSystemName.Font = new System.Drawing.Font("Times New Roman", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSystemName.Location = new System.Drawing.Point(571, 7);
+            this.lblSystemName.Font = new System.Drawing.Font("Times New Roman", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSystemName.Location = new System.Drawing.Point(569, 11);
             this.lblSystemName.Name = "lblSystemName";
-            this.lblSystemName.Size = new System.Drawing.Size(630, 82);
+            this.lblSystemName.Size = new System.Drawing.Size(630, 57);
             this.lblSystemName.TabIndex = 1;
             this.lblSystemName.Text = "Data Logger CDQC System";
             this.lblSystemName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -197,21 +224,30 @@
             // pnlFormLoader
             // 
             this.pnlFormLoader.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlFormLoader.Location = new System.Drawing.Point(193, 86);
+            this.pnlFormLoader.Location = new System.Drawing.Point(208, 86);
             this.pnlFormLoader.Name = "pnlFormLoader";
-            this.pnlFormLoader.Size = new System.Drawing.Size(1727, 994);
+            this.pnlFormLoader.Size = new System.Drawing.Size(1712, 994);
             this.pnlFormLoader.TabIndex = 2;
             // 
-            // pictureBox2
+            // label1
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1695, 5);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 33);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(1751, 56);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(61, 23);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Page:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.SystemColors.GrayText;
+            this.panel4.Location = new System.Drawing.Point(0, 122);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(209, 1);
+            this.panel4.TabIndex = 5;
             // 
             // MainForm
             // 
@@ -220,9 +256,9 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.ControlBox = false;
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.pnlFormLoader);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel3);
             this.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
@@ -235,6 +271,7 @@
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
@@ -255,6 +292,9 @@
         private System.Windows.Forms.Label lblSystemName;
         private System.Windows.Forms.Panel pnlFormLoader;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel4;
     }
 }
 
