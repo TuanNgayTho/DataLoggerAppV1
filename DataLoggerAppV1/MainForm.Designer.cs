@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textUserName = new System.Windows.Forms.Label();
+            this.lblUserName = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSettings = new System.Windows.Forms.Button();
             this.btnExport = new System.Windows.Forms.Button();
@@ -41,6 +41,7 @@
             this.lblNameOfPage = new System.Windows.Forms.Label();
             this.lblSystemName = new System.Windows.Forms.Label();
             this.pnlFormLoader = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -50,6 +51,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.btnSettings);
             this.panel1.Controls.Add(this.btnExport);
@@ -65,29 +67,29 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.textUserName);
+            this.panel2.Controls.Add(this.lblUserName);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(187, 345);
             this.panel2.TabIndex = 1;
             // 
-            // textUserName
+            // lblUserName
             // 
-            this.textUserName.Location = new System.Drawing.Point(0, 197);
-            this.textUserName.Name = "textUserName";
-            this.textUserName.Size = new System.Drawing.Size(187, 24);
-            this.textUserName.TabIndex = 1;
-            this.textUserName.Text = "User Name";
-            this.textUserName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.textUserName.Click += new System.EventHandler(this.label1_Click);
+            this.lblUserName.Location = new System.Drawing.Point(0, 197);
+            this.lblUserName.Name = "lblUserName";
+            this.lblUserName.Size = new System.Drawing.Size(187, 24);
+            this.lblUserName.TabIndex = 1;
+            this.lblUserName.Text = "User Name";
+            this.lblUserName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblUserName.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 56);
+            this.pictureBox1.Location = new System.Drawing.Point(-3, 83);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(190, 138);
+            this.pictureBox1.Size = new System.Drawing.Size(193, 111);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -198,6 +200,14 @@
             this.pnlFormLoader.Size = new System.Drawing.Size(1727, 994);
             this.pnlFormLoader.TabIndex = 2;
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panel4.Location = new System.Drawing.Point(0, 348);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(193, 5);
+            this.panel4.TabIndex = 5;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
@@ -232,11 +242,12 @@
         private System.Windows.Forms.Button btnAlarmList;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label textUserName;
+        private System.Windows.Forms.Label lblUserName;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label lblNameOfPage;
         private System.Windows.Forms.Label lblSystemName;
         private System.Windows.Forms.Panel pnlFormLoader;
+        private System.Windows.Forms.Panel panel4;
     }
 }
 

@@ -12,9 +12,15 @@ namespace DataLoggerAppV1
 {
     public partial class MainForm : Form
     {
+        public static MainForm instance;
+        public static bool IsLogIn = false;
+        public Label UserNameLabelel;
         public MainForm()
         {
             InitializeComponent();
+            UserNameLabelel = lblUserName;
+            instance = this;
+
             btnDashboard.BackColor = SystemColors.Control;
 
             lblNameOfPage.Text = "Dashboard";
@@ -104,23 +110,30 @@ namespace DataLoggerAppV1
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            new LoginPage().Show();
         }
 
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
-            lblNameOfPage.Text = "Settings";
-            this.pnlFormLoader.Controls.Clear();
-            Setting Setting_Vrb = new Setting() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
-            Setting_Vrb.FormBorderStyle = FormBorderStyle.None;
-            this.pnlFormLoader.Controls.Add(Setting_Vrb);
-            Setting_Vrb.Show();
+            if (IsLogIn == true)
+            {
+                lblNameOfPage.Text = "Settings";
+                this.pnlFormLoader.Controls.Clear();
+                Setting Setting_Vrb = new Setting() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+                Setting_Vrb.FormBorderStyle = FormBorderStyle.None;
+                this.pnlFormLoader.Controls.Add(Setting_Vrb);
+                Setting_Vrb.Show();
 
-            btnDashboard.BackColor = SystemColors.ControlLight;
-            btnAlarmList.BackColor = SystemColors.ControlLight;
-            btnExport.BackColor = SystemColors.ControlLight;
-            btnSettings.BackColor = SystemColors.Control;
+                btnDashboard.BackColor = SystemColors.ControlLight;
+                btnAlarmList.BackColor = SystemColors.ControlLight;
+                btnExport.BackColor = SystemColors.ControlLight;
+                btnSettings.BackColor = SystemColors.Control;
+            }
+            else
+            {
+                new LoginPage().Show();
+            }
         }
 
         private void btnSettings_Leave(object sender, EventArgs e)
