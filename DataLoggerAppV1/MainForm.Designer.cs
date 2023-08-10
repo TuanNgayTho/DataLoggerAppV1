@@ -36,7 +36,7 @@
             this.lblUserName = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSettings = new System.Windows.Forms.Button();
-            this.btnExport = new System.Windows.Forms.Button();
+            this.btnTrend = new System.Windows.Forms.Button();
             this.btnAlarmList = new System.Windows.Forms.Button();
             this.btnDashboard = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -45,6 +45,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblSystemName = new System.Windows.Forms.Label();
             this.pnlFormLoader = new System.Windows.Forms.Panel();
+            this.btnMonitor = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -58,7 +59,8 @@
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.btnSettings);
-            this.panel1.Controls.Add(this.btnExport);
+            this.panel1.Controls.Add(this.btnMonitor);
+            this.panel1.Controls.Add(this.btnTrend);
             this.panel1.Controls.Add(this.btnAlarmList);
             this.panel1.Controls.Add(this.btnDashboard);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -84,7 +86,7 @@
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Location = new System.Drawing.Point(3, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(206, 440);
+            this.panel2.Size = new System.Drawing.Size(206, 395);
             this.panel2.TabIndex = 1;
             // 
             // label2
@@ -125,44 +127,53 @@
             this.btnSettings.FlatAppearance.BorderSize = 0;
             this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSettings.Image = ((System.Drawing.Image)(resources.GetObject("btnSettings.Image")));
-            this.btnSettings.Location = new System.Drawing.Point(0, 916);
+            this.btnSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSettings.Location = new System.Drawing.Point(0, 940);
             this.btnSettings.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
             this.btnSettings.Size = new System.Drawing.Size(208, 73);
             this.btnSettings.TabIndex = 1;
             this.btnSettings.Text = "Settings";
+            this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnSettings.UseVisualStyleBackColor = true;
             this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             this.btnSettings.Leave += new System.EventHandler(this.btnSettings_Leave);
             // 
-            // btnExport
+            // btnTrend
             // 
-            this.btnExport.FlatAppearance.BorderSize = 0;
-            this.btnExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExport.Image = ((System.Drawing.Image)(resources.GetObject("btnExport.Image")));
-            this.btnExport.Location = new System.Drawing.Point(0, 782);
-            this.btnExport.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(208, 73);
-            this.btnExport.TabIndex = 1;
-            this.btnExport.Text = "Export";
-            this.btnExport.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnExport.UseVisualStyleBackColor = true;
-            this.btnExport.Click += new System.EventHandler(this.button3_Click);
-            this.btnExport.Leave += new System.EventHandler(this.btnExport_Leave);
+            this.btnTrend.FlatAppearance.BorderSize = 0;
+            this.btnTrend.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTrend.Image = ((System.Drawing.Image)(resources.GetObject("btnTrend.Image")));
+            this.btnTrend.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnTrend.Location = new System.Drawing.Point(0, 674);
+            this.btnTrend.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.btnTrend.Name = "btnTrend";
+            this.btnTrend.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnTrend.Size = new System.Drawing.Size(208, 73);
+            this.btnTrend.TabIndex = 1;
+            this.btnTrend.Text = "Trend";
+            this.btnTrend.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTrend.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnTrend.UseVisualStyleBackColor = true;
+            this.btnTrend.Click += new System.EventHandler(this.button3_Click);
+            this.btnTrend.Leave += new System.EventHandler(this.btnExport_Leave);
             // 
             // btnAlarmList
             // 
             this.btnAlarmList.FlatAppearance.BorderSize = 0;
             this.btnAlarmList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlarmList.Image = ((System.Drawing.Image)(resources.GetObject("btnAlarmList.Image")));
-            this.btnAlarmList.Location = new System.Drawing.Point(0, 648);
+            this.btnAlarmList.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAlarmList.Location = new System.Drawing.Point(0, 541);
             this.btnAlarmList.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnAlarmList.Name = "btnAlarmList";
+            this.btnAlarmList.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
             this.btnAlarmList.Size = new System.Drawing.Size(208, 73);
             this.btnAlarmList.TabIndex = 1;
             this.btnAlarmList.Text = "Alarm List";
+            this.btnAlarmList.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAlarmList.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnAlarmList.UseVisualStyleBackColor = true;
             this.btnAlarmList.Click += new System.EventHandler(this.btnAlarmList_Click);
@@ -174,12 +185,16 @@
             this.btnDashboard.FlatAppearance.BorderSize = 0;
             this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
-            this.btnDashboard.Location = new System.Drawing.Point(0, 514);
+            this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnDashboard.Location = new System.Drawing.Point(0, 408);
             this.btnDashboard.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnDashboard.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnDashboard.Size = new System.Drawing.Size(208, 73);
             this.btnDashboard.TabIndex = 1;
             this.btnDashboard.Text = "Dashboard";
+            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnDashboard.UseVisualStyleBackColor = false;
             this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
@@ -250,6 +265,24 @@
             this.pnlFormLoader.Size = new System.Drawing.Size(1712, 1002);
             this.pnlFormLoader.TabIndex = 2;
             // 
+            // btnMonitor
+            // 
+            this.btnMonitor.FlatAppearance.BorderSize = 0;
+            this.btnMonitor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMonitor.Image = ((System.Drawing.Image)(resources.GetObject("btnMonitor.Image")));
+            this.btnMonitor.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnMonitor.Location = new System.Drawing.Point(0, 807);
+            this.btnMonitor.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.btnMonitor.Name = "btnMonitor";
+            this.btnMonitor.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnMonitor.Size = new System.Drawing.Size(208, 73);
+            this.btnMonitor.TabIndex = 1;
+            this.btnMonitor.Text = "Monitor";
+            this.btnMonitor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMonitor.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnMonitor.UseVisualStyleBackColor = true;
+            this.btnMonitor.Click += new System.EventHandler(this.btnMonitor_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
@@ -283,7 +316,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnDashboard;
         private System.Windows.Forms.Button btnSettings;
-        private System.Windows.Forms.Button btnExport;
+        private System.Windows.Forms.Button btnTrend;
         private System.Windows.Forms.Button btnAlarmList;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -296,6 +329,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button btnMonitor;
     }
 }
 

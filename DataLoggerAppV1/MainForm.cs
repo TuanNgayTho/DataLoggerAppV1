@@ -54,13 +54,30 @@ namespace DataLoggerAppV1
 
             btnDashboard.BackColor = SystemColors.ControlLight;
             btnAlarmList.BackColor = SystemColors.ControlLight;
-            btnExport.BackColor = SystemColors.Control;
+            btnTrend.BackColor = SystemColors.Control;
+            btnMonitor.BackColor = SystemColors.ControlLight;
             btnSettings.BackColor = SystemColors.ControlLight;
         }
 
         private void btnExport_Leave(object sender, EventArgs e)
         {
             
+        }
+
+        private void btnMonitor_Click(object sender, EventArgs e)
+        {
+            lblNameOfPage.Text = "Monitor";
+            this.pnlFormLoader.Controls.Clear();
+            Monitor Monitor_Vrb = new Monitor() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            Monitor_Vrb.FormBorderStyle = FormBorderStyle.None;
+            this.pnlFormLoader.Controls.Add(Monitor_Vrb);
+            Monitor_Vrb.Show();
+
+            btnDashboard.BackColor = SystemColors.ControlLight;
+            btnAlarmList.BackColor = SystemColors.ControlLight;
+            btnTrend.BackColor = SystemColors.ControlLight;
+            btnMonitor.BackColor = SystemColors.Control;
+            btnSettings.BackColor = SystemColors.ControlLight;
         }
 
 
@@ -76,8 +93,9 @@ namespace DataLoggerAppV1
 
             btnDashboard.BackColor = SystemColors.Control;
             btnAlarmList.BackColor = SystemColors.ControlLight;
-            btnExport.BackColor = SystemColors.ControlLight;
+            btnTrend.BackColor = SystemColors.ControlLight;
             btnSettings.BackColor = SystemColors.ControlLight;
+            btnMonitor.BackColor = SystemColors.ControlLight;
         }
 
         private void btnDashboard_Leave(object sender, EventArgs e)
@@ -98,8 +116,9 @@ namespace DataLoggerAppV1
 
             btnDashboard.BackColor = SystemColors.ControlLight;
             btnAlarmList.BackColor = SystemColors.Control;
-            btnExport.BackColor = SystemColors.ControlLight;
+            btnTrend.BackColor = SystemColors.ControlLight;
             btnSettings.BackColor = SystemColors.ControlLight;
+            btnMonitor.BackColor = SystemColors.ControlLight;
         }
 
         private void btnAlarmList_Leave(object sender, EventArgs e)
@@ -127,8 +146,9 @@ namespace DataLoggerAppV1
 
                 btnDashboard.BackColor = SystemColors.ControlLight;
                 btnAlarmList.BackColor = SystemColors.ControlLight;
-                btnExport.BackColor = SystemColors.ControlLight;
+                btnTrend.BackColor = SystemColors.ControlLight;
                 btnSettings.BackColor = SystemColors.Control;
+                btnMonitor.BackColor = SystemColors.ControlLight;
             }
             else
             {
