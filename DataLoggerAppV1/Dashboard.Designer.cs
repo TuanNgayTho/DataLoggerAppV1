@@ -79,9 +79,9 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.lblAlarmStream8 = new System.Windows.Forms.Label();
+            this.lblAlarmAi7 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.barStream8 = new System.Windows.Forms.ProgressBar();
+            this.barAi7 = new System.Windows.Forms.ProgressBar();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -89,33 +89,33 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.barStream7 = new System.Windows.Forms.ProgressBar();
+            this.barAi6 = new System.Windows.Forms.ProgressBar();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.barStream6 = new System.Windows.Forms.ProgressBar();
+            this.barAi5 = new System.Windows.Forms.ProgressBar();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.barStream5 = new System.Windows.Forms.ProgressBar();
+            this.barAi4 = new System.Windows.Forms.ProgressBar();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.barStream4 = new System.Windows.Forms.ProgressBar();
+            this.barAi3 = new System.Windows.Forms.ProgressBar();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.barStream3 = new System.Windows.Forms.ProgressBar();
+            this.barAi2 = new System.Windows.Forms.ProgressBar();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.barStream2 = new System.Windows.Forms.ProgressBar();
+            this.barAi1 = new System.Windows.Forms.ProgressBar();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.barStream1 = new System.Windows.Forms.ProgressBar();
+            this.barAi0 = new System.Windows.Forms.ProgressBar();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.lblAlarmStream7 = new System.Windows.Forms.Label();
+            this.lblAlarmAi6 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.lblAlarmStream6 = new System.Windows.Forms.Label();
+            this.lblAlarmAi5 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.lblAlarmStream5 = new System.Windows.Forms.Label();
+            this.lblAlarmAi4 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.lblAlarmStream4 = new System.Windows.Forms.Label();
+            this.lblAlarmAi3 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.lblAlarmStream3 = new System.Windows.Forms.Label();
+            this.lblAlarmAi2 = new System.Windows.Forms.Label();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.lblAlarmStream2 = new System.Windows.Forms.Label();
+            this.lblAlarmAi1 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.lblAlarmStream1 = new System.Windows.Forms.Label();
+            this.lblAlarmAi0 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -780,43 +780,43 @@
             this.panel10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel10.Controls.Add(this.lblAlarmStream8);
+            this.panel10.Controls.Add(this.lblAlarmAi7);
             this.panel10.Location = new System.Drawing.Point(1277, 603);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(106, 66);
             this.panel10.TabIndex = 3;
             this.panel10.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // lblAlarmStream8
+            // lblAlarmAi7
             // 
-            this.lblAlarmStream8.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lblAlarmStream8.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAlarmStream8.Location = new System.Drawing.Point(32, 13);
-            this.lblAlarmStream8.Name = "lblAlarmStream8";
-            this.lblAlarmStream8.Size = new System.Drawing.Size(41, 41);
-            this.lblAlarmStream8.TabIndex = 5;
-            this.lblAlarmStream8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAlarmAi7.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblAlarmAi7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblAlarmAi7.Location = new System.Drawing.Point(32, 13);
+            this.lblAlarmAi7.Name = "lblAlarmAi7";
+            this.lblAlarmAi7.Size = new System.Drawing.Size(41, 41);
+            this.lblAlarmAi7.TabIndex = 5;
+            this.lblAlarmAi7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel2
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.Controls.Add(this.barStream8);
+            this.panel2.Controls.Add(this.barAi7);
             this.panel2.Location = new System.Drawing.Point(343, 603);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(927, 66);
             this.panel2.TabIndex = 2;
             // 
-            // barStream8
+            // barAi7
             // 
-            this.barStream8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.barAi7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.barStream8.Location = new System.Drawing.Point(11, 13);
-            this.barStream8.Name = "barStream8";
-            this.barStream8.Size = new System.Drawing.Size(906, 41);
-            this.barStream8.TabIndex = 0;
+            this.barAi7.Location = new System.Drawing.Point(11, 13);
+            this.barAi7.Name = "barAi7";
+            this.barAi7.Size = new System.Drawing.Size(906, 41);
+            this.barAi7.TabIndex = 0;
             // 
             // label2
             // 
@@ -901,301 +901,301 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.Controls.Add(this.barStream7);
+            this.panel1.Controls.Add(this.barAi6);
             this.panel1.Location = new System.Drawing.Point(343, 529);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(927, 67);
             this.panel1.TabIndex = 2;
             // 
-            // barStream7
+            // barAi6
             // 
-            this.barStream7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.barAi6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.barStream7.Location = new System.Drawing.Point(11, 13);
-            this.barStream7.Name = "barStream7";
-            this.barStream7.Size = new System.Drawing.Size(906, 42);
-            this.barStream7.TabIndex = 0;
+            this.barAi6.Location = new System.Drawing.Point(11, 13);
+            this.barAi6.Name = "barAi6";
+            this.barAi6.Size = new System.Drawing.Size(906, 42);
+            this.barAi6.TabIndex = 0;
             // 
             // panel3
             // 
             this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel3.Controls.Add(this.barStream6);
+            this.panel3.Controls.Add(this.barAi5);
             this.panel3.Location = new System.Drawing.Point(343, 455);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(927, 67);
             this.panel3.TabIndex = 2;
             // 
-            // barStream6
+            // barAi5
             // 
-            this.barStream6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.barAi5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.barStream6.Location = new System.Drawing.Point(11, 13);
-            this.barStream6.Name = "barStream6";
-            this.barStream6.Size = new System.Drawing.Size(906, 42);
-            this.barStream6.TabIndex = 0;
+            this.barAi5.Location = new System.Drawing.Point(11, 13);
+            this.barAi5.Name = "barAi5";
+            this.barAi5.Size = new System.Drawing.Size(906, 42);
+            this.barAi5.TabIndex = 0;
             // 
             // panel4
             // 
             this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel4.Controls.Add(this.barStream5);
+            this.panel4.Controls.Add(this.barAi4);
             this.panel4.Location = new System.Drawing.Point(343, 381);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(927, 67);
             this.panel4.TabIndex = 2;
             // 
-            // barStream5
+            // barAi4
             // 
-            this.barStream5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.barAi4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.barStream5.Location = new System.Drawing.Point(11, 13);
-            this.barStream5.Name = "barStream5";
-            this.barStream5.Size = new System.Drawing.Size(906, 42);
-            this.barStream5.TabIndex = 0;
+            this.barAi4.Location = new System.Drawing.Point(11, 13);
+            this.barAi4.Name = "barAi4";
+            this.barAi4.Size = new System.Drawing.Size(906, 42);
+            this.barAi4.TabIndex = 0;
             // 
             // panel5
             // 
             this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel5.Controls.Add(this.barStream4);
+            this.panel5.Controls.Add(this.barAi3);
             this.panel5.Location = new System.Drawing.Point(343, 307);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(927, 67);
             this.panel5.TabIndex = 2;
             // 
-            // barStream4
+            // barAi3
             // 
-            this.barStream4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.barAi3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.barStream4.Location = new System.Drawing.Point(11, 13);
-            this.barStream4.Name = "barStream4";
-            this.barStream4.Size = new System.Drawing.Size(906, 42);
-            this.barStream4.TabIndex = 0;
+            this.barAi3.Location = new System.Drawing.Point(11, 13);
+            this.barAi3.Name = "barAi3";
+            this.barAi3.Size = new System.Drawing.Size(906, 42);
+            this.barAi3.TabIndex = 0;
             // 
             // panel6
             // 
             this.panel6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel6.Controls.Add(this.barStream3);
+            this.panel6.Controls.Add(this.barAi2);
             this.panel6.Location = new System.Drawing.Point(343, 233);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(927, 67);
             this.panel6.TabIndex = 2;
             // 
-            // barStream3
+            // barAi2
             // 
-            this.barStream3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.barAi2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.barStream3.Location = new System.Drawing.Point(11, 13);
-            this.barStream3.Name = "barStream3";
-            this.barStream3.Size = new System.Drawing.Size(906, 42);
-            this.barStream3.TabIndex = 0;
+            this.barAi2.Location = new System.Drawing.Point(11, 13);
+            this.barAi2.Name = "barAi2";
+            this.barAi2.Size = new System.Drawing.Size(906, 42);
+            this.barAi2.TabIndex = 0;
             // 
             // panel7
             // 
             this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel7.Controls.Add(this.barStream2);
+            this.panel7.Controls.Add(this.barAi1);
             this.panel7.Location = new System.Drawing.Point(343, 159);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(927, 67);
             this.panel7.TabIndex = 2;
             // 
-            // barStream2
+            // barAi1
             // 
-            this.barStream2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.barAi1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.barStream2.Location = new System.Drawing.Point(11, 13);
-            this.barStream2.Name = "barStream2";
-            this.barStream2.Size = new System.Drawing.Size(906, 42);
-            this.barStream2.TabIndex = 0;
+            this.barAi1.Location = new System.Drawing.Point(11, 13);
+            this.barAi1.Name = "barAi1";
+            this.barAi1.Size = new System.Drawing.Size(906, 42);
+            this.barAi1.TabIndex = 0;
             // 
             // panel8
             // 
             this.panel8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel8.Controls.Add(this.barStream1);
+            this.panel8.Controls.Add(this.barAi0);
             this.panel8.Location = new System.Drawing.Point(343, 85);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(927, 67);
             this.panel8.TabIndex = 2;
             // 
-            // barStream1
+            // barAi0
             // 
-            this.barStream1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.barAi0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.barStream1.Location = new System.Drawing.Point(11, 13);
-            this.barStream1.Name = "barStream1";
-            this.barStream1.Size = new System.Drawing.Size(906, 42);
-            this.barStream1.TabIndex = 0;
+            this.barAi0.Location = new System.Drawing.Point(11, 13);
+            this.barAi0.Name = "barAi0";
+            this.barAi0.Size = new System.Drawing.Size(906, 42);
+            this.barAi0.TabIndex = 0;
             // 
             // panel9
             // 
             this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel9.Controls.Add(this.lblAlarmStream7);
+            this.panel9.Controls.Add(this.lblAlarmAi6);
             this.panel9.Location = new System.Drawing.Point(1277, 529);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(106, 67);
             this.panel9.TabIndex = 3;
             this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // lblAlarmStream7
+            // lblAlarmAi6
             // 
-            this.lblAlarmStream7.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lblAlarmStream7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAlarmStream7.Location = new System.Drawing.Point(32, 13);
-            this.lblAlarmStream7.Name = "lblAlarmStream7";
-            this.lblAlarmStream7.Size = new System.Drawing.Size(41, 41);
-            this.lblAlarmStream7.TabIndex = 5;
-            this.lblAlarmStream7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAlarmAi6.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblAlarmAi6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblAlarmAi6.Location = new System.Drawing.Point(32, 13);
+            this.lblAlarmAi6.Name = "lblAlarmAi6";
+            this.lblAlarmAi6.Size = new System.Drawing.Size(41, 41);
+            this.lblAlarmAi6.TabIndex = 5;
+            this.lblAlarmAi6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel11
             // 
             this.panel11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel11.Controls.Add(this.lblAlarmStream6);
+            this.panel11.Controls.Add(this.lblAlarmAi5);
             this.panel11.Location = new System.Drawing.Point(1277, 455);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(106, 67);
             this.panel11.TabIndex = 3;
             this.panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // lblAlarmStream6
+            // lblAlarmAi5
             // 
-            this.lblAlarmStream6.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lblAlarmStream6.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAlarmStream6.Location = new System.Drawing.Point(32, 13);
-            this.lblAlarmStream6.Name = "lblAlarmStream6";
-            this.lblAlarmStream6.Size = new System.Drawing.Size(41, 41);
-            this.lblAlarmStream6.TabIndex = 5;
-            this.lblAlarmStream6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAlarmAi5.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblAlarmAi5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblAlarmAi5.Location = new System.Drawing.Point(32, 13);
+            this.lblAlarmAi5.Name = "lblAlarmAi5";
+            this.lblAlarmAi5.Size = new System.Drawing.Size(41, 41);
+            this.lblAlarmAi5.TabIndex = 5;
+            this.lblAlarmAi5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel12
             // 
             this.panel12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel12.Controls.Add(this.lblAlarmStream5);
+            this.panel12.Controls.Add(this.lblAlarmAi4);
             this.panel12.Location = new System.Drawing.Point(1277, 381);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(106, 67);
             this.panel12.TabIndex = 3;
             this.panel12.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // lblAlarmStream5
+            // lblAlarmAi4
             // 
-            this.lblAlarmStream5.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lblAlarmStream5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAlarmStream5.Location = new System.Drawing.Point(32, 13);
-            this.lblAlarmStream5.Name = "lblAlarmStream5";
-            this.lblAlarmStream5.Size = new System.Drawing.Size(41, 41);
-            this.lblAlarmStream5.TabIndex = 5;
-            this.lblAlarmStream5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAlarmAi4.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblAlarmAi4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblAlarmAi4.Location = new System.Drawing.Point(32, 13);
+            this.lblAlarmAi4.Name = "lblAlarmAi4";
+            this.lblAlarmAi4.Size = new System.Drawing.Size(41, 41);
+            this.lblAlarmAi4.TabIndex = 5;
+            this.lblAlarmAi4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel13
             // 
             this.panel13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel13.Controls.Add(this.lblAlarmStream4);
+            this.panel13.Controls.Add(this.lblAlarmAi3);
             this.panel13.Location = new System.Drawing.Point(1277, 307);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(106, 67);
             this.panel13.TabIndex = 3;
             this.panel13.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // lblAlarmStream4
+            // lblAlarmAi3
             // 
-            this.lblAlarmStream4.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lblAlarmStream4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAlarmStream4.Location = new System.Drawing.Point(32, 13);
-            this.lblAlarmStream4.Name = "lblAlarmStream4";
-            this.lblAlarmStream4.Size = new System.Drawing.Size(41, 41);
-            this.lblAlarmStream4.TabIndex = 5;
-            this.lblAlarmStream4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAlarmAi3.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblAlarmAi3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblAlarmAi3.Location = new System.Drawing.Point(32, 13);
+            this.lblAlarmAi3.Name = "lblAlarmAi3";
+            this.lblAlarmAi3.Size = new System.Drawing.Size(41, 41);
+            this.lblAlarmAi3.TabIndex = 5;
+            this.lblAlarmAi3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel14
             // 
             this.panel14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel14.Controls.Add(this.lblAlarmStream3);
+            this.panel14.Controls.Add(this.lblAlarmAi2);
             this.panel14.Location = new System.Drawing.Point(1277, 233);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(106, 67);
             this.panel14.TabIndex = 3;
             this.panel14.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // lblAlarmStream3
+            // lblAlarmAi2
             // 
-            this.lblAlarmStream3.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lblAlarmStream3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAlarmStream3.Location = new System.Drawing.Point(32, 13);
-            this.lblAlarmStream3.Name = "lblAlarmStream3";
-            this.lblAlarmStream3.Size = new System.Drawing.Size(41, 41);
-            this.lblAlarmStream3.TabIndex = 5;
-            this.lblAlarmStream3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAlarmAi2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblAlarmAi2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblAlarmAi2.Location = new System.Drawing.Point(32, 13);
+            this.lblAlarmAi2.Name = "lblAlarmAi2";
+            this.lblAlarmAi2.Size = new System.Drawing.Size(41, 41);
+            this.lblAlarmAi2.TabIndex = 5;
+            this.lblAlarmAi2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel15
             // 
             this.panel15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel15.Controls.Add(this.lblAlarmStream2);
+            this.panel15.Controls.Add(this.lblAlarmAi1);
             this.panel15.Location = new System.Drawing.Point(1277, 159);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(106, 67);
             this.panel15.TabIndex = 3;
             this.panel15.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // lblAlarmStream2
+            // lblAlarmAi1
             // 
-            this.lblAlarmStream2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lblAlarmStream2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAlarmStream2.Location = new System.Drawing.Point(32, 13);
-            this.lblAlarmStream2.Name = "lblAlarmStream2";
-            this.lblAlarmStream2.Size = new System.Drawing.Size(41, 41);
-            this.lblAlarmStream2.TabIndex = 5;
-            this.lblAlarmStream2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAlarmAi1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblAlarmAi1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblAlarmAi1.Location = new System.Drawing.Point(32, 13);
+            this.lblAlarmAi1.Name = "lblAlarmAi1";
+            this.lblAlarmAi1.Size = new System.Drawing.Size(41, 41);
+            this.lblAlarmAi1.TabIndex = 5;
+            this.lblAlarmAi1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel16
             // 
             this.panel16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel16.Controls.Add(this.lblAlarmStream1);
+            this.panel16.Controls.Add(this.lblAlarmAi0);
             this.panel16.Location = new System.Drawing.Point(1277, 85);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(106, 67);
             this.panel16.TabIndex = 3;
             this.panel16.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // lblAlarmStream1
+            // lblAlarmAi0
             // 
-            this.lblAlarmStream1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lblAlarmStream1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAlarmStream1.Location = new System.Drawing.Point(32, 13);
-            this.lblAlarmStream1.Name = "lblAlarmStream1";
-            this.lblAlarmStream1.Size = new System.Drawing.Size(41, 41);
-            this.lblAlarmStream1.TabIndex = 5;
-            this.lblAlarmStream1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAlarmAi0.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblAlarmAi0.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblAlarmAi0.Location = new System.Drawing.Point(32, 13);
+            this.lblAlarmAi0.Name = "lblAlarmAi0";
+            this.lblAlarmAi0.Size = new System.Drawing.Size(41, 41);
+            this.lblAlarmAi0.TabIndex = 5;
+            this.lblAlarmAi0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Dashboard
             // 
@@ -1293,7 +1293,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ProgressBar barStream8;
+        private System.Windows.Forms.ProgressBar barAi7;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -1301,33 +1301,33 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ProgressBar barStream7;
+        private System.Windows.Forms.ProgressBar barAi6;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.ProgressBar barStream6;
+        private System.Windows.Forms.ProgressBar barAi5;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.ProgressBar barStream5;
+        private System.Windows.Forms.ProgressBar barAi4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.ProgressBar barStream4;
+        private System.Windows.Forms.ProgressBar barAi3;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.ProgressBar barStream3;
+        private System.Windows.Forms.ProgressBar barAi2;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.ProgressBar barStream2;
+        private System.Windows.Forms.ProgressBar barAi1;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.ProgressBar barStream1;
-        private System.Windows.Forms.Label lblAlarmStream8;
+        private System.Windows.Forms.ProgressBar barAi0;
+        private System.Windows.Forms.Label lblAlarmAi7;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label lblAlarmStream7;
+        private System.Windows.Forms.Label lblAlarmAi6;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Label lblAlarmStream6;
+        private System.Windows.Forms.Label lblAlarmAi5;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Label lblAlarmStream5;
+        private System.Windows.Forms.Label lblAlarmAi4;
         private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Label lblAlarmStream4;
+        private System.Windows.Forms.Label lblAlarmAi3;
         private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Label lblAlarmStream3;
+        private System.Windows.Forms.Label lblAlarmAi2;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Label lblAlarmStream2;
+        private System.Windows.Forms.Label lblAlarmAi1;
         private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Label lblAlarmStream1;
+        private System.Windows.Forms.Label lblAlarmAi0;
     }
 }
