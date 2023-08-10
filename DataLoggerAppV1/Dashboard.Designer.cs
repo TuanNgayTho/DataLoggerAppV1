@@ -37,45 +37,45 @@
             this.button8 = new System.Windows.Forms.Button();
             this.lblAlarmSystem = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
+            this.lblHighAlarm7 = new System.Windows.Forms.Label();
+            this.lblLowAlarm7 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
+            this.lblAiDataCh7 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
+            this.lblHighAlarm6 = new System.Windows.Forms.Label();
+            this.lblLowAlarm6 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
+            this.lblAiDataCh6 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
+            this.lblHighAlarm5 = new System.Windows.Forms.Label();
+            this.lblLowAlarm5 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
+            this.lblAiDataCh5 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
+            this.lblHighAlarm4 = new System.Windows.Forms.Label();
+            this.lblLowAlarm4 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
+            this.lblAiDataCh4 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
+            this.lblHighAlarm3 = new System.Windows.Forms.Label();
+            this.lblLowAlarm3 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
+            this.lblAiDataCh3 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
+            this.lblHighAlarm2 = new System.Windows.Forms.Label();
+            this.lblLowAlarm2 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
+            this.lblAiDataCh2 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.lblHighAlarm1 = new System.Windows.Forms.Label();
+            this.lblLowAlarm1 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.lblAiDataCh1 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblHighAlarm0 = new System.Windows.Forms.Label();
+            this.lblLowAlarm0 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblAiDataCh0 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
@@ -180,7 +180,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(249, 49);
             this.button5.TabIndex = 2;
-            this.button5.Text = "STREAM 4";
+            this.button5.Text = "START";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button6
@@ -189,7 +189,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(249, 49);
             this.button6.TabIndex = 2;
-            this.button6.Text = "STREAM 5";
+            this.button6.Text = "STOP";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // button8
@@ -198,7 +198,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(249, 49);
             this.button8.TabIndex = 2;
-            this.button8.Text = "STREAM 6";
+            this.button8.Text = "MAN/AUTO";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // lblAlarmSystem
@@ -206,9 +206,9 @@
             this.lblAlarmSystem.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblAlarmSystem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblAlarmSystem.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAlarmSystem.Location = new System.Drawing.Point(42, 830);
+            this.lblAlarmSystem.Location = new System.Drawing.Point(46, 830);
             this.lblAlarmSystem.Name = "lblAlarmSystem";
-            this.lblAlarmSystem.Size = new System.Drawing.Size(1622, 48);
+            this.lblAlarmSystem.Size = new System.Drawing.Size(1618, 48);
             this.lblAlarmSystem.TabIndex = 3;
             this.lblAlarmSystem.Text = "PLC Disconncted";
             this.lblAlarmSystem.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -226,45 +226,45 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7F));
-            this.tableLayoutPanel1.Controls.Add(this.label54, 6, 8);
-            this.tableLayoutPanel1.Controls.Add(this.label53, 5, 8);
+            this.tableLayoutPanel1.Controls.Add(this.lblHighAlarm7, 6, 8);
+            this.tableLayoutPanel1.Controls.Add(this.lblLowAlarm7, 5, 8);
             this.tableLayoutPanel1.Controls.Add(this.label52, 2, 8);
-            this.tableLayoutPanel1.Controls.Add(this.label51, 1, 8);
+            this.tableLayoutPanel1.Controls.Add(this.lblAiDataCh7, 1, 8);
             this.tableLayoutPanel1.Controls.Add(this.label50, 0, 8);
-            this.tableLayoutPanel1.Controls.Add(this.label49, 6, 7);
-            this.tableLayoutPanel1.Controls.Add(this.label48, 5, 7);
+            this.tableLayoutPanel1.Controls.Add(this.lblHighAlarm6, 6, 7);
+            this.tableLayoutPanel1.Controls.Add(this.lblLowAlarm6, 5, 7);
             this.tableLayoutPanel1.Controls.Add(this.label46, 2, 7);
-            this.tableLayoutPanel1.Controls.Add(this.label45, 1, 7);
+            this.tableLayoutPanel1.Controls.Add(this.lblAiDataCh6, 1, 7);
             this.tableLayoutPanel1.Controls.Add(this.label44, 0, 7);
-            this.tableLayoutPanel1.Controls.Add(this.label43, 6, 6);
-            this.tableLayoutPanel1.Controls.Add(this.label42, 5, 6);
+            this.tableLayoutPanel1.Controls.Add(this.lblHighAlarm5, 6, 6);
+            this.tableLayoutPanel1.Controls.Add(this.lblLowAlarm5, 5, 6);
             this.tableLayoutPanel1.Controls.Add(this.label40, 2, 6);
-            this.tableLayoutPanel1.Controls.Add(this.label39, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.lblAiDataCh5, 1, 6);
             this.tableLayoutPanel1.Controls.Add(this.label38, 0, 6);
-            this.tableLayoutPanel1.Controls.Add(this.label37, 6, 5);
-            this.tableLayoutPanel1.Controls.Add(this.label36, 5, 5);
+            this.tableLayoutPanel1.Controls.Add(this.lblHighAlarm4, 6, 5);
+            this.tableLayoutPanel1.Controls.Add(this.lblLowAlarm4, 5, 5);
             this.tableLayoutPanel1.Controls.Add(this.label34, 2, 5);
-            this.tableLayoutPanel1.Controls.Add(this.label33, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.lblAiDataCh4, 1, 5);
             this.tableLayoutPanel1.Controls.Add(this.label32, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.label31, 6, 4);
-            this.tableLayoutPanel1.Controls.Add(this.label30, 5, 4);
+            this.tableLayoutPanel1.Controls.Add(this.lblHighAlarm3, 6, 4);
+            this.tableLayoutPanel1.Controls.Add(this.lblLowAlarm3, 5, 4);
             this.tableLayoutPanel1.Controls.Add(this.label28, 2, 4);
-            this.tableLayoutPanel1.Controls.Add(this.label27, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.lblAiDataCh3, 1, 4);
             this.tableLayoutPanel1.Controls.Add(this.label26, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.label25, 6, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label24, 5, 3);
+            this.tableLayoutPanel1.Controls.Add(this.lblHighAlarm2, 6, 3);
+            this.tableLayoutPanel1.Controls.Add(this.lblLowAlarm2, 5, 3);
             this.tableLayoutPanel1.Controls.Add(this.label22, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label21, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.lblAiDataCh2, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.label20, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label19, 6, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label18, 5, 2);
+            this.tableLayoutPanel1.Controls.Add(this.lblHighAlarm1, 6, 2);
+            this.tableLayoutPanel1.Controls.Add(this.lblLowAlarm1, 5, 2);
             this.tableLayoutPanel1.Controls.Add(this.label16, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label15, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.lblAiDataCh1, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.label14, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label13, 6, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label12, 5, 1);
+            this.tableLayoutPanel1.Controls.Add(this.lblHighAlarm0, 6, 1);
+            this.tableLayoutPanel1.Controls.Add(this.lblLowAlarm0, 5, 1);
             this.tableLayoutPanel1.Controls.Add(this.label10, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label9, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.lblAiDataCh0, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.label8, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.panel10, 4, 8);
@@ -305,29 +305,27 @@
             this.tableLayoutPanel1.TabIndex = 1;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
-            // label54
+            // lblHighAlarm7
             // 
-            this.label54.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(1540, 624);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(37, 23);
-            this.label54.TabIndex = 55;
-            this.label54.Text = "0,0";
-            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblHighAlarm7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHighAlarm7.Location = new System.Drawing.Point(1505, 624);
+            this.lblHighAlarm7.Name = "lblHighAlarm7";
+            this.lblHighAlarm7.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm7.TabIndex = 55;
+            this.lblHighAlarm7.Text = "0,0";
+            this.lblHighAlarm7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label53
+            // lblLowAlarm7
             // 
-            this.label53.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(1424, 624);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(37, 23);
-            this.label53.TabIndex = 54;
-            this.label53.Text = "0,0";
-            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLowAlarm7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLowAlarm7.Location = new System.Drawing.Point(1390, 624);
+            this.lblLowAlarm7.Name = "lblLowAlarm7";
+            this.lblLowAlarm7.Size = new System.Drawing.Size(106, 23);
+            this.lblLowAlarm7.TabIndex = 54;
+            this.lblLowAlarm7.Text = "0,0";
+            this.lblLowAlarm7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label52
             // 
@@ -341,17 +339,16 @@
             this.label52.Text = "Name";
             this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label51
+            // lblAiDataCh7
             // 
-            this.label51.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(151, 624);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(37, 23);
-            this.label51.TabIndex = 52;
-            this.label51.Text = "0,0";
-            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAiDataCh7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh7.Location = new System.Drawing.Point(117, 624);
+            this.lblAiDataCh7.Name = "lblAiDataCh7";
+            this.lblAiDataCh7.Size = new System.Drawing.Size(106, 23);
+            this.lblAiDataCh7.TabIndex = 52;
+            this.lblAiDataCh7.Text = "0,0";
+            this.lblAiDataCh7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label50
             // 
@@ -365,29 +362,28 @@
             this.label50.Text = "Name";
             this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label49
+            // lblHighAlarm6
             // 
-            this.label49.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(1540, 551);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(37, 23);
-            this.label49.TabIndex = 50;
-            this.label49.Text = "0,0";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblHighAlarm6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHighAlarm6.Location = new System.Drawing.Point(1505, 551);
+            this.lblHighAlarm6.Name = "lblHighAlarm6";
+            this.lblHighAlarm6.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm6.TabIndex = 50;
+            this.lblHighAlarm6.Text = "0,0";
+            this.lblHighAlarm6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label48
+            // lblLowAlarm6
             // 
-            this.label48.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(1424, 551);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(37, 23);
-            this.label48.TabIndex = 49;
-            this.label48.Text = "0,0";
-            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLowAlarm6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLowAlarm6.Location = new System.Drawing.Point(1390, 551);
+            this.lblLowAlarm6.Name = "lblLowAlarm6";
+            this.lblLowAlarm6.Size = new System.Drawing.Size(106, 23);
+            this.lblLowAlarm6.TabIndex = 49;
+            this.lblLowAlarm6.Text = "0,0";
+            this.lblLowAlarm6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLowAlarm6.Click += new System.EventHandler(this.label48_Click);
             // 
             // label46
             // 
@@ -401,17 +397,16 @@
             this.label46.Text = "Name";
             this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label45
+            // lblAiDataCh6
             // 
-            this.label45.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(151, 551);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(37, 23);
-            this.label45.TabIndex = 46;
-            this.label45.Text = "0,0";
-            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAiDataCh6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh6.Location = new System.Drawing.Point(117, 551);
+            this.lblAiDataCh6.Name = "lblAiDataCh6";
+            this.lblAiDataCh6.Size = new System.Drawing.Size(106, 23);
+            this.lblAiDataCh6.TabIndex = 46;
+            this.lblAiDataCh6.Text = "0,0";
+            this.lblAiDataCh6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label44
             // 
@@ -425,29 +420,27 @@
             this.label44.Text = "Name";
             this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label43
+            // lblHighAlarm5
             // 
-            this.label43.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(1540, 477);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(37, 23);
-            this.label43.TabIndex = 44;
-            this.label43.Text = "0,0";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblHighAlarm5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHighAlarm5.Location = new System.Drawing.Point(1505, 477);
+            this.lblHighAlarm5.Name = "lblHighAlarm5";
+            this.lblHighAlarm5.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm5.TabIndex = 44;
+            this.lblHighAlarm5.Text = "0,0";
+            this.lblHighAlarm5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label42
+            // lblLowAlarm5
             // 
-            this.label42.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(1424, 477);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(37, 23);
-            this.label42.TabIndex = 43;
-            this.label42.Text = "0,0";
-            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLowAlarm5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLowAlarm5.Location = new System.Drawing.Point(1390, 477);
+            this.lblLowAlarm5.Name = "lblLowAlarm5";
+            this.lblLowAlarm5.Size = new System.Drawing.Size(106, 23);
+            this.lblLowAlarm5.TabIndex = 43;
+            this.lblLowAlarm5.Text = "0,0";
+            this.lblLowAlarm5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label40
             // 
@@ -461,17 +454,16 @@
             this.label40.Text = "Name";
             this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label39
+            // lblAiDataCh5
             // 
-            this.label39.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(151, 477);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(37, 23);
-            this.label39.TabIndex = 40;
-            this.label39.Text = "0,0";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAiDataCh5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh5.Location = new System.Drawing.Point(117, 477);
+            this.lblAiDataCh5.Name = "lblAiDataCh5";
+            this.lblAiDataCh5.Size = new System.Drawing.Size(106, 23);
+            this.lblAiDataCh5.TabIndex = 40;
+            this.lblAiDataCh5.Text = "0,0";
+            this.lblAiDataCh5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label38
             // 
@@ -485,29 +477,27 @@
             this.label38.Text = "Name";
             this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label37
+            // lblHighAlarm4
             // 
-            this.label37.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(1540, 403);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(37, 23);
-            this.label37.TabIndex = 38;
-            this.label37.Text = "0,0";
-            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblHighAlarm4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHighAlarm4.Location = new System.Drawing.Point(1505, 403);
+            this.lblHighAlarm4.Name = "lblHighAlarm4";
+            this.lblHighAlarm4.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm4.TabIndex = 38;
+            this.lblHighAlarm4.Text = "0,0";
+            this.lblHighAlarm4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label36
+            // lblLowAlarm4
             // 
-            this.label36.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(1424, 403);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(37, 23);
-            this.label36.TabIndex = 37;
-            this.label36.Text = "0,0";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLowAlarm4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLowAlarm4.Location = new System.Drawing.Point(1390, 403);
+            this.lblLowAlarm4.Name = "lblLowAlarm4";
+            this.lblLowAlarm4.Size = new System.Drawing.Size(106, 23);
+            this.lblLowAlarm4.TabIndex = 37;
+            this.lblLowAlarm4.Text = "0,0";
+            this.lblLowAlarm4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label34
             // 
@@ -521,17 +511,16 @@
             this.label34.Text = "Name";
             this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label33
+            // lblAiDataCh4
             // 
-            this.label33.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(151, 403);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(37, 23);
-            this.label33.TabIndex = 34;
-            this.label33.Text = "0,0";
-            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAiDataCh4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh4.Location = new System.Drawing.Point(117, 403);
+            this.lblAiDataCh4.Name = "lblAiDataCh4";
+            this.lblAiDataCh4.Size = new System.Drawing.Size(106, 23);
+            this.lblAiDataCh4.TabIndex = 34;
+            this.lblAiDataCh4.Text = "0,0";
+            this.lblAiDataCh4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label32
             // 
@@ -545,29 +534,27 @@
             this.label32.Text = "Name";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label31
+            // lblHighAlarm3
             // 
-            this.label31.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(1540, 329);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(37, 23);
-            this.label31.TabIndex = 32;
-            this.label31.Text = "0,0";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblHighAlarm3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHighAlarm3.Location = new System.Drawing.Point(1505, 329);
+            this.lblHighAlarm3.Name = "lblHighAlarm3";
+            this.lblHighAlarm3.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm3.TabIndex = 32;
+            this.lblHighAlarm3.Text = "0,0";
+            this.lblHighAlarm3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label30
+            // lblLowAlarm3
             // 
-            this.label30.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(1424, 329);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(37, 23);
-            this.label30.TabIndex = 31;
-            this.label30.Text = "0,0";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLowAlarm3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLowAlarm3.Location = new System.Drawing.Point(1390, 329);
+            this.lblLowAlarm3.Name = "lblLowAlarm3";
+            this.lblLowAlarm3.Size = new System.Drawing.Size(106, 23);
+            this.lblLowAlarm3.TabIndex = 31;
+            this.lblLowAlarm3.Text = "0,0";
+            this.lblLowAlarm3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label28
             // 
@@ -581,17 +568,16 @@
             this.label28.Text = "Name";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label27
+            // lblAiDataCh3
             // 
-            this.label27.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(151, 329);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(37, 23);
-            this.label27.TabIndex = 28;
-            this.label27.Text = "0,0";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAiDataCh3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh3.Location = new System.Drawing.Point(117, 329);
+            this.lblAiDataCh3.Name = "lblAiDataCh3";
+            this.lblAiDataCh3.Size = new System.Drawing.Size(106, 23);
+            this.lblAiDataCh3.TabIndex = 28;
+            this.lblAiDataCh3.Text = "0,0";
+            this.lblAiDataCh3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label26
             // 
@@ -605,29 +591,27 @@
             this.label26.Text = "Name";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label25
+            // lblHighAlarm2
             // 
-            this.label25.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(1540, 255);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(37, 23);
-            this.label25.TabIndex = 26;
-            this.label25.Text = "0,0";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblHighAlarm2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHighAlarm2.Location = new System.Drawing.Point(1505, 255);
+            this.lblHighAlarm2.Name = "lblHighAlarm2";
+            this.lblHighAlarm2.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm2.TabIndex = 26;
+            this.lblHighAlarm2.Text = "0,0";
+            this.lblHighAlarm2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label24
+            // lblLowAlarm2
             // 
-            this.label24.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(1424, 255);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(37, 23);
-            this.label24.TabIndex = 25;
-            this.label24.Text = "0,0";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLowAlarm2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLowAlarm2.Location = new System.Drawing.Point(1390, 255);
+            this.lblLowAlarm2.Name = "lblLowAlarm2";
+            this.lblLowAlarm2.Size = new System.Drawing.Size(106, 23);
+            this.lblLowAlarm2.TabIndex = 25;
+            this.lblLowAlarm2.Text = "0,0";
+            this.lblLowAlarm2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label22
             // 
@@ -641,17 +625,16 @@
             this.label22.Text = "Name";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label21
+            // lblAiDataCh2
             // 
-            this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(151, 255);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(37, 23);
-            this.label21.TabIndex = 22;
-            this.label21.Text = "0,0";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAiDataCh2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh2.Location = new System.Drawing.Point(117, 255);
+            this.lblAiDataCh2.Name = "lblAiDataCh2";
+            this.lblAiDataCh2.Size = new System.Drawing.Size(106, 23);
+            this.lblAiDataCh2.TabIndex = 22;
+            this.lblAiDataCh2.Text = "0,0";
+            this.lblAiDataCh2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label20
             // 
@@ -665,29 +648,27 @@
             this.label20.Text = "Name";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label19
+            // lblHighAlarm1
             // 
-            this.label19.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(1540, 181);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(37, 23);
-            this.label19.TabIndex = 20;
-            this.label19.Text = "0,0";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblHighAlarm1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHighAlarm1.Location = new System.Drawing.Point(1505, 181);
+            this.lblHighAlarm1.Name = "lblHighAlarm1";
+            this.lblHighAlarm1.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm1.TabIndex = 20;
+            this.lblHighAlarm1.Text = "0,0";
+            this.lblHighAlarm1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label18
+            // lblLowAlarm1
             // 
-            this.label18.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(1424, 181);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(37, 23);
-            this.label18.TabIndex = 19;
-            this.label18.Text = "0,0";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLowAlarm1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLowAlarm1.Location = new System.Drawing.Point(1390, 181);
+            this.lblLowAlarm1.Name = "lblLowAlarm1";
+            this.lblLowAlarm1.Size = new System.Drawing.Size(106, 23);
+            this.lblLowAlarm1.TabIndex = 19;
+            this.lblLowAlarm1.Text = "0,0";
+            this.lblLowAlarm1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label16
             // 
@@ -701,17 +682,16 @@
             this.label16.Text = "Name";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label15
+            // lblAiDataCh1
             // 
-            this.label15.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(151, 181);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(37, 23);
-            this.label15.TabIndex = 16;
-            this.label15.Text = "0,0";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAiDataCh1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh1.Location = new System.Drawing.Point(117, 181);
+            this.lblAiDataCh1.Name = "lblAiDataCh1";
+            this.lblAiDataCh1.Size = new System.Drawing.Size(106, 23);
+            this.lblAiDataCh1.TabIndex = 16;
+            this.lblAiDataCh1.Text = "0,0";
+            this.lblAiDataCh1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label14
             // 
@@ -725,29 +705,27 @@
             this.label14.Text = "Name";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label13
+            // lblHighAlarm0
             // 
-            this.label13.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(1540, 107);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(37, 23);
-            this.label13.TabIndex = 14;
-            this.label13.Text = "0,0";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblHighAlarm0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHighAlarm0.Location = new System.Drawing.Point(1505, 107);
+            this.lblHighAlarm0.Name = "lblHighAlarm0";
+            this.lblHighAlarm0.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm0.TabIndex = 14;
+            this.lblHighAlarm0.Text = "0,0";
+            this.lblHighAlarm0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label12
+            // lblLowAlarm0
             // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(1424, 107);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(37, 23);
-            this.label12.TabIndex = 13;
-            this.label12.Text = "0,0";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLowAlarm0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLowAlarm0.Location = new System.Drawing.Point(1390, 107);
+            this.lblLowAlarm0.Name = "lblLowAlarm0";
+            this.lblLowAlarm0.Size = new System.Drawing.Size(106, 23);
+            this.lblLowAlarm0.TabIndex = 13;
+            this.lblLowAlarm0.Text = "0,0";
+            this.lblLowAlarm0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label10
             // 
@@ -761,17 +739,16 @@
             this.label10.Text = "Name";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label9
+            // lblAiDataCh0
             // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(151, 107);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(37, 23);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "0,0";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAiDataCh0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh0.Location = new System.Drawing.Point(117, 107);
+            this.lblAiDataCh0.Name = "lblAiDataCh0";
+            this.lblAiDataCh0.Size = new System.Drawing.Size(106, 23);
+            this.lblAiDataCh0.TabIndex = 10;
+            this.lblAiDataCh0.Text = "0,0";
+            this.lblAiDataCh0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label8
             // 
@@ -1273,45 +1250,45 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label lblAlarmSystem;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label lblHighAlarm7;
+        private System.Windows.Forms.Label lblLowAlarm7;
         private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label lblAiDataCh7;
         private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label lblHighAlarm6;
+        private System.Windows.Forms.Label lblLowAlarm6;
         private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label lblAiDataCh6;
         private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label lblHighAlarm5;
+        private System.Windows.Forms.Label lblLowAlarm5;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label lblAiDataCh5;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label lblHighAlarm4;
+        private System.Windows.Forms.Label lblLowAlarm4;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label lblAiDataCh4;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label lblHighAlarm3;
+        private System.Windows.Forms.Label lblLowAlarm3;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label lblAiDataCh3;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label lblHighAlarm2;
+        private System.Windows.Forms.Label lblLowAlarm2;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label lblAiDataCh2;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label lblHighAlarm1;
+        private System.Windows.Forms.Label lblLowAlarm1;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label lblAiDataCh1;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label lblHighAlarm0;
+        private System.Windows.Forms.Label lblLowAlarm0;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblAiDataCh0;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel10;
