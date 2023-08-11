@@ -97,6 +97,7 @@
     <Compile Include="QuitForm.Designer.cs">
       <DependentUpon>QuitForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DbReadBool.cs" />
     <Compile Include="Setting.cs">
       <SubType>Form</SubType>
     </Compile>

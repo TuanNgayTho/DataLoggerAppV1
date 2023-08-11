@@ -22,5 +22,197 @@ namespace DataLoggerAppV1.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("ppm")]
+        public string UnitAi0 {
+            get {
+                return ((string)(this["UnitAi0"]));
+            }
+            set {
+                this["UnitAi0"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("%")]
+        public string UnitAi1 {
+            get {
+                return ((string)(this["UnitAi1"]));
+            }
+            set {
+                this["UnitAi1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("kg")]
+        public string UnitAi2 {
+            get {
+                return ((string)(this["UnitAi2"]));
+            }
+            set {
+                this["UnitAi2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("mg")]
+        public string UnitAi3 {
+            get {
+                return ((string)(this["UnitAi3"]));
+            }
+            set {
+                this["UnitAi3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Bar")]
+        public string UnitAi4 {
+            get {
+                return ((string)(this["UnitAi4"]));
+            }
+            set {
+                this["UnitAi4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("cm")]
+        public string UnitAi5 {
+            get {
+                return ((string)(this["UnitAi5"]));
+            }
+            set {
+                this["UnitAi5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("km")]
+        public string UnitAi6 {
+            get {
+                return ((string)(this["UnitAi6"]));
+            }
+            set {
+                this["UnitAi6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("oC")]
+        public string UnitAi7 {
+            get {
+                return ((string)(this["UnitAi7"]));
+            }
+            set {
+                this["UnitAi7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("N20")]
+        public string NameAi0 {
+            get {
+                return ((string)(this["NameAi0"]));
+            }
+            set {
+                this["NameAi0"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Co2")]
+        public string NameAi1 {
+            get {
+                return ((string)(this["NameAi1"]));
+            }
+            set {
+                this["NameAi1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("O2")]
+        public string NameAi2 {
+            get {
+                return ((string)(this["NameAi2"]));
+            }
+            set {
+                this["NameAi2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("H2")]
+        public string NameAi3 {
+            get {
+                return ((string)(this["NameAi3"]));
+            }
+            set {
+                this["NameAi3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C2H4")]
+        public string NameAi4 {
+            get {
+                return ((string)(this["NameAi4"]));
+            }
+            set {
+                this["NameAi4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Hi")]
+        public string NameAi5 {
+            get {
+                return ((string)(this["NameAi5"]));
+            }
+            set {
+                this["NameAi5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Co")]
+        public string NameAi6 {
+            get {
+                return ((string)(this["NameAi6"]));
+            }
+            set {
+                this["NameAi6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("N2")]
+        public string NameAi7 {
+            get {
+                return ((string)(this["NameAi7"]));
+            }
+            set {
+                this["NameAi7"] = value;
+            }
+        }
     }
 }

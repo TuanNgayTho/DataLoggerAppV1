@@ -36,7 +36,7 @@ namespace DataLoggerAppV1
             
         }
 
-        // Method Connect PLC
+        // Method Connect PLC and Read Data From PLC
         private void ConnectToPlc()
         {
             using (var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1))
@@ -137,15 +137,159 @@ namespace DataLoggerAppV1
                                     lblHighAlarm7.Text =
                                         Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh7 * 100) / 100F);
                                 }));
+                                
 
+                                // Read Bool Status Data From PLC
+                                var DbRaedBool = new DbReadBool();
+                                plc.ReadClass(DbRaedBool, 13);
                                 Invoke(new Action(() =>
                                 {
+                                    btnStream1.BackColor = DbRaedBool.Stream1 ? Color.Aquamarine : SystemColors.ControlLight;
+                                    btnStream1.BackColor = DbRaedBool.Stream2 ? Color.Aquamarine : SystemColors.ControlLight;
+                                    btnStream1.BackColor = DbRaedBool.Stream3 ? Color.Aquamarine : SystemColors.ControlLight;
+                                    btnManAuto.BackColor = DbRaedBool.ManAuto ? Color.Gold : Color.Green;
+                                    
+                                    // Ai0 Status
+                                    if (DbRaedBool.LowAlarm0)
+                                    {
+                                        lblAlarmAi0.BackColor = Color.Gold;
+                                        ModifyProgressBarColor.SetState(barAi0, progessBarYellow);
+
+                                    }
+                                    else if (DbRaedBool.HighAlarm0)
+                                    {
+                                        lblAlarmAi0.BackColor = Color.Red;
+                                        ModifyProgressBarColor.SetState(barAi0, progessBarRed);
+                                    }
+                                    else
+                                    {
+                                        lblAlarmAi0.BackColor = Color.Green;
+                                        ModifyProgressBarColor.SetState(barAi0, progessBarGreen);
+                                    }
+
+                                    // Ai1 Status
+                                    if (DbRaedBool.LowAlarm1)
+                                    {
+                                        lblAlarmAi1.BackColor = Color.Gold;
+                                        ModifyProgressBarColor.SetState(barAi1, progessBarYellow);
+                                    }
+                                    else if (DbRaedBool.HighAlarm1)
+                                    {
+                                        lblAlarmAi1.BackColor = Color.Red;
+                                        ModifyProgressBarColor.SetState(barAi1, progessBarRed);
+                                    }
+                                    else
+                                    {
+                                        lblAlarmAi1.BackColor = Color.Green;
+                                        ModifyProgressBarColor.SetState(barAi1, progessBarGreen);
+                                    }
+
+                                    // Ai2 Status
+                                    if (DbRaedBool.LowAlarm2)
+                                    {
+                                        lblAlarmAi2.BackColor = Color.Gold;
+                                        ModifyProgressBarColor.SetState(barAi2, progessBarYellow);
+                                    }
+                                    else if (DbRaedBool.HighAlarm2)
+                                    {
+                                        lblAlarmAi2.BackColor = Color.Red;
+                                        ModifyProgressBarColor.SetState(barAi2, progessBarRed);
+                                    }
+                                    else
+                                    {
+                                        lblAlarmAi2.BackColor = Color.Green;
+                                        ModifyProgressBarColor.SetState(barAi2, progessBarGreen);
+                                    }
+
+                                    // Ai3 Status
+                                    if (DbRaedBool.LowAlarm3)
+                                    {
+                                        lblAlarmAi3.BackColor = Color.Gold;
+                                        ModifyProgressBarColor.SetState(barAi3, progessBarYellow);
+                                    }
+                                    else if (DbRaedBool.HighAlarm3)
+                                    {
+                                        lblAlarmAi3.BackColor = Color.Red;
+                                        ModifyProgressBarColor.SetState(barAi3, progessBarRed);
+                                    }
+                                    else
+                                    {
+                                        lblAlarmAi3.BackColor = Color.Green;
+                                        ModifyProgressBarColor.SetState(barAi3, progessBarGreen);
+                                    }
+
+                                    // Ai4 Status
+                                    if (DbRaedBool.LowAlarm4)
+                                    {
+                                        lblAlarmAi4.BackColor = Color.Gold;
+                                        ModifyProgressBarColor.SetState(barAi4, progessBarYellow);
+                                    }
+                                    else if (DbRaedBool.HighAlarm4)
+                                    {
+                                        lblAlarmAi4.BackColor = Color.Red;
+                                        ModifyProgressBarColor.SetState(barAi4, progessBarRed);
+                                    }
+                                    else
+                                    {
+                                        lblAlarmAi4.BackColor = Color.Green;
+                                        ModifyProgressBarColor.SetState(barAi4, progessBarGreen);
+                                    }
+
+                                    // Ai5 Status
+                                    if (DbRaedBool.LowAlarm5)
+                                    {
+                                        lblAlarmAi5.BackColor = Color.Gold;
+                                        ModifyProgressBarColor.SetState(barAi5, progessBarYellow);
+                                    }
+                                    else if (DbRaedBool.HighAlarm5)
+                                    {
+                                        lblAlarmAi5.BackColor = Color.Red;
+                                        ModifyProgressBarColor.SetState(barAi5, progessBarRed);
+                                    }
+                                    else
+                                    {
+                                        lblAlarmAi5.BackColor = Color.Green;
+                                        ModifyProgressBarColor.SetState(barAi5, progessBarGreen);
+                                    }
+
+                                    // Ai6 Status
+                                    if (DbRaedBool.LowAlarm6)
+                                    {
+                                        lblAlarmAi6.BackColor = Color.Gold;
+                                        ModifyProgressBarColor.SetState(barAi6, progessBarYellow);
+                                    }
+                                    else if (DbRaedBool.HighAlarm6)
+                                    {
+                                        lblAlarmAi6.BackColor = Color.Red;
+                                        ModifyProgressBarColor.SetState(barAi6, progessBarRed);
+                                    }
+                                    else
+                                    {
+                                        lblAlarmAi6.BackColor = Color.Green;
+                                        ModifyProgressBarColor.SetState(barAi6, progessBarGreen);
+                                    }
+
+                                    // Ai7 Status
+                                    if (DbRaedBool.LowAlarm7)
+                                    {
+                                        lblAlarmAi7.BackColor = Color.Gold;
+                                        ModifyProgressBarColor.SetState(barAi7, progessBarYellow);
+                                    }
+                                    else if (DbRaedBool.HighAlarm7)
+                                    {
+                                        lblAlarmAi7.BackColor = Color.Red;
+                                        ModifyProgressBarColor.SetState(barAi7, progessBarRed);
+                                    }
+                                    else
+                                    {
+                                        lblAlarmAi7.BackColor = Color.Green;
+                                        ModifyProgressBarColor.SetState(barAi7, progessBarGreen);
+                                    }
                                 }));
                             }
                         }
                         catch (Exception e)
                         {
-                            //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
                             plc.Close(); plc.Close();
                             Thread.Sleep(100);
                             result = plc.Open();
@@ -177,7 +321,24 @@ namespace DataLoggerAppV1
 
         private void Dashboard_Load(object sender, EventArgs e)
         {
-            
+            lblUnitAi0.Text = Properties.Settings.Default.UnitAi0;
+            lblUnitAi1.Text = Properties.Settings.Default.UnitAi1;
+            lblUnitAi2.Text = Properties.Settings.Default.UnitAi2;
+            lblUnitAi3.Text = Properties.Settings.Default.UnitAi3;
+            lblUnitAi4.Text = Properties.Settings.Default.UnitAi4;
+            lblUnitAi5.Text = Properties.Settings.Default.UnitAi5;
+            lblUnitAi6.Text = Properties.Settings.Default.UnitAi6;
+            lblUnitAi7.Text = Properties.Settings.Default.UnitAi7;
+
+            lblNameAi0.Text = Properties.Settings.Default.NameAi0;
+            lblNameAi1.Text = Properties.Settings.Default.NameAi1;
+            lblNameAi2.Text = Properties.Settings.Default.NameAi2;
+            lblNameAi3.Text = Properties.Settings.Default.NameAi3;
+            lblNameAi4.Text = Properties.Settings.Default.NameAi4;
+            lblNameAi5.Text = Properties.Settings.Default.NameAi5;
+            lblNameAi6.Text = Properties.Settings.Default.NameAi6;
+            lblNameAi7.Text = Properties.Settings.Default.NameAi7;
+
         }
 
         private void button2_Click(object sender, EventArgs e)
