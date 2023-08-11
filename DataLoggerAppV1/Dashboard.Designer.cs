@@ -34,7 +34,7 @@
             this.btnStream3 = new System.Windows.Forms.Button();
             this.btnSart = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
-            this.btnManAuto = new System.Windows.Forms.Button();
+            this.btnManMode = new System.Windows.Forms.Button();
             this.lblAlarmSystem = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.lblHighAlarm7 = new System.Windows.Forms.Label();
@@ -116,6 +116,7 @@
             this.lblAlarmAi1 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
             this.lblAlarmAi0 = new System.Windows.Forms.Label();
+            this.btnAutoMode = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -147,9 +148,9 @@
             // 
             // btnStream1
             // 
-            this.btnStream1.Location = new System.Drawing.Point(46, 745);
+            this.btnStream1.Location = new System.Drawing.Point(45, 749);
             this.btnStream1.Name = "btnStream1";
-            this.btnStream1.Size = new System.Drawing.Size(249, 49);
+            this.btnStream1.Size = new System.Drawing.Size(221, 49);
             this.btnStream1.TabIndex = 2;
             this.btnStream1.Text = "STREAM 1";
             this.btnStream1.UseVisualStyleBackColor = true;
@@ -157,9 +158,9 @@
             // 
             // btnStream2
             // 
-            this.btnStream2.Location = new System.Drawing.Point(320, 745);
+            this.btnStream2.Location = new System.Drawing.Point(278, 749);
             this.btnStream2.Name = "btnStream2";
-            this.btnStream2.Size = new System.Drawing.Size(249, 49);
+            this.btnStream2.Size = new System.Drawing.Size(221, 49);
             this.btnStream2.TabIndex = 2;
             this.btnStream2.Text = "STREAM 2";
             this.btnStream2.UseVisualStyleBackColor = true;
@@ -167,44 +168,51 @@
             // 
             // btnStream3
             // 
-            this.btnStream3.Location = new System.Drawing.Point(593, 745);
+            this.btnStream3.Location = new System.Drawing.Point(511, 749);
             this.btnStream3.Name = "btnStream3";
-            this.btnStream3.Size = new System.Drawing.Size(249, 49);
+            this.btnStream3.Size = new System.Drawing.Size(221, 49);
             this.btnStream3.TabIndex = 2;
             this.btnStream3.Text = "STREAM 3";
             this.btnStream3.UseVisualStyleBackColor = true;
+            this.btnStream3.Click += new System.EventHandler(this.btnStream3_Click);
             // 
             // btnSart
             // 
-            this.btnSart.Location = new System.Drawing.Point(866, 745);
+            this.btnSart.BackColor = System.Drawing.Color.LightGreen;
+            this.btnSart.Location = new System.Drawing.Point(744, 749);
             this.btnSart.Name = "btnSart";
-            this.btnSart.Size = new System.Drawing.Size(249, 49);
+            this.btnSart.Size = new System.Drawing.Size(221, 49);
             this.btnSart.TabIndex = 2;
             this.btnSart.Text = "START";
-            this.btnSart.UseVisualStyleBackColor = true;
+            this.btnSart.UseVisualStyleBackColor = false;
+            this.btnSart.Click += new System.EventHandler(this.btnSart_Click);
             // 
             // btnStop
             // 
-            this.btnStop.Location = new System.Drawing.Point(1140, 745);
+            this.btnStop.BackColor = System.Drawing.Color.LightCoral;
+            this.btnStop.Location = new System.Drawing.Point(977, 749);
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(249, 49);
+            this.btnStop.Size = new System.Drawing.Size(221, 49);
             this.btnStop.TabIndex = 2;
             this.btnStop.Text = "STOP";
-            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.UseVisualStyleBackColor = false;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
-            // btnManAuto
+            // btnManMode
             // 
-            this.btnManAuto.Location = new System.Drawing.Point(1415, 745);
-            this.btnManAuto.Name = "btnManAuto";
-            this.btnManAuto.Size = new System.Drawing.Size(249, 49);
-            this.btnManAuto.TabIndex = 2;
-            this.btnManAuto.Text = "MAN/AUTO";
-            this.btnManAuto.UseVisualStyleBackColor = true;
+            this.btnManMode.Location = new System.Drawing.Point(1210, 749);
+            this.btnManMode.Name = "btnManMode";
+            this.btnManMode.Size = new System.Drawing.Size(221, 49);
+            this.btnManMode.TabIndex = 2;
+            this.btnManMode.Text = "MAN MODE";
+            this.btnManMode.UseVisualStyleBackColor = true;
+            this.btnManMode.Click += new System.EventHandler(this.btnManAuto_Click);
             // 
             // lblAlarmSystem
             // 
             this.lblAlarmSystem.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblAlarmSystem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblAlarmSystem.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAlarmSystem.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblAlarmSystem.Location = new System.Drawing.Point(46, 830);
             this.lblAlarmSystem.Name = "lblAlarmSystem";
@@ -1181,15 +1189,26 @@
             this.lblAlarmAi0.TabIndex = 5;
             this.lblAlarmAi0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnAutoMode
+            // 
+            this.btnAutoMode.Location = new System.Drawing.Point(1443, 749);
+            this.btnAutoMode.Name = "btnAutoMode";
+            this.btnAutoMode.Size = new System.Drawing.Size(221, 49);
+            this.btnAutoMode.TabIndex = 4;
+            this.btnAutoMode.Text = "AUTO MODE";
+            this.btnAutoMode.UseVisualStyleBackColor = true;
+            this.btnAutoMode.Click += new System.EventHandler(this.btnAutoMode_Click);
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1712, 1002);
+            this.Controls.Add(this.btnAutoMode);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.btnStop);
-            this.Controls.Add(this.btnManAuto);
+            this.Controls.Add(this.btnManMode);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSart);
             this.Controls.Add(this.lblAlarmSystem);
@@ -1231,7 +1250,7 @@
         private System.Windows.Forms.Button btnStream3;
         private System.Windows.Forms.Button btnSart;
         private System.Windows.Forms.Button btnStop;
-        private System.Windows.Forms.Button btnManAuto;
+        private System.Windows.Forms.Button btnManMode;
         private System.Windows.Forms.Label lblAlarmSystem;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label lblHighAlarm7;
@@ -1313,5 +1332,6 @@
         private System.Windows.Forms.Label lblAlarmAi1;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Label lblAlarmAi0;
+        private System.Windows.Forms.Button btnAutoMode;
     }
 }

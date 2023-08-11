@@ -140,151 +140,209 @@ namespace DataLoggerAppV1
                                 
 
                                 // Read Bool Status Data From PLC
-                                var DbRaedBool = new DbReadBool();
-                                plc.ReadClass(DbRaedBool, 13);
+                                var DbReadBool = new DbReadBool();
+                                plc.ReadClass(DbReadBool, 13);
                                 Invoke(new Action(() =>
                                 {
-                                    btnStream1.BackColor = DbRaedBool.Stream1 ? Color.Aquamarine : SystemColors.ControlLight;
-                                    btnStream1.BackColor = DbRaedBool.Stream2 ? Color.Aquamarine : SystemColors.ControlLight;
-                                    btnStream1.BackColor = DbRaedBool.Stream3 ? Color.Aquamarine : SystemColors.ControlLight;
-                                    btnManAuto.BackColor = DbRaedBool.ManAuto ? Color.Gold : Color.Green;
+
+                                    //Button Status
+                                    btnStream1.BackColor = DbReadBool.MStreamStatus1 ? Color.LightGreen : SystemColors.ControlLight;
+                                    btnStream2.BackColor = DbReadBool.MStreamStatus2 ? Color.LightGreen : SystemColors.ControlLight;
+                                    btnStream3.BackColor = DbReadBool.MStreamStatus3 ? Color.LightGreen : SystemColors.ControlLight;
+
+                                    if (DbReadBool.ManAuto)
+                                    {
+                                        btnSart.Enabled = true;
+                                        btnStream1.Enabled = false;
+                                        btnStream2.Enabled = false;
+                                        btnStream3.Enabled = false;
+                                        btnManMode.BackColor = SystemColors.Control;
+                                        btnAutoMode.BackColor = Color.LightGreen;
+                                    }
+                                    else
+                                    {
+                                        btnStream1.Enabled = true;
+                                        btnStream2.Enabled = true;
+                                        btnStream3.Enabled = true;
+                                        btnSart.Enabled = false;
+                                        btnAutoMode.BackColor = SystemColors.Control;
+                                        btnManMode.BackColor = Color.LightBlue;
+                                    }
+                                    
                                     
                                     // Ai0 Status
-                                    if (DbRaedBool.LowAlarm0)
+                                    if (DbReadBool.LowAlarm0)
                                     {
                                         lblAlarmAi0.BackColor = Color.Gold;
                                         ModifyProgressBarColor.SetState(barAi0, progessBarYellow);
 
                                     }
-                                    else if (DbRaedBool.HighAlarm0)
+                                    else if (DbReadBool.HighAlarm0)
                                     {
-                                        lblAlarmAi0.BackColor = Color.Red;
+                                        lblAlarmAi0.BackColor = Color.LightCoral;
                                         ModifyProgressBarColor.SetState(barAi0, progessBarRed);
                                     }
                                     else
                                     {
-                                        lblAlarmAi0.BackColor = Color.Green;
+                                        lblAlarmAi0.BackColor = Color.LightGreen;
                                         ModifyProgressBarColor.SetState(barAi0, progessBarGreen);
                                     }
 
                                     // Ai1 Status
-                                    if (DbRaedBool.LowAlarm1)
+                                    if (DbReadBool.LowAlarm1)
                                     {
                                         lblAlarmAi1.BackColor = Color.Gold;
                                         ModifyProgressBarColor.SetState(barAi1, progessBarYellow);
                                     }
-                                    else if (DbRaedBool.HighAlarm1)
+                                    else if (DbReadBool.HighAlarm1)
                                     {
-                                        lblAlarmAi1.BackColor = Color.Red;
+                                        lblAlarmAi1.BackColor = Color.LightCoral;
                                         ModifyProgressBarColor.SetState(barAi1, progessBarRed);
                                     }
                                     else
                                     {
-                                        lblAlarmAi1.BackColor = Color.Green;
+                                        lblAlarmAi1.BackColor = Color.LightGreen;
                                         ModifyProgressBarColor.SetState(barAi1, progessBarGreen);
                                     }
 
                                     // Ai2 Status
-                                    if (DbRaedBool.LowAlarm2)
+                                    if (DbReadBool.LowAlarm2)
                                     {
                                         lblAlarmAi2.BackColor = Color.Gold;
                                         ModifyProgressBarColor.SetState(barAi2, progessBarYellow);
                                     }
-                                    else if (DbRaedBool.HighAlarm2)
+                                    else if (DbReadBool.HighAlarm2)
                                     {
-                                        lblAlarmAi2.BackColor = Color.Red;
+                                        lblAlarmAi2.BackColor = Color.LightCoral;
                                         ModifyProgressBarColor.SetState(barAi2, progessBarRed);
                                     }
                                     else
                                     {
-                                        lblAlarmAi2.BackColor = Color.Green;
+                                        lblAlarmAi2.BackColor = Color.LightGreen;
                                         ModifyProgressBarColor.SetState(barAi2, progessBarGreen);
                                     }
 
                                     // Ai3 Status
-                                    if (DbRaedBool.LowAlarm3)
+                                    if (DbReadBool.LowAlarm3)
                                     {
                                         lblAlarmAi3.BackColor = Color.Gold;
                                         ModifyProgressBarColor.SetState(barAi3, progessBarYellow);
                                     }
-                                    else if (DbRaedBool.HighAlarm3)
+                                    else if (DbReadBool.HighAlarm3)
                                     {
-                                        lblAlarmAi3.BackColor = Color.Red;
+                                        lblAlarmAi3.BackColor = Color.LightCoral;
                                         ModifyProgressBarColor.SetState(barAi3, progessBarRed);
                                     }
                                     else
                                     {
-                                        lblAlarmAi3.BackColor = Color.Green;
+                                        lblAlarmAi3.BackColor = Color.LightGreen;
                                         ModifyProgressBarColor.SetState(barAi3, progessBarGreen);
                                     }
 
                                     // Ai4 Status
-                                    if (DbRaedBool.LowAlarm4)
+                                    if (DbReadBool.LowAlarm4)
                                     {
                                         lblAlarmAi4.BackColor = Color.Gold;
                                         ModifyProgressBarColor.SetState(barAi4, progessBarYellow);
                                     }
-                                    else if (DbRaedBool.HighAlarm4)
+                                    else if (DbReadBool.HighAlarm4)
                                     {
-                                        lblAlarmAi4.BackColor = Color.Red;
+                                        lblAlarmAi4.BackColor = Color.LightCoral;
                                         ModifyProgressBarColor.SetState(barAi4, progessBarRed);
                                     }
                                     else
                                     {
-                                        lblAlarmAi4.BackColor = Color.Green;
+                                        lblAlarmAi4.BackColor = Color.LightGreen;
                                         ModifyProgressBarColor.SetState(barAi4, progessBarGreen);
                                     }
 
                                     // Ai5 Status
-                                    if (DbRaedBool.LowAlarm5)
+                                    if (DbReadBool.LowAlarm5)
                                     {
                                         lblAlarmAi5.BackColor = Color.Gold;
                                         ModifyProgressBarColor.SetState(barAi5, progessBarYellow);
                                     }
-                                    else if (DbRaedBool.HighAlarm5)
+                                    else if (DbReadBool.HighAlarm5)
                                     {
-                                        lblAlarmAi5.BackColor = Color.Red;
+                                        lblAlarmAi5.BackColor = Color.LightCoral;
                                         ModifyProgressBarColor.SetState(barAi5, progessBarRed);
                                     }
                                     else
                                     {
-                                        lblAlarmAi5.BackColor = Color.Green;
+                                        lblAlarmAi5.BackColor = Color.LightGreen;
                                         ModifyProgressBarColor.SetState(barAi5, progessBarGreen);
                                     }
 
                                     // Ai6 Status
-                                    if (DbRaedBool.LowAlarm6)
+                                    if (DbReadBool.LowAlarm6)
                                     {
                                         lblAlarmAi6.BackColor = Color.Gold;
                                         ModifyProgressBarColor.SetState(barAi6, progessBarYellow);
                                     }
-                                    else if (DbRaedBool.HighAlarm6)
+                                    else if (DbReadBool.HighAlarm6)
                                     {
-                                        lblAlarmAi6.BackColor = Color.Red;
+                                        lblAlarmAi6.BackColor = Color.LightCoral;
                                         ModifyProgressBarColor.SetState(barAi6, progessBarRed);
                                     }
                                     else
                                     {
-                                        lblAlarmAi6.BackColor = Color.Green;
+                                        lblAlarmAi6.BackColor = Color.LightGreen;
                                         ModifyProgressBarColor.SetState(barAi6, progessBarGreen);
                                     }
 
                                     // Ai7 Status
-                                    if (DbRaedBool.LowAlarm7)
+                                    if (DbReadBool.LowAlarm7)
                                     {
                                         lblAlarmAi7.BackColor = Color.Gold;
                                         ModifyProgressBarColor.SetState(barAi7, progessBarYellow);
                                     }
-                                    else if (DbRaedBool.HighAlarm7)
+                                    else if (DbReadBool.HighAlarm7)
                                     {
-                                        lblAlarmAi7.BackColor = Color.Red;
+                                        lblAlarmAi7.BackColor = Color.LightCoral;
                                         ModifyProgressBarColor.SetState(barAi7, progessBarRed);
                                     }
                                     else
                                     {
-                                        lblAlarmAi7.BackColor = Color.Green;
+                                        lblAlarmAi7.BackColor = Color.LightGreen;
                                         ModifyProgressBarColor.SetState(barAi7, progessBarGreen);
                                     }
+
+                                    // System Status
+                                    if (DbReadBool.SystemStatusAuto)
+                                    {
+                                        lblAlarmSystem.BackColor = Color.LightGreen;
+                                    }
+                                    else if (DbReadBool.SystemStatusMan)
+                                    {
+                                        lblAlarmSystem.BackColor = Color.LightBlue;
+                                    }
+                                    else if (DbReadBool.SystemStatusLowAlarm)
+                                    {
+                                        lblAlarmSystem.BackColor = Color.Gold;
+                                    }
+                                    else if (DbReadBool.SystemStatusHighAlarm)
+                                    {
+                                        lblAlarmSystem.BackColor = Color.LightCoral;
+                                    }
+                                    else
+                                    {
+                                        lblAlarmSystem.BackColor = SystemColors.ControlLight;
+                                    }
+
+                                    // System Running Status
+                                    if (DbReadBool.SystemRunningAuto)
+                                    {
+                                        lblAlarmSystem.Text = "SYSTEM RUNNING (AUTO MODE)";
+                                    }
+                                    else if(DbReadBool.SystemRunningMan)
+                                    {
+                                        lblAlarmSystem.Text = "SYSTEM RUNNING (MAN MODE)";
+                                    }
+                                    else
+                                    {
+                                        lblAlarmSystem.Text = "SYSTEM STOPED";
+                                    }
+
                                 }));
                             }
                         }
@@ -341,14 +399,49 @@ namespace DataLoggerAppV1
 
         }
 
+        // btn Stream 1
         private void button2_Click(object sender, EventArgs e)
         {
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                }
+                else
+                {
+                    plc.Write("DB13.DBX0.0", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Open();
 
         }
 
+        // btn Stream 2
         private void button3_Click(object sender, EventArgs e)
         {
-
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                }
+                else
+                {
+                    plc.Write("DB13.DBX0.1", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Open();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -360,7 +453,116 @@ namespace DataLoggerAppV1
         {
 
         }
+
+        // btn Man Mode
+        private void btnManAuto_Click(object sender, EventArgs e)
+        {
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                }
+                else
+                {
+                    plc.Write("DB3.DBX1.0", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Open();
+        }
+
+        // btn Stream 3
+        private void btnStream3_Click(object sender, EventArgs e)
+        {
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                }
+                else
+                {
+                    plc.Write("DB13.DBX0.2", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Open();
+        }
+
+        // btn Auto Mode
+        private void btnAutoMode_Click(object sender, EventArgs e)
+        {
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                }
+                else
+                {
+                    plc.Write("DB3.DBX1.1", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Open();
+        }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                }
+                else
+                {
+                    plc.Write("DB3.DBX0.7", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Open();
+        }
+
+        private void btnSart_Click(object sender, EventArgs e)
+        {
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                }
+                else
+                {
+                    plc.Write("DB3.DBX0.6", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Open();
+        }
     }
+
     //Function Color Progress Bar
     public static class ModifyProgressBarColor
     {

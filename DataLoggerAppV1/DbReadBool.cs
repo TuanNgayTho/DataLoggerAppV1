@@ -16,11 +16,11 @@ namespace DataLoggerAppV1
         public bool SystemStatusLowAlarm { get; set; }
         public bool SystemStatusHighAlarm { get; set; }
 
-        public bool Free9 { get; set; }
-        public bool Free10 { get; set; }
-        public bool Free11 { get; set; }
-        public bool Free12 { get; set; }
-        public bool Free13 { get; set; }
+        public bool SystemRunningAuto { get; set; }
+        public bool SystemRunningMan { get; set; }
+        public bool MStreamStatus1 { get; set; }
+        public bool MStreamStatus2 { get; set; }
+        public bool MStreamStatus3 { get; set; }
         public bool Free14 { get; set; }
         public bool Free15 { get; set; }
         public bool Free16 { get; set; }
