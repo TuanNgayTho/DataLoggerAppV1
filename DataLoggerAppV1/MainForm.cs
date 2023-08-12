@@ -177,5 +177,10 @@ namespace DataLoggerAppV1
         {
             new QuitForm().ShowDialog();
         }
+
+        private void pnlFormLoader_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

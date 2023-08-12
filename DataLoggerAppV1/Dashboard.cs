@@ -22,9 +22,29 @@ namespace DataLoggerAppV1
         sbyte progessBarRed = 2;
         sbyte progessBarYellow = 3;
 
+        public static Dashboard instance;
+        public Label AiDataCh0;
+        public Label AiDataCh1;
+        public Label AiDataCh2;
+        public Label AiDataCh3;
+        public Label AiDataCh4;
+        public Label AiDataCh5;
+        public Label AiDataCh6;
+        public Label AiDataCh7;
+
         public Dashboard()
         {
             InitializeComponent();
+            AiDataCh0 = lblAiDataCh0;
+            AiDataCh1 = lblAiDataCh1;
+            AiDataCh2 = lblAiDataCh2;
+            AiDataCh3 = lblAiDataCh3;
+            AiDataCh4 = lblAiDataCh4;
+            AiDataCh5 = lblAiDataCh5;
+            AiDataCh6 = lblAiDataCh6;
+            AiDataCh7 = lblAiDataCh7;
+            
+            instance = this;
 
             // Creat a new thread and then run method Connect PLC
             Thread t = new Thread(() =>
@@ -446,7 +466,7 @@ namespace DataLoggerAppV1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            new CreaCertificate().ShowDialog();
         }
 
         private void label48_Click(object sender, EventArgs e)

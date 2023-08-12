@@ -214,5 +214,137 @@ namespace DataLoggerAppV1.Properties {
                 this["NameAi7"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("TMK Tech")]
+        public string CustomerName {
+            get {
+                return ((string)(this["CustomerName"]));
+            }
+            set {
+                this["CustomerName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("ABC123")]
+        public string CustomerID {
+            get {
+                return ((string)(this["CustomerID"]));
+            }
+            set {
+                this["CustomerID"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool SlectAi0 {
+            get {
+                return ((bool)(this["SlectAi0"]));
+            }
+            set {
+                this["SlectAi0"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool SlectAi1 {
+            get {
+                return ((bool)(this["SlectAi1"]));
+            }
+            set {
+                this["SlectAi1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool SlectAi2 {
+            get {
+                return ((bool)(this["SlectAi2"]));
+            }
+            set {
+                this["SlectAi2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool SlectAi3 {
+            get {
+                return ((bool)(this["SlectAi3"]));
+            }
+            set {
+                this["SlectAi3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool SlectAi4 {
+            get {
+                return ((bool)(this["SlectAi4"]));
+            }
+            set {
+                this["SlectAi4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool SlectAi5 {
+            get {
+                return ((bool)(this["SlectAi5"]));
+            }
+            set {
+                this["SlectAi5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool SlectAi6 {
+            get {
+                return ((bool)(this["SlectAi6"]));
+            }
+            set {
+                this["SlectAi6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool SlectAi7 {
+            get {
+                return ((bool)(this["SlectAi7"]));
+            }
+            set {
+                this["SlectAi7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string URL {
+            get {
+                return ((string)(this["URL"]));
+            }
+            set {
+                this["URL"] = value;
+            }
+        }
     }
 }

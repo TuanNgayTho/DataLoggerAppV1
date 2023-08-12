@@ -36,6 +36,7 @@
             this.lblUserName = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSettings = new System.Windows.Forms.Button();
+            this.btnMonitor = new System.Windows.Forms.Button();
             this.btnTrend = new System.Windows.Forms.Button();
             this.btnAlarmList = new System.Windows.Forms.Button();
             this.btnDashboard = new System.Windows.Forms.Button();
@@ -45,7 +46,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblSystemName = new System.Windows.Forms.Label();
             this.pnlFormLoader = new System.Windows.Forms.Panel();
-            this.btnMonitor = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -140,6 +140,24 @@
             this.btnSettings.UseVisualStyleBackColor = true;
             this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             this.btnSettings.Leave += new System.EventHandler(this.btnSettings_Leave);
+            // 
+            // btnMonitor
+            // 
+            this.btnMonitor.FlatAppearance.BorderSize = 0;
+            this.btnMonitor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMonitor.Image = ((System.Drawing.Image)(resources.GetObject("btnMonitor.Image")));
+            this.btnMonitor.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnMonitor.Location = new System.Drawing.Point(0, 807);
+            this.btnMonitor.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.btnMonitor.Name = "btnMonitor";
+            this.btnMonitor.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnMonitor.Size = new System.Drawing.Size(208, 73);
+            this.btnMonitor.TabIndex = 1;
+            this.btnMonitor.Text = "Monitor";
+            this.btnMonitor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMonitor.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnMonitor.UseVisualStyleBackColor = true;
+            this.btnMonitor.Click += new System.EventHandler(this.btnMonitor_Click);
             // 
             // btnTrend
             // 
@@ -264,24 +282,7 @@
             this.pnlFormLoader.Name = "pnlFormLoader";
             this.pnlFormLoader.Size = new System.Drawing.Size(1712, 1002);
             this.pnlFormLoader.TabIndex = 2;
-            // 
-            // btnMonitor
-            // 
-            this.btnMonitor.FlatAppearance.BorderSize = 0;
-            this.btnMonitor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMonitor.Image = ((System.Drawing.Image)(resources.GetObject("btnMonitor.Image")));
-            this.btnMonitor.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnMonitor.Location = new System.Drawing.Point(0, 807);
-            this.btnMonitor.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.btnMonitor.Name = "btnMonitor";
-            this.btnMonitor.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnMonitor.Size = new System.Drawing.Size(208, 73);
-            this.btnMonitor.TabIndex = 1;
-            this.btnMonitor.Text = "Monitor";
-            this.btnMonitor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMonitor.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnMonitor.UseVisualStyleBackColor = true;
-            this.btnMonitor.Click += new System.EventHandler(this.btnMonitor_Click);
+            this.pnlFormLoader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlFormLoader_Paint);
             // 
             // MainForm
             // 
