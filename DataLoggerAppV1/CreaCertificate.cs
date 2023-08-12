@@ -90,6 +90,8 @@ namespace DataLoggerAppV1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string url = "C:\\Users\\Admin\\Downloads\\Certificate.xlsx";
+
             string[] CustomerInfor = {dateTimePicker2.Text, dateTimePicker1.Text, tbxCustomerName.Text,tbxCustomerID.Text};
             string[] DataAi0 = { lblNameAi0.Text, lblAiDataCh0.Text, lblUnitAi0.Text };
             string[] DataAi1 = { lblNameAi1.Text, lblAiDataCh1.Text, lblUnitAi1.Text };
@@ -100,7 +102,33 @@ namespace DataLoggerAppV1
             string[] DataAi6 = { lblNameAi6.Text, lblAiDataCh6.Text, lblUnitAi6.Text };
             string[] DataAi7 = { lblNameAi7.Text, lblAiDataCh7.Text, lblUnitAi7.Text };
 
-            WriteExcel.writeExcel(CustomerInfor);
+            bool SelectAi0 = cbxAi0.Checked;
+            bool SelectAi1 = cbxAi1.Checked;
+            bool SelectAi2 = cbxAi2.Checked;
+            bool SelectAi3 = cbxAi3.Checked;
+            bool SelectAi4 = cbxAi4.Checked;
+            bool SelectAi5 = cbxAi5.Checked;
+            bool SelectAi6 = cbxAi6.Checked;
+            bool SelectAi7 = cbxAi7.Checked;
+
+            WriteExcel.writeExcel(url, CustomerInfor, DataAi0, DataAi1, DataAi2, DataAi3, DataAi4, DataAi5, DataAi6, DataAi7, SelectAi0, SelectAi1, SelectAi2, SelectAi3, SelectAi4, SelectAi5, SelectAi6, SelectAi7);
+        }
+
+        private void CreaCertificate_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Properties.Settings.Default.SlectAi0 = cbxAi0.Checked;
+            Properties.Settings.Default.SlectAi1 = cbxAi1.Checked;
+            Properties.Settings.Default.SlectAi2 = cbxAi2.Checked;
+            Properties.Settings.Default.SlectAi3 = cbxAi3.Checked;
+            Properties.Settings.Default.SlectAi4 = cbxAi4.Checked;
+            Properties.Settings.Default.SlectAi5 = cbxAi5.Checked;
+            Properties.Settings.Default.SlectAi6 = cbxAi6.Checked;
+            Properties.Settings.Default.SlectAi7 = cbxAi7.Checked;
+
+            Properties.Settings.Default.CustomerName = tbxCustomerName.Text;
+            Properties.Settings.Default.CustomerID = tbxCustomerID.Text;
+
+            Properties.Settings.Default.Save();
         }
     }
 }
