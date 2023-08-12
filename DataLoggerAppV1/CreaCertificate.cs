@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Microsoft.Office.Interop.Excel;
 
 namespace DataLoggerAppV1
 {
@@ -85,6 +86,21 @@ namespace DataLoggerAppV1
         private void label10_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string[] CustomerInfor = {dateTimePicker2.Text, dateTimePicker1.Text, tbxCustomerName.Text,tbxCustomerID.Text};
+            string[] DataAi0 = { lblNameAi0.Text, lblAiDataCh0.Text, lblUnitAi0.Text };
+            string[] DataAi1 = { lblNameAi1.Text, lblAiDataCh1.Text, lblUnitAi1.Text };
+            string[] DataAi2 = { lblNameAi2.Text, lblAiDataCh2.Text, lblUnitAi2.Text };
+            string[] DataAi3 = { lblNameAi3.Text, lblAiDataCh3.Text, lblUnitAi3.Text };
+            string[] DataAi4 = { lblNameAi4.Text, lblAiDataCh4.Text, lblUnitAi4.Text };
+            string[] DataAi5 = { lblNameAi5.Text, lblAiDataCh5.Text, lblUnitAi5.Text };
+            string[] DataAi6 = { lblNameAi6.Text, lblAiDataCh6.Text, lblUnitAi6.Text };
+            string[] DataAi7 = { lblNameAi7.Text, lblAiDataCh7.Text, lblUnitAi7.Text };
+
+            WriteExcel.writeExcel(CustomerInfor);
         }
     }
 }
