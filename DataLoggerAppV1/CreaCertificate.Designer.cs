@@ -73,16 +73,17 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.lblCustomerID = new System.Windows.Forms.Label();
             this.tbxCustomerID = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txbFilePath = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tbxCustomerName
             // 
-            this.tbxCustomerName.Location = new System.Drawing.Point(38, 76);
+            this.tbxCustomerName.Location = new System.Drawing.Point(39, 52);
             this.tbxCustomerName.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tbxCustomerName.Name = "tbxCustomerName";
             this.tbxCustomerName.Size = new System.Drawing.Size(643, 32);
@@ -132,7 +133,7 @@
             this.tableLayoutPanel1.Controls.Add(this.lblAiDataCh6, 1, 7);
             this.tableLayoutPanel1.Controls.Add(this.lblAiDataCh7, 1, 8);
             this.tableLayoutPanel1.Controls.Add(this.lblAiDataCh1, 1, 2);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(38, 271);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(39, 247);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 9;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12F));
@@ -550,7 +551,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(360, 210);
+            this.dateTimePicker1.Location = new System.Drawing.Point(361, 186);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(321, 32);
             this.dateTimePicker1.TabIndex = 2;
@@ -560,7 +561,7 @@
             this.lblCustomerName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblCustomerName.AutoSize = true;
             this.lblCustomerName.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCustomerName.Location = new System.Drawing.Point(36, 55);
+            this.lblCustomerName.Location = new System.Drawing.Point(37, 31);
             this.lblCustomerName.Name = "lblCustomerName";
             this.lblCustomerName.Size = new System.Drawing.Size(153, 23);
             this.lblCustomerName.TabIndex = 12;
@@ -571,10 +572,10 @@
             // 
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(517, 774);
+            this.button1.Location = new System.Drawing.Point(526, 753);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(12, 0, 12, 0);
-            this.button1.Size = new System.Drawing.Size(164, 51);
+            this.button1.Size = new System.Drawing.Size(156, 53);
             this.button1.TabIndex = 13;
             this.button1.Text = "Export";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -584,7 +585,7 @@
             // dateTimePicker2
             // 
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(38, 210);
+            this.dateTimePicker2.Location = new System.Drawing.Point(39, 186);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.ShowUpDown = true;
             this.dateTimePicker2.Size = new System.Drawing.Size(316, 32);
@@ -597,7 +598,7 @@
             this.lblCustomerID.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblCustomerID.AutoSize = true;
             this.lblCustomerID.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCustomerID.Location = new System.Drawing.Point(34, 127);
+            this.lblCustomerID.Location = new System.Drawing.Point(35, 103);
             this.lblCustomerID.Name = "lblCustomerID";
             this.lblCustomerID.Size = new System.Drawing.Size(126, 23);
             this.lblCustomerID.TabIndex = 16;
@@ -607,42 +608,43 @@
             // 
             // tbxCustomerID
             // 
-            this.tbxCustomerID.Location = new System.Drawing.Point(38, 149);
+            this.tbxCustomerID.Location = new System.Drawing.Point(39, 125);
             this.tbxCustomerID.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tbxCustomerID.Name = "tbxCustomerID";
             this.tbxCustomerID.Size = new System.Drawing.Size(643, 32);
             this.tbxCustomerID.TabIndex = 15;
             this.tbxCustomerID.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // textBox1
+            // txbFilePath
             // 
-            this.textBox1.Location = new System.Drawing.Point(38, 785);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(355, 32);
-            this.textBox1.TabIndex = 17;
+            this.txbFilePath.Location = new System.Drawing.Point(39, 764);
+            this.txbFilePath.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbFilePath.Name = "txbFilePath";
+            this.txbFilePath.Size = new System.Drawing.Size(355, 32);
+            this.txbFilePath.TabIndex = 17;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(405, 781);
+            this.pictureBox1.Location = new System.Drawing.Point(405, 760);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(47, 43);
+            this.pictureBox1.Size = new System.Drawing.Size(43, 42);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(36, 763);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(38, 749);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 19);
+            this.label1.Size = new System.Drawing.Size(58, 15);
             this.label1.TabIndex = 19;
-            this.label1.Text = "URL";
+            this.label1.Text = "File Path";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // CreaCertificate
@@ -652,7 +654,7 @@
             this.ClientSize = new System.Drawing.Size(720, 837);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txbFilePath);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.tbxCustomerID);
             this.Controls.Add(this.dateTimePicker2);
@@ -722,8 +724,9 @@
         private System.Windows.Forms.Label lblAiDataCh5;
         private System.Windows.Forms.Label lblAiDataCh6;
         private System.Windows.Forms.Label lblAiDataCh7;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txbFilePath;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
     }
 }

@@ -51,6 +51,7 @@ namespace DataLoggerAppV1
 
             tbxCustomerName.Text = Properties.Settings.Default.CustomerName;
             tbxCustomerID.Text = Properties.Settings.Default.CustomerID;
+            txbFilePath.Text = Properties.Settings.Default.URL;
 
             cbxAi0.Checked = Properties.Settings.Default.SlectAi0;
             cbxAi1.Checked = Properties.Settings.Default.SlectAi1;
@@ -90,7 +91,8 @@ namespace DataLoggerAppV1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string url = "C:\\Users\\Admin\\Downloads\\Certificate.xlsx";
+            //string url = "C:\\Users\\Admin\\Downloads\\Certificate.xlsx";
+            string url = txbFilePath.Text + "\\Certificate.xlsx";
 
             string[] CustomerInfor = {dateTimePicker2.Text, dateTimePicker1.Text, tbxCustomerName.Text,tbxCustomerID.Text};
             string[] DataAi0 = { lblNameAi0.Text, lblAiDataCh0.Text, lblUnitAi0.Text };
@@ -127,8 +129,16 @@ namespace DataLoggerAppV1
 
             Properties.Settings.Default.CustomerName = tbxCustomerName.Text;
             Properties.Settings.Default.CustomerID = tbxCustomerID.Text;
+            Properties.Settings.Default.URL = txbFilePath.Text;
 
             Properties.Settings.Default.Save();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            folderBrowserDialog1.SelectedPath = txbFilePath.Text;
+            folderBrowserDialog1.ShowDialog();
+            txbFilePath.Text = folderBrowserDialog1.SelectedPath.ToString();
         }
     }
 }

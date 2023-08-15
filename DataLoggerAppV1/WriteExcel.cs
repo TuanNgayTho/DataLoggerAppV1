@@ -120,7 +120,7 @@ namespace DataLoggerAppV1
             }
             catch (Exception e)
             {
-                MessageBox.Show("Some Excel files is Opened, Please close excel files and try again!");
+                MessageBox.Show("Some excel files is opened, please close excel files and try again!\nOr file path wrong!");
             }
 
         }
