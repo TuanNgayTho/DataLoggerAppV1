@@ -40,6 +40,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.txtPassWord = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -109,9 +110,9 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.SystemColors.Control;
-            this.button2.Location = new System.Drawing.Point(20, 357);
+            this.button2.Location = new System.Drawing.Point(165, 357);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(269, 36);
+            this.button2.Size = new System.Drawing.Size(124, 36);
             this.button2.TabIndex = 6;
             this.button2.Text = "LOG IN";
             this.button2.UseVisualStyleBackColor = false;
@@ -161,6 +162,20 @@
             this.txtPassWord.TabIndex = 9;
             this.txtPassWord.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightCoral;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Location = new System.Drawing.Point(22, 357);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(124, 36);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "LOG OUT";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // LoginPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
@@ -170,6 +185,7 @@
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblExit);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -179,7 +195,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "LoginPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.LoginPage_Load);
@@ -204,5 +220,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.TextBox txtPassWord;
+        private System.Windows.Forms.Button button1;
     }
 }

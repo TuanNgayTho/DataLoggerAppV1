@@ -49,6 +49,13 @@ namespace DataLoggerAppV1
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MainForm.instance.UserNameLabelel.Text = "User Name";
+            MainForm.IsLogIn = false;
+            this.Hide();
+        }
+
         private void label2_Click(object sender, EventArgs e)
         {
             txtPassWord.Clear();
