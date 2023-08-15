@@ -118,6 +118,7 @@ namespace DataLoggerAppV1
 
                 Process.Start(url);
                 excel.Quit();
+                MessageBox.Show("Export successful!");
             }
             catch (Exception e)
             {
