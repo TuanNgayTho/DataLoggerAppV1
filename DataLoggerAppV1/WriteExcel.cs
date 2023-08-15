@@ -7,7 +7,6 @@ using System.Reflection;
 using System.Text;
 using System.Windows.Forms;
 using Microsoft.Office.Interop.Excel;
-using Microsoft.CSharp;
 
 namespace DataLoggerAppV1
 {
@@ -41,8 +40,7 @@ namespace DataLoggerAppV1
             Worksheet ws;
 
             wb = excel.Workbooks.Open(filePath);
-            ws = wb.Worksheets[3];
-            //ws = (Microsoft.Office.Interop.Excel.Worksheet)wb.Sheets[3];
+            ws = (Microsoft.Office.Interop.Excel.Worksheet)wb.Sheets[3];
 
             // Write Customer information Value to Excel
             Range celRange = ws.Range["D2:G2"];
