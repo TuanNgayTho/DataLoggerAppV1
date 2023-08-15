@@ -7,6 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Windows.Forms;
 using Microsoft.Office.Interop.Excel;
+using Microsoft.CSharp;
 
 namespace DataLoggerAppV1
 {
