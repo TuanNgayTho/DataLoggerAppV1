@@ -30,7 +30,88 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Setting));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.txbSensorMin7 = new System.Windows.Forms.TextBox();
+            this.txbSensorMax7 = new System.Windows.Forms.TextBox();
+            this.txbOffsetAi7 = new System.Windows.Forms.TextBox();
+            this.txbSlopeAi7 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMin7 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMax7 = new System.Windows.Forms.TextBox();
+            this.txbLowAlarm7 = new System.Windows.Forms.TextBox();
+            this.tbxHighAlarm7 = new System.Windows.Forms.TextBox();
+            this.txbSensorMax6 = new System.Windows.Forms.TextBox();
+            this.txbOffsetAi6 = new System.Windows.Forms.TextBox();
+            this.txbSlopeAi6 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMin6 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMax6 = new System.Windows.Forms.TextBox();
+            this.txbLowAlarm6 = new System.Windows.Forms.TextBox();
+            this.tbxHighAlarm6 = new System.Windows.Forms.TextBox();
+            this.txbUnitAi7 = new System.Windows.Forms.TextBox();
+            this.txbOffsetAi5 = new System.Windows.Forms.TextBox();
+            this.txbSlopeAi5 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMin5 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMax5 = new System.Windows.Forms.TextBox();
+            this.txbLowAlarm5 = new System.Windows.Forms.TextBox();
+            this.tbxHighAlarm5 = new System.Windows.Forms.TextBox();
+            this.txbUnitAi6 = new System.Windows.Forms.TextBox();
+            this.txbSensorMin6 = new System.Windows.Forms.TextBox();
+            this.txbSlopeAi4 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMin4 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMax4 = new System.Windows.Forms.TextBox();
+            this.txbLowAlarm4 = new System.Windows.Forms.TextBox();
+            this.tbxHighAlarm4 = new System.Windows.Forms.TextBox();
+            this.txbUnitAi5 = new System.Windows.Forms.TextBox();
+            this.txbSensorMin5 = new System.Windows.Forms.TextBox();
+            this.txbSensorMax5 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMin3 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMax3 = new System.Windows.Forms.TextBox();
+            this.txbLowAlarm3 = new System.Windows.Forms.TextBox();
+            this.tbxHighAlarm3 = new System.Windows.Forms.TextBox();
+            this.txbUnitAi4 = new System.Windows.Forms.TextBox();
+            this.txbSensorMin4 = new System.Windows.Forms.TextBox();
+            this.txbSensorMax4 = new System.Windows.Forms.TextBox();
+            this.txbOffsetAi4 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMax2 = new System.Windows.Forms.TextBox();
+            this.txbLowAlarm2 = new System.Windows.Forms.TextBox();
+            this.tbxHighAlarm2 = new System.Windows.Forms.TextBox();
+            this.txbUnitAi3 = new System.Windows.Forms.TextBox();
+            this.txbSensorMin3 = new System.Windows.Forms.TextBox();
+            this.txbSensorMax3 = new System.Windows.Forms.TextBox();
+            this.txbOffsetAi3 = new System.Windows.Forms.TextBox();
+            this.txbSlopeAi3 = new System.Windows.Forms.TextBox();
+            this.txbLowAlarm1 = new System.Windows.Forms.TextBox();
+            this.tbxHighAlarm1 = new System.Windows.Forms.TextBox();
+            this.txbUnitAi2 = new System.Windows.Forms.TextBox();
+            this.txbSensorMin2 = new System.Windows.Forms.TextBox();
+            this.txbSensorMax2 = new System.Windows.Forms.TextBox();
+            this.txbOffsetAi2 = new System.Windows.Forms.TextBox();
+            this.txbSlopeAi2 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMin2 = new System.Windows.Forms.TextBox();
+            this.tbxHighAlarm0 = new System.Windows.Forms.TextBox();
+            this.txbUnitAi1 = new System.Windows.Forms.TextBox();
+            this.txbSensorMin1 = new System.Windows.Forms.TextBox();
+            this.txbSensorMax1 = new System.Windows.Forms.TextBox();
+            this.txbOffsetAi1 = new System.Windows.Forms.TextBox();
+            this.txbSlopeAi1 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMin1 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMax1 = new System.Windows.Forms.TextBox();
+            this.txbUnitAi0 = new System.Windows.Forms.TextBox();
+            this.txbSensorMin0 = new System.Windows.Forms.TextBox();
+            this.txbSensorMax0 = new System.Windows.Forms.TextBox();
+            this.txbOffsetAi0 = new System.Windows.Forms.TextBox();
+            this.txbSlopeAi0 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMin0 = new System.Windows.Forms.TextBox();
+            this.txbMesurementMax0 = new System.Windows.Forms.TextBox();
+            this.txbLowAlarm0 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.cbxAi0 = new System.Windows.Forms.CheckBox();
             this.cbxAi1 = new System.Windows.Forms.CheckBox();
             this.cbxAi2 = new System.Windows.Forms.CheckBox();
@@ -39,104 +120,23 @@
             this.cbxAi5 = new System.Windows.Forms.CheckBox();
             this.cbxAi6 = new System.Windows.Forms.CheckBox();
             this.cbxAi7 = new System.Windows.Forms.CheckBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.txbNameAi0 = new System.Windows.Forms.TextBox();
-            this.txbNameAi1 = new System.Windows.Forms.TextBox();
             this.txbNameAi2 = new System.Windows.Forms.TextBox();
             this.txbNameAi3 = new System.Windows.Forms.TextBox();
             this.txbNameAi4 = new System.Windows.Forms.TextBox();
             this.txbNameAi5 = new System.Windows.Forms.TextBox();
             this.txbNameAi6 = new System.Windows.Forms.TextBox();
             this.txbNameAi7 = new System.Windows.Forms.TextBox();
-            this.txbUnitAi0 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.txbUnitAi1 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.txbUnitAi2 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.txbUnitAi3 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.txbUnitAi4 = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.textBox47 = new System.Windows.Forms.TextBox();
-            this.textBox48 = new System.Windows.Forms.TextBox();
-            this.textBox49 = new System.Windows.Forms.TextBox();
-            this.textBox50 = new System.Windows.Forms.TextBox();
-            this.textBox51 = new System.Windows.Forms.TextBox();
-            this.textBox52 = new System.Windows.Forms.TextBox();
-            this.txbUnitAi5 = new System.Windows.Forms.TextBox();
-            this.textBox54 = new System.Windows.Forms.TextBox();
-            this.textBox55 = new System.Windows.Forms.TextBox();
-            this.textBox56 = new System.Windows.Forms.TextBox();
-            this.textBox57 = new System.Windows.Forms.TextBox();
-            this.textBox58 = new System.Windows.Forms.TextBox();
-            this.textBox59 = new System.Windows.Forms.TextBox();
-            this.textBox60 = new System.Windows.Forms.TextBox();
-            this.textBox61 = new System.Windows.Forms.TextBox();
-            this.txbUnitAi6 = new System.Windows.Forms.TextBox();
-            this.textBox63 = new System.Windows.Forms.TextBox();
-            this.textBox64 = new System.Windows.Forms.TextBox();
-            this.textBox65 = new System.Windows.Forms.TextBox();
-            this.textBox66 = new System.Windows.Forms.TextBox();
-            this.textBox67 = new System.Windows.Forms.TextBox();
-            this.textBox68 = new System.Windows.Forms.TextBox();
-            this.textBox69 = new System.Windows.Forms.TextBox();
-            this.textBox70 = new System.Windows.Forms.TextBox();
-            this.txbUnitAi7 = new System.Windows.Forms.TextBox();
-            this.textBox72 = new System.Windows.Forms.TextBox();
-            this.textBox73 = new System.Windows.Forms.TextBox();
-            this.textBox74 = new System.Windows.Forms.TextBox();
-            this.textBox75 = new System.Windows.Forms.TextBox();
-            this.textBox76 = new System.Windows.Forms.TextBox();
-            this.textBox77 = new System.Windows.Forms.TextBox();
-            this.textBox78 = new System.Windows.Forms.TextBox();
-            this.textBox79 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txbNameAi1 = new System.Windows.Forms.TextBox();
+            this.btnSave = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txbVentTime = new System.Windows.Forms.TextBox();
+            this.txbAnalysisTime = new System.Windows.Forms.TextBox();
+            this.txbCycleTime = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -156,78 +156,78 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.399999F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.399999F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6F));
-            this.tableLayoutPanel1.Controls.Add(this.textBox72, 2, 8);
-            this.tableLayoutPanel1.Controls.Add(this.textBox73, 3, 8);
-            this.tableLayoutPanel1.Controls.Add(this.textBox74, 4, 8);
-            this.tableLayoutPanel1.Controls.Add(this.textBox75, 5, 8);
-            this.tableLayoutPanel1.Controls.Add(this.textBox76, 6, 8);
-            this.tableLayoutPanel1.Controls.Add(this.textBox77, 7, 8);
-            this.tableLayoutPanel1.Controls.Add(this.textBox78, 8, 8);
-            this.tableLayoutPanel1.Controls.Add(this.textBox79, 9, 8);
-            this.tableLayoutPanel1.Controls.Add(this.textBox64, 3, 7);
-            this.tableLayoutPanel1.Controls.Add(this.textBox65, 4, 7);
-            this.tableLayoutPanel1.Controls.Add(this.textBox66, 5, 7);
-            this.tableLayoutPanel1.Controls.Add(this.textBox67, 6, 7);
-            this.tableLayoutPanel1.Controls.Add(this.textBox68, 7, 7);
-            this.tableLayoutPanel1.Controls.Add(this.textBox69, 8, 7);
-            this.tableLayoutPanel1.Controls.Add(this.textBox70, 9, 7);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMin7, 2, 8);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMax7, 3, 8);
+            this.tableLayoutPanel1.Controls.Add(this.txbOffsetAi7, 4, 8);
+            this.tableLayoutPanel1.Controls.Add(this.txbSlopeAi7, 5, 8);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMin7, 6, 8);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMax7, 7, 8);
+            this.tableLayoutPanel1.Controls.Add(this.txbLowAlarm7, 8, 8);
+            this.tableLayoutPanel1.Controls.Add(this.tbxHighAlarm7, 9, 8);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMax6, 3, 7);
+            this.tableLayoutPanel1.Controls.Add(this.txbOffsetAi6, 4, 7);
+            this.tableLayoutPanel1.Controls.Add(this.txbSlopeAi6, 5, 7);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMin6, 6, 7);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMax6, 7, 7);
+            this.tableLayoutPanel1.Controls.Add(this.txbLowAlarm6, 8, 7);
+            this.tableLayoutPanel1.Controls.Add(this.tbxHighAlarm6, 9, 7);
             this.tableLayoutPanel1.Controls.Add(this.txbUnitAi7, 1, 8);
-            this.tableLayoutPanel1.Controls.Add(this.textBox56, 4, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBox57, 5, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBox58, 6, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBox59, 7, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBox60, 8, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBox61, 9, 6);
+            this.tableLayoutPanel1.Controls.Add(this.txbOffsetAi5, 4, 6);
+            this.tableLayoutPanel1.Controls.Add(this.txbSlopeAi5, 5, 6);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMin5, 6, 6);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMax5, 7, 6);
+            this.tableLayoutPanel1.Controls.Add(this.txbLowAlarm5, 8, 6);
+            this.tableLayoutPanel1.Controls.Add(this.tbxHighAlarm5, 9, 6);
             this.tableLayoutPanel1.Controls.Add(this.txbUnitAi6, 1, 7);
-            this.tableLayoutPanel1.Controls.Add(this.textBox63, 2, 7);
-            this.tableLayoutPanel1.Controls.Add(this.textBox48, 5, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox49, 6, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox50, 7, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox51, 8, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox52, 9, 5);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMin6, 2, 7);
+            this.tableLayoutPanel1.Controls.Add(this.txbSlopeAi4, 5, 5);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMin4, 6, 5);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMax4, 7, 5);
+            this.tableLayoutPanel1.Controls.Add(this.txbLowAlarm4, 8, 5);
+            this.tableLayoutPanel1.Controls.Add(this.tbxHighAlarm4, 9, 5);
             this.tableLayoutPanel1.Controls.Add(this.txbUnitAi5, 1, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBox54, 2, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBox55, 3, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBox40, 6, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox41, 7, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox42, 8, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox43, 9, 4);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMin5, 2, 6);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMax5, 3, 6);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMin3, 6, 4);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMax3, 7, 4);
+            this.tableLayoutPanel1.Controls.Add(this.txbLowAlarm3, 8, 4);
+            this.tableLayoutPanel1.Controls.Add(this.tbxHighAlarm3, 9, 4);
             this.tableLayoutPanel1.Controls.Add(this.txbUnitAi4, 1, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox45, 2, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox46, 3, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox47, 4, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox32, 7, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox33, 8, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox34, 9, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMin4, 2, 5);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMax4, 3, 5);
+            this.tableLayoutPanel1.Controls.Add(this.txbOffsetAi4, 4, 5);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMax2, 7, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txbLowAlarm2, 8, 3);
+            this.tableLayoutPanel1.Controls.Add(this.tbxHighAlarm2, 9, 3);
             this.tableLayoutPanel1.Controls.Add(this.txbUnitAi3, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox36, 2, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox37, 3, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox38, 4, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox39, 5, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox24, 8, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox25, 9, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMin3, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMax3, 3, 4);
+            this.tableLayoutPanel1.Controls.Add(this.txbOffsetAi3, 4, 4);
+            this.tableLayoutPanel1.Controls.Add(this.txbSlopeAi3, 5, 4);
+            this.tableLayoutPanel1.Controls.Add(this.txbLowAlarm1, 8, 2);
+            this.tableLayoutPanel1.Controls.Add(this.tbxHighAlarm1, 9, 2);
             this.tableLayoutPanel1.Controls.Add(this.txbUnitAi2, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox27, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox28, 3, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox29, 4, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox30, 5, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox31, 6, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox16, 9, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMin2, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMax2, 3, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txbOffsetAi2, 4, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txbSlopeAi2, 5, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMin2, 6, 3);
+            this.tableLayoutPanel1.Controls.Add(this.tbxHighAlarm0, 9, 1);
             this.tableLayoutPanel1.Controls.Add(this.txbUnitAi1, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox18, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox19, 3, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox20, 4, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox21, 5, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox22, 6, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox23, 7, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMin1, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMax1, 3, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txbOffsetAi1, 4, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txbSlopeAi1, 5, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMin1, 6, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMax1, 7, 2);
             this.tableLayoutPanel1.Controls.Add(this.txbUnitAi0, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox9, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox10, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox11, 4, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox12, 5, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox13, 6, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox14, 7, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox15, 8, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMin0, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txbSensorMax0, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txbOffsetAi0, 4, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txbSlopeAi0, 5, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMin0, 6, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txbMesurementMax0, 7, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txbLowAlarm0, 8, 1);
             this.tableLayoutPanel1.Controls.Add(this.label3, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.label1, 8, 0);
             this.tableLayoutPanel1.Controls.Add(this.label11, 9, 0);
@@ -273,6 +273,914 @@
             this.tableLayoutPanel1.TabIndex = 2;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
+            // txbSensorMin7
+            // 
+            this.txbSensorMin7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMin7.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMin7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMin7.Location = new System.Drawing.Point(309, 657);
+            this.txbSensorMin7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMin7.Name = "txbSensorMin7";
+            this.txbSensorMin7.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMin7.TabIndex = 83;
+            this.txbSensorMin7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSensorMax7
+            // 
+            this.txbSensorMax7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMax7.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMax7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMax7.Location = new System.Drawing.Point(460, 657);
+            this.txbSensorMax7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMax7.Name = "txbSensorMax7";
+            this.txbSensorMax7.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMax7.TabIndex = 84;
+            this.txbSensorMax7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbOffsetAi7
+            // 
+            this.txbOffsetAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbOffsetAi7.BackColor = System.Drawing.SystemColors.Control;
+            this.txbOffsetAi7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbOffsetAi7.Location = new System.Drawing.Point(611, 657);
+            this.txbOffsetAi7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbOffsetAi7.Name = "txbOffsetAi7";
+            this.txbOffsetAi7.Size = new System.Drawing.Size(138, 25);
+            this.txbOffsetAi7.TabIndex = 85;
+            this.txbOffsetAi7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSlopeAi7
+            // 
+            this.txbSlopeAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSlopeAi7.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSlopeAi7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSlopeAi7.Location = new System.Drawing.Point(762, 657);
+            this.txbSlopeAi7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSlopeAi7.Name = "txbSlopeAi7";
+            this.txbSlopeAi7.Size = new System.Drawing.Size(138, 25);
+            this.txbSlopeAi7.TabIndex = 86;
+            this.txbSlopeAi7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMin7
+            // 
+            this.txbMesurementMin7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMin7.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMin7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMin7.Location = new System.Drawing.Point(913, 657);
+            this.txbMesurementMin7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMin7.Name = "txbMesurementMin7";
+            this.txbMesurementMin7.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMin7.TabIndex = 87;
+            this.txbMesurementMin7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMax7
+            // 
+            this.txbMesurementMax7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMax7.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMax7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMax7.Location = new System.Drawing.Point(1064, 657);
+            this.txbMesurementMax7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMax7.Name = "txbMesurementMax7";
+            this.txbMesurementMax7.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMax7.TabIndex = 88;
+            this.txbMesurementMax7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbLowAlarm7
+            // 
+            this.txbLowAlarm7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbLowAlarm7.BackColor = System.Drawing.SystemColors.Control;
+            this.txbLowAlarm7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbLowAlarm7.Location = new System.Drawing.Point(1215, 657);
+            this.txbLowAlarm7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbLowAlarm7.Name = "txbLowAlarm7";
+            this.txbLowAlarm7.Size = new System.Drawing.Size(138, 25);
+            this.txbLowAlarm7.TabIndex = 89;
+            this.txbLowAlarm7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tbxHighAlarm7
+            // 
+            this.tbxHighAlarm7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tbxHighAlarm7.BackColor = System.Drawing.SystemColors.Control;
+            this.tbxHighAlarm7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbxHighAlarm7.Location = new System.Drawing.Point(1366, 657);
+            this.tbxHighAlarm7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.tbxHighAlarm7.Name = "tbxHighAlarm7";
+            this.tbxHighAlarm7.Size = new System.Drawing.Size(138, 25);
+            this.tbxHighAlarm7.TabIndex = 90;
+            this.tbxHighAlarm7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSensorMax6
+            // 
+            this.txbSensorMax6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMax6.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMax6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMax6.Location = new System.Drawing.Point(460, 579);
+            this.txbSensorMax6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMax6.Name = "txbSensorMax6";
+            this.txbSensorMax6.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMax6.TabIndex = 75;
+            this.txbSensorMax6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbOffsetAi6
+            // 
+            this.txbOffsetAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbOffsetAi6.BackColor = System.Drawing.SystemColors.Control;
+            this.txbOffsetAi6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbOffsetAi6.Location = new System.Drawing.Point(611, 579);
+            this.txbOffsetAi6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbOffsetAi6.Name = "txbOffsetAi6";
+            this.txbOffsetAi6.Size = new System.Drawing.Size(138, 25);
+            this.txbOffsetAi6.TabIndex = 76;
+            this.txbOffsetAi6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSlopeAi6
+            // 
+            this.txbSlopeAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSlopeAi6.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSlopeAi6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSlopeAi6.Location = new System.Drawing.Point(762, 579);
+            this.txbSlopeAi6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSlopeAi6.Name = "txbSlopeAi6";
+            this.txbSlopeAi6.Size = new System.Drawing.Size(138, 25);
+            this.txbSlopeAi6.TabIndex = 77;
+            this.txbSlopeAi6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMin6
+            // 
+            this.txbMesurementMin6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMin6.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMin6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMin6.Location = new System.Drawing.Point(913, 579);
+            this.txbMesurementMin6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMin6.Name = "txbMesurementMin6";
+            this.txbMesurementMin6.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMin6.TabIndex = 78;
+            this.txbMesurementMin6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMax6
+            // 
+            this.txbMesurementMax6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMax6.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMax6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMax6.Location = new System.Drawing.Point(1064, 579);
+            this.txbMesurementMax6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMax6.Name = "txbMesurementMax6";
+            this.txbMesurementMax6.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMax6.TabIndex = 79;
+            this.txbMesurementMax6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbLowAlarm6
+            // 
+            this.txbLowAlarm6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbLowAlarm6.BackColor = System.Drawing.SystemColors.Control;
+            this.txbLowAlarm6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbLowAlarm6.Location = new System.Drawing.Point(1215, 579);
+            this.txbLowAlarm6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbLowAlarm6.Name = "txbLowAlarm6";
+            this.txbLowAlarm6.Size = new System.Drawing.Size(138, 25);
+            this.txbLowAlarm6.TabIndex = 80;
+            this.txbLowAlarm6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tbxHighAlarm6
+            // 
+            this.tbxHighAlarm6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tbxHighAlarm6.BackColor = System.Drawing.SystemColors.Control;
+            this.tbxHighAlarm6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbxHighAlarm6.Location = new System.Drawing.Point(1366, 579);
+            this.tbxHighAlarm6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.tbxHighAlarm6.Name = "tbxHighAlarm6";
+            this.tbxHighAlarm6.Size = new System.Drawing.Size(138, 25);
+            this.tbxHighAlarm6.TabIndex = 81;
+            this.tbxHighAlarm6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbUnitAi7
+            // 
+            this.txbUnitAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbUnitAi7.BackColor = System.Drawing.SystemColors.Control;
+            this.txbUnitAi7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbUnitAi7.Location = new System.Drawing.Point(158, 657);
+            this.txbUnitAi7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbUnitAi7.Name = "txbUnitAi7";
+            this.txbUnitAi7.Size = new System.Drawing.Size(138, 25);
+            this.txbUnitAi7.TabIndex = 82;
+            this.txbUnitAi7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbOffsetAi5
+            // 
+            this.txbOffsetAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbOffsetAi5.BackColor = System.Drawing.SystemColors.Control;
+            this.txbOffsetAi5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbOffsetAi5.Location = new System.Drawing.Point(611, 501);
+            this.txbOffsetAi5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbOffsetAi5.Name = "txbOffsetAi5";
+            this.txbOffsetAi5.Size = new System.Drawing.Size(138, 25);
+            this.txbOffsetAi5.TabIndex = 67;
+            this.txbOffsetAi5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSlopeAi5
+            // 
+            this.txbSlopeAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSlopeAi5.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSlopeAi5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSlopeAi5.Location = new System.Drawing.Point(762, 501);
+            this.txbSlopeAi5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSlopeAi5.Name = "txbSlopeAi5";
+            this.txbSlopeAi5.Size = new System.Drawing.Size(138, 25);
+            this.txbSlopeAi5.TabIndex = 68;
+            this.txbSlopeAi5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMin5
+            // 
+            this.txbMesurementMin5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMin5.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMin5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMin5.Location = new System.Drawing.Point(913, 501);
+            this.txbMesurementMin5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMin5.Name = "txbMesurementMin5";
+            this.txbMesurementMin5.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMin5.TabIndex = 69;
+            this.txbMesurementMin5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMax5
+            // 
+            this.txbMesurementMax5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMax5.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMax5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMax5.Location = new System.Drawing.Point(1064, 501);
+            this.txbMesurementMax5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMax5.Name = "txbMesurementMax5";
+            this.txbMesurementMax5.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMax5.TabIndex = 70;
+            this.txbMesurementMax5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbLowAlarm5
+            // 
+            this.txbLowAlarm5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbLowAlarm5.BackColor = System.Drawing.SystemColors.Control;
+            this.txbLowAlarm5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbLowAlarm5.Location = new System.Drawing.Point(1215, 501);
+            this.txbLowAlarm5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbLowAlarm5.Name = "txbLowAlarm5";
+            this.txbLowAlarm5.Size = new System.Drawing.Size(138, 25);
+            this.txbLowAlarm5.TabIndex = 71;
+            this.txbLowAlarm5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tbxHighAlarm5
+            // 
+            this.tbxHighAlarm5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tbxHighAlarm5.BackColor = System.Drawing.SystemColors.Control;
+            this.tbxHighAlarm5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbxHighAlarm5.Location = new System.Drawing.Point(1366, 501);
+            this.tbxHighAlarm5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.tbxHighAlarm5.Name = "tbxHighAlarm5";
+            this.tbxHighAlarm5.Size = new System.Drawing.Size(138, 25);
+            this.tbxHighAlarm5.TabIndex = 72;
+            this.tbxHighAlarm5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbUnitAi6
+            // 
+            this.txbUnitAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbUnitAi6.BackColor = System.Drawing.SystemColors.Control;
+            this.txbUnitAi6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbUnitAi6.Location = new System.Drawing.Point(158, 579);
+            this.txbUnitAi6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbUnitAi6.Name = "txbUnitAi6";
+            this.txbUnitAi6.Size = new System.Drawing.Size(138, 25);
+            this.txbUnitAi6.TabIndex = 73;
+            this.txbUnitAi6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSensorMin6
+            // 
+            this.txbSensorMin6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMin6.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMin6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMin6.Location = new System.Drawing.Point(309, 579);
+            this.txbSensorMin6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMin6.Name = "txbSensorMin6";
+            this.txbSensorMin6.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMin6.TabIndex = 74;
+            this.txbSensorMin6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSlopeAi4
+            // 
+            this.txbSlopeAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSlopeAi4.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSlopeAi4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSlopeAi4.Location = new System.Drawing.Point(762, 423);
+            this.txbSlopeAi4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSlopeAi4.Name = "txbSlopeAi4";
+            this.txbSlopeAi4.Size = new System.Drawing.Size(138, 25);
+            this.txbSlopeAi4.TabIndex = 59;
+            this.txbSlopeAi4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMin4
+            // 
+            this.txbMesurementMin4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMin4.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMin4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMin4.Location = new System.Drawing.Point(913, 423);
+            this.txbMesurementMin4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMin4.Name = "txbMesurementMin4";
+            this.txbMesurementMin4.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMin4.TabIndex = 60;
+            this.txbMesurementMin4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMax4
+            // 
+            this.txbMesurementMax4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMax4.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMax4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMax4.Location = new System.Drawing.Point(1064, 423);
+            this.txbMesurementMax4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMax4.Name = "txbMesurementMax4";
+            this.txbMesurementMax4.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMax4.TabIndex = 61;
+            this.txbMesurementMax4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbLowAlarm4
+            // 
+            this.txbLowAlarm4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbLowAlarm4.BackColor = System.Drawing.SystemColors.Control;
+            this.txbLowAlarm4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbLowAlarm4.Location = new System.Drawing.Point(1215, 423);
+            this.txbLowAlarm4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbLowAlarm4.Name = "txbLowAlarm4";
+            this.txbLowAlarm4.Size = new System.Drawing.Size(138, 25);
+            this.txbLowAlarm4.TabIndex = 62;
+            this.txbLowAlarm4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tbxHighAlarm4
+            // 
+            this.tbxHighAlarm4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tbxHighAlarm4.BackColor = System.Drawing.SystemColors.Control;
+            this.tbxHighAlarm4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbxHighAlarm4.Location = new System.Drawing.Point(1366, 423);
+            this.tbxHighAlarm4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.tbxHighAlarm4.Name = "tbxHighAlarm4";
+            this.tbxHighAlarm4.Size = new System.Drawing.Size(138, 25);
+            this.tbxHighAlarm4.TabIndex = 63;
+            this.tbxHighAlarm4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbUnitAi5
+            // 
+            this.txbUnitAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbUnitAi5.BackColor = System.Drawing.SystemColors.Control;
+            this.txbUnitAi5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbUnitAi5.Location = new System.Drawing.Point(158, 501);
+            this.txbUnitAi5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbUnitAi5.Name = "txbUnitAi5";
+            this.txbUnitAi5.Size = new System.Drawing.Size(138, 25);
+            this.txbUnitAi5.TabIndex = 64;
+            this.txbUnitAi5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSensorMin5
+            // 
+            this.txbSensorMin5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMin5.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMin5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMin5.Location = new System.Drawing.Point(309, 501);
+            this.txbSensorMin5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMin5.Name = "txbSensorMin5";
+            this.txbSensorMin5.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMin5.TabIndex = 65;
+            this.txbSensorMin5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSensorMax5
+            // 
+            this.txbSensorMax5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMax5.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMax5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMax5.Location = new System.Drawing.Point(460, 501);
+            this.txbSensorMax5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMax5.Name = "txbSensorMax5";
+            this.txbSensorMax5.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMax5.TabIndex = 66;
+            this.txbSensorMax5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMin3
+            // 
+            this.txbMesurementMin3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMin3.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMin3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMin3.Location = new System.Drawing.Point(913, 345);
+            this.txbMesurementMin3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMin3.Name = "txbMesurementMin3";
+            this.txbMesurementMin3.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMin3.TabIndex = 51;
+            this.txbMesurementMin3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMax3
+            // 
+            this.txbMesurementMax3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMax3.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMax3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMax3.Location = new System.Drawing.Point(1064, 345);
+            this.txbMesurementMax3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMax3.Name = "txbMesurementMax3";
+            this.txbMesurementMax3.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMax3.TabIndex = 52;
+            this.txbMesurementMax3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbLowAlarm3
+            // 
+            this.txbLowAlarm3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbLowAlarm3.BackColor = System.Drawing.SystemColors.Control;
+            this.txbLowAlarm3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbLowAlarm3.Location = new System.Drawing.Point(1215, 345);
+            this.txbLowAlarm3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbLowAlarm3.Name = "txbLowAlarm3";
+            this.txbLowAlarm3.Size = new System.Drawing.Size(138, 25);
+            this.txbLowAlarm3.TabIndex = 53;
+            this.txbLowAlarm3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tbxHighAlarm3
+            // 
+            this.tbxHighAlarm3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tbxHighAlarm3.BackColor = System.Drawing.SystemColors.Control;
+            this.tbxHighAlarm3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbxHighAlarm3.Location = new System.Drawing.Point(1366, 345);
+            this.tbxHighAlarm3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.tbxHighAlarm3.Name = "tbxHighAlarm3";
+            this.tbxHighAlarm3.Size = new System.Drawing.Size(138, 25);
+            this.tbxHighAlarm3.TabIndex = 54;
+            this.tbxHighAlarm3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbUnitAi4
+            // 
+            this.txbUnitAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbUnitAi4.BackColor = System.Drawing.SystemColors.Control;
+            this.txbUnitAi4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbUnitAi4.Location = new System.Drawing.Point(158, 423);
+            this.txbUnitAi4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbUnitAi4.Name = "txbUnitAi4";
+            this.txbUnitAi4.Size = new System.Drawing.Size(138, 25);
+            this.txbUnitAi4.TabIndex = 55;
+            this.txbUnitAi4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSensorMin4
+            // 
+            this.txbSensorMin4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMin4.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMin4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMin4.Location = new System.Drawing.Point(309, 423);
+            this.txbSensorMin4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMin4.Name = "txbSensorMin4";
+            this.txbSensorMin4.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMin4.TabIndex = 56;
+            this.txbSensorMin4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSensorMax4
+            // 
+            this.txbSensorMax4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMax4.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMax4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMax4.Location = new System.Drawing.Point(460, 423);
+            this.txbSensorMax4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMax4.Name = "txbSensorMax4";
+            this.txbSensorMax4.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMax4.TabIndex = 57;
+            this.txbSensorMax4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbOffsetAi4
+            // 
+            this.txbOffsetAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbOffsetAi4.BackColor = System.Drawing.SystemColors.Control;
+            this.txbOffsetAi4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbOffsetAi4.Location = new System.Drawing.Point(611, 423);
+            this.txbOffsetAi4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbOffsetAi4.Name = "txbOffsetAi4";
+            this.txbOffsetAi4.Size = new System.Drawing.Size(138, 25);
+            this.txbOffsetAi4.TabIndex = 58;
+            this.txbOffsetAi4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMax2
+            // 
+            this.txbMesurementMax2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMax2.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMax2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMax2.Location = new System.Drawing.Point(1064, 268);
+            this.txbMesurementMax2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMax2.Name = "txbMesurementMax2";
+            this.txbMesurementMax2.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMax2.TabIndex = 43;
+            this.txbMesurementMax2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbLowAlarm2
+            // 
+            this.txbLowAlarm2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbLowAlarm2.BackColor = System.Drawing.SystemColors.Control;
+            this.txbLowAlarm2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbLowAlarm2.Location = new System.Drawing.Point(1215, 268);
+            this.txbLowAlarm2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbLowAlarm2.Name = "txbLowAlarm2";
+            this.txbLowAlarm2.Size = new System.Drawing.Size(138, 25);
+            this.txbLowAlarm2.TabIndex = 44;
+            this.txbLowAlarm2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tbxHighAlarm2
+            // 
+            this.tbxHighAlarm2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tbxHighAlarm2.BackColor = System.Drawing.SystemColors.Control;
+            this.tbxHighAlarm2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbxHighAlarm2.Location = new System.Drawing.Point(1366, 268);
+            this.tbxHighAlarm2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.tbxHighAlarm2.Name = "tbxHighAlarm2";
+            this.tbxHighAlarm2.Size = new System.Drawing.Size(138, 25);
+            this.tbxHighAlarm2.TabIndex = 45;
+            this.tbxHighAlarm2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbUnitAi3
+            // 
+            this.txbUnitAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbUnitAi3.BackColor = System.Drawing.SystemColors.Control;
+            this.txbUnitAi3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbUnitAi3.Location = new System.Drawing.Point(158, 345);
+            this.txbUnitAi3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbUnitAi3.Name = "txbUnitAi3";
+            this.txbUnitAi3.Size = new System.Drawing.Size(138, 25);
+            this.txbUnitAi3.TabIndex = 46;
+            this.txbUnitAi3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSensorMin3
+            // 
+            this.txbSensorMin3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMin3.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMin3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMin3.Location = new System.Drawing.Point(309, 345);
+            this.txbSensorMin3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMin3.Name = "txbSensorMin3";
+            this.txbSensorMin3.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMin3.TabIndex = 47;
+            this.txbSensorMin3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbSensorMin3.TextChanged += new System.EventHandler(this.textBox36_TextChanged);
+            // 
+            // txbSensorMax3
+            // 
+            this.txbSensorMax3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMax3.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMax3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMax3.Location = new System.Drawing.Point(460, 345);
+            this.txbSensorMax3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMax3.Name = "txbSensorMax3";
+            this.txbSensorMax3.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMax3.TabIndex = 48;
+            this.txbSensorMax3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbOffsetAi3
+            // 
+            this.txbOffsetAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbOffsetAi3.BackColor = System.Drawing.SystemColors.Control;
+            this.txbOffsetAi3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbOffsetAi3.Location = new System.Drawing.Point(611, 345);
+            this.txbOffsetAi3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbOffsetAi3.Name = "txbOffsetAi3";
+            this.txbOffsetAi3.Size = new System.Drawing.Size(138, 25);
+            this.txbOffsetAi3.TabIndex = 49;
+            this.txbOffsetAi3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSlopeAi3
+            // 
+            this.txbSlopeAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSlopeAi3.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSlopeAi3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSlopeAi3.Location = new System.Drawing.Point(762, 345);
+            this.txbSlopeAi3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSlopeAi3.Name = "txbSlopeAi3";
+            this.txbSlopeAi3.Size = new System.Drawing.Size(138, 25);
+            this.txbSlopeAi3.TabIndex = 50;
+            this.txbSlopeAi3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbLowAlarm1
+            // 
+            this.txbLowAlarm1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbLowAlarm1.BackColor = System.Drawing.SystemColors.Control;
+            this.txbLowAlarm1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbLowAlarm1.Location = new System.Drawing.Point(1215, 190);
+            this.txbLowAlarm1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbLowAlarm1.Name = "txbLowAlarm1";
+            this.txbLowAlarm1.Size = new System.Drawing.Size(138, 25);
+            this.txbLowAlarm1.TabIndex = 35;
+            this.txbLowAlarm1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tbxHighAlarm1
+            // 
+            this.tbxHighAlarm1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tbxHighAlarm1.BackColor = System.Drawing.SystemColors.Control;
+            this.tbxHighAlarm1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbxHighAlarm1.Location = new System.Drawing.Point(1366, 190);
+            this.tbxHighAlarm1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.tbxHighAlarm1.Name = "tbxHighAlarm1";
+            this.tbxHighAlarm1.Size = new System.Drawing.Size(138, 25);
+            this.tbxHighAlarm1.TabIndex = 36;
+            this.tbxHighAlarm1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbUnitAi2
+            // 
+            this.txbUnitAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbUnitAi2.BackColor = System.Drawing.SystemColors.Control;
+            this.txbUnitAi2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbUnitAi2.Location = new System.Drawing.Point(158, 268);
+            this.txbUnitAi2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbUnitAi2.Name = "txbUnitAi2";
+            this.txbUnitAi2.Size = new System.Drawing.Size(138, 25);
+            this.txbUnitAi2.TabIndex = 37;
+            this.txbUnitAi2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSensorMin2
+            // 
+            this.txbSensorMin2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMin2.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMin2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMin2.Location = new System.Drawing.Point(309, 268);
+            this.txbSensorMin2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMin2.Name = "txbSensorMin2";
+            this.txbSensorMin2.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMin2.TabIndex = 38;
+            this.txbSensorMin2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSensorMax2
+            // 
+            this.txbSensorMax2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMax2.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMax2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMax2.Location = new System.Drawing.Point(460, 268);
+            this.txbSensorMax2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMax2.Name = "txbSensorMax2";
+            this.txbSensorMax2.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMax2.TabIndex = 39;
+            this.txbSensorMax2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbOffsetAi2
+            // 
+            this.txbOffsetAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbOffsetAi2.BackColor = System.Drawing.SystemColors.Control;
+            this.txbOffsetAi2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbOffsetAi2.Location = new System.Drawing.Point(611, 268);
+            this.txbOffsetAi2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbOffsetAi2.Name = "txbOffsetAi2";
+            this.txbOffsetAi2.Size = new System.Drawing.Size(138, 25);
+            this.txbOffsetAi2.TabIndex = 40;
+            this.txbOffsetAi2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSlopeAi2
+            // 
+            this.txbSlopeAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSlopeAi2.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSlopeAi2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSlopeAi2.Location = new System.Drawing.Point(762, 268);
+            this.txbSlopeAi2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSlopeAi2.Name = "txbSlopeAi2";
+            this.txbSlopeAi2.Size = new System.Drawing.Size(138, 25);
+            this.txbSlopeAi2.TabIndex = 41;
+            this.txbSlopeAi2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMin2
+            // 
+            this.txbMesurementMin2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMin2.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMin2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMin2.Location = new System.Drawing.Point(913, 268);
+            this.txbMesurementMin2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMin2.Name = "txbMesurementMin2";
+            this.txbMesurementMin2.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMin2.TabIndex = 42;
+            this.txbMesurementMin2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tbxHighAlarm0
+            // 
+            this.tbxHighAlarm0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tbxHighAlarm0.BackColor = System.Drawing.SystemColors.Control;
+            this.tbxHighAlarm0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbxHighAlarm0.Location = new System.Drawing.Point(1366, 112);
+            this.tbxHighAlarm0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.tbxHighAlarm0.Name = "tbxHighAlarm0";
+            this.tbxHighAlarm0.Size = new System.Drawing.Size(138, 25);
+            this.tbxHighAlarm0.TabIndex = 27;
+            this.tbxHighAlarm0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbUnitAi1
+            // 
+            this.txbUnitAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbUnitAi1.BackColor = System.Drawing.SystemColors.Control;
+            this.txbUnitAi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbUnitAi1.Location = new System.Drawing.Point(158, 190);
+            this.txbUnitAi1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbUnitAi1.Name = "txbUnitAi1";
+            this.txbUnitAi1.Size = new System.Drawing.Size(138, 25);
+            this.txbUnitAi1.TabIndex = 28;
+            this.txbUnitAi1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSensorMin1
+            // 
+            this.txbSensorMin1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMin1.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMin1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMin1.Location = new System.Drawing.Point(309, 190);
+            this.txbSensorMin1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMin1.Name = "txbSensorMin1";
+            this.txbSensorMin1.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMin1.TabIndex = 29;
+            this.txbSensorMin1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSensorMax1
+            // 
+            this.txbSensorMax1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMax1.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMax1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMax1.Location = new System.Drawing.Point(460, 190);
+            this.txbSensorMax1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMax1.Name = "txbSensorMax1";
+            this.txbSensorMax1.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMax1.TabIndex = 30;
+            this.txbSensorMax1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbOffsetAi1
+            // 
+            this.txbOffsetAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbOffsetAi1.BackColor = System.Drawing.SystemColors.Control;
+            this.txbOffsetAi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbOffsetAi1.Location = new System.Drawing.Point(611, 190);
+            this.txbOffsetAi1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbOffsetAi1.Name = "txbOffsetAi1";
+            this.txbOffsetAi1.Size = new System.Drawing.Size(138, 25);
+            this.txbOffsetAi1.TabIndex = 31;
+            this.txbOffsetAi1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSlopeAi1
+            // 
+            this.txbSlopeAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSlopeAi1.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSlopeAi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSlopeAi1.Location = new System.Drawing.Point(762, 190);
+            this.txbSlopeAi1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSlopeAi1.Name = "txbSlopeAi1";
+            this.txbSlopeAi1.Size = new System.Drawing.Size(138, 25);
+            this.txbSlopeAi1.TabIndex = 32;
+            this.txbSlopeAi1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMin1
+            // 
+            this.txbMesurementMin1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMin1.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMin1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMin1.Location = new System.Drawing.Point(913, 190);
+            this.txbMesurementMin1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMin1.Name = "txbMesurementMin1";
+            this.txbMesurementMin1.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMin1.TabIndex = 33;
+            this.txbMesurementMin1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMax1
+            // 
+            this.txbMesurementMax1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMax1.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMax1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMax1.Location = new System.Drawing.Point(1064, 190);
+            this.txbMesurementMax1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMax1.Name = "txbMesurementMax1";
+            this.txbMesurementMax1.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMax1.TabIndex = 34;
+            this.txbMesurementMax1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbUnitAi0
+            // 
+            this.txbUnitAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbUnitAi0.BackColor = System.Drawing.SystemColors.Control;
+            this.txbUnitAi0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbUnitAi0.Location = new System.Drawing.Point(158, 112);
+            this.txbUnitAi0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbUnitAi0.Name = "txbUnitAi0";
+            this.txbUnitAi0.Size = new System.Drawing.Size(138, 25);
+            this.txbUnitAi0.TabIndex = 19;
+            this.txbUnitAi0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSensorMin0
+            // 
+            this.txbSensorMin0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMin0.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMin0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMin0.Location = new System.Drawing.Point(309, 112);
+            this.txbSensorMin0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMin0.Name = "txbSensorMin0";
+            this.txbSensorMin0.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMin0.TabIndex = 20;
+            this.txbSensorMin0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSensorMax0
+            // 
+            this.txbSensorMax0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSensorMax0.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSensorMax0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSensorMax0.Location = new System.Drawing.Point(460, 112);
+            this.txbSensorMax0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSensorMax0.Name = "txbSensorMax0";
+            this.txbSensorMax0.Size = new System.Drawing.Size(138, 25);
+            this.txbSensorMax0.TabIndex = 21;
+            this.txbSensorMax0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbOffsetAi0
+            // 
+            this.txbOffsetAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbOffsetAi0.BackColor = System.Drawing.SystemColors.Control;
+            this.txbOffsetAi0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbOffsetAi0.Location = new System.Drawing.Point(611, 112);
+            this.txbOffsetAi0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbOffsetAi0.Name = "txbOffsetAi0";
+            this.txbOffsetAi0.Size = new System.Drawing.Size(138, 25);
+            this.txbOffsetAi0.TabIndex = 22;
+            this.txbOffsetAi0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbSlopeAi0
+            // 
+            this.txbSlopeAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbSlopeAi0.BackColor = System.Drawing.SystemColors.Control;
+            this.txbSlopeAi0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbSlopeAi0.Location = new System.Drawing.Point(762, 112);
+            this.txbSlopeAi0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbSlopeAi0.Name = "txbSlopeAi0";
+            this.txbSlopeAi0.Size = new System.Drawing.Size(138, 25);
+            this.txbSlopeAi0.TabIndex = 23;
+            this.txbSlopeAi0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMin0
+            // 
+            this.txbMesurementMin0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMin0.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMin0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMin0.Location = new System.Drawing.Point(913, 112);
+            this.txbMesurementMin0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMin0.Name = "txbMesurementMin0";
+            this.txbMesurementMin0.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMin0.TabIndex = 24;
+            this.txbMesurementMin0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbMesurementMax0
+            // 
+            this.txbMesurementMax0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbMesurementMax0.BackColor = System.Drawing.SystemColors.Control;
+            this.txbMesurementMax0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbMesurementMax0.Location = new System.Drawing.Point(1064, 112);
+            this.txbMesurementMax0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbMesurementMax0.Name = "txbMesurementMax0";
+            this.txbMesurementMax0.Size = new System.Drawing.Size(138, 25);
+            this.txbMesurementMax0.TabIndex = 25;
+            this.txbMesurementMax0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbMesurementMax0.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
+            // 
+            // txbLowAlarm0
+            // 
+            this.txbLowAlarm0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbLowAlarm0.BackColor = System.Drawing.SystemColors.Control;
+            this.txbLowAlarm0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbLowAlarm0.Location = new System.Drawing.Point(1215, 112);
+            this.txbLowAlarm0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbLowAlarm0.Name = "txbLowAlarm0";
+            this.txbLowAlarm0.Size = new System.Drawing.Size(138, 25);
+            this.txbLowAlarm0.TabIndex = 26;
+            this.txbLowAlarm0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(322, 19);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(111, 48);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "Sensor Min Range";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(1231, 31);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(106, 24);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Low Alarm";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label11
+            // 
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(1378, 31);
+            this.label11.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(114, 24);
+            this.label11.TabIndex = 17;
+            this.label11.Text = "High Alarm";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label11.Click += new System.EventHandler(this.label4_Click);
+            // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -286,6 +1194,88 @@
             this.label2.Text = "Sensor Name";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label4
+            // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(170, 31);
+            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(113, 24);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "Sensor Unit";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label6
+            // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(471, 19);
+            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(115, 48);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "Sensor Max Range";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label6.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label9
+            // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(649, 31);
+            this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(62, 24);
+            this.label9.TabIndex = 17;
+            this.label9.Text = "Offset";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label9.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label8
+            // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(1064, 1);
+            this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(138, 84);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "Measurement Max Range";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label8.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label10
+            // 
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(802, 31);
+            this.label10.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(58, 24);
+            this.label10.TabIndex = 17;
+            this.label10.Text = "Slope";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label10.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label5
+            // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(1525, 31);
+            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(73, 24);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Enable";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cbxAi0
             // 
@@ -383,75 +1373,6 @@
             this.cbxAi7.TabIndex = 17;
             this.cbxAi7.UseVisualStyleBackColor = true;
             // 
-            // label4
-            // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(170, 31);
-            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(113, 24);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "Sensor Unit";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // label5
-            // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(1525, 31);
-            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 24);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Enable";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(1231, 31);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 24);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Low Alarm";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // label3
-            // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(322, 19);
-            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 48);
-            this.label3.TabIndex = 17;
-            this.label3.Text = "Sensor Min Range";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label3.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // label6
-            // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(471, 19);
-            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(115, 48);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "Sensor Max Range";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label6.Click += new System.EventHandler(this.label4_Click);
-            // 
             // label7
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -465,61 +1386,6 @@
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label7.Click += new System.EventHandler(this.label4_Click);
             // 
-            // label8
-            // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(1064, 1);
-            this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(138, 84);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "Measurement Max Range";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label8.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // label9
-            // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(649, 31);
-            this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(62, 24);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "Offset";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label9.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // label10
-            // 
-            this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(802, 31);
-            this.label10.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(58, 24);
-            this.label10.TabIndex = 17;
-            this.label10.Text = "Slope";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label10.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // label11
-            // 
-            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(1378, 31);
-            this.label11.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(114, 24);
-            this.label11.TabIndex = 17;
-            this.label11.Text = "High Alarm";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label11.Click += new System.EventHandler(this.label4_Click);
-            // 
             // txbNameAi0
             // 
             this.txbNameAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -531,18 +1397,6 @@
             this.txbNameAi0.Size = new System.Drawing.Size(138, 25);
             this.txbNameAi0.TabIndex = 18;
             this.txbNameAi0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txbNameAi1
-            // 
-            this.txbNameAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txbNameAi1.BackColor = System.Drawing.SystemColors.Control;
-            this.txbNameAi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbNameAi1.Location = new System.Drawing.Point(7, 190);
-            this.txbNameAi1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txbNameAi1.Name = "txbNameAi1";
-            this.txbNameAi1.Size = new System.Drawing.Size(138, 25);
-            this.txbNameAi1.TabIndex = 18;
-            this.txbNameAi1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbNameAi2
             // 
@@ -616,883 +1470,31 @@
             this.txbNameAi7.TabIndex = 18;
             this.txbNameAi7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txbUnitAi0
-            // 
-            this.txbUnitAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txbUnitAi0.BackColor = System.Drawing.SystemColors.Control;
-            this.txbUnitAi0.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi0.Location = new System.Drawing.Point(158, 112);
-            this.txbUnitAi0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txbUnitAi0.Name = "txbUnitAi0";
-            this.txbUnitAi0.Size = new System.Drawing.Size(138, 25);
-            this.txbUnitAi0.TabIndex = 19;
-            this.txbUnitAi0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox9.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox9.Location = new System.Drawing.Point(309, 112);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(138, 25);
-            this.textBox9.TabIndex = 20;
-            this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox10.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox10.Location = new System.Drawing.Point(460, 112);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(138, 25);
-            this.textBox10.TabIndex = 21;
-            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox11.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox11.Location = new System.Drawing.Point(611, 112);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(138, 25);
-            this.textBox11.TabIndex = 22;
-            this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox12.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox12.Location = new System.Drawing.Point(762, 112);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(138, 25);
-            this.textBox12.TabIndex = 23;
-            this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox13.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox13.Location = new System.Drawing.Point(913, 112);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(138, 25);
-            this.textBox13.TabIndex = 24;
-            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox14.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox14.Location = new System.Drawing.Point(1064, 112);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(138, 25);
-            this.textBox14.TabIndex = 25;
-            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox15
-            // 
-            this.textBox15.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox15.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox15.Location = new System.Drawing.Point(1215, 112);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(138, 25);
-            this.textBox15.TabIndex = 26;
-            this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox16.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox16.Location = new System.Drawing.Point(1366, 112);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(138, 25);
-            this.textBox16.TabIndex = 27;
-            this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txbUnitAi1
-            // 
-            this.txbUnitAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txbUnitAi1.BackColor = System.Drawing.SystemColors.Control;
-            this.txbUnitAi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi1.Location = new System.Drawing.Point(158, 190);
-            this.txbUnitAi1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txbUnitAi1.Name = "txbUnitAi1";
-            this.txbUnitAi1.Size = new System.Drawing.Size(138, 25);
-            this.txbUnitAi1.TabIndex = 28;
-            this.txbUnitAi1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox18.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox18.Location = new System.Drawing.Point(309, 190);
-            this.textBox18.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(138, 25);
-            this.textBox18.TabIndex = 29;
-            this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox19
-            // 
-            this.textBox19.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox19.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox19.Location = new System.Drawing.Point(460, 190);
-            this.textBox19.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(138, 25);
-            this.textBox19.TabIndex = 30;
-            this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox20
-            // 
-            this.textBox20.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox20.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox20.Location = new System.Drawing.Point(611, 190);
-            this.textBox20.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(138, 25);
-            this.textBox20.TabIndex = 31;
-            this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox21
-            // 
-            this.textBox21.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox21.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox21.Location = new System.Drawing.Point(762, 190);
-            this.textBox21.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(138, 25);
-            this.textBox21.TabIndex = 32;
-            this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox22
-            // 
-            this.textBox22.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox22.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox22.Location = new System.Drawing.Point(913, 190);
-            this.textBox22.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(138, 25);
-            this.textBox22.TabIndex = 33;
-            this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox23
-            // 
-            this.textBox23.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox23.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox23.Location = new System.Drawing.Point(1064, 190);
-            this.textBox23.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(138, 25);
-            this.textBox23.TabIndex = 34;
-            this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox24
-            // 
-            this.textBox24.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox24.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox24.Location = new System.Drawing.Point(1215, 190);
-            this.textBox24.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(138, 25);
-            this.textBox24.TabIndex = 35;
-            this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox25
-            // 
-            this.textBox25.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox25.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox25.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox25.Location = new System.Drawing.Point(1366, 190);
-            this.textBox25.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(138, 25);
-            this.textBox25.TabIndex = 36;
-            this.textBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txbUnitAi2
-            // 
-            this.txbUnitAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txbUnitAi2.BackColor = System.Drawing.SystemColors.Control;
-            this.txbUnitAi2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi2.Location = new System.Drawing.Point(158, 268);
-            this.txbUnitAi2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txbUnitAi2.Name = "txbUnitAi2";
-            this.txbUnitAi2.Size = new System.Drawing.Size(138, 25);
-            this.txbUnitAi2.TabIndex = 37;
-            this.txbUnitAi2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox27
-            // 
-            this.textBox27.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox27.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox27.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox27.Location = new System.Drawing.Point(309, 268);
-            this.textBox27.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(138, 25);
-            this.textBox27.TabIndex = 38;
-            this.textBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox28
-            // 
-            this.textBox28.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox28.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox28.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox28.Location = new System.Drawing.Point(460, 268);
-            this.textBox28.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(138, 25);
-            this.textBox28.TabIndex = 39;
-            this.textBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox29
-            // 
-            this.textBox29.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox29.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox29.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox29.Location = new System.Drawing.Point(611, 268);
-            this.textBox29.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(138, 25);
-            this.textBox29.TabIndex = 40;
-            this.textBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox30
-            // 
-            this.textBox30.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox30.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox30.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox30.Location = new System.Drawing.Point(762, 268);
-            this.textBox30.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(138, 25);
-            this.textBox30.TabIndex = 41;
-            this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox31
-            // 
-            this.textBox31.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox31.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox31.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox31.Location = new System.Drawing.Point(913, 268);
-            this.textBox31.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(138, 25);
-            this.textBox31.TabIndex = 42;
-            this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox32
-            // 
-            this.textBox32.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox32.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox32.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox32.Location = new System.Drawing.Point(1064, 268);
-            this.textBox32.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(138, 25);
-            this.textBox32.TabIndex = 43;
-            this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox33
-            // 
-            this.textBox33.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox33.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox33.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox33.Location = new System.Drawing.Point(1215, 268);
-            this.textBox33.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(138, 25);
-            this.textBox33.TabIndex = 44;
-            this.textBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox34
-            // 
-            this.textBox34.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox34.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox34.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox34.Location = new System.Drawing.Point(1366, 268);
-            this.textBox34.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(138, 25);
-            this.textBox34.TabIndex = 45;
-            this.textBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txbUnitAi3
-            // 
-            this.txbUnitAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txbUnitAi3.BackColor = System.Drawing.SystemColors.Control;
-            this.txbUnitAi3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi3.Location = new System.Drawing.Point(158, 345);
-            this.txbUnitAi3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txbUnitAi3.Name = "txbUnitAi3";
-            this.txbUnitAi3.Size = new System.Drawing.Size(138, 25);
-            this.txbUnitAi3.TabIndex = 46;
-            this.txbUnitAi3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox36
-            // 
-            this.textBox36.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox36.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox36.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox36.Location = new System.Drawing.Point(309, 345);
-            this.textBox36.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(138, 25);
-            this.textBox36.TabIndex = 47;
-            this.textBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox37
-            // 
-            this.textBox37.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox37.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox37.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox37.Location = new System.Drawing.Point(460, 345);
-            this.textBox37.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(138, 25);
-            this.textBox37.TabIndex = 48;
-            this.textBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox38
-            // 
-            this.textBox38.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox38.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox38.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox38.Location = new System.Drawing.Point(611, 345);
-            this.textBox38.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(138, 25);
-            this.textBox38.TabIndex = 49;
-            this.textBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox39
-            // 
-            this.textBox39.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox39.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox39.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox39.Location = new System.Drawing.Point(762, 345);
-            this.textBox39.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(138, 25);
-            this.textBox39.TabIndex = 50;
-            this.textBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox40
-            // 
-            this.textBox40.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox40.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox40.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox40.Location = new System.Drawing.Point(913, 345);
-            this.textBox40.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(138, 25);
-            this.textBox40.TabIndex = 51;
-            this.textBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox41
-            // 
-            this.textBox41.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox41.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox41.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox41.Location = new System.Drawing.Point(1064, 345);
-            this.textBox41.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(138, 25);
-            this.textBox41.TabIndex = 52;
-            this.textBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox42
-            // 
-            this.textBox42.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox42.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox42.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox42.Location = new System.Drawing.Point(1215, 345);
-            this.textBox42.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(138, 25);
-            this.textBox42.TabIndex = 53;
-            this.textBox42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox43
-            // 
-            this.textBox43.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox43.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox43.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox43.Location = new System.Drawing.Point(1366, 345);
-            this.textBox43.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(138, 25);
-            this.textBox43.TabIndex = 54;
-            this.textBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txbUnitAi4
-            // 
-            this.txbUnitAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txbUnitAi4.BackColor = System.Drawing.SystemColors.Control;
-            this.txbUnitAi4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi4.Location = new System.Drawing.Point(158, 423);
-            this.txbUnitAi4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txbUnitAi4.Name = "txbUnitAi4";
-            this.txbUnitAi4.Size = new System.Drawing.Size(138, 25);
-            this.txbUnitAi4.TabIndex = 55;
-            this.txbUnitAi4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox45
-            // 
-            this.textBox45.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox45.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox45.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox45.Location = new System.Drawing.Point(309, 423);
-            this.textBox45.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(138, 25);
-            this.textBox45.TabIndex = 56;
-            this.textBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox46
-            // 
-            this.textBox46.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox46.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox46.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox46.Location = new System.Drawing.Point(460, 423);
-            this.textBox46.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.Size = new System.Drawing.Size(138, 25);
-            this.textBox46.TabIndex = 57;
-            this.textBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox47
-            // 
-            this.textBox47.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox47.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox47.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox47.Location = new System.Drawing.Point(611, 423);
-            this.textBox47.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.Size = new System.Drawing.Size(138, 25);
-            this.textBox47.TabIndex = 58;
-            this.textBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox48
-            // 
-            this.textBox48.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox48.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox48.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox48.Location = new System.Drawing.Point(762, 423);
-            this.textBox48.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.Size = new System.Drawing.Size(138, 25);
-            this.textBox48.TabIndex = 59;
-            this.textBox48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox49
-            // 
-            this.textBox49.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox49.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox49.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox49.Location = new System.Drawing.Point(913, 423);
-            this.textBox49.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox49.Name = "textBox49";
-            this.textBox49.Size = new System.Drawing.Size(138, 25);
-            this.textBox49.TabIndex = 60;
-            this.textBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox50
-            // 
-            this.textBox50.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox50.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox50.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox50.Location = new System.Drawing.Point(1064, 423);
-            this.textBox50.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox50.Name = "textBox50";
-            this.textBox50.Size = new System.Drawing.Size(138, 25);
-            this.textBox50.TabIndex = 61;
-            this.textBox50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox51
-            // 
-            this.textBox51.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox51.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox51.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox51.Location = new System.Drawing.Point(1215, 423);
-            this.textBox51.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox51.Name = "textBox51";
-            this.textBox51.Size = new System.Drawing.Size(138, 25);
-            this.textBox51.TabIndex = 62;
-            this.textBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox52
-            // 
-            this.textBox52.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox52.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox52.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox52.Location = new System.Drawing.Point(1366, 423);
-            this.textBox52.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox52.Name = "textBox52";
-            this.textBox52.Size = new System.Drawing.Size(138, 25);
-            this.textBox52.TabIndex = 63;
-            this.textBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txbUnitAi5
-            // 
-            this.txbUnitAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txbUnitAi5.BackColor = System.Drawing.SystemColors.Control;
-            this.txbUnitAi5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi5.Location = new System.Drawing.Point(158, 501);
-            this.txbUnitAi5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txbUnitAi5.Name = "txbUnitAi5";
-            this.txbUnitAi5.Size = new System.Drawing.Size(138, 25);
-            this.txbUnitAi5.TabIndex = 64;
-            this.txbUnitAi5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox54
-            // 
-            this.textBox54.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox54.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox54.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox54.Location = new System.Drawing.Point(309, 501);
-            this.textBox54.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox54.Name = "textBox54";
-            this.textBox54.Size = new System.Drawing.Size(138, 25);
-            this.textBox54.TabIndex = 65;
-            this.textBox54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox55
-            // 
-            this.textBox55.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox55.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox55.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox55.Location = new System.Drawing.Point(460, 501);
-            this.textBox55.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox55.Name = "textBox55";
-            this.textBox55.Size = new System.Drawing.Size(138, 25);
-            this.textBox55.TabIndex = 66;
-            this.textBox55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox56
-            // 
-            this.textBox56.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox56.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox56.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox56.Location = new System.Drawing.Point(611, 501);
-            this.textBox56.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox56.Name = "textBox56";
-            this.textBox56.Size = new System.Drawing.Size(138, 25);
-            this.textBox56.TabIndex = 67;
-            this.textBox56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox57
-            // 
-            this.textBox57.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox57.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox57.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox57.Location = new System.Drawing.Point(762, 501);
-            this.textBox57.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox57.Name = "textBox57";
-            this.textBox57.Size = new System.Drawing.Size(138, 25);
-            this.textBox57.TabIndex = 68;
-            this.textBox57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox58
-            // 
-            this.textBox58.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox58.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox58.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox58.Location = new System.Drawing.Point(913, 501);
-            this.textBox58.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox58.Name = "textBox58";
-            this.textBox58.Size = new System.Drawing.Size(138, 25);
-            this.textBox58.TabIndex = 69;
-            this.textBox58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox59
-            // 
-            this.textBox59.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox59.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox59.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox59.Location = new System.Drawing.Point(1064, 501);
-            this.textBox59.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox59.Name = "textBox59";
-            this.textBox59.Size = new System.Drawing.Size(138, 25);
-            this.textBox59.TabIndex = 70;
-            this.textBox59.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox60
-            // 
-            this.textBox60.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox60.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox60.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox60.Location = new System.Drawing.Point(1215, 501);
-            this.textBox60.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox60.Name = "textBox60";
-            this.textBox60.Size = new System.Drawing.Size(138, 25);
-            this.textBox60.TabIndex = 71;
-            this.textBox60.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox61
-            // 
-            this.textBox61.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox61.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox61.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox61.Location = new System.Drawing.Point(1366, 501);
-            this.textBox61.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox61.Name = "textBox61";
-            this.textBox61.Size = new System.Drawing.Size(138, 25);
-            this.textBox61.TabIndex = 72;
-            this.textBox61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txbUnitAi6
-            // 
-            this.txbUnitAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txbUnitAi6.BackColor = System.Drawing.SystemColors.Control;
-            this.txbUnitAi6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi6.Location = new System.Drawing.Point(158, 579);
-            this.txbUnitAi6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txbUnitAi6.Name = "txbUnitAi6";
-            this.txbUnitAi6.Size = new System.Drawing.Size(138, 25);
-            this.txbUnitAi6.TabIndex = 73;
-            this.txbUnitAi6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox63
-            // 
-            this.textBox63.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox63.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox63.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox63.Location = new System.Drawing.Point(309, 579);
-            this.textBox63.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox63.Name = "textBox63";
-            this.textBox63.Size = new System.Drawing.Size(138, 25);
-            this.textBox63.TabIndex = 74;
-            this.textBox63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox64
-            // 
-            this.textBox64.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox64.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox64.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox64.Location = new System.Drawing.Point(460, 579);
-            this.textBox64.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox64.Name = "textBox64";
-            this.textBox64.Size = new System.Drawing.Size(138, 25);
-            this.textBox64.TabIndex = 75;
-            this.textBox64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox65
-            // 
-            this.textBox65.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox65.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox65.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox65.Location = new System.Drawing.Point(611, 579);
-            this.textBox65.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox65.Name = "textBox65";
-            this.textBox65.Size = new System.Drawing.Size(138, 25);
-            this.textBox65.TabIndex = 76;
-            this.textBox65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox66
-            // 
-            this.textBox66.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox66.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox66.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox66.Location = new System.Drawing.Point(762, 579);
-            this.textBox66.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox66.Name = "textBox66";
-            this.textBox66.Size = new System.Drawing.Size(138, 25);
-            this.textBox66.TabIndex = 77;
-            this.textBox66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox67
-            // 
-            this.textBox67.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox67.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox67.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox67.Location = new System.Drawing.Point(913, 579);
-            this.textBox67.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox67.Name = "textBox67";
-            this.textBox67.Size = new System.Drawing.Size(138, 25);
-            this.textBox67.TabIndex = 78;
-            this.textBox67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox68
-            // 
-            this.textBox68.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox68.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox68.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox68.Location = new System.Drawing.Point(1064, 579);
-            this.textBox68.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox68.Name = "textBox68";
-            this.textBox68.Size = new System.Drawing.Size(138, 25);
-            this.textBox68.TabIndex = 79;
-            this.textBox68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox69
-            // 
-            this.textBox69.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox69.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox69.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox69.Location = new System.Drawing.Point(1215, 579);
-            this.textBox69.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox69.Name = "textBox69";
-            this.textBox69.Size = new System.Drawing.Size(138, 25);
-            this.textBox69.TabIndex = 80;
-            this.textBox69.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox70
-            // 
-            this.textBox70.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox70.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox70.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox70.Location = new System.Drawing.Point(1366, 579);
-            this.textBox70.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox70.Name = "textBox70";
-            this.textBox70.Size = new System.Drawing.Size(138, 25);
-            this.textBox70.TabIndex = 81;
-            this.textBox70.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txbUnitAi7
-            // 
-            this.txbUnitAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txbUnitAi7.BackColor = System.Drawing.SystemColors.Control;
-            this.txbUnitAi7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi7.Location = new System.Drawing.Point(158, 657);
-            this.txbUnitAi7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txbUnitAi7.Name = "txbUnitAi7";
-            this.txbUnitAi7.Size = new System.Drawing.Size(138, 25);
-            this.txbUnitAi7.TabIndex = 82;
-            this.txbUnitAi7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox72
-            // 
-            this.textBox72.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox72.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox72.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox72.Location = new System.Drawing.Point(309, 657);
-            this.textBox72.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox72.Name = "textBox72";
-            this.textBox72.Size = new System.Drawing.Size(138, 25);
-            this.textBox72.TabIndex = 83;
-            this.textBox72.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox73
-            // 
-            this.textBox73.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox73.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox73.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox73.Location = new System.Drawing.Point(460, 657);
-            this.textBox73.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox73.Name = "textBox73";
-            this.textBox73.Size = new System.Drawing.Size(138, 25);
-            this.textBox73.TabIndex = 84;
-            this.textBox73.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox74
-            // 
-            this.textBox74.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox74.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox74.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox74.Location = new System.Drawing.Point(611, 657);
-            this.textBox74.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox74.Name = "textBox74";
-            this.textBox74.Size = new System.Drawing.Size(138, 25);
-            this.textBox74.TabIndex = 85;
-            this.textBox74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox75
-            // 
-            this.textBox75.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox75.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox75.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox75.Location = new System.Drawing.Point(762, 657);
-            this.textBox75.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox75.Name = "textBox75";
-            this.textBox75.Size = new System.Drawing.Size(138, 25);
-            this.textBox75.TabIndex = 86;
-            this.textBox75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox76
-            // 
-            this.textBox76.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox76.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox76.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox76.Location = new System.Drawing.Point(913, 657);
-            this.textBox76.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox76.Name = "textBox76";
-            this.textBox76.Size = new System.Drawing.Size(138, 25);
-            this.textBox76.TabIndex = 87;
-            this.textBox76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox77
-            // 
-            this.textBox77.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox77.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox77.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox77.Location = new System.Drawing.Point(1064, 657);
-            this.textBox77.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox77.Name = "textBox77";
-            this.textBox77.Size = new System.Drawing.Size(138, 25);
-            this.textBox77.TabIndex = 88;
-            this.textBox77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox78
-            // 
-            this.textBox78.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox78.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox78.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox78.Location = new System.Drawing.Point(1215, 657);
-            this.textBox78.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox78.Name = "textBox78";
-            this.textBox78.Size = new System.Drawing.Size(138, 25);
-            this.textBox78.TabIndex = 89;
-            this.textBox78.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox79
-            // 
-            this.textBox79.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox79.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox79.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox79.Location = new System.Drawing.Point(1366, 657);
-            this.textBox79.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox79.Name = "textBox79";
-            this.textBox79.Size = new System.Drawing.Size(138, 25);
-            this.textBox79.TabIndex = 90;
-            this.textBox79.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // button1
-            // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(1545, 925);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.button1.Size = new System.Drawing.Size(118, 53);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Save";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // txbNameAi1
+            // 
+            this.txbNameAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbNameAi1.BackColor = System.Drawing.SystemColors.Control;
+            this.txbNameAi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbNameAi1.Location = new System.Drawing.Point(7, 190);
+            this.txbNameAi1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbNameAi1.Name = "txbNameAi1";
+            this.txbNameAi1.Size = new System.Drawing.Size(138, 25);
+            this.txbNameAi1.TabIndex = 18;
+            this.txbNameAi1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
+            this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSave.Location = new System.Drawing.Point(1545, 925);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.btnSave.Size = new System.Drawing.Size(118, 53);
+            this.btnSave.TabIndex = 14;
+            this.btnSave.Text = "Save";
+            this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.button1_Click);
             // 
             // tableLayoutPanel2
             // 
@@ -1504,9 +1506,9 @@
             this.tableLayoutPanel2.Controls.Add(this.label12, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.label13, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.label14, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.textBox1, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.textBox2, 1, 1);
-            this.tableLayoutPanel2.Controls.Add(this.textBox3, 2, 1);
+            this.tableLayoutPanel2.Controls.Add(this.txbVentTime, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.txbAnalysisTime, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.txbCycleTime, 2, 1);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(50, 790);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
@@ -1534,13 +1536,14 @@
             this.label13.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(701, 13);
+            this.label13.Location = new System.Drawing.Point(734, 13);
             this.label13.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(225, 24);
+            this.label13.Size = new System.Drawing.Size(159, 24);
             this.label13.TabIndex = 18;
-            this.label13.Text = "Valve Switching Time (s)";
+            this.label13.Text = "Analysis Time (s)";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label14
             // 
@@ -1555,41 +1558,41 @@
             this.label14.Text = "Sample Cycle (s)";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // txbVentTime
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(50, 62);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(449, 25);
-            this.textBox1.TabIndex = 18;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbVentTime.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbVentTime.BackColor = System.Drawing.SystemColors.Control;
+            this.txbVentTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbVentTime.Location = new System.Drawing.Point(50, 62);
+            this.txbVentTime.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbVentTime.Name = "txbVentTime";
+            this.txbVentTime.Size = new System.Drawing.Size(449, 25);
+            this.txbVentTime.TabIndex = 18;
+            this.txbVentTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox2
+            // txbAnalysisTime
             // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(589, 62);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(449, 25);
-            this.textBox2.TabIndex = 18;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbAnalysisTime.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbAnalysisTime.BackColor = System.Drawing.SystemColors.Control;
+            this.txbAnalysisTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbAnalysisTime.Location = new System.Drawing.Point(589, 62);
+            this.txbAnalysisTime.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbAnalysisTime.Name = "txbAnalysisTime";
+            this.txbAnalysisTime.Size = new System.Drawing.Size(449, 25);
+            this.txbAnalysisTime.TabIndex = 18;
+            this.txbAnalysisTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox3
+            // txbCycleTime
             // 
-            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(1121, 62);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(449, 25);
-            this.textBox3.TabIndex = 18;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbCycleTime.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbCycleTime.BackColor = System.Drawing.SystemColors.Control;
+            this.txbCycleTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbCycleTime.Location = new System.Drawing.Point(1121, 62);
+            this.txbCycleTime.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbCycleTime.Name = "txbCycleTime";
+            this.txbCycleTime.Size = new System.Drawing.Size(449, 25);
+            this.txbCycleTime.TabIndex = 18;
+            this.txbCycleTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Setting
             // 
@@ -1598,7 +1601,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1712, 1002);
             this.Controls.Add(this.tableLayoutPanel2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -1636,78 +1639,78 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox72;
-        private System.Windows.Forms.TextBox textBox73;
-        private System.Windows.Forms.TextBox textBox74;
-        private System.Windows.Forms.TextBox textBox75;
-        private System.Windows.Forms.TextBox textBox76;
-        private System.Windows.Forms.TextBox textBox77;
-        private System.Windows.Forms.TextBox textBox78;
-        private System.Windows.Forms.TextBox textBox79;
-        private System.Windows.Forms.TextBox textBox64;
-        private System.Windows.Forms.TextBox textBox65;
-        private System.Windows.Forms.TextBox textBox66;
-        private System.Windows.Forms.TextBox textBox67;
-        private System.Windows.Forms.TextBox textBox68;
-        private System.Windows.Forms.TextBox textBox69;
-        private System.Windows.Forms.TextBox textBox70;
+        private System.Windows.Forms.TextBox txbSensorMin7;
+        private System.Windows.Forms.TextBox txbSensorMax7;
+        private System.Windows.Forms.TextBox txbOffsetAi7;
+        private System.Windows.Forms.TextBox txbSlopeAi7;
+        private System.Windows.Forms.TextBox txbMesurementMin7;
+        private System.Windows.Forms.TextBox txbMesurementMax7;
+        private System.Windows.Forms.TextBox txbLowAlarm7;
+        private System.Windows.Forms.TextBox tbxHighAlarm7;
+        private System.Windows.Forms.TextBox txbSensorMax6;
+        private System.Windows.Forms.TextBox txbOffsetAi6;
+        private System.Windows.Forms.TextBox txbSlopeAi6;
+        private System.Windows.Forms.TextBox txbMesurementMin6;
+        private System.Windows.Forms.TextBox txbMesurementMax6;
+        private System.Windows.Forms.TextBox txbLowAlarm6;
+        private System.Windows.Forms.TextBox tbxHighAlarm6;
         private System.Windows.Forms.TextBox txbUnitAi7;
-        private System.Windows.Forms.TextBox textBox56;
-        private System.Windows.Forms.TextBox textBox57;
-        private System.Windows.Forms.TextBox textBox58;
-        private System.Windows.Forms.TextBox textBox59;
-        private System.Windows.Forms.TextBox textBox60;
-        private System.Windows.Forms.TextBox textBox61;
+        private System.Windows.Forms.TextBox txbOffsetAi5;
+        private System.Windows.Forms.TextBox txbSlopeAi5;
+        private System.Windows.Forms.TextBox txbMesurementMin5;
+        private System.Windows.Forms.TextBox txbMesurementMax5;
+        private System.Windows.Forms.TextBox txbLowAlarm5;
+        private System.Windows.Forms.TextBox tbxHighAlarm5;
         private System.Windows.Forms.TextBox txbUnitAi6;
-        private System.Windows.Forms.TextBox textBox63;
-        private System.Windows.Forms.TextBox textBox48;
-        private System.Windows.Forms.TextBox textBox49;
-        private System.Windows.Forms.TextBox textBox50;
-        private System.Windows.Forms.TextBox textBox51;
-        private System.Windows.Forms.TextBox textBox52;
+        private System.Windows.Forms.TextBox txbSensorMin6;
+        private System.Windows.Forms.TextBox txbSlopeAi4;
+        private System.Windows.Forms.TextBox txbMesurementMin4;
+        private System.Windows.Forms.TextBox txbMesurementMax4;
+        private System.Windows.Forms.TextBox txbLowAlarm4;
+        private System.Windows.Forms.TextBox tbxHighAlarm4;
         private System.Windows.Forms.TextBox txbUnitAi5;
-        private System.Windows.Forms.TextBox textBox54;
-        private System.Windows.Forms.TextBox textBox55;
-        private System.Windows.Forms.TextBox textBox40;
-        private System.Windows.Forms.TextBox textBox41;
-        private System.Windows.Forms.TextBox textBox42;
-        private System.Windows.Forms.TextBox textBox43;
+        private System.Windows.Forms.TextBox txbSensorMin5;
+        private System.Windows.Forms.TextBox txbSensorMax5;
+        private System.Windows.Forms.TextBox txbMesurementMin3;
+        private System.Windows.Forms.TextBox txbMesurementMax3;
+        private System.Windows.Forms.TextBox txbLowAlarm3;
+        private System.Windows.Forms.TextBox tbxHighAlarm3;
         private System.Windows.Forms.TextBox txbUnitAi4;
-        private System.Windows.Forms.TextBox textBox45;
-        private System.Windows.Forms.TextBox textBox46;
-        private System.Windows.Forms.TextBox textBox47;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.TextBox txbSensorMin4;
+        private System.Windows.Forms.TextBox txbSensorMax4;
+        private System.Windows.Forms.TextBox txbOffsetAi4;
+        private System.Windows.Forms.TextBox txbMesurementMax2;
+        private System.Windows.Forms.TextBox txbLowAlarm2;
+        private System.Windows.Forms.TextBox tbxHighAlarm2;
         private System.Windows.Forms.TextBox txbUnitAi3;
-        private System.Windows.Forms.TextBox textBox36;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox38;
-        private System.Windows.Forms.TextBox textBox39;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.TextBox txbSensorMin3;
+        private System.Windows.Forms.TextBox txbSensorMax3;
+        private System.Windows.Forms.TextBox txbOffsetAi3;
+        private System.Windows.Forms.TextBox txbSlopeAi3;
+        private System.Windows.Forms.TextBox txbLowAlarm1;
+        private System.Windows.Forms.TextBox tbxHighAlarm1;
         private System.Windows.Forms.TextBox txbUnitAi2;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox txbSensorMin2;
+        private System.Windows.Forms.TextBox txbSensorMax2;
+        private System.Windows.Forms.TextBox txbOffsetAi2;
+        private System.Windows.Forms.TextBox txbSlopeAi2;
+        private System.Windows.Forms.TextBox txbMesurementMin2;
+        private System.Windows.Forms.TextBox tbxHighAlarm0;
         private System.Windows.Forms.TextBox txbUnitAi1;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.TextBox txbSensorMin1;
+        private System.Windows.Forms.TextBox txbSensorMax1;
+        private System.Windows.Forms.TextBox txbOffsetAi1;
+        private System.Windows.Forms.TextBox txbSlopeAi1;
+        private System.Windows.Forms.TextBox txbMesurementMin1;
+        private System.Windows.Forms.TextBox txbMesurementMax1;
         private System.Windows.Forms.TextBox txbUnitAi0;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox txbSensorMin0;
+        private System.Windows.Forms.TextBox txbSensorMax0;
+        private System.Windows.Forms.TextBox txbOffsetAi0;
+        private System.Windows.Forms.TextBox txbSlopeAi0;
+        private System.Windows.Forms.TextBox txbMesurementMin0;
+        private System.Windows.Forms.TextBox txbMesurementMax0;
+        private System.Windows.Forms.TextBox txbLowAlarm0;
         private System.Windows.Forms.TextBox txbNameAi0;
         private System.Windows.Forms.TextBox txbNameAi1;
         private System.Windows.Forms.TextBox txbNameAi2;
@@ -1716,13 +1719,13 @@
         private System.Windows.Forms.TextBox txbNameAi5;
         private System.Windows.Forms.TextBox txbNameAi6;
         private System.Windows.Forms.TextBox txbNameAi7;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txbVentTime;
+        private System.Windows.Forms.TextBox txbAnalysisTime;
+        private System.Windows.Forms.TextBox txbCycleTime;
     }
 }

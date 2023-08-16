@@ -31,6 +31,7 @@ namespace DataLoggerAppV1
         public Label AiDataCh5;
         public Label AiDataCh6;
         public Label AiDataCh7;
+        
 
         public Dashboard()
         {
@@ -79,28 +80,6 @@ namespace DataLoggerAppV1
                             }
                             else
                             {
-                                //    Invoke(new Action(() =>
-                                //    {
-                                //        lblAiDataCh0.Text = Convert.ToString(Convert.ToInt32(((uint)plc.Read("DB4.DBD0.0")).ConvertToDouble() * 100) / 100F);
-                                //        lblAiDataCh1.Text = Convert.ToString(Convert.ToInt32(((uint)plc.Read("DB4.DBD4.0")).ConvertToDouble() * 100) / 100F);
-                                //        lblAiDataCh2.Text = Convert.ToString(Convert.ToInt32(((uint)plc.Read("DB4.DBD8.0")).ConvertToDouble() * 100) / 100F);
-                                //        lblAiDataCh3.Text = Convert.ToString(Convert.ToInt32(((uint)plc.Read("DB4.DBD12.0")).ConvertToDouble() * 100) / 100F);
-                                //        lblAiDataCh4.Text = Convert.ToString(Convert.ToInt32(((uint)plc.Read("DB4.DBD16.0")).ConvertToDouble() * 100) / 100F);
-                                //        lblAiDataCh5.Text = Convert.ToString(Convert.ToInt32(((uint)plc.Read("DB4.DBD20.0")).ConvertToDouble() * 100) / 100F);
-                                //        lblAiDataCh6.Text = Convert.ToString(Convert.ToInt32(((uint)plc.Read("DB4.DBD24.0")).ConvertToDouble() * 100) / 100F);
-                                //        lblAiDataCh7.Text = Convert.ToString(Convert.ToInt32(((uint)plc.Read("DB4.DBD28.0")).ConvertToDouble() * 100) / 100F);
-
-                                //        barStream1.Value = (ushort)plc.Read("DB4.DBW32.0");
-                                //        barStream2.Value = (ushort)plc.Read("DB4.DBW34.0");
-                                //        barStream3.Value = (ushort)plc.Read("DB4.DBW36.0");
-                                //        barStream4.Value = (ushort)plc.Read("DB4.DBW38.0");
-                                //        barStream5.Value = (ushort)plc.Read("DB4.DBW40.0");
-                                //        barStream6.Value = (ushort)plc.Read("DB4.DBW42.0");
-                                //        barStream7.Value = (ushort)plc.Read("DB4.DBW44.0");
-                                //        barStream8.Value = (ushort)plc.Read("DB4.DBW46.0");
-
-                                //    }));
-
                                 // Read AI Data From PLC
                                 var DbAiData = new DbAiData();
                                 plc.ReadClass(DbAiData, 4);
@@ -125,7 +104,6 @@ namespace DataLoggerAppV1
                                     barAi7.Value = DbAiData.AiPercent7;
                                 }));
 
-
                                 // Read Setting Data From PLC
                                 var DbSettingData = new DbSettingData();
                                 plc.ReadClass(DbSettingData, 1);
@@ -140,22 +118,14 @@ namespace DataLoggerAppV1
                                     lblLowAlarm6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmLow6 * 100) / 100F);
                                     lblLowAlarm7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmLow7 * 100) / 100F);
 
-                                    lblHighAlarm0.Text =
-                                        Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh0 * 100) / 100F);
-                                    lblHighAlarm1.Text =
-                                        Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh1 * 100) / 100F);
-                                    lblHighAlarm2.Text =
-                                        Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh2 * 100) / 100F);
-                                    lblHighAlarm3.Text =
-                                        Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh3 * 100) / 100F);
-                                    lblHighAlarm4.Text =
-                                        Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh4 * 100) / 100F);
-                                    lblHighAlarm5.Text =
-                                        Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh5 * 100) / 100F);
-                                    lblHighAlarm6.Text =
-                                        Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh6 * 100) / 100F);
-                                    lblHighAlarm7.Text =
-                                        Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh7 * 100) / 100F);
+                                    lblHighAlarm0.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh0 * 100) / 100F);
+                                    lblHighAlarm1.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh1 * 100) / 100F);
+                                    lblHighAlarm2.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh2 * 100) / 100F);
+                                    lblHighAlarm3.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh3 * 100) / 100F);
+                                    lblHighAlarm4.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh4 * 100) / 100F);
+                                    lblHighAlarm5.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh5 * 100) / 100F);
+                                    lblHighAlarm6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh6 * 100) / 100F);
+                                    lblHighAlarm7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh7 * 100) / 100F);
                                 }));
                                 
 
@@ -164,7 +134,6 @@ namespace DataLoggerAppV1
                                 plc.ReadClass(DbReadBool, 13);
                                 Invoke(new Action(() =>
                                 {
-
                                     //Button Status
                                     btnStream1.BackColor = DbReadBool.MStreamStatus1 ? Color.LightGreen : SystemColors.ControlLight;
                                     btnStream2.BackColor = DbReadBool.MStreamStatus2 ? Color.LightGreen : SystemColors.ControlLight;
@@ -189,13 +158,50 @@ namespace DataLoggerAppV1
                                         btnManMode.BackColor = Color.LightBlue;
                                     }
                                     
-                                    
+                                    // System Status
+                                    if (DbReadBool.SystemStatusAuto)
+                                    {
+                                        lblAlarmSystem.BackColor = Color.LightGreen;
+                                    }
+                                    else if (DbReadBool.SystemStatusMan)
+                                    {
+                                        lblAlarmSystem.BackColor = Color.LightBlue;
+                                    }
+                                    else if (DbReadBool.SystemStatusLowAlarm)
+                                    {
+                                        lblAlarmSystem.BackColor = Color.Gold;
+                                    }
+                                    else if (DbReadBool.SystemStatusHighAlarm)
+                                    {
+                                        lblAlarmSystem.BackColor = Color.LightCoral;
+                                    }
+                                    else
+                                    {
+                                        lblAlarmSystem.BackColor = SystemColors.ControlLight;
+                                    }
+
+                                    // System Running Status
+                                    if (DbReadBool.SystemRunningAuto)
+                                    {
+                                        lblAlarmSystem.Text = "SYSTEM RUNNING (AUTO MODE)";
+                                    }
+                                    else if(DbReadBool.SystemRunningMan)
+                                    {
+                                        lblAlarmSystem.Text = "SYSTEM RUNNING (MAN MODE)";
+                                    }
+                                    else
+                                    {
+                                        lblAlarmSystem.Text = "SYSTEM STOPED";
+                                    }
+                                }));
+
+                                Invoke(new Action(() =>
+                                {
                                     // Ai0 Status
                                     if (DbReadBool.LowAlarm0)
                                     {
                                         lblAlarmAi0.BackColor = Color.Gold;
                                         ModifyProgressBarColor.SetState(barAi0, progessBarYellow);
-
                                     }
                                     else if (DbReadBool.HighAlarm0)
                                     {
@@ -326,43 +332,6 @@ namespace DataLoggerAppV1
                                         lblAlarmAi7.BackColor = Color.LightGreen;
                                         ModifyProgressBarColor.SetState(barAi7, progessBarGreen);
                                     }
-
-                                    // System Status
-                                    if (DbReadBool.SystemStatusAuto)
-                                    {
-                                        lblAlarmSystem.BackColor = Color.LightGreen;
-                                    }
-                                    else if (DbReadBool.SystemStatusMan)
-                                    {
-                                        lblAlarmSystem.BackColor = Color.LightBlue;
-                                    }
-                                    else if (DbReadBool.SystemStatusLowAlarm)
-                                    {
-                                        lblAlarmSystem.BackColor = Color.Gold;
-                                    }
-                                    else if (DbReadBool.SystemStatusHighAlarm)
-                                    {
-                                        lblAlarmSystem.BackColor = Color.LightCoral;
-                                    }
-                                    else
-                                    {
-                                        lblAlarmSystem.BackColor = SystemColors.ControlLight;
-                                    }
-
-                                    // System Running Status
-                                    if (DbReadBool.SystemRunningAuto)
-                                    {
-                                        lblAlarmSystem.Text = "SYSTEM RUNNING (AUTO MODE)";
-                                    }
-                                    else if(DbReadBool.SystemRunningMan)
-                                    {
-                                        lblAlarmSystem.Text = "SYSTEM RUNNING (MAN MODE)";
-                                    }
-                                    else
-                                    {
-                                        lblAlarmSystem.Text = "SYSTEM STOPED";
-                                    }
-
                                 }));
                             }
                         }
@@ -378,14 +347,10 @@ namespace DataLoggerAppV1
             }
         }
 
-        
-
-
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
-
 
         private void label1_Click(object sender, EventArgs e)
         {

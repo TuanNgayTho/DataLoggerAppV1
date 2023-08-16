@@ -76,6 +76,7 @@
     </Compile>
     <Compile Include="DbAiData.cs" />
     <Compile Include="DbSettingData.cs" />
+    <Compile Include="DbEnableSignal.cs" />
     <Compile Include="Export.cs">
       <SubType>Form</SubType>
     </Compile>

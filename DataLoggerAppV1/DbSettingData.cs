@@ -80,7 +80,7 @@ namespace DataLoggerAppV1
         public double MeasureRangeMax6 { get; set; }
         public double MeasureRangeMax7 { get; set; }
 
-        public double CycleTime { get; set; }
-        public double BypassTime { get; set; }
+        public int AnalysisTime { get; set; }
+        public int VentTime { get; set; }
     }
 }

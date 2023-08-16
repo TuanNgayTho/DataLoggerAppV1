@@ -346,5 +346,17 @@ namespace DataLoggerAppV1.Properties {
                 this["URL"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("5")]
+        public string CycleTime {
+            get {
+                return ((string)(this["CycleTime"]));
+            }
+            set {
+                this["CycleTime"] = value;
+            }
+        }
     }
 }
