@@ -1486,10 +1486,10 @@
             // 
             this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSave.Location = new System.Drawing.Point(1545, 925);
+            this.btnSave.Location = new System.Drawing.Point(1512, 925);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.btnSave.Size = new System.Drawing.Size(118, 53);
+            this.btnSave.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.btnSave.Size = new System.Drawing.Size(151, 53);
             this.btnSave.TabIndex = 14;
             this.btnSave.Text = "Save";
             this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

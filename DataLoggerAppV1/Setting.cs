@@ -330,6 +330,28 @@ namespace DataLoggerAppV1
                         DbEnableSignal.DisconnectAi7 = cbxAi7.Checked;
 
                         plc.WriteClass(DbEnableSignal, 19);
+
+                        Properties.Settings.Default.UnitAi0 = txbUnitAi0.Text;
+                        Properties.Settings.Default.UnitAi1 = txbUnitAi1.Text;
+                        Properties.Settings.Default.UnitAi2 = txbUnitAi2.Text;
+                        Properties.Settings.Default.UnitAi3 = txbUnitAi3.Text;
+                        Properties.Settings.Default.UnitAi4 = txbUnitAi4.Text;
+                        Properties.Settings.Default.UnitAi5 = txbUnitAi5.Text;
+                        Properties.Settings.Default.UnitAi6 = txbUnitAi6.Text;
+                        Properties.Settings.Default.UnitAi7 = txbUnitAi7.Text;
+
+                        Properties.Settings.Default.NameAi0 = txbNameAi0.Text;
+                        Properties.Settings.Default.NameAi1 = txbNameAi1.Text;
+                        Properties.Settings.Default.NameAi2 = txbNameAi2.Text;
+                        Properties.Settings.Default.NameAi3 = txbNameAi3.Text;
+                        Properties.Settings.Default.NameAi4 = txbNameAi4.Text;
+                        Properties.Settings.Default.NameAi5 = txbNameAi5.Text;
+                        Properties.Settings.Default.NameAi6 = txbNameAi6.Text;
+                        Properties.Settings.Default.NameAi7 = txbNameAi7.Text;
+
+                        Properties.Settings.Default.CycleTime = txbCycleTime.Text;
+
+                        Properties.Settings.Default.Save();
                         MessageBox.Show("Save Successful!");
                     }
                 }
