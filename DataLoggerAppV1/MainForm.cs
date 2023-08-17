@@ -82,19 +82,16 @@ namespace DataLoggerAppV1
                                 {
                                     if (cmd.ExecuteNonQuery() == 1)
                                     {
-                                        MessageBox.Show("ok");
                                     }
                                 }
                                 catch (Exception e)
                                 {
-                                    MessageBox.Show(e.Message);
                                 }
                             }
                         }
                     }
                     catch (Exception e)
                     {
-                        MessageBox.Show(e.Message);
                         plc.Close();
                         Thread.Sleep(100);
                         result = plc.Open();
