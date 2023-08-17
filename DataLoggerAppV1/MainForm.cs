@@ -67,29 +67,34 @@ namespace DataLoggerAppV1
 
                             //Connect To Mysql
                             string server = "localhost";
-                            string database = "world";
+                            string database = "datalogger";
                             string uid = "root";
                             string password = "root";
                             string constring = "Server=" + server + "; database=" + database + "; uid=" + uid + "; pwd=" + password;
                             using (MySqlConnection con = new MySqlConnection(constring))
                             {
                                 con.Open();
-                                var query = "select * from city";
+                                var query = "INSERT INTO samples (aivalue0, aivalue1, aivalue2, aivalue3, aivalue4, aivalue5, aivalue6, aivalue7) " +
+                                            "VALUES (" + DbAiData.Ai0 + ", " + DbAiData.Ai1 + ", "+DbAiData.Ai2+"," + DbAiData.Ai3 + ", " + DbAiData.Ai4 + ", "+DbAiData.Ai5+", " + DbAiData.Ai6 + ", "+DbAiData.Ai7+");";
                                 StringBuilder bu = new StringBuilder();
-                                using (MySqlCommand cmd = new MySqlCommand(query, con))
+                                MySqlCommand cmd = new MySqlCommand(query, con);
+                                try
                                 {
-                                    MySqlDataReader reader = cmd.ExecuteReader();
-                                    while (reader.Read())
+                                    if (cmd.ExecuteNonQuery() == 1)
                                     {
-                                        bu.Append(reader.GetString(1));
+                                        MessageBox.Show("ok");
                                     }
-                                    MessageBox.Show(bu.ToString());
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
                                 }
                             }
                         }
                     }
                     catch (Exception e)
                     {
+                        MessageBox.Show(e.Message);
                         plc.Close();
                         Thread.Sleep(100);
                         result = plc.Open();

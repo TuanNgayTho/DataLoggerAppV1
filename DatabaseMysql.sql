@@ -2,7 +2,6 @@ CREATE DATABASE datalogger;
 USE datalogger;
 CREATE TABLE samples(
 	id int primary key not null auto_increment,
-    ainame varchar(50) default "undefined",
     aivalue0 float default 0,
     aivalue1 float default 0,
     aivalue2 float default 0,
