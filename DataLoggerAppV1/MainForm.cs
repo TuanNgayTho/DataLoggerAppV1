@@ -37,12 +37,12 @@ namespace DataLoggerAppV1
             // Creat a new thread and then run method Connect PLC
             Thread t = new Thread(() =>
             {
-                ConnectToPlc();
+                WriteSampleToDatabase();
             });
             t.IsBackground = true;
             t.Start();
         }
-        private void ConnectToPlc()
+        private void WriteSampleToDatabase()
         {
             while (true)
             {
