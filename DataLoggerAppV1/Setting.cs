@@ -48,7 +48,7 @@ namespace DataLoggerAppV1
             txbNameAi6.Text = Properties.Settings.Default.NameAi6;
             txbNameAi7.Text = Properties.Settings.Default.NameAi7;
 
-            txbCycleTime.Text = Properties.Settings.Default.CycleTime;
+            txbCycleTime.Text = Convert.ToString(Properties.Settings.Default.CycleTime / 1000);
 
             ReadFromPlc();
         }
@@ -349,7 +349,7 @@ namespace DataLoggerAppV1
                         Properties.Settings.Default.NameAi6 = txbNameAi6.Text;
                         Properties.Settings.Default.NameAi7 = txbNameAi7.Text;
 
-                        Properties.Settings.Default.CycleTime = txbCycleTime.Text;
+                        Properties.Settings.Default.CycleTime = Convert.ToInt32(txbCycleTime.Text) * 1000;
 
                         Properties.Settings.Default.Save();
                         MessageBox.Show("Save Successful!");

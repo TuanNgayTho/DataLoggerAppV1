@@ -1,6 +1,6 @@
 ﻿namespace DataLoggerAppV1
 {
-    partial class Export
+    partial class Trend
     {
         /// <summary>
         /// Required designer variable.

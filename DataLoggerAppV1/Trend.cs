@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace DataLoggerAppV1
 {
-    public partial class Export : Form
+    public partial class Trend : Form
     {
-        public Export()
+        public Trend()
         {
             InitializeComponent();
         }

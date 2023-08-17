@@ -350,9 +350,9 @@ namespace DataLoggerAppV1.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
-        public string CycleTime {
+        public int CycleTime {
             get {
-                return ((string)(this["CycleTime"]));
+                return ((int)(this["CycleTime"]));
             }
             set {
                 this["CycleTime"] = value;

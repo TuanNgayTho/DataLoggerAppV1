@@ -558,6 +558,4 @@ namespace DataLoggerAppV1
             SendMessage(pBar.Handle, 1040, (IntPtr)state, IntPtr.Zero);
         }
     }
-
-
 }
