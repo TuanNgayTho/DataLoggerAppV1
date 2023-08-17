@@ -11,8 +11,7 @@ CREATE TABLE samples(
     aivalue5 float default 0,
     aivalue6 float default 0,
     aivalue7 float default 0,
-    ts TIMESTAMP  DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    dt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    ts TIMESTAMP  DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 CREATE TABLE alarmlist(
 	id int primary key not null auto_increment,
@@ -25,10 +24,7 @@ CREATE TABLE alarmlist(
     aivalue5 float default 0,
     aivalue6 float default 0,
     aivalue7 float default 0,
-    lowalarm bool default false,
-    highalarm bool default false,
-    statusincominglow bool default false,
-    statusincominghigh bool default false,
-    ts TIMESTAMP  DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    dt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    alarmstatuscolor bool default false, -- false => low alarm, true => high alarm
+    alarmstatus bool default false, -- false => mới xảy ra lỗi, true => lỗi đã kết thúc
+    ts TIMESTAMP  DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
