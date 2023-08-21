@@ -125,6 +125,24 @@ namespace DataLoggerAppV1
                                     lblHighAlarm5.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh5 * 100) / 100F);
                                     lblHighAlarm6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh6 * 100) / 100F);
                                     lblHighAlarm7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh7 * 100) / 100F);
+
+                                    lblMeasurementMinRange0.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin0 * 100) / 100F);
+                                    lblMeasurementMinRange1.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin1 * 100) / 100F);
+                                    lblMeasurementMinRange2.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin2 * 100) / 100F);
+                                    lblMeasurementMinRange3.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin3 * 100) / 100F);
+                                    lblMeasurementMinRange4.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin4 * 100) / 100F);
+                                    lblMeasurementMinRange5.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin5 * 100) / 100F);
+                                    lblMeasurementMinRange6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin6 * 100) / 100F);
+                                    lblMeasurementMinRange7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin7 * 100) / 100F);
+
+                                    lblMeasurementMaxRange0.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax0 * 100) / 100F);
+                                    lblMeasurementMaxRange1.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax1 * 100) / 100F);
+                                    lblMeasurementMaxRange2.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax2 * 100) / 100F);
+                                    lblMeasurementMaxRange3.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax3 * 100) / 100F);
+                                    lblMeasurementMaxRange4.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax4 * 100) / 100F);
+                                    lblMeasurementMaxRange5.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax5 * 100) / 100F);
+                                    lblMeasurementMaxRange6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax6 * 100) / 100F);
+                                    lblMeasurementMaxRange7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax7 * 100) / 100F);
                                 }));
                                 
 
@@ -200,136 +218,160 @@ namespace DataLoggerAppV1
                                     if (DbReadBool.LowAlarm0)
                                     {
                                         lblAlarmAi0.BackColor = Color.Gold;
-                                        ModifyProgressBarColor.SetState(barAi0, progessBarYellow);
+                                        barAi0.ForeColor = Color.Gold;
+                                        //ModifyProgressBarColor.SetState(barAi0, progessBarYellow);
                                     }
                                     else if (DbReadBool.HighAlarm0)
                                     {
                                         lblAlarmAi0.BackColor = Color.LightCoral;
-                                        ModifyProgressBarColor.SetState(barAi0, progessBarRed);
+                                        barAi0.ForeColor = Color.LightCoral;
+                                        //ModifyProgressBarColor.SetState(barAi0, progessBarRed);
                                     }
                                     else
                                     {
                                         lblAlarmAi0.BackColor = Color.LightGreen;
-                                        ModifyProgressBarColor.SetState(barAi0, progessBarGreen);
+                                        barAi0.ForeColor = Color.LightGreen;
+                                        //ModifyProgressBarColor.SetState(barAi0, progessBarGreen);
                                     }
 
                                     // Ai1 Status
                                     if (DbReadBool.LowAlarm1)
                                     {
                                         lblAlarmAi1.BackColor = Color.Gold;
-                                        ModifyProgressBarColor.SetState(barAi1, progessBarYellow);
+                                        barAi1.ForeColor = Color.Gold;
+                                        //ModifyProgressBarColor.SetState(barAi1, progessBarYellow);
                                     }
                                     else if (DbReadBool.HighAlarm1)
                                     {
                                         lblAlarmAi1.BackColor = Color.LightCoral;
-                                        ModifyProgressBarColor.SetState(barAi1, progessBarRed);
+                                        barAi1.ForeColor = Color.LightCoral;
+                                        //ModifyProgressBarColor.SetState(barAi1, progessBarRed);
                                     }
                                     else
                                     {
                                         lblAlarmAi1.BackColor = Color.LightGreen;
-                                        ModifyProgressBarColor.SetState(barAi1, progessBarGreen);
+                                        barAi1.ForeColor = Color.LightGreen;
+                                        //ModifyProgressBarColor.SetState(barAi1, progessBarGreen);
                                     }
 
                                     // Ai2 Status
                                     if (DbReadBool.LowAlarm2)
                                     {
                                         lblAlarmAi2.BackColor = Color.Gold;
-                                        ModifyProgressBarColor.SetState(barAi2, progessBarYellow);
+                                        barAi2.ForeColor = Color.Gold;
+                                        //ModifyProgressBarColor.SetState(barAi2, progessBarYellow);
                                     }
                                     else if (DbReadBool.HighAlarm2)
                                     {
                                         lblAlarmAi2.BackColor = Color.LightCoral;
-                                        ModifyProgressBarColor.SetState(barAi2, progessBarRed);
+                                        barAi2.ForeColor = Color.LightCoral;
+                                        //ModifyProgressBarColor.SetState(barAi2, progessBarRed);
                                     }
                                     else
                                     {
                                         lblAlarmAi2.BackColor = Color.LightGreen;
-                                        ModifyProgressBarColor.SetState(barAi2, progessBarGreen);
+                                        barAi2.ForeColor = Color.LightGreen;
+                                        //ModifyProgressBarColor.SetState(barAi2, progessBarGreen);
                                     }
 
                                     // Ai3 Status
                                     if (DbReadBool.LowAlarm3)
                                     {
                                         lblAlarmAi3.BackColor = Color.Gold;
-                                        ModifyProgressBarColor.SetState(barAi3, progessBarYellow);
+                                        barAi3.ForeColor = Color.Gold;
+                                        //ModifyProgressBarColor.SetState(barAi3, progessBarYellow);
                                     }
                                     else if (DbReadBool.HighAlarm3)
                                     {
                                         lblAlarmAi3.BackColor = Color.LightCoral;
-                                        ModifyProgressBarColor.SetState(barAi3, progessBarRed);
+                                        barAi3.ForeColor = Color.LightCoral;
+                                        //ModifyProgressBarColor.SetState(barAi3, progessBarRed);
                                     }
                                     else
                                     {
                                         lblAlarmAi3.BackColor = Color.LightGreen;
-                                        ModifyProgressBarColor.SetState(barAi3, progessBarGreen);
+                                        barAi3.ForeColor = Color.LightGreen;
+                                        //ModifyProgressBarColor.SetState(barAi3, progessBarGreen);
                                     }
 
                                     // Ai4 Status
                                     if (DbReadBool.LowAlarm4)
                                     {
                                         lblAlarmAi4.BackColor = Color.Gold;
-                                        ModifyProgressBarColor.SetState(barAi4, progessBarYellow);
+                                        barAi4.ForeColor = Color.Gold;
+                                        //ModifyProgressBarColor.SetState(barAi4, progessBarYellow);
                                     }
                                     else if (DbReadBool.HighAlarm4)
                                     {
                                         lblAlarmAi4.BackColor = Color.LightCoral;
-                                        ModifyProgressBarColor.SetState(barAi4, progessBarRed);
+                                        barAi4.ForeColor = Color.LightCoral;
+                                        //ModifyProgressBarColor.SetState(barAi4, progessBarRed);
                                     }
                                     else
                                     {
                                         lblAlarmAi4.BackColor = Color.LightGreen;
-                                        ModifyProgressBarColor.SetState(barAi4, progessBarGreen);
+                                        barAi4.ForeColor = Color.LightGreen;
+                                        //ModifyProgressBarColor.SetState(barAi4, progessBarGreen);
                                     }
 
                                     // Ai5 Status
                                     if (DbReadBool.LowAlarm5)
                                     {
                                         lblAlarmAi5.BackColor = Color.Gold;
-                                        ModifyProgressBarColor.SetState(barAi5, progessBarYellow);
+                                        barAi5.ForeColor = Color.Gold;
+                                        //ModifyProgressBarColor.SetState(barAi5, progessBarYellow);
                                     }
                                     else if (DbReadBool.HighAlarm5)
                                     {
                                         lblAlarmAi5.BackColor = Color.LightCoral;
-                                        ModifyProgressBarColor.SetState(barAi5, progessBarRed);
+                                        barAi5.ForeColor = Color.LightCoral;
+                                        //ModifyProgressBarColor.SetState(barAi5, progessBarRed);
                                     }
                                     else
                                     {
                                         lblAlarmAi5.BackColor = Color.LightGreen;
-                                        ModifyProgressBarColor.SetState(barAi5, progessBarGreen);
+                                        barAi5.ForeColor = Color.LightGreen;
+                                        //ModifyProgressBarColor.SetState(barAi5, progessBarGreen);
                                     }
 
                                     // Ai6 Status
                                     if (DbReadBool.LowAlarm6)
                                     {
                                         lblAlarmAi6.BackColor = Color.Gold;
-                                        ModifyProgressBarColor.SetState(barAi6, progessBarYellow);
+                                        barAi6.ForeColor = Color.Gold;
+                                        //ModifyProgressBarColor.SetState(barAi6, progessBarYellow);
                                     }
                                     else if (DbReadBool.HighAlarm6)
                                     {
                                         lblAlarmAi6.BackColor = Color.LightCoral;
-                                        ModifyProgressBarColor.SetState(barAi6, progessBarRed);
+                                        barAi6.ForeColor = Color.LightCoral;
+                                        //ModifyProgressBarColor.SetState(barAi6, progessBarRed);
                                     }
                                     else
                                     {
                                         lblAlarmAi6.BackColor = Color.LightGreen;
-                                        ModifyProgressBarColor.SetState(barAi6, progessBarGreen);
+                                        barAi6.ForeColor = Color.LightGreen;
+                                        //ModifyProgressBarColor.SetState(barAi6, progessBarGreen);
                                     }
 
                                     // Ai7 Status
                                     if (DbReadBool.LowAlarm7)
                                     {
                                         lblAlarmAi7.BackColor = Color.Gold;
-                                        ModifyProgressBarColor.SetState(barAi7, progessBarYellow);
+                                        barAi7.ForeColor = Color.Gold;
+                                        //ModifyProgressBarColor.SetState(barAi7, progessBarYellow);
                                     }
                                     else if (DbReadBool.HighAlarm7)
                                     {
                                         lblAlarmAi7.BackColor = Color.LightCoral;
-                                        ModifyProgressBarColor.SetState(barAi7, progessBarRed);
+                                        barAi7.ForeColor = Color.LightCoral;
+                                        //ModifyProgressBarColor.SetState(barAi7, progessBarRed);
                                     }
                                     else
                                     {
                                         lblAlarmAi7.BackColor = Color.LightGreen;
-                                        ModifyProgressBarColor.SetState(barAi7, progessBarGreen);
+                                        barAi7.ForeColor = Color.LightGreen;
+                                        //ModifyProgressBarColor.SetState(barAi7, progessBarGreen);
                                     }
                                 }));
                             }

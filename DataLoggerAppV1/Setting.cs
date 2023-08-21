@@ -50,7 +50,13 @@ namespace DataLoggerAppV1
 
             txbCycleTime.Text = Convert.ToString(Properties.Settings.Default.CycleTime / 1000);
 
-            ReadFromPlc();
+            // Creat a new thread and then run method read from PLC
+            Thread t = new Thread(() =>
+            {
+                ReadFromPlc();
+            });
+            t.IsBackground = true;
+            t.Start();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -60,7 +66,13 @@ namespace DataLoggerAppV1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            WriteToPlc();
+            // Creat a new thread and then run method read from PLC
+            Thread t1 = new Thread(() =>
+            {
+                WriteToPlc();
+            });
+            t1.IsBackground = true;
+            t1.Start();
         }
 
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
