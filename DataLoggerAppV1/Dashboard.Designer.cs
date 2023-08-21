@@ -1038,7 +1038,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.barAi0.BackColor = System.Drawing.SystemColors.Control;
+            this.barAi0.ForeColor = System.Drawing.Color.LightGreen;
             this.barAi0.Location = new System.Drawing.Point(11, 13);
+            this.barAi0.MarqueeAnimationSpeed = 0;
             this.barAi0.Name = "barAi0";
             this.barAi0.Size = new System.Drawing.Size(906, 42);
             this.barAi0.Step = 1;
@@ -1325,7 +1327,6 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.ProgressBar barAi1;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.ProgressBar barAi0;
         private System.Windows.Forms.Label lblAlarmAi7;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label lblAlarmAi6;
@@ -1342,5 +1343,6 @@
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Label lblAlarmAi0;
         private System.Windows.Forms.Button btnAutoMode;
+        private System.Windows.Forms.ProgressBar barAi0;
     }
 }

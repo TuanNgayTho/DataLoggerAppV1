@@ -31,7 +31,6 @@ namespace DataLoggerAppV1
         public Label AiDataCh5;
         public Label AiDataCh6;
         public Label AiDataCh7;
-        
 
         public Dashboard()
         {

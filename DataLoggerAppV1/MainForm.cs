@@ -10,6 +10,7 @@ using System.Runtime.InteropServices;
 using S7.Net;
 using System.Threading;
 using MySql.Data.MySqlClient;
+using System.Timers;
 
 namespace DataLoggerAppV1
 {
@@ -78,9 +79,6 @@ namespace DataLoggerAppV1
                         }
                         else
                         {
-                            int SampleCycle = Properties.Settings.Default.CycleTime;
-                            Thread.Sleep(SampleCycle);
-
                             // Read AI Data From PLC
                             var DbAiData = new DbAiData();
                             plc.ReadClass(DbAiData, 4);
@@ -97,36 +95,59 @@ namespace DataLoggerAppV1
                             DataAi5 = DbAiData.Ai5;
                             DataAi6 = DbAiData.Ai6;
                             DataAi7 = DbAiData.Ai7;
-
-                            //Connect To Mysql
-                            string server = "localhost";
-                            string database = "datalogger";
-                            string uid = "root";
-                            string password = "root";
-                            string constring = "Server=" + server + "; database=" + database + "; uid=" + uid + "; pwd=" + password;
-
-                            using (MySqlConnection con2 = new MySqlConnection(constring))
+                            
+                            // Ai0 write LowAlarm to database
+                            if (DbReadBool.LowAlarm0 == true && sttLowAlarm == false)
                             {
-                                con2.Open();
-                                // Ai0 write alarm to database
-                                if (DbReadBool.LowAlarm0 == true && sttLowAlarm == true)
+                                try
                                 {
-                                    var query = "INSERT INTO alarmlist (ainame, aivalue0, aivalue1, aivalue2, aivalue3, aivalue4, aivalue5, aivalue6, aivalue7) " +
-                                                "VALUES ('" + Properties.Settings.Default.NameAi0 + ", " + DataAi0 + ", " + DataAi1 + ", " + DataAi2 + ", " + DataAi3 + ", " + DataAi4 + ", " + DataAi5 + ", " + DataAi6 + ", " + DataAi7 + ");";
-                                    StringBuilder bu = new StringBuilder();
-                                    MySqlCommand cmd = new MySqlCommand(query, con2);
-                                    try
-                                    {
-                                        if (cmd.ExecuteNonQuery() == 1)
-                                        {
-                                        }
-                                    }
-                                    catch (Exception e)
-                                    {
-                                        MessageBox.Show(e.Message);
-                                    }
+                                    writeAlarm(false, false);
+                                    sttLowAlarm = true;
                                 }
-                                con2.Close();
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.LowAlarm0 == false && DbReadBool.HighAlarm0 == false && sttLowAlarm == true  )
+                            {
+                                try
+                                {
+                                    writeAlarm(false, true);
+                                    sttLowAlarm = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai0 write HighAlarm to database
+                            if (DbReadBool.HighAlarm0 == true && sttHighAlarm == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, false);
+                                    sttHighAlarm = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.HighAlarm0 == false && sttHighAlarm == true)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, true);
+                                    sttHighAlarm = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
                             }
                         }
                     }
@@ -137,6 +158,29 @@ namespace DataLoggerAppV1
                         result = plc.Open();
                         Thread.Sleep(100);
                     }
+                }
+            }
+            // Function write alarm
+            void writeAlarm(bool alarmStatusColor, bool alarmStatus)
+            {
+                //Connect To Mysql
+                string server = "localhost";
+                string database = "datalogger";
+                string uid = "root";
+                string password = "root";
+                string constring = "Server=" + server + "; database=" + database + "; uid=" + uid + "; pwd=" + password;
+                using (MySqlConnection con2 = new MySqlConnection(constring))
+                {
+                    con2.Open();
+                    // write alarm to database
+                    var query = "INSERT INTO alarmlist (ainame, aivalue0, aivalue1, aivalue2, aivalue3, aivalue4, aivalue5, aivalue6, aivalue7, alarmstatuscolor, alarmstatus)" +
+                                " VALUES ('" + Properties.Settings.Default.NameAi0 + "', " + DataAi0 + ", " + DataAi1 + ", " + DataAi2 + ", " + DataAi3 +
+                                ", " + DataAi4 + ", " + DataAi5 + ", " + DataAi6 + ", " + DataAi7 + ", " + alarmStatusColor + ", " + alarmStatus + ");";
+
+                    // Database write CMD
+                    MySqlCommand cmd = new MySqlCommand(query, con2);
+                    cmd.ExecuteNonQuery();
+                    con2.Close();
                 }
             }
         }
@@ -159,7 +203,8 @@ namespace DataLoggerAppV1
                         con.Open();
                         var query = "INSERT INTO samples (aivalue0, aivalue1, aivalue2, aivalue3, aivalue4, aivalue5, aivalue6, aivalue7) " +
                                     "VALUES (" + DataAi0 + ", " + DataAi1 + ", "+ DataAi2 + "," + DataAi3 + ", " + DataAi4 + ", "+ DataAi5 + ", " + DataAi6 + ", "+ DataAi7 +");";
-                        StringBuilder bu = new StringBuilder();
+
+                        // Database write CMD
                         MySqlCommand cmd = new MySqlCommand(query, con);
                         try
                         {
