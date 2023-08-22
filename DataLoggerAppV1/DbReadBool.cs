@@ -34,12 +34,12 @@ namespace DataLoggerAppV1
         public bool LowAlarm6 { get; set; }
         public bool LowAlarm7 { get; set; }
 
-        public bool Free19 { get; set; }
-        public bool Free20 { get; set; }
-        public bool Free21 { get; set; }
-        public bool Free22 { get; set; }
-        public bool Free23 { get; set; }
-        public bool Free24 { get; set; }
+        public bool InletStream1 { get; set; }
+        public bool InletStream2 { get; set; }
+        public bool InletStream3 { get; set; }
+        public bool BypassStream1 { get; set; }
+        public bool BypassStream2 { get; set; }
+        public bool BypassStream3 { get; set; }
         public bool Free25 { get; set; }
         public bool Free26 { get; set; }
 

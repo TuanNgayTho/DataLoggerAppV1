@@ -211,7 +211,7 @@ namespace DataLoggerAppV1
                                         lblAlarmSystem.Text = "SYSTEM STOPED";
                                     }
                                 }));
-
+                                
                                 Invoke(new Action(() =>
                                 {
                                     // Ai0 Status

@@ -20,14 +20,23 @@ namespace DataLoggerAppV1
         public static bool IsLogIn = false;
         public Label UserNameLabelel;
         public static Plc plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
-        public double DataAi0;
-        public double DataAi1;
-        public double DataAi2;
-        public double DataAi3;
-        public double DataAi4;
-        public double DataAi5;
-        public double DataAi6;
-        public double DataAi7;
+        public static double DataAi0;
+        public static double DataAi1;
+        public static double DataAi2;
+        public static double DataAi3;
+        public static double DataAi4;
+        public static double DataAi5;
+        public static double DataAi6;
+        public static double DataAi7;
+
+        public static bool boolInletStream1;
+        public static bool boolInletStream2;
+        public static bool boolInletStream3;
+
+        public static bool boolBypassStream1;
+        public static bool boolBypassStream2;
+        public static bool boolBypassStream3;
+
         public MainForm()
         {
             InitializeComponent();
@@ -110,7 +119,15 @@ namespace DataLoggerAppV1
                             DataAi5 = DbAiData.Ai5;
                             DataAi6 = DbAiData.Ai6;
                             DataAi7 = DbAiData.Ai7;
-                            
+
+                            boolInletStream1 = DbReadBool.InletStream1;
+                            boolInletStream2 = DbReadBool.InletStream2;
+                            boolInletStream3 = DbReadBool.InletStream3;
+
+                            boolBypassStream1 = DbReadBool.BypassStream1;
+                            boolBypassStream2 = DbReadBool.BypassStream2;
+                            boolBypassStream3 = DbReadBool.BypassStream3;
+
                             // Ai0 write LowAlarm to database
                             if (DbReadBool.LowAlarm0 == true && sttLowAlarm0 == false)
                             {
