@@ -61,8 +61,23 @@ namespace DataLoggerAppV1
 
         private void WriteAlarmToDatabase()
         {
-            bool sttLowAlarm = false;
-            bool sttHighAlarm = false;
+            bool sttLowAlarm0 = false;
+            bool sttLowAlarm1 = false;
+            bool sttLowAlarm2 = false;
+            bool sttLowAlarm3 = false;
+            bool sttLowAlarm4 = false;
+            bool sttLowAlarm5 = false;
+            bool sttLowAlarm6 = false;
+            bool sttLowAlarm7 = false;
+
+            bool sttHighAlarm0 = false;
+            bool sttHighAlarm1 = false;
+            bool sttHighAlarm2 = false;
+            bool sttHighAlarm3 = false;
+            bool sttHighAlarm4 = false;
+            bool sttHighAlarm5 = false;
+            bool sttHighAlarm6 = false;
+            bool sttHighAlarm7 = false;
 
             while (true)
             {
@@ -97,12 +112,12 @@ namespace DataLoggerAppV1
                             DataAi7 = DbAiData.Ai7;
                             
                             // Ai0 write LowAlarm to database
-                            if (DbReadBool.LowAlarm0 == true && sttLowAlarm == false)
+                            if (DbReadBool.LowAlarm0 == true && sttLowAlarm0 == false)
                             {
                                 try
                                 {
-                                    writeAlarm(false, false);
-                                    sttLowAlarm = true;
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi0);
+                                    sttLowAlarm0 = true;
                                 }
                                 catch (Exception e)
                                 {
@@ -110,12 +125,12 @@ namespace DataLoggerAppV1
                                 }
                             }
 
-                            if (DbReadBool.LowAlarm0 == false && DbReadBool.HighAlarm0 == false && sttLowAlarm == true  )
+                            if (DbReadBool.LowAlarm0 == false && DbReadBool.HighAlarm0 == false && sttLowAlarm0 == true  )
                             {
                                 try
                                 {
-                                    writeAlarm(false, true);
-                                    sttLowAlarm = false;
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi0);
+                                    sttLowAlarm0 = false;
                                 }
                                 catch (Exception e)
                                 {
@@ -124,12 +139,12 @@ namespace DataLoggerAppV1
                             }
 
                             // Ai0 write HighAlarm to database
-                            if (DbReadBool.HighAlarm0 == true && sttHighAlarm == false)
+                            if (DbReadBool.HighAlarm0 == true && sttHighAlarm0 == false)
                             {
                                 try
                                 {
-                                    writeAlarm(true, false);
-                                    sttHighAlarm = true;
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi0);
+                                    sttHighAlarm0 = true;
                                 }
                                 catch (Exception e)
                                 {
@@ -137,12 +152,390 @@ namespace DataLoggerAppV1
                                 }
                             }
 
-                            if (DbReadBool.HighAlarm0 == false && sttHighAlarm == true)
+                            if (DbReadBool.HighAlarm0 == false && sttHighAlarm0 == true)
                             {
                                 try
                                 {
-                                    writeAlarm(true, true);
-                                    sttHighAlarm = false;
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi0);
+                                    sttHighAlarm0 = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai1 write LowAlarm to database
+                            if (DbReadBool.LowAlarm1 == true && sttLowAlarm1 == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi1);
+                                    sttLowAlarm1 = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.LowAlarm1 == false && DbReadBool.HighAlarm1 == false && sttLowAlarm1 == true)
+                            {
+                                try
+                                {
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi1);
+                                    sttLowAlarm1 = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai1 write HighAlarm to database
+                            if (DbReadBool.HighAlarm1 == true && sttHighAlarm1 == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi1);
+                                    sttHighAlarm1 = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.HighAlarm1 == false && sttHighAlarm1 == true)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi1);
+                                    sttHighAlarm1 = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai2 write LowAlarm to database
+                            if (DbReadBool.LowAlarm2 == true && sttLowAlarm2 == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi2);
+                                    sttLowAlarm2 = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.LowAlarm2 == false && DbReadBool.HighAlarm2 == false && sttLowAlarm2 == true)
+                            {
+                                try
+                                {
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi2);
+                                    sttLowAlarm2 = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai2 write HighAlarm to database
+                            if (DbReadBool.HighAlarm2 == true && sttHighAlarm2 == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi2);
+                                    sttHighAlarm2 = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.HighAlarm2 == false && sttHighAlarm2 == true)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi2);
+                                    sttHighAlarm2 = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai3 write LowAlarm to database
+                            if (DbReadBool.LowAlarm3 == true && sttLowAlarm3 == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi3);
+                                    sttLowAlarm3 = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.LowAlarm3 == false && DbReadBool.HighAlarm3 == false && sttLowAlarm3 == true)
+                            {
+                                try
+                                {
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi3);
+                                    sttLowAlarm3 = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai3 write HighAlarm to database
+                            if (DbReadBool.HighAlarm3 == true && sttHighAlarm3 == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi3);
+                                    sttHighAlarm3 = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.HighAlarm3 == false && sttHighAlarm3== true)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi3);
+                                    sttHighAlarm3 = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai4 write LowAlarm to database
+                            if (DbReadBool.LowAlarm4 == true && sttLowAlarm4 == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi4);
+                                    sttLowAlarm4 = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.LowAlarm4 == false && DbReadBool.HighAlarm4 == false && sttLowAlarm4 == true)
+                            {
+                                try
+                                {
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi4);
+                                    sttLowAlarm4 = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai4 write HighAlarm to database
+                            if (DbReadBool.HighAlarm4 == true && sttHighAlarm4 == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi4);
+                                    sttHighAlarm4 = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.HighAlarm4 == false && sttHighAlarm4 == true)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi4);
+                                    sttHighAlarm4 = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai5 write LowAlarm to database
+                            if (DbReadBool.LowAlarm5 == true && sttLowAlarm5 == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi5);
+                                    sttLowAlarm5 = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.LowAlarm5 == false && DbReadBool.HighAlarm5 == false && sttLowAlarm5 == true)
+                            {
+                                try
+                                {
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi5);
+                                    sttLowAlarm5 = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai5 write HighAlarm to database
+                            if (DbReadBool.HighAlarm5 == true && sttHighAlarm5 == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi5);
+                                    sttHighAlarm5 = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.HighAlarm5 == false && sttHighAlarm5 == true)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi5);
+                                    sttHighAlarm5 = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai6 write LowAlarm to database
+                            if (DbReadBool.LowAlarm6 == true && sttLowAlarm6 == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi6);
+                                    sttLowAlarm6 = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.LowAlarm6 == false && DbReadBool.HighAlarm6 == false && sttLowAlarm6 == true)
+                            {
+                                try
+                                {
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi6);
+                                    sttLowAlarm6 = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai6 write HighAlarm to database
+                            if (DbReadBool.HighAlarm6 == true && sttHighAlarm6 == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi6);
+                                    sttHighAlarm6 = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.HighAlarm6 == false && sttHighAlarm6 == true)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi6);
+                                    sttHighAlarm6 = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai7 write LowAlarm to database
+                            if (DbReadBool.LowAlarm7 == true && sttLowAlarm7 == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi7);
+                                    sttLowAlarm7 = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.LowAlarm7 == false && DbReadBool.HighAlarm7 == false && sttLowAlarm7 == true)
+                            {
+                                try
+                                {
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi7);
+                                    sttLowAlarm7 = false;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            // Ai7 write HighAlarm to database
+                            if (DbReadBool.HighAlarm7 == true && sttHighAlarm7 == false)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi7);
+                                    sttHighAlarm7 = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    MessageBox.Show(e.Message);
+                                }
+                            }
+
+                            if (DbReadBool.HighAlarm7 == false && sttHighAlarm7 == true)
+                            {
+                                try
+                                {
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi7);
+                                    sttHighAlarm7 = false;
                                 }
                                 catch (Exception e)
                                 {
@@ -161,7 +554,7 @@ namespace DataLoggerAppV1
                 }
             }
             // Function write alarm
-            void writeAlarm(bool alarmStatusColor, bool alarmStatus)
+            void writeAlarm(bool alarmStatusColor, bool alarmStatus, string aiName)
             {
                 //Connect To Mysql
                 string server = "localhost";
@@ -174,7 +567,7 @@ namespace DataLoggerAppV1
                     con2.Open();
                     // write alarm to database
                     var query = "INSERT INTO alarmlist (ainame, aivalue0, aivalue1, aivalue2, aivalue3, aivalue4, aivalue5, aivalue6, aivalue7, alarmstatuscolor, alarmstatus)" +
-                                " VALUES ('" + Properties.Settings.Default.NameAi0 + "', " + DataAi0 + ", " + DataAi1 + ", " + DataAi2 + ", " + DataAi3 +
+                                " VALUES ('" + aiName + "', " + DataAi0 + ", " + DataAi1 + ", " + DataAi2 + ", " + DataAi3 +
                                 ", " + DataAi4 + ", " + DataAi5 + ", " + DataAi6 + ", " + DataAi7 + ", " + alarmStatusColor + ", " + alarmStatus + ");";
 
                     // Database write CMD
