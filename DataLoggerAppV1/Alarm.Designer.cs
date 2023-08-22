@@ -34,7 +34,8 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Reset = new System.Windows.Forms.Button();
+            this.Delete = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,6 +44,7 @@
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView1.ColumnHeadersHeight = 50;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
@@ -59,7 +61,7 @@
             this.dataGridView1.RowTemplate.Height = 45;
             this.dataGridView1.RowTemplate.ReadOnly = true;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(1611, 914);
+            this.dataGridView1.Size = new System.Drawing.Size(1611, 845);
             this.dataGridView1.TabIndex = 1;
             // 
             // Column1
@@ -93,20 +95,35 @@
             this.Column4.ReadOnly = true;
             this.Column4.Width = 250;
             // 
-            // button1
+            // Reset
             // 
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(1483, 885);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.button1.Size = new System.Drawing.Size(162, 60);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Reset";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Reset.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reset.Image = ((System.Drawing.Image)(resources.GetObject("Reset.Image")));
+            this.Reset.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Reset.Location = new System.Drawing.Point(1491, 908);
+            this.Reset.Name = "Reset";
+            this.Reset.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.Reset.Size = new System.Drawing.Size(174, 56);
+            this.Reset.TabIndex = 2;
+            this.Reset.Text = "Reset";
+            this.Reset.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Reset.UseVisualStyleBackColor = true;
+            this.Reset.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Delete
+            // 
+            this.Delete.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Delete.Image = ((System.Drawing.Image)(resources.GetObject("Delete.Image")));
+            this.Delete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Delete.Location = new System.Drawing.Point(1286, 908);
+            this.Delete.Name = "Delete";
+            this.Delete.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.Delete.Size = new System.Drawing.Size(174, 56);
+            this.Delete.TabIndex = 3;
+            this.Delete.Text = "Delete";
+            this.Delete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Delete.UseVisualStyleBackColor = true;
+            this.Delete.Click += new System.EventHandler(this.Delete_Click);
             // 
             // Alarm
             // 
@@ -114,7 +131,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1712, 1002);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Delete);
+            this.Controls.Add(this.Reset);
             this.Controls.Add(this.dataGridView1);
             this.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -132,7 +150,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Reset;
         public System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button Delete;
     }
 }

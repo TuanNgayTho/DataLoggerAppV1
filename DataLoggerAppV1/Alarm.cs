@@ -17,8 +17,6 @@ namespace DataLoggerAppV1
         public Alarm()
         {
             InitializeComponent();
-            this.dataGridView1.Columns["Column1"].DefaultCellStyle
-                .Alignment = DataGridViewContentAlignment.MiddleCenter;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -51,7 +49,7 @@ namespace DataLoggerAppV1
                     {
                         con2.Open();
                         // write alarm to database
-                        var query = "SELECT * FROM datalogger.alarmlist WHERE 1=1 ORDER BY alarmlist.ts DESC LIMIT 200";
+                        var query = "SELECT * FROM datalogger.alarmlist WHERE 1=1 ORDER BY alarmlist.ts DESC LIMIT 200;";
                         // Database read CMD
                         using (MySqlCommand cmd = new MySqlCommand(query, con2))
                         {
@@ -104,6 +102,37 @@ namespace DataLoggerAppV1
             });
             t1.IsBackground = true;
             t1.Start();
+        }
+
+        private void Delete_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //Connect To Mysql
+                string server = "localhost";
+                string database = "datalogger";
+                string uid = "root";
+                string password = "root";
+                string constring = "Server=" + server + "; database=" + database + "; uid=" + uid + "; pwd=" + password;
+                using (MySqlConnection con1 = new MySqlConnection(constring))
+                {
+                    con1.Open();
+                    // write alarm to database
+                    var query = "TRUNCATE alarmlist;";
+                    // Delete Data in data baseCMD
+                    MySqlCommand cmd = new MySqlCommand(query, con1);
+                    cmd.ExecuteNonQuery();
+                    con1.Close();
+                }
+
+                // Clear data grid view
+                dataGridView1.DataSource = null;
+                dataGridView1.Rows.Clear();
+            }
+            catch (Exception a)
+            {
+                MessageBox.Show(a.Message);
+            }
         }
     }
 }
