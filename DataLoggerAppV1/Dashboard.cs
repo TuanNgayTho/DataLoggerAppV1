@@ -156,43 +156,43 @@ namespace DataLoggerAppV1
                                     btnStream2.BackColor = DbReadBool.MStreamStatus2 ? Color.LightGreen : SystemColors.ControlLight;
                                     btnStream3.BackColor = DbReadBool.MStreamStatus3 ? Color.LightGreen : SystemColors.ControlLight;
 
-                                    if (DbReadBool.ManAuto)
+                                    if (DbReadBool.ManAuto && btnAutoMode.BackColor != Color.LightGreen)
                                     {
+                                        btnAutoMode.BackColor = Color.LightGreen;
+                                        btnManMode.BackColor = SystemColors.Control;
                                         btnSart.Enabled = true;
                                         btnStream1.Enabled = false;
                                         btnStream2.Enabled = false;
                                         btnStream3.Enabled = false;
-                                        btnManMode.BackColor = SystemColors.Control;
-                                        btnAutoMode.BackColor = Color.LightGreen;
                                     }
-                                    else
+                                    else if (DbReadBool.ManAuto == false && btnManMode.BackColor != Color.LightBlue)
                                     {
+                                        btnManMode.BackColor = Color.LightBlue;
+                                        btnAutoMode.BackColor = SystemColors.Control;
                                         btnStream1.Enabled = true;
                                         btnStream2.Enabled = true;
                                         btnStream3.Enabled = true;
                                         btnSart.Enabled = false;
-                                        btnAutoMode.BackColor = SystemColors.Control;
-                                        btnManMode.BackColor = Color.LightBlue;
                                     }
                                     
                                     // System Status
-                                    if (DbReadBool.SystemStatusAuto)
+                                    if (DbReadBool.SystemStatusAuto && lblAlarmSystem.BackColor != Color.LightGreen)
                                     {
                                         lblAlarmSystem.BackColor = Color.LightGreen;
                                     }
-                                    else if (DbReadBool.SystemStatusMan)
+                                    else if (DbReadBool.SystemStatusMan && lblAlarmSystem.BackColor != Color.LightBlue)
                                     {
                                         lblAlarmSystem.BackColor = Color.LightBlue;
                                     }
-                                    else if (DbReadBool.SystemStatusLowAlarm)
+                                    else if (DbReadBool.SystemStatusLowAlarm && lblAlarmSystem.BackColor != Color.Gold)
                                     {
                                         lblAlarmSystem.BackColor = Color.Gold;
                                     }
-                                    else if (DbReadBool.SystemStatusHighAlarm)
+                                    else if (DbReadBool.SystemStatusHighAlarm && lblAlarmSystem.BackColor != Color.LightCoral)
                                     {
                                         lblAlarmSystem.BackColor = Color.LightCoral;
                                     }
-                                    else
+                                    else if (DbReadBool.SystemStatusAuto == false && DbReadBool.SystemStatusMan ==false && DbReadBool.SystemStatusLowAlarm == false && DbReadBool.SystemStatusHighAlarm == false && lblAlarmSystem.BackColor != SystemColors.ControlLight)
                                     {
                                         lblAlarmSystem.BackColor = SystemColors.ControlLight;
                                     }
