@@ -15,6 +15,7 @@ CREATE TABLE samples(
 CREATE TABLE alarmlist(
 	id int primary key not null auto_increment,
     ainame varchar(50) default "undefined",
+    aichannel int default 0,
     aivalue0 float default 0,
     aivalue1 float default 0,
     aivalue2 float default 0,

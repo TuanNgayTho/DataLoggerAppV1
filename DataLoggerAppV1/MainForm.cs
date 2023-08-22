@@ -133,7 +133,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, false, Properties.Settings.Default.NameAi0);
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi0, 0);
                                     sttLowAlarm0 = true;
                                 }
                                 catch (Exception e)
@@ -146,7 +146,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, true, Properties.Settings.Default.NameAi0);
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi0, 0);
                                     sttLowAlarm0 = false;
                                 }
                                 catch (Exception e)
@@ -160,7 +160,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, false, Properties.Settings.Default.NameAi0);
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi0, 0);
                                     sttHighAlarm0 = true;
                                 }
                                 catch (Exception e)
@@ -173,7 +173,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, true, Properties.Settings.Default.NameAi0);
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi0, 0);
                                     sttHighAlarm0 = false;
                                 }
                                 catch (Exception e)
@@ -187,7 +187,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, false, Properties.Settings.Default.NameAi1);
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi1, 1);
                                     sttLowAlarm1 = true;
                                 }
                                 catch (Exception e)
@@ -200,7 +200,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, true, Properties.Settings.Default.NameAi1);
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi1, 1);
                                     sttLowAlarm1 = false;
                                 }
                                 catch (Exception e)
@@ -214,7 +214,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, false, Properties.Settings.Default.NameAi1);
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi1, 1);
                                     sttHighAlarm1 = true;
                                 }
                                 catch (Exception e)
@@ -227,7 +227,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, true, Properties.Settings.Default.NameAi1);
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi1, 1);
                                     sttHighAlarm1 = false;
                                 }
                                 catch (Exception e)
@@ -241,7 +241,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, false, Properties.Settings.Default.NameAi2);
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi2, 2);
                                     sttLowAlarm2 = true;
                                 }
                                 catch (Exception e)
@@ -254,7 +254,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, true, Properties.Settings.Default.NameAi2);
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi2, 2);
                                     sttLowAlarm2 = false;
                                 }
                                 catch (Exception e)
@@ -268,7 +268,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, false, Properties.Settings.Default.NameAi2);
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi2, 2);
                                     sttHighAlarm2 = true;
                                 }
                                 catch (Exception e)
@@ -281,7 +281,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, true, Properties.Settings.Default.NameAi2);
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi2, 2);
                                     sttHighAlarm2 = false;
                                 }
                                 catch (Exception e)
@@ -295,7 +295,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, false, Properties.Settings.Default.NameAi3);
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi3, 3);
                                     sttLowAlarm3 = true;
                                 }
                                 catch (Exception e)
@@ -308,7 +308,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, true, Properties.Settings.Default.NameAi3);
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi3, 3);
                                     sttLowAlarm3 = false;
                                 }
                                 catch (Exception e)
@@ -322,7 +322,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, false, Properties.Settings.Default.NameAi3);
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi3, 3);
                                     sttHighAlarm3 = true;
                                 }
                                 catch (Exception e)
@@ -335,7 +335,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, true, Properties.Settings.Default.NameAi3);
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi3, 3);
                                     sttHighAlarm3 = false;
                                 }
                                 catch (Exception e)
@@ -349,7 +349,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, false, Properties.Settings.Default.NameAi4);
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi4, 4);
                                     sttLowAlarm4 = true;
                                 }
                                 catch (Exception e)
@@ -362,7 +362,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, true, Properties.Settings.Default.NameAi4);
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi4, 4);
                                     sttLowAlarm4 = false;
                                 }
                                 catch (Exception e)
@@ -376,7 +376,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, false, Properties.Settings.Default.NameAi4);
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi4, 4);
                                     sttHighAlarm4 = true;
                                 }
                                 catch (Exception e)
@@ -389,7 +389,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, true, Properties.Settings.Default.NameAi4);
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi4, 4);
                                     sttHighAlarm4 = false;
                                 }
                                 catch (Exception e)
@@ -403,7 +403,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, false, Properties.Settings.Default.NameAi5);
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi5, 5);
                                     sttLowAlarm5 = true;
                                 }
                                 catch (Exception e)
@@ -416,7 +416,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, true, Properties.Settings.Default.NameAi5);
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi5, 5);
                                     sttLowAlarm5 = false;
                                 }
                                 catch (Exception e)
@@ -430,7 +430,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, false, Properties.Settings.Default.NameAi5);
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi5, 5);
                                     sttHighAlarm5 = true;
                                 }
                                 catch (Exception e)
@@ -443,7 +443,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, true, Properties.Settings.Default.NameAi5);
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi5, 5);
                                     sttHighAlarm5 = false;
                                 }
                                 catch (Exception e)
@@ -457,7 +457,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, false, Properties.Settings.Default.NameAi6);
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi6, 6);
                                     sttLowAlarm6 = true;
                                 }
                                 catch (Exception e)
@@ -470,7 +470,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, true, Properties.Settings.Default.NameAi6);
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi6, 6);
                                     sttLowAlarm6 = false;
                                 }
                                 catch (Exception e)
@@ -484,7 +484,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, false, Properties.Settings.Default.NameAi6);
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi6, 6);
                                     sttHighAlarm6 = true;
                                 }
                                 catch (Exception e)
@@ -497,7 +497,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, true, Properties.Settings.Default.NameAi6);
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi6, 6);
                                     sttHighAlarm6 = false;
                                 }
                                 catch (Exception e)
@@ -511,7 +511,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, false, Properties.Settings.Default.NameAi7);
+                                    writeAlarm(false, false, Properties.Settings.Default.NameAi7, 7);
                                     sttLowAlarm7 = true;
                                 }
                                 catch (Exception e)
@@ -524,7 +524,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(false, true, Properties.Settings.Default.NameAi7);
+                                    writeAlarm(false, true, Properties.Settings.Default.NameAi7, 7);
                                     sttLowAlarm7 = false;
                                 }
                                 catch (Exception e)
@@ -538,7 +538,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, false, Properties.Settings.Default.NameAi7);
+                                    writeAlarm(true, false, Properties.Settings.Default.NameAi7, 7);
                                     sttHighAlarm7 = true;
                                 }
                                 catch (Exception e)
@@ -551,7 +551,7 @@ namespace DataLoggerAppV1
                             {
                                 try
                                 {
-                                    writeAlarm(true, true, Properties.Settings.Default.NameAi7);
+                                    writeAlarm(true, true, Properties.Settings.Default.NameAi7, 7);
                                     sttHighAlarm7 = false;
                                 }
                                 catch (Exception e)
@@ -571,7 +571,7 @@ namespace DataLoggerAppV1
                 }
             }
             // Function write alarm
-            void writeAlarm(bool alarmStatusColor, bool alarmStatus, string aiName)
+            void writeAlarm(bool alarmStatusColor, bool alarmStatus, string aiName, int aiChannel)
             {
                 //Connect To Mysql
                 string server = "localhost";
@@ -583,8 +583,8 @@ namespace DataLoggerAppV1
                 {
                     con2.Open();
                     // write alarm to database
-                    var query = "INSERT INTO alarmlist (ainame, aivalue0, aivalue1, aivalue2, aivalue3, aivalue4, aivalue5, aivalue6, aivalue7, alarmstatuscolor, alarmstatus)" +
-                                " VALUES ('" + aiName + "', " + DataAi0 + ", " + DataAi1 + ", " + DataAi2 + ", " + DataAi3 +
+                    var query = "INSERT INTO alarmlist (ainame, aichannel, aivalue0, aivalue1, aivalue2, aivalue3, aivalue4, aivalue5, aivalue6, aivalue7, alarmstatuscolor, alarmstatus)" +
+                                " VALUES ('" + aiName + "', " + aiChannel + ", " + DataAi0 + ", " + DataAi1 + ", " + DataAi2 + ", " + DataAi3 +
                                 ", " + DataAi4 + ", " + DataAi5 + ", " + DataAi6 + ", " + DataAi7 + ", " + alarmStatusColor + ", " + alarmStatus + ");";
 
                     // Database write CMD
