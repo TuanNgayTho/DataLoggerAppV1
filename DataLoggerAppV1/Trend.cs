@@ -44,14 +44,14 @@ namespace DataLoggerAppV1
         public ChartValues<MeasureModel> ChartValues7 { get; set; }
         public Timer Timer { get; set; }
         public Random R { get; set; }
-        public int value { get; set; }
-        public int value1 { get; set; }
-        public int value2 { get; set; }
-        public int value3 { get; set; }
-        public int value4 { get; set; }
-        public int value5 { get; set; }
-        public int value6 { get; set; }
-        public int value7 { get; set; }
+        public float value { get; set; }
+        public float value1 { get; set; }
+        public float value2 { get; set; }
+        public float value3 { get; set; }
+        public float value4 { get; set; }
+        public float value5 { get; set; }
+        public float value6 { get; set; }
+        public float value7 { get; set; }
 
         public DateTime ts { get; set; }
 
@@ -249,7 +249,7 @@ namespace DataLoggerAppV1
             //The next code simulates data changes every 500 ms
             Timer = new Timer
             {
-                Interval = 1000
+                Interval = 2000
             };
             Timer.Tick += TimerOnTick;
             R = new Random();
@@ -407,7 +407,7 @@ namespace DataLoggerAppV1
                 string constring = "Server=" + server + "; database=" + database + "; uid=" + uid + "; pwd=" + password;
                 MySqlConnection con = new MySqlConnection(constring);
                 con.Open();
-                //System.Windows.MessageBox.Show("ok");
+                
 
                 var query = "Select aivalue0,aivalue1,aivalue2,aivalue3,aivalue4,aivalue5,aivalue6,aivalue7,ts from samples ORDER BY id DESC LIMIT 1";
 
@@ -416,22 +416,36 @@ namespace DataLoggerAppV1
 
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 MySqlDataReader reader = cmd.ExecuteReader();
+                //System.Windows.MessageBox.Show("ok");
                 while (reader.Read())
-                {
-                    value = int.Parse(reader["aivalue0"].ToString());
-                    value1 = int.Parse(reader["aivalue1"].ToString());
-                    value2 = int.Parse(reader["aivalue2"].ToString());
-                    value3 = int.Parse(reader["aivalue3"].ToString());
-                    value4 = int.Parse(reader["aivalue4"].ToString());
-                    value5 = int.Parse(reader["aivalue5"].ToString());
-                    value6 = int.Parse(reader["aivalue6"].ToString());
-                    value7 = int.Parse(reader["aivalue7"].ToString());
+                {  
+                    /*
+                    
+                    value = float.Parse(String.Format("{0:0.##}", reader["aivalue0"]));   
+                    value1 = float.Parse(String.Format("{0:0.00}", reader["aivalue1"]));
+                    value2 = float.Parse(String.Format("{0:0.00}", reader["aivalue2"]));
+                    value3 = float.Parse(String.Format("{0:0.00}", reader["aivalue3"]));
+                    value4 = float.Parse(String.Format("{0:0.00}", reader["aivalue4"]));
+                    value5 = float.Parse(String.Format("{0:0.00}", reader["aivalue5"]));
+                    value6 = float.Parse(String.Format("{0:0.00}", reader["aivalue6"]));
+                    value7 = float.Parse(String.Format("{0:0.00}", reader["aivalue7"]));*/
+
+                    value = Convert.ToInt32(float.Parse(reader["aivalue0"].ToString()) * 100) / 100F;
+                    value1 = Convert.ToInt32(float.Parse(reader["aivalue1"].ToString()) * 100) / 100F;
+                    value2 = Convert.ToInt32(float.Parse(reader["aivalue2"].ToString()) * 100) / 100F;
+                    value3 = Convert.ToInt32(float.Parse(reader["aivalue3"].ToString()) * 100) / 100F;
+                    value4 = Convert.ToInt32(float.Parse(reader["aivalue4"].ToString()) * 100) / 100F;
+                    value5 = Convert.ToInt32(float.Parse(reader["aivalue5"].ToString()) * 100) / 100F;
+                    value6 = Convert.ToInt32(float.Parse(reader["aivalue6"].ToString()) * 100) / 100F;
+                    value7 = Convert.ToInt32(float.Parse(reader["aivalue7"].ToString()) * 100) / 100F;
+
+
                     ts = DateTime.Parse(reader["ts"].ToString());
 
                     //System.Windows.MessageBox.Show(reader["ts"].ToString());
 
                 }
-
+                
                 con.Close();
                 ChartValues.Add(new MeasureModel
                 {
@@ -646,7 +660,8 @@ namespace DataLoggerAppV1
             MySqlCommand cmd = new MySqlCommand(query, con);
             MySqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
-            {
+            {  
+                /*
                 value = int.Parse(reader["aivalue0"].ToString());
                 value1 = int.Parse(reader["aivalue1"].ToString());
                 value2 = int.Parse(reader["aivalue2"].ToString());
@@ -655,6 +670,15 @@ namespace DataLoggerAppV1
                 value5 = int.Parse(reader["aivalue5"].ToString());
                 value6 = int.Parse(reader["aivalue6"].ToString());
                 value7 = int.Parse(reader["aivalue7"].ToString());
+                */
+                value = Convert.ToInt32(float.Parse(reader["aivalue0"].ToString()) * 100) / 100F;
+                value1 = Convert.ToInt32(float.Parse(reader["aivalue1"].ToString()) * 100) / 100F;
+                value2 = Convert.ToInt32(float.Parse(reader["aivalue2"].ToString()) * 100) / 100F;
+                value3 = Convert.ToInt32(float.Parse(reader["aivalue3"].ToString()) * 100) / 100F;
+                value4 = Convert.ToInt32(float.Parse(reader["aivalue4"].ToString()) * 100) / 100F;
+                value5 = Convert.ToInt32(float.Parse(reader["aivalue5"].ToString()) * 100) / 100F;
+                value6 = Convert.ToInt32(float.Parse(reader["aivalue6"].ToString()) * 100) / 100F;
+                value7 = Convert.ToInt32(float.Parse(reader["aivalue7"].ToString()) * 100) / 100F;
                 ts = DateTime.Parse(reader["ts"].ToString());
                 ChartValues.Add(new MeasureModel
                 {
