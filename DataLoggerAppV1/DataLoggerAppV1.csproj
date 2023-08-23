@@ -144,6 +144,7 @@
     <Compile Include="DbAiData.cs" />
     <Compile Include="DbSettingData.cs" />
     <Compile Include="DbEnableSignal.cs" />
+    <Compile Include="MeasureModel.cs" />
     <Compile Include="Trend.cs">
       <SubType>Form</SubType>
     </Compile>

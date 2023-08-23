@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Windows;
 using LiveCharts;
 using LiveCharts.Events;
-using LiveCharts.Geared;
+
 using LiveCharts.Wpf;
 using LiveCharts.Defaults;
 using LiveCharts.Configurations;
@@ -18,7 +18,7 @@ using LiveCharts.Helpers;
 using MySql.Data.MySqlClient;
 using Separator = LiveCharts.Wpf.Separator;
 using System.Windows.Data;
-using Geared.Winforms.SpeedTest;
+
 using Winforms.Cartesian.ConstantChanges;
 using Binding = System.Windows.Data.Binding;
 using System.Windows.Media;
@@ -408,7 +408,7 @@ namespace DataLoggerAppV1
                 string constring = "Server=" + server + "; database=" + database + "; uid=" + uid + "; pwd=" + password;
                 MySqlConnection con = new MySqlConnection(constring);
                 con.Open();
-
+                //System.Windows.MessageBox.Show("ok");
 
                 var query = "Select aivalue0,aivalue1,aivalue2,aivalue3,aivalue4,aivalue5,aivalue6,aivalue7,ts from samples ORDER BY id DESC LIMIT 1";
 
@@ -479,6 +479,8 @@ namespace DataLoggerAppV1
 
                 SetAxisLimits(now);
             }
+
+
             catch
             {
 
