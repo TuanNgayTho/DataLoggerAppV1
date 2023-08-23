@@ -50,6 +50,7 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -353,12 +354,26 @@
             this.panel2.Size = new System.Drawing.Size(1589, 91);
             this.panel2.TabIndex = 23;
             // 
+            // cartesianChart1
+            // 
+            this.cartesianChart1.AccessibleName = "TEXT";
+            this.cartesianChart1.BackColor = System.Drawing.SystemColors.Control;
+            this.cartesianChart1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cartesianChart1.ForeColor = System.Drawing.SystemColors.Control;
+            this.cartesianChart1.Location = new System.Drawing.Point(67, 169);
+            this.cartesianChart1.Margin = new System.Windows.Forms.Padding(5);
+            this.cartesianChart1.Name = "cartesianChart1";
+            this.cartesianChart1.Size = new System.Drawing.Size(1579, 665);
+            this.cartesianChart1.TabIndex = 27;
+            this.cartesianChart1.Text = "cartesianChart1";
+            // 
             // Trend
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1712, 1002);
+            this.Controls.Add(this.cartesianChart1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnDashboard);
@@ -407,5 +422,6 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private LiveCharts.WinForms.CartesianChart cartesianChart1;
     }
 }
