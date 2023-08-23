@@ -28,7 +28,7 @@ namespace DataLoggerAppV1
         public static double DataAi5;
         public static double DataAi6;
         public static double DataAi7;
-
+        public Random R { get; set; }
         public static bool boolInletStream1;
         public static bool boolInletStream2;
         public static bool boolInletStream3;
@@ -602,7 +602,7 @@ namespace DataLoggerAppV1
                 try
                 {
                     //Connect To Mysql
-                    Thread.Sleep(Properties.Settings.Default.CycleTime);
+                    Thread.Sleep(1000);
                     string server = "localhost";
                     string database = "datalogger";
                     string uid = "root";
@@ -612,8 +612,9 @@ namespace DataLoggerAppV1
                     {
                         con.Open();
                         var query = "INSERT INTO samples (aivalue0, aivalue1, aivalue2, aivalue3, aivalue4, aivalue5, aivalue6, aivalue7) " +
-                                    "VALUES (" + DataAi0 + ", " + DataAi1 + ", "+ DataAi2 + "," + DataAi3 + ", " + DataAi4 + ", "+ DataAi5 + ", " + DataAi6 + ", "+ DataAi7 +");";
-
+                                   "VALUES (" + DataAi0 + ", " + DataAi1 + ", "+ DataAi2 + "," + DataAi3 + ", " + DataAi4 + ", "+ DataAi5 + ", " + DataAi6 + ", "+ DataAi7 +");";
+                        //var query = "INSERT INTO samples (aivalue0, aivalue1, aivalue2, aivalue3, aivalue4, aivalue5, aivalue6, aivalue7) " +
+                                 //  "VALUES (" + 5 + ", " + 6 + ", " + 7 + "," + 8 + ", " + 9 + ", " + 11 + ", " + 12 + ", " + 10 + ");";
                         // Database write CMD
                         MySqlCommand cmd = new MySqlCommand(query, con);
                         try

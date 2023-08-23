@@ -358,5 +358,101 @@ namespace DataLoggerAppV1.Properties {
                 this["CycleTime"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Red")]
+        public global::System.Drawing.Color ColorAi0 {
+            get {
+                return ((global::System.Drawing.Color)(this["ColorAi0"]));
+            }
+            set {
+                this["ColorAi0"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Yellow")]
+        public global::System.Drawing.Color ColorAi1 {
+            get {
+                return ((global::System.Drawing.Color)(this["ColorAi1"]));
+            }
+            set {
+                this["ColorAi1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Green")]
+        public global::System.Drawing.Color ColorAi2 {
+            get {
+                return ((global::System.Drawing.Color)(this["ColorAi2"]));
+            }
+            set {
+                this["ColorAi2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Violet")]
+        public global::System.Drawing.Color ColorAi3 {
+            get {
+                return ((global::System.Drawing.Color)(this["ColorAi3"]));
+            }
+            set {
+                this["ColorAi3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Gray")]
+        public global::System.Drawing.Color ColorAi4 {
+            get {
+                return ((global::System.Drawing.Color)(this["ColorAi4"]));
+            }
+            set {
+                this["ColorAi4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Blue")]
+        public global::System.Drawing.Color ColorAi5 {
+            get {
+                return ((global::System.Drawing.Color)(this["ColorAi5"]));
+            }
+            set {
+                this["ColorAi5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Orange")]
+        public global::System.Drawing.Color ColorAi6 {
+            get {
+                return ((global::System.Drawing.Color)(this["ColorAi6"]));
+            }
+            set {
+                this["ColorAi6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Brown")]
+        public global::System.Drawing.Color ColorAi7 {
+            get {
+                return ((global::System.Drawing.Color)(this["ColorAi7"]));
+            }
+            set {
+                this["ColorAi7"] = value;
+            }
+        }
     }
 }
