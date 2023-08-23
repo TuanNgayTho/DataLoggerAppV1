@@ -19,11 +19,10 @@ using MySql.Data.MySqlClient;
 using Separator = LiveCharts.Wpf.Separator;
 using System.Windows.Data;
 
-using Winforms.Cartesian.ConstantChanges;
 using Binding = System.Windows.Data.Binding;
 using System.Windows.Media;
 using Brushes = System.Windows.Media.Brushes;
-
+using Winforms.Cartesian.ConstantChanges;
 
 namespace DataLoggerAppV1
 {
