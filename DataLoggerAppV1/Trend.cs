@@ -114,13 +114,14 @@ namespace DataLoggerAppV1
 
                 DisableAnimations = true,
                 Foreground = Brushes.Red,
-                MinValue = 0,
+               // MinValue = 0,
 
                 Separator = new Separator
                 {
 
                     // Step=1,
                     Stroke = Brushes.Black,
+                    //Stroke = Brushes.Transparent,
 
                 }
 
@@ -131,12 +132,13 @@ namespace DataLoggerAppV1
                 LabelFormatter = val => val + " " + Properties.Settings.Default.UnitAi1,
                 DisableAnimations = true,
                 Foreground = Brushes.Yellow,
-                MinValue = 0,
+               // MinValue = 0,
                 Separator = new Separator
                 {
 
                     // Step = 1,
-                    Stroke = Brushes.Black,
+                    //Stroke = Brushes.Black,
+                    Stroke = Brushes.Transparent,
 
                 }
 
@@ -147,12 +149,13 @@ namespace DataLoggerAppV1
                 LabelFormatter = val => val + " " + Properties.Settings.Default.UnitAi2,
                 DisableAnimations = true,
                 Foreground = Brushes.Green,
-                MinValue = 0,
+               // MinValue = 0,
                 Separator = new Separator
                 {
 
                     //Step = 1,
-                    Stroke = Brushes.Black,
+                    //Stroke = Brushes.Black,
+                    Stroke = Brushes.Transparent,
 
                 }
 
@@ -162,12 +165,13 @@ namespace DataLoggerAppV1
                 LabelFormatter = val => val + " " + Properties.Settings.Default.UnitAi3,
                 DisableAnimations = true,
                 Foreground = Brushes.Violet,
-                MinValue = 0,
+               // MinValue = 0,
                 Separator = new Separator
                 {
 
                     // Step = 1,
-                    Stroke = Brushes.Black,
+                    //Stroke = Brushes.Black,
+                    Stroke = Brushes.Transparent,
 
                 }
 
@@ -179,12 +183,13 @@ namespace DataLoggerAppV1
                 DisableAnimations = true,
                 Position = AxisPosition.RightTop,
                 Foreground = Brushes.Gray,
-                MinValue = 0,
+                //MinValue = 0,
                 Separator = new Separator
                 {
 
                     // Step = 1,
-                    Stroke = Brushes.Black,
+                   // Stroke = Brushes.Black,
+                    Stroke = Brushes.Transparent,
 
                 }
 
@@ -195,13 +200,14 @@ namespace DataLoggerAppV1
                 LabelFormatter = val => val + " " + Properties.Settings.Default.UnitAi5,
                 DisableAnimations = true,
                 Position = AxisPosition.RightTop,
-                MinValue = 0,
+                //MinValue = 0,
                 Foreground = Brushes.Blue,
                 Separator = new Separator
                 {
 
                     //Step = 1,
-                    Stroke = Brushes.Black,
+                    //Stroke = Brushes.Black,
+                    Stroke = Brushes.Transparent,
 
                 }
 
@@ -212,13 +218,14 @@ namespace DataLoggerAppV1
                 LabelFormatter = val => val + " " + Properties.Settings.Default.UnitAi6,
                 DisableAnimations = true,
                 Position = AxisPosition.RightTop,
-                MinValue = 0,
+                //MinValue = 0,
                 Foreground = Brushes.Orange,
                 Separator = new Separator
                 {
 
                     //Step = 1,
-                    Stroke = Brushes.Black,
+                    //Stroke = Brushes.Black,
+                    Stroke = Brushes.Transparent,
 
                 }
 
@@ -230,17 +237,19 @@ namespace DataLoggerAppV1
 
                 DisableAnimations = true,
                 Position = AxisPosition.RightTop,
-                MinValue = 0,
+                //MinValue = 0,
                 Foreground = Brushes.Brown,
                 Separator = new Separator
                 {
 
                     //Step = 1,
-                    Stroke = Brushes.Black,
+                   // Stroke = Brushes.Black,
+                    Stroke = Brushes.Transparent,
 
                 }
 
             });
+            
 
 
 
@@ -511,8 +520,8 @@ namespace DataLoggerAppV1
                  ? Visibility.Hidden
                  : Visibility.Visible;
             cartesianChart1.AxisY[0].ShowLabels = cartesianChart1.AxisY[0].ShowLabels == false ? cartesianChart1.AxisY[0].ShowLabels = true : cartesianChart1.AxisY[0].ShowLabels = false;
-            cartesianChart1.AxisY[0].Title = cartesianChart1.AxisY[0].Title == Properties.Settings.Default.NameAi0 ? cartesianChart1.AxisY[0].Title = "" : cartesianChart1.AxisY[0].Title = Properties.Settings.Default.NameAi0;
-            cartesianChart1.AxisY[0].Separator.Stroke = cartesianChart1.AxisY[0].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[0].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[0].Separator.Stroke = Brushes.Black;
+            //cartesianChart1.AxisY[0].Title = cartesianChart1.AxisY[0].Title == Properties.Settings.Default.NameAi0 ? cartesianChart1.AxisY[0].Title = "" : cartesianChart1.AxisY[0].Title = Properties.Settings.Default.NameAi0;
+            //cartesianChart1.AxisY[0].Separator.Stroke = cartesianChart1.AxisY[0].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[0].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[0].Separator.Stroke = Brushes.Black;
 
 
 
@@ -526,7 +535,7 @@ namespace DataLoggerAppV1
                  : Visibility.Visible;
             cartesianChart1.AxisY[1].ShowLabels = cartesianChart1.AxisY[1].ShowLabels == false ? cartesianChart1.AxisY[1].ShowLabels = true : cartesianChart1.AxisY[1].ShowLabels = false;
             cartesianChart1.AxisY[1].Title = cartesianChart1.AxisY[1].Title == Properties.Settings.Default.NameAi1 ? cartesianChart1.AxisY[1].Title = "" : cartesianChart1.AxisY[1].Title = Properties.Settings.Default.NameAi1;
-            cartesianChart1.AxisY[1].Separator.Stroke = cartesianChart1.AxisY[1].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[1].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[1].Separator.Stroke = Brushes.Black;
+            //cartesianChart1.AxisY[1].Separator.Stroke = cartesianChart1.AxisY[1].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[1].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[1].Separator.Stroke = Brushes.Black;
 
         }
 
@@ -537,7 +546,7 @@ namespace DataLoggerAppV1
                  : Visibility.Visible;
             cartesianChart1.AxisY[2].ShowLabels = cartesianChart1.AxisY[2].ShowLabels == false ? cartesianChart1.AxisY[2].ShowLabels = true : cartesianChart1.AxisY[2].ShowLabels = false;
             cartesianChart1.AxisY[2].Title = cartesianChart1.AxisY[2].Title == Properties.Settings.Default.NameAi2 ? cartesianChart1.AxisY[2].Title = "" : cartesianChart1.AxisY[2].Title = Properties.Settings.Default.NameAi2;
-            cartesianChart1.AxisY[2].Separator.Stroke = cartesianChart1.AxisY[2].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[2].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[2].Separator.Stroke = Brushes.Black;
+           // cartesianChart1.AxisY[2].Separator.Stroke = cartesianChart1.AxisY[2].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[2].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[2].Separator.Stroke = Brushes.Black;
         }
 
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
@@ -547,7 +556,7 @@ namespace DataLoggerAppV1
                  : Visibility.Visible;
             cartesianChart1.AxisY[3].ShowLabels = cartesianChart1.AxisY[3].ShowLabels == false ? cartesianChart1.AxisY[3].ShowLabels = true : cartesianChart1.AxisY[3].ShowLabels = false;
             cartesianChart1.AxisY[3].Title = cartesianChart1.AxisY[3].Title == Properties.Settings.Default.NameAi3 ? cartesianChart1.AxisY[3].Title = "" : cartesianChart1.AxisY[3].Title = Properties.Settings.Default.NameAi3;
-            cartesianChart1.AxisY[3].Separator.Stroke = cartesianChart1.AxisY[3].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[3].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[3].Separator.Stroke = Brushes.Black;
+           // cartesianChart1.AxisY[3].Separator.Stroke = cartesianChart1.AxisY[3].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[3].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[3].Separator.Stroke = Brushes.Black;
         }
         private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
@@ -556,7 +565,7 @@ namespace DataLoggerAppV1
                  : Visibility.Visible;
             cartesianChart1.AxisY[4].ShowLabels = cartesianChart1.AxisY[4].ShowLabels == false ? cartesianChart1.AxisY[4].ShowLabels = true : cartesianChart1.AxisY[4].ShowLabels = false;
             cartesianChart1.AxisY[4].Title = cartesianChart1.AxisY[4].Title == Properties.Settings.Default.NameAi4 ? cartesianChart1.AxisY[4].Title = "" : cartesianChart1.AxisY[4].Title = Properties.Settings.Default.NameAi4;
-            cartesianChart1.AxisY[4].Separator.Stroke = cartesianChart1.AxisY[4].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[4].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[4].Separator.Stroke = Brushes.Black;
+           // cartesianChart1.AxisY[4].Separator.Stroke = cartesianChart1.AxisY[4].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[4].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[4].Separator.Stroke = Brushes.Black;
         }
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
@@ -565,7 +574,7 @@ namespace DataLoggerAppV1
                  : Visibility.Visible;
             cartesianChart1.AxisY[5].ShowLabels = cartesianChart1.AxisY[5].ShowLabels == false ? cartesianChart1.AxisY[5].ShowLabels = true : cartesianChart1.AxisY[5].ShowLabels = false;
             cartesianChart1.AxisY[5].Title = cartesianChart1.AxisY[5].Title == Properties.Settings.Default.NameAi5 ? cartesianChart1.AxisY[5].Title = "" : cartesianChart1.AxisY[5].Title = Properties.Settings.Default.NameAi5;
-            cartesianChart1.AxisY[5].Separator.Stroke = cartesianChart1.AxisY[5].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[5].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[5].Separator.Stroke = Brushes.Black;
+           // cartesianChart1.AxisY[5].Separator.Stroke = cartesianChart1.AxisY[5].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[5].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[5].Separator.Stroke = Brushes.Black;
         }
         private void checkBox7_CheckedChanged(object sender, EventArgs e)
         {
@@ -574,7 +583,7 @@ namespace DataLoggerAppV1
                  : Visibility.Visible;
             cartesianChart1.AxisY[6].ShowLabels = cartesianChart1.AxisY[6].ShowLabels == false ? cartesianChart1.AxisY[6].ShowLabels = true : cartesianChart1.AxisY[6].ShowLabels = false;
             cartesianChart1.AxisY[6].Title = cartesianChart1.AxisY[6].Title == Properties.Settings.Default.NameAi6 ? cartesianChart1.AxisY[6].Title = "" : cartesianChart1.AxisY[6].Title = Properties.Settings.Default.NameAi6;
-            cartesianChart1.AxisY[6].Separator.Stroke = cartesianChart1.AxisY[6].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[6].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[6].Separator.Stroke = Brushes.Black;
+           // cartesianChart1.AxisY[6].Separator.Stroke = cartesianChart1.AxisY[6].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[6].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[6].Separator.Stroke = Brushes.Black;
         }
         private void checkBox8_CheckedChanged(object sender, EventArgs e)
         {
@@ -583,7 +592,7 @@ namespace DataLoggerAppV1
                  : Visibility.Visible;
             cartesianChart1.AxisY[7].ShowLabels = cartesianChart1.AxisY[7].ShowLabels == false ? cartesianChart1.AxisY[7].ShowLabels = true : cartesianChart1.AxisY[7].ShowLabels = false;
             cartesianChart1.AxisY[7].Title = cartesianChart1.AxisY[7].Title == Properties.Settings.Default.NameAi7 ? cartesianChart1.AxisY[7].Title = "" : cartesianChart1.AxisY[7].Title = Properties.Settings.Default.NameAi7;
-            cartesianChart1.AxisY[7].Separator.Stroke = cartesianChart1.AxisY[7].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[7].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[7].Separator.Stroke = Brushes.Black;
+           // cartesianChart1.AxisY[7].Separator.Stroke = cartesianChart1.AxisY[7].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[7].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[7].Separator.Stroke = Brushes.Black;
         }
 
         private void btnDashboard_Click(object sender, EventArgs e)

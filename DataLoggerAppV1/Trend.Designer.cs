@@ -238,6 +238,7 @@
             this.checkBox8.TabIndex = 21;
             this.checkBox8.Text = "checkBox8";
             this.checkBox8.UseVisualStyleBackColor = false;
+            this.checkBox8.CheckedChanged += new System.EventHandler(this.checkBox8_CheckedChanged);
             // 
             // checkBox7
             // 
@@ -252,6 +253,7 @@
             this.checkBox7.TabIndex = 20;
             this.checkBox7.Text = "checkBox7";
             this.checkBox7.UseVisualStyleBackColor = false;
+            this.checkBox7.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
             // 
             // checkBox6
             // 
@@ -266,6 +268,7 @@
             this.checkBox6.TabIndex = 19;
             this.checkBox6.Text = "checkBox6";
             this.checkBox6.UseVisualStyleBackColor = false;
+            this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
             // 
             // checkBox5
             // 
@@ -280,6 +283,7 @@
             this.checkBox5.TabIndex = 18;
             this.checkBox5.Text = "checkBox5";
             this.checkBox5.UseVisualStyleBackColor = false;
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
             // 
             // checkBox4
             // 
@@ -294,6 +298,7 @@
             this.checkBox4.TabIndex = 17;
             this.checkBox4.Text = "checkBox4";
             this.checkBox4.UseVisualStyleBackColor = false;
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
             // checkBox3
             // 
@@ -308,6 +313,7 @@
             this.checkBox3.TabIndex = 16;
             this.checkBox3.Text = "checkBox3";
             this.checkBox3.UseVisualStyleBackColor = false;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // checkBox2
             // 
@@ -322,6 +328,7 @@
             this.checkBox2.TabIndex = 15;
             this.checkBox2.Text = "checkBox2";
             this.checkBox2.UseVisualStyleBackColor = false;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox1
             // 
@@ -336,6 +343,7 @@
             this.checkBox1.TabIndex = 14;
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = false;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
             // 
             // panel1
             // 
@@ -399,6 +407,7 @@
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "Trend";
             this.Text = "Export";
+            this.Load += new System.EventHandler(this.Trend_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
