@@ -233,7 +233,7 @@
             this.lblAlarmSystem.Name = "lblAlarmSystem";
             this.lblAlarmSystem.Size = new System.Drawing.Size(1618, 48);
             this.lblAlarmSystem.TabIndex = 3;
-            this.lblAlarmSystem.Text = "PLC Disconncted";
+            this.lblAlarmSystem.Text = "PLC Disconnected";
             this.lblAlarmSystem.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel1
