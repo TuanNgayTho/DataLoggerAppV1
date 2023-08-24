@@ -133,11 +133,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(190, 330);
+            this.label2.Location = new System.Drawing.Point(178, 325);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 24);
+            this.label2.Size = new System.Drawing.Size(116, 24);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Clear Fiels";
+            this.label2.Text = "Clear Fields";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtUser
