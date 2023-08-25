@@ -446,7 +446,7 @@ namespace DataLoggerAppV1
             catch (Exception exception)
             {
             }
-            plc.Open();
+            plc.Close();
 
         }
 
@@ -469,7 +469,7 @@ namespace DataLoggerAppV1
             catch (Exception exception)
             {
             }
-            plc.Open();
+            plc.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -501,7 +501,7 @@ namespace DataLoggerAppV1
             catch (Exception exception)
             {
             }
-            plc.Open();
+            plc.Close();
         }
 
         // btn Stream 3
@@ -523,7 +523,7 @@ namespace DataLoggerAppV1
             catch (Exception exception)
             {
             }
-            plc.Open();
+            plc.Close();
         }
 
         // btn Auto Mode
@@ -545,7 +545,7 @@ namespace DataLoggerAppV1
             catch (Exception exception)
             {
             }
-            plc.Open();
+            plc.Close();
         }
 
         private void btnStop_Click(object sender, EventArgs e)
@@ -566,7 +566,7 @@ namespace DataLoggerAppV1
             catch (Exception exception)
             {
             }
-            plc.Open();
+            plc.Close();
         }
 
         private void btnSart_Click(object sender, EventArgs e)
@@ -587,7 +587,7 @@ namespace DataLoggerAppV1
             catch (Exception exception)
             {
             }
-            plc.Open();
+            plc.Close();
         }
 
         private void Dashboard_FormClosed(object sender, FormClosedEventArgs e)
