@@ -101,7 +101,6 @@ namespace DataLoggerAppV1
                     {
                         if (result != ErrorCode.NoError)
                         {
-                           
                             MessageBox.Show("Error: abc" + plc.LastErrorCode + "\n" + plc.LastErrorString);
                             break;
                         }
