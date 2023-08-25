@@ -604,42 +604,46 @@ namespace DataLoggerAppV1
 
         private void WriteSampleToDatabase()
         {
-            while (isConnect)
+            while (true)
             {
-                try
+                if (isConnect)
                 {
-                    //Connect To Mysql
-                    Thread.Sleep(Properties.Settings.Default.CycleTime);
-                    string server = "localhost";
-                    string database = "datalogger";
-                    string uid = "root";
-                    string password = "root";
-                    string constring = "Server=" + server + "; database=" + database + "; uid=" + uid + "; pwd=" + password;
-                    using (MySqlConnection con = new MySqlConnection(constring))
+                    try
                     {
-                        con.Open();
-                        var query = "INSERT INTO samples (aivalue0, aivalue1, aivalue2, aivalue3, aivalue4, aivalue5, aivalue6, aivalue7) " +
-                                   "VALUES (" + DataAi0 + ", " + DataAi1 + ", "+ DataAi2 + "," + DataAi3 + ", " + DataAi4 + ", "+ DataAi5 + ", " + DataAi6 + ", "+ DataAi7 +");";
-                        
-                        // Database write CMD
-                        MySqlCommand cmd = new MySqlCommand(query, con);
-                        try
+                        //Connect To Mysql
+                        Thread.Sleep(Properties.Settings.Default.CycleTime);
+                        string server = "localhost";
+                        string database = "datalogger";
+                        string uid = "root";
+                        string password = "root";
+                        string constring = "Server=" + server + "; database=" + database + "; uid=" + uid + "; pwd=" + password;
+                        using (MySqlConnection con = new MySqlConnection(constring))
                         {
-                            if (cmd.ExecuteNonQuery() == 1)
+                            con.Open();
+                            var query = "INSERT INTO samples (aivalue0, aivalue1, aivalue2, aivalue3, aivalue4, aivalue5, aivalue6, aivalue7) " +
+                                       "VALUES (" + DataAi0 + ", " + DataAi1 + ", " + DataAi2 + "," + DataAi3 + ", " + DataAi4 + ", " + DataAi5 + ", " + DataAi6 + ", " + DataAi7 + ");";
+
+                            // Database write CMD
+                            MySqlCommand cmd = new MySqlCommand(query, con);
+                            try
+                            {
+                                if (cmd.ExecuteNonQuery() == 1)
+                                {
+                                }
+                            }
+                            catch (Exception e)
                             {
                             }
+                            con.Close();
                         }
-                        catch (Exception e)
-                        {
-                        }
-                        con.Close();
+
                     }
-                    
+                    catch (Exception e)
+                    {
+                        Thread.Sleep(100);
+                    }
                 }
-                catch (Exception e)
-                {
-                    Thread.Sleep(100);
-                }
+
             }
             
         }
