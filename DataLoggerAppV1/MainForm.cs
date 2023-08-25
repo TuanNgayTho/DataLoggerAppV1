@@ -104,7 +104,6 @@ namespace DataLoggerAppV1
                         }
                         else
                         {
-                            
                             // Read AI Data From PLC
                             var DbAiData = new DbAiData();
                             plc.ReadClass(DbAiData, 4);
