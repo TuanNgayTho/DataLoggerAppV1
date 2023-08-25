@@ -113,14 +113,9 @@ namespace DataLoggerAppV1
                         {
                            
                             MessageBox.Show("Error: abc" + plc.LastErrorCode + "\n" + plc.LastErrorString);
-<<<<<<< HEAD
-                            //MessageBox.Show(Convert.ToString(isConnect));
-                            break;
-                            
-=======
+                            MessageBox.Show(Convert.ToString(isConnect));
                             isConnect = false;
                             break;
->>>>>>> 144f81c3238874b3dd942e1200f9003d65b4cd8e
                         }
                         else
                         {
