@@ -91,10 +91,9 @@ namespace DataLoggerAppV1
 
             while (true)
             {
-                Thread.Sleep(100);
-
                 while (true)
                 {
+                    //Thread.Sleep(100);
                     var result = plc.Open();
 
                     try
@@ -606,7 +605,7 @@ namespace DataLoggerAppV1
         {
             while (true)
             {
-                if (isConnect)
+                if (isConnect==true)
                 {
                     try
                     {
