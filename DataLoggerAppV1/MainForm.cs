@@ -36,7 +36,8 @@ namespace DataLoggerAppV1
         public static bool boolBypassStream1;
         public static bool boolBypassStream2;
         public static bool boolBypassStream3;
-       
+        public static bool isConnect;
+
         public MainForm()
         {
             InitializeComponent();
@@ -100,10 +101,12 @@ namespace DataLoggerAppV1
                         if (result != ErrorCode.NoError)
                         {
                             MessageBox.Show("Error: abc" + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                            isConnect = false;
                             break;
                         }
                         else
                         {
+                            isConnect = true;
                             // Read AI Data From PLC
                             var DbAiData = new DbAiData();
                             plc.ReadClass(DbAiData, 4);
@@ -568,6 +571,8 @@ namespace DataLoggerAppV1
                         Thread.Sleep(100);
                         result = plc.Open();
                         Thread.Sleep(100);
+                        isConnect = false;
+                        break;
                     }
                 }
             }
@@ -598,7 +603,7 @@ namespace DataLoggerAppV1
 
         private void WriteSampleToDatabase()
         {
-            while (true)
+            while (isConnect)
             {
                 try
                 {
