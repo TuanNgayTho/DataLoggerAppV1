@@ -92,10 +92,11 @@ namespace DataLoggerAppV1
             while (true)
             {
                 Thread.Sleep(100);
-                var result = plc.Open();
-                
+
                 while (true)
                 {
+                    var result = plc.Open();
+
                     try
                     {
                         if (result != ErrorCode.NoError)
@@ -564,6 +565,7 @@ namespace DataLoggerAppV1
                                 }
                             }
                         }
+                        plc.Close();
                     }
                     catch (Exception e)
                     {
@@ -571,7 +573,6 @@ namespace DataLoggerAppV1
                         Thread.Sleep(100);
                         result = plc.Open();
                         Thread.Sleep(100);
-                        isConnect = false;
                         break;
                     }
                 }
