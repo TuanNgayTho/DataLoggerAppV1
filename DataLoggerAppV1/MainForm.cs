@@ -94,8 +94,18 @@ namespace DataLoggerAppV1
             {
                 Thread.Sleep(100);
                 var result = plc.Open();
-
-                while (true)
+                if (result != ErrorCode.NoError)
+                {
+                    isConnect = false;
+                    MessageBox.Show(Convert.ToString(isConnect));
+           
+                }
+                else
+                {
+                    isConnect = false;
+                    MessageBox.Show(Convert.ToString(isConnect));
+                }
+                    while (true)
                 {
                     try
                     {
@@ -103,10 +113,13 @@ namespace DataLoggerAppV1
                         {
                            
                             MessageBox.Show("Error: abc" + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                            MessageBox.Show(Convert.ToString(isConnect));
+                            isConnect = false;
                             break;
                         }
                         else
                         {
+                            
                             // Read AI Data From PLC
                             var DbAiData = new DbAiData();
                             plc.ReadClass(DbAiData, 4);
