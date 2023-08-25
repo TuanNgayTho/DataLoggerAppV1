@@ -36,6 +36,7 @@ namespace DataLoggerAppV1
         public static bool boolBypassStream1;
         public static bool boolBypassStream2;
         public static bool boolBypassStream3;
+        public static bool isConnect;
         
 
         public MainForm()
