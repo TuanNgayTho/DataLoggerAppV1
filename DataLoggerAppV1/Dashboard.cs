@@ -592,7 +592,10 @@ namespace DataLoggerAppV1
 
         private void Dashboard_FormClosed(object sender, FormClosedEventArgs e)
         {
-            plc.Close();
+        }
+
+        private void Dashboard_FormClosing(object sender, FormClosingEventArgs e)
+        {
             plc.Close();
         }
     }

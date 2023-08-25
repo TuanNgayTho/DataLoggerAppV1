@@ -392,8 +392,6 @@ namespace DataLoggerAppV1
 
         private void Setting_FormClosed(object sender, FormClosedEventArgs e)
         {
-            plc.Close();
-            plc.Close();
         }
     }
 }
