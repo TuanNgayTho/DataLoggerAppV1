@@ -93,15 +93,27 @@ namespace DataLoggerAppV1
             {
                 Thread.Sleep(100);
                 var result = plc.Open();
-                while (true)
+                if (result != ErrorCode.NoError)
+                {
+                    MessageBox.Show("Error:" + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                    isConnect = false;
+                    MessageBox.Show(Convert.ToString(isConnect));
+           
+                }
+                else
+                {
+                    isConnect = false;
+                    MessageBox.Show(Convert.ToString(isConnect));
+                }
+                    while (true)
                 {
                     try
                     {
                         if (result != ErrorCode.NoError)
                         {
                             MessageBox.Show("Error: abc" + plc.LastErrorCode + "\n" + plc.LastErrorString);
-                            break;
                             isConnect = false;
+                            break;
                         }
                         else
                         {
