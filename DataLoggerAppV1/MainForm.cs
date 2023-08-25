@@ -28,7 +28,7 @@ namespace DataLoggerAppV1
         public static double DataAi5;
         public static double DataAi6;
         public static double DataAi7;
-        public Random R { get; set; }
+        
         public static bool boolInletStream1;
         public static bool boolInletStream2;
         public static bool boolInletStream3;
@@ -36,9 +36,7 @@ namespace DataLoggerAppV1
         public static bool boolBypassStream1;
         public static bool boolBypassStream2;
         public static bool boolBypassStream3;
-        public static bool isConnect;
-        
-
+       
         public MainForm()
         {
             InitializeComponent();
@@ -94,27 +92,14 @@ namespace DataLoggerAppV1
             {
                 Thread.Sleep(100);
                 var result = plc.Open();
-                if (result != ErrorCode.NoError)
-                {
-                    isConnect = false;
-                    MessageBox.Show(Convert.ToString(isConnect));
-           
-                }
-                else
-                {
-                    isConnect = false;
-                    MessageBox.Show(Convert.ToString(isConnect));
-                }
-                    while (true)
+                
+                while (true)
                 {
                     try
                     {
                         if (result != ErrorCode.NoError)
                         {
-                           
                             MessageBox.Show("Error: abc" + plc.LastErrorCode + "\n" + plc.LastErrorString);
-                            MessageBox.Show(Convert.ToString(isConnect));
-                            isConnect = false;
                             break;
                         }
                         else
