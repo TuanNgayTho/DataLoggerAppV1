@@ -95,7 +95,6 @@ namespace DataLoggerAppV1
                 var result = plc.Open();
                 if (result != ErrorCode.NoError)
                 {
-                    MessageBox.Show("Error:" + plc.LastErrorCode + "\n" + plc.LastErrorString);
                     isConnect = false;
                     MessageBox.Show(Convert.ToString(isConnect));
            
@@ -582,6 +581,7 @@ namespace DataLoggerAppV1
                         Thread.Sleep(100);
                         result = plc.Open();
                         Thread.Sleep(100);
+                        isConnect = false;
                     }
                 }
             }
