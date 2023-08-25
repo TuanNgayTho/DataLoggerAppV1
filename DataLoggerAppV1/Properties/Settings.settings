@@ -110,5 +110,8 @@
     <Setting Name="ColorAi7" Type="System.Drawing.Color" Scope="User">
       <Value Profile="(Default)">Brown</Value>
     </Setting>
+    <Setting Name="isConnected" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

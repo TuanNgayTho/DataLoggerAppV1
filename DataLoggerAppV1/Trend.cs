@@ -70,7 +70,7 @@ namespace DataLoggerAppV1
         public Trend()
         {
             InitializeComponent();
-
+            
 
             var mapper = Mappers.Xy<MeasureModel>()
                .X(model => model.DateTime.Ticks)   //use DateTime.Ticks as X
@@ -256,11 +256,15 @@ namespace DataLoggerAppV1
             SetAxisLimits(System.DateTime.Now);
 
             //The next code simulates data changes every 500 ms
+            
             Timer = new Timer
             {
                 Interval = 2000
             };
             Timer.Tick += TimerOnTick;
+            
+                Timer.Start();
+             
             R = new Random();
 
 
@@ -398,117 +402,119 @@ namespace DataLoggerAppV1
 
         private void TimerOnTick(object sender, EventArgs eventArgs)
         {
-            var now = System.DateTime.Now;
-
-
-
-            //lets only use the last 30 values
-            if (ChartValues.Count > 50) ChartValues.RemoveAt(0);
-            ////
-            ///
-            try
+            if (Properties.Settings.Default.isConnected == true)
             {
-                DateTime enteredDate;
-                string server = "localhost";
-                string database = "datalogger";
-                string uid = "root";
-                string password = "root";
-                string constring = "Server=" + server + "; database=" + database + "; uid=" + uid + "; pwd=" + password;
-                MySqlConnection con = new MySqlConnection(constring);
-                con.Open();
-                
-
-                var query = "Select aivalue0,aivalue1,aivalue2,aivalue3,aivalue4,aivalue5,aivalue6,aivalue7,ts from samples ORDER BY id DESC LIMIT 1";
+                var now = System.DateTime.Now;
+                //System.Windows.MessageBox.Show("connect");
 
 
+                //lets only use the last 30 values
+                if (ChartValues.Count > 50) ChartValues.RemoveAt(0);
+                ////
+                ///
+                try
+                {
+                    DateTime enteredDate;
+                    string server = "localhost";
+                    string database = "datalogger";
+                    string uid = "root";
+                    string password = "root";
+                    string constring = "Server=" + server + "; database=" + database + "; uid=" + uid + "; pwd=" + password;
+                    MySqlConnection con = new MySqlConnection(constring);
+                    con.Open();
 
 
-                MySqlCommand cmd = new MySqlCommand(query, con);
-                MySqlDataReader reader = cmd.ExecuteReader();
-                //System.Windows.MessageBox.Show("ok");
-                while (reader.Read())
-                {  
-                    /*
-                    
-                    value = float.Parse(String.Format("{0:0.##}", reader["aivalue0"]));   
-                    value1 = float.Parse(String.Format("{0:0.00}", reader["aivalue1"]));
-                    value2 = float.Parse(String.Format("{0:0.00}", reader["aivalue2"]));
-                    value3 = float.Parse(String.Format("{0:0.00}", reader["aivalue3"]));
-                    value4 = float.Parse(String.Format("{0:0.00}", reader["aivalue4"]));
-                    value5 = float.Parse(String.Format("{0:0.00}", reader["aivalue5"]));
-                    value6 = float.Parse(String.Format("{0:0.00}", reader["aivalue6"]));
-                    value7 = float.Parse(String.Format("{0:0.00}", reader["aivalue7"]));*/
-
-                    value = Convert.ToInt32(float.Parse(reader["aivalue0"].ToString()) * 100) / 100F;
-                    value1 = Convert.ToInt32(float.Parse(reader["aivalue1"].ToString()) * 100) / 100F;
-                    value2 = Convert.ToInt32(float.Parse(reader["aivalue2"].ToString()) * 100) / 100F;
-                    value3 = Convert.ToInt32(float.Parse(reader["aivalue3"].ToString()) * 100) / 100F;
-                    value4 = Convert.ToInt32(float.Parse(reader["aivalue4"].ToString()) * 100) / 100F;
-                    value5 = Convert.ToInt32(float.Parse(reader["aivalue5"].ToString()) * 100) / 100F;
-                    value6 = Convert.ToInt32(float.Parse(reader["aivalue6"].ToString()) * 100) / 100F;
-                    value7 = Convert.ToInt32(float.Parse(reader["aivalue7"].ToString()) * 100) / 100F;
+                    var query = "Select aivalue0,aivalue1,aivalue2,aivalue3,aivalue4,aivalue5,aivalue6,aivalue7,ts from samples ORDER BY id DESC LIMIT 1";
 
 
-                    ts = DateTime.Parse(reader["ts"].ToString());
 
-                    //System.Windows.MessageBox.Show(reader["ts"].ToString());
+
+                    MySqlCommand cmd = new MySqlCommand(query, con);
+                    MySqlDataReader reader = cmd.ExecuteReader();
+                    //System.Windows.MessageBox.Show("ok");
+                    while (reader.Read())
+                    {
+                        /*
+
+                        value = float.Parse(String.Format("{0:0.##}", reader["aivalue0"]));   
+                        value1 = float.Parse(String.Format("{0:0.00}", reader["aivalue1"]));
+                        value2 = float.Parse(String.Format("{0:0.00}", reader["aivalue2"]));
+                        value3 = float.Parse(String.Format("{0:0.00}", reader["aivalue3"]));
+                        value4 = float.Parse(String.Format("{0:0.00}", reader["aivalue4"]));
+                        value5 = float.Parse(String.Format("{0:0.00}", reader["aivalue5"]));
+                        value6 = float.Parse(String.Format("{0:0.00}", reader["aivalue6"]));
+                        value7 = float.Parse(String.Format("{0:0.00}", reader["aivalue7"]));*/
+
+                        value = Convert.ToInt32(float.Parse(reader["aivalue0"].ToString()) * 100) / 100F;
+                        value1 = Convert.ToInt32(float.Parse(reader["aivalue1"].ToString()) * 100) / 100F;
+                        value2 = Convert.ToInt32(float.Parse(reader["aivalue2"].ToString()) * 100) / 100F;
+                        value3 = Convert.ToInt32(float.Parse(reader["aivalue3"].ToString()) * 100) / 100F;
+                        value4 = Convert.ToInt32(float.Parse(reader["aivalue4"].ToString()) * 100) / 100F;
+                        value5 = Convert.ToInt32(float.Parse(reader["aivalue5"].ToString()) * 100) / 100F;
+                        value6 = Convert.ToInt32(float.Parse(reader["aivalue6"].ToString()) * 100) / 100F;
+                        value7 = Convert.ToInt32(float.Parse(reader["aivalue7"].ToString()) * 100) / 100F;
+
+
+                        ts = DateTime.Parse(reader["ts"].ToString());
+
+                        //System.Windows.MessageBox.Show(reader["ts"].ToString());
+
+                    }
+
+                    con.Close();
+                    ChartValues.Add(new MeasureModel
+                    {
+                        DateTime = ts,
+                        Value = value
+                    });
+
+                    ChartValues1.Add(new MeasureModel
+                    {
+                        DateTime = ts,
+                        Value = value1
+                    });
+                    ChartValues2.Add(new MeasureModel
+                    {
+                        DateTime = ts,
+                        Value = value2
+                    });
+                    ChartValues3.Add(new MeasureModel
+                    {
+                        DateTime = ts,
+                        Value = value3
+                    });
+                    ChartValues4.Add(new MeasureModel
+                    {
+                        DateTime = ts,
+                        Value = value4
+                    });
+                    ChartValues5.Add(new MeasureModel
+                    {
+                        DateTime = ts,
+                        Value = value5
+                    });
+                    ChartValues6.Add(new MeasureModel
+                    {
+                        DateTime = ts,
+                        Value = value6
+                    });
+                    ChartValues7.Add(new MeasureModel
+                    {
+                        DateTime = ts,
+                        Value = value7
+                    });
+
+
+                    SetAxisLimits(now);
+                }
+
+
+                catch
+                {
+
 
                 }
-                
-                con.Close();
-                ChartValues.Add(new MeasureModel
-                {
-                    DateTime = ts,
-                    Value = value
-                });
-
-                ChartValues1.Add(new MeasureModel
-                {
-                    DateTime = ts,
-                    Value = value1
-                });
-                ChartValues2.Add(new MeasureModel
-                {
-                    DateTime = ts,
-                    Value = value2
-                });
-                ChartValues3.Add(new MeasureModel
-                {
-                    DateTime = ts,
-                    Value = value3
-                });
-                ChartValues4.Add(new MeasureModel
-                {
-                    DateTime = ts,
-                    Value = value4
-                });
-                ChartValues5.Add(new MeasureModel
-                {
-                    DateTime = ts,
-                    Value = value5
-                });
-                ChartValues6.Add(new MeasureModel
-                {
-                    DateTime = ts,
-                    Value = value6
-                });
-                ChartValues7.Add(new MeasureModel
-                {
-                    DateTime = ts,
-                    Value = value7
-                });
-
-
-                SetAxisLimits(now);
             }
-
-
-            catch
-            {
-
-
-            }
-
 
 
 
