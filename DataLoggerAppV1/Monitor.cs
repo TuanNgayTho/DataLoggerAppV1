@@ -1983,6 +1983,7 @@ namespace DataLoggerAppV1
             // 
             this.standardControl15.AnalogIntValue1 = ((short)(0));
             this.standardControl15.AnalogValue1 = 0D;
+            this.standardControl15.AnimationMode = SymbolFactoryNetEngine.AnimationModeOptions.DiscreteColorFill;
             this.standardControl15.BackColor = System.Drawing.Color.Transparent;
             this.standardControl15.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
             this.standardControl15.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
@@ -1995,7 +1996,8 @@ namespace DataLoggerAppV1
             this.standardControl15.BlinkColor = System.Drawing.Color.Red;
             this.standardControl15.Category = "1HEAT.cat2";
             this.standardControl15.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl15.DebugData"));
-            this.standardControl15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.standardControl15.FillColor = System.Drawing.Color.Silver;
+            this.standardControl15.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
             this.standardControl15.Location = new System.Drawing.Point(289, 140);
             this.standardControl15.Name = "standardControl15";
             this.standardControl15.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
@@ -2007,6 +2009,7 @@ namespace DataLoggerAppV1
             // 
             this.standardControl16.AnalogIntValue1 = ((short)(0));
             this.standardControl16.AnalogValue1 = 0D;
+            this.standardControl16.AnimationMode = SymbolFactoryNetEngine.AnimationModeOptions.DiscreteColorFill;
             this.standardControl16.BackColor = System.Drawing.Color.Transparent;
             this.standardControl16.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
             this.standardControl16.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
@@ -2019,7 +2022,8 @@ namespace DataLoggerAppV1
             this.standardControl16.BlinkColor = System.Drawing.Color.Red;
             this.standardControl16.Category = "1HEAT.cat2";
             this.standardControl16.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl16.DebugData"));
-            this.standardControl16.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.standardControl16.FillColor = System.Drawing.Color.Silver;
+            this.standardControl16.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
             this.standardControl16.Location = new System.Drawing.Point(289, 235);
             this.standardControl16.Name = "standardControl16";
             this.standardControl16.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
@@ -2031,6 +2035,7 @@ namespace DataLoggerAppV1
             // 
             this.standardControl12.AnalogIntValue1 = ((short)(0));
             this.standardControl12.AnalogValue1 = 0D;
+            this.standardControl12.AnimationMode = SymbolFactoryNetEngine.AnimationModeOptions.DiscreteColorFill;
             this.standardControl12.BackColor = System.Drawing.Color.Transparent;
             this.standardControl12.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
             this.standardControl12.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
@@ -2043,7 +2048,8 @@ namespace DataLoggerAppV1
             this.standardControl12.BlinkColor = System.Drawing.Color.Red;
             this.standardControl12.Category = "1HEAT.cat2";
             this.standardControl12.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl12.DebugData"));
-            this.standardControl12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.standardControl12.FillColor = System.Drawing.Color.Silver;
+            this.standardControl12.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
             this.standardControl12.Location = new System.Drawing.Point(203, 64);
             this.standardControl12.Name = "standardControl12";
             this.standardControl12.Size = new System.Drawing.Size(69, 63);
@@ -2126,6 +2132,7 @@ namespace DataLoggerAppV1
             // 
             this.standardControl17.AnalogIntValue1 = ((short)(0));
             this.standardControl17.AnalogValue1 = 0D;
+            this.standardControl17.AnimationMode = SymbolFactoryNetEngine.AnimationModeOptions.DiscreteColorFill;
             this.standardControl17.BackColor = System.Drawing.Color.Transparent;
             this.standardControl17.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
             this.standardControl17.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
@@ -2138,7 +2145,8 @@ namespace DataLoggerAppV1
             this.standardControl17.BlinkColor = System.Drawing.Color.Red;
             this.standardControl17.Category = "1HEAT.cat2";
             this.standardControl17.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl17.DebugData"));
-            this.standardControl17.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.standardControl17.FillColor = System.Drawing.Color.Silver;
+            this.standardControl17.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
             this.standardControl17.Location = new System.Drawing.Point(289, 324);
             this.standardControl17.Name = "standardControl17";
             this.standardControl17.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
@@ -2150,6 +2158,7 @@ namespace DataLoggerAppV1
             // 
             this.standardControl7.AnalogIntValue1 = ((short)(0));
             this.standardControl7.AnalogValue1 = 0D;
+            this.standardControl7.AnimationMode = SymbolFactoryNetEngine.AnimationModeOptions.DiscreteColorFill;
             this.standardControl7.BackColor = System.Drawing.Color.Transparent;
             this.standardControl7.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
             this.standardControl7.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
@@ -2162,7 +2171,8 @@ namespace DataLoggerAppV1
             this.standardControl7.BlinkColor = System.Drawing.Color.Red;
             this.standardControl7.Category = "1HEAT.cat2";
             this.standardControl7.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl7.DebugData"));
-            this.standardControl7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.standardControl7.FillColor = System.Drawing.Color.Silver;
+            this.standardControl7.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
             this.standardControl7.Location = new System.Drawing.Point(108, 64);
             this.standardControl7.Name = "standardControl7";
             this.standardControl7.Size = new System.Drawing.Size(69, 63);
@@ -2245,6 +2255,7 @@ namespace DataLoggerAppV1
             // 
             this.standardControl19.AnalogIntValue1 = ((short)(0));
             this.standardControl19.AnalogValue1 = 0D;
+            this.standardControl19.AnimationMode = SymbolFactoryNetEngine.AnimationModeOptions.DiscreteColorFill;
             this.standardControl19.BackColor = System.Drawing.Color.Transparent;
             this.standardControl19.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
             this.standardControl19.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
@@ -2257,7 +2268,8 @@ namespace DataLoggerAppV1
             this.standardControl19.BlinkColor = System.Drawing.Color.Red;
             this.standardControl19.Category = "1HEAT.cat2";
             this.standardControl19.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl19.DebugData"));
-            this.standardControl19.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.standardControl19.FillColor = System.Drawing.Color.Silver;
+            this.standardControl19.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
             this.standardControl19.Location = new System.Drawing.Point(15, 64);
             this.standardControl19.Name = "standardControl19";
             this.standardControl19.Size = new System.Drawing.Size(69, 63);
@@ -2376,6 +2388,7 @@ namespace DataLoggerAppV1
             // timer1
             // 
             this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // standardControl69
             // 
@@ -3397,5 +3410,71 @@ namespace DataLoggerAppV1
         private SymbolFactoryDotNet.StandardControl standardControl37;
         private SymbolFactoryDotNet.StandardControl standardControl34;
         private SymbolFactoryDotNet.StandardControl standardControl33;
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (MainForm.boolBypassStream1 == false)
+            {
+
+                standardControl19.DiscreteValue1 = true;
+
+            }
+            else {
+                standardControl19.DiscreteValue2 = true;
+
+            }
+            if (MainForm.boolBypassStream2 == false)
+            {
+
+                standardControl7.DiscreteValue1 = true;
+
+            }
+            else
+            {
+                standardControl7.DiscreteValue2 = true;
+
+            }
+
+            if (MainForm.boolInletStream1 == false)
+            {
+
+                standardControl15.DiscreteValue1 = true;
+
+            }
+            else
+            {
+                standardControl15.DiscreteValue2 = true;
+
+            }
+            if (MainForm.boolInletStream2 == false)
+            {
+
+                standardControl16.DiscreteValue1 = true;
+
+            }
+            else
+            {
+                standardControl16.DiscreteValue2 = true;
+
+            }
+            if (MainForm.boolInletStream3 == false)
+            {
+
+                standardControl17.DiscreteValue1 = true;
+
+            }
+            else
+            {
+                standardControl17.DiscreteValue2 = true;
+
+            }
+            label50.Text = MainForm.DataAi0.ToString();
+            label54.Text = MainForm.DataAi1.ToString();
+            label56.Text = MainForm.DataAi2.ToString();
+            label58.Text = MainForm.DataAi3.ToString();
+            label52.Text = MainForm.DataAi4.ToString();
+           
+
+        }
     }
 }
