@@ -402,7 +402,7 @@ namespace DataLoggerAppV1
 
         private void TimerOnTick(object sender, EventArgs eventArgs)
         {
-            if (Properties.Settings.Default.isConnected == true)
+            
             {
                 var now = System.DateTime.Now;
                 //System.Windows.MessageBox.Show("connect");

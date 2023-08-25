@@ -454,17 +454,5 @@ namespace DataLoggerAppV1.Properties {
                 this["ColorAi7"] = value;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool isConnected {
-            get {
-                return ((bool)(this["isConnected"]));
-            }
-            set {
-                this["isConnected"] = value;
-            }
-        }
     }
 }
