@@ -94,18 +94,8 @@ namespace DataLoggerAppV1
             {
                 Thread.Sleep(100);
                 var result = plc.Open();
-                if (result != ErrorCode.NoError)
-                {
-                    isConnect = false;
-                    MessageBox.Show(Convert.ToString(isConnect));
-           
-                }
-                else
-                {
-                    isConnect = false;
-                    MessageBox.Show(Convert.ToString(isConnect));
-                }
-                    while (true)
+                
+                while (true)
                 {
                     try
                     {
@@ -119,7 +109,7 @@ namespace DataLoggerAppV1
                         }
                         else
                         {
-                            
+                            isConnect = true;
                             // Read AI Data From PLC
                             var DbAiData = new DbAiData();
                             plc.ReadClass(DbAiData, 4);
@@ -156,6 +146,8 @@ namespace DataLoggerAppV1
                                 catch (Exception e)
                                 {
                                     MessageBox.Show(e.Message);
+                                    isConnect = false;
+                                    break;
                                 }
                             }
 
@@ -169,6 +161,8 @@ namespace DataLoggerAppV1
                                 catch (Exception e)
                                 {
                                     MessageBox.Show(e.Message);
+                                    isConnect = false;
+                                    break;
                                 }
                             }
 
@@ -183,6 +177,8 @@ namespace DataLoggerAppV1
                                 catch (Exception e)
                                 {
                                     MessageBox.Show(e.Message);
+                                    isConnect = false;
+                                    break;
                                 }
                             }
 
@@ -195,7 +191,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -209,7 +207,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -222,7 +222,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -236,7 +238,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -249,7 +253,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -263,7 +269,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -276,7 +284,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -290,7 +300,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -303,7 +315,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -317,7 +331,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -330,7 +346,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -344,7 +362,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -357,7 +377,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -371,7 +393,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -384,7 +408,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -398,7 +424,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -411,7 +439,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -425,7 +455,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -438,7 +470,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -452,7 +486,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -465,7 +501,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -479,7 +517,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -492,7 +532,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -506,7 +548,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -519,7 +563,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -533,7 +579,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -546,7 +594,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -560,7 +610,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
 
@@ -573,7 +625,9 @@ namespace DataLoggerAppV1
                                 }
                                 catch (Exception e)
                                 {
+                                    isConnect = false;
                                     MessageBox.Show(e.Message);
+                                    break;
                                 }
                             }
                         }
