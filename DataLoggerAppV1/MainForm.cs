@@ -36,6 +36,7 @@ namespace DataLoggerAppV1
         public static bool boolBypassStream1;
         public static bool boolBypassStream2;
         public static bool boolBypassStream3;
+        public static bool isConnect;
 
         public MainForm()
         {
@@ -100,9 +101,11 @@ namespace DataLoggerAppV1
                         {
                             MessageBox.Show("Error: abc" + plc.LastErrorCode + "\n" + plc.LastErrorString);
                             break;
+                            isConnect = false;
                         }
                         else
                         {
+                            isConnect = true;
                             // Read AI Data From PLC
                             var DbAiData = new DbAiData();
                             plc.ReadClass(DbAiData, 4);
