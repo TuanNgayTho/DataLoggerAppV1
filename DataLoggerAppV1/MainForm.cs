@@ -28,7 +28,7 @@ namespace DataLoggerAppV1
         public static double DataAi5;
         public static double DataAi6;
         public static double DataAi7;
-        public Random R { get; set; }
+
         public static bool boolInletStream1;
         public static bool boolInletStream2;
         public static bool boolInletStream3;
