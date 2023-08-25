@@ -1608,6 +1608,7 @@
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "Setting";
             this.Text = "Setting";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Setting_FormClosed);
             this.Load += new System.EventHandler(this.Setting_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

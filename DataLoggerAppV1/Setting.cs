@@ -13,6 +13,7 @@ namespace DataLoggerAppV1
 {
     public partial class Setting : Form
     {
+        public static Plc plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
         public Setting()
         {
             InitializeComponent();
@@ -88,7 +89,7 @@ namespace DataLoggerAppV1
         // Read Setting Data
         private void ReadFromPlc()
         {
-            using (var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1))
+            using (plc)
             {
                 plc.Close();
                 Thread.Sleep(100);
@@ -387,6 +388,12 @@ namespace DataLoggerAppV1
         private void textBox14_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Setting_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            plc.Close();
+            plc.Close();
         }
     }
 }

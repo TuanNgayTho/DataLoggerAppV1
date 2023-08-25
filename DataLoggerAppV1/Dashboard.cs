@@ -31,6 +31,7 @@ namespace DataLoggerAppV1
         public Label AiDataCh5;
         public Label AiDataCh6;
         public Label AiDataCh7;
+        public static Plc plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
 
         public Dashboard()
         {
@@ -43,6 +44,7 @@ namespace DataLoggerAppV1
             AiDataCh5 = lblAiDataCh5;
             AiDataCh6 = lblAiDataCh6;
             AiDataCh7 = lblAiDataCh7;
+
             
             instance = this;
 
@@ -59,7 +61,7 @@ namespace DataLoggerAppV1
         // Method Connect PLC and Read Data From PLC
         private void ConnectToPlc()
         {
-            using (var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1))
+            using (plc)
             {
                 while (true)
                 {
@@ -586,6 +588,12 @@ namespace DataLoggerAppV1
             {
             }
             plc.Open();
+        }
+
+        private void Dashboard_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            plc.Close();
+            plc.Close();
         }
     }
 
