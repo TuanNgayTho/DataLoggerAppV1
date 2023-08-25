@@ -174,6 +174,9 @@ namespace DataLoggerAppV1
             this.standardControl37 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl34 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl33 = new SymbolFactoryDotNet.StandardControl();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl45)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl90)).BeginInit();
@@ -276,7 +279,6 @@ namespace DataLoggerAppV1
             this.panel6.Controls.Add(this.label52);
             this.panel6.Controls.Add(this.label53);
             this.panel6.Controls.Add(this.label51);
-            this.panel6.Controls.Add(this.label46);
             this.panel6.Location = new System.Drawing.Point(1262, 554);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(186, 226);
@@ -286,7 +288,7 @@ namespace DataLoggerAppV1
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Times New Roman", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(12, 85);
+            this.label52.Location = new System.Drawing.Point(42, 71);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(94, 72);
             this.label52.TabIndex = 168;
@@ -296,7 +298,7 @@ namespace DataLoggerAppV1
             // 
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(27, 177);
+            this.label53.Location = new System.Drawing.Point(60, 163);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(58, 22);
             this.label53.TabIndex = 167;
@@ -306,7 +308,7 @@ namespace DataLoggerAppV1
             // 
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(15, 39);
+            this.label51.Location = new System.Drawing.Point(58, 41);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(62, 22);
             this.label51.TabIndex = 167;
@@ -316,7 +318,7 @@ namespace DataLoggerAppV1
             // 
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(15, 8);
+            this.label46.Location = new System.Drawing.Point(1290, 529);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(124, 22);
             this.label46.TabIndex = 157;
@@ -326,7 +328,7 @@ namespace DataLoggerAppV1
             // 
             this.label45.AutoSize = true;
             this.label45.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(434, 529);
+            this.label45.Location = new System.Drawing.Point(421, 529);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(111, 22);
             this.label45.TabIndex = 173;
@@ -504,7 +506,7 @@ namespace DataLoggerAppV1
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Times New Roman", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(9, 53);
+            this.label54.Location = new System.Drawing.Point(48, 70);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(94, 72);
             this.label54.TabIndex = 170;
@@ -538,7 +540,7 @@ namespace DataLoggerAppV1
             // 
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(26, 147);
+            this.label55.Location = new System.Drawing.Point(66, 162);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(58, 22);
             this.label55.TabIndex = 169;
@@ -774,7 +776,7 @@ namespace DataLoggerAppV1
             // 
             this.label47.AutoSize = true;
             this.label47.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(16, 10);
+            this.label47.Location = new System.Drawing.Point(1154, 91);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(97, 22);
             this.label47.TabIndex = 158;
@@ -885,7 +887,7 @@ namespace DataLoggerAppV1
             // 
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Times New Roman", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(10, 79);
+            this.label50.Location = new System.Drawing.Point(53, 73);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(94, 72);
             this.label50.TabIndex = 166;
@@ -919,11 +921,12 @@ namespace DataLoggerAppV1
             // 
             this.label57.AutoSize = true;
             this.label57.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(190, 144);
+            this.label57.Location = new System.Drawing.Point(225, 163);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(58, 22);
             this.label57.TabIndex = 171;
             this.label57.Text = "mmm";
+            this.label57.Click += new System.EventHandler(this.label57_Click);
             // 
             // label9
             // 
@@ -964,7 +967,7 @@ namespace DataLoggerAppV1
             // 
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(25, 171);
+            this.label49.Location = new System.Drawing.Point(71, 169);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(58, 22);
             this.label49.TabIndex = 165;
@@ -1019,7 +1022,7 @@ namespace DataLoggerAppV1
             // 
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(16, 36);
+            this.label48.Location = new System.Drawing.Point(69, 35);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(62, 22);
             this.label48.TabIndex = 164;
@@ -1145,7 +1148,7 @@ namespace DataLoggerAppV1
             // 
             this.label58.AutoSize = true;
             this.label58.Font = new System.Drawing.Font("Times New Roman", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(341, 56);
+            this.label58.Location = new System.Drawing.Point(366, 71);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(94, 72);
             this.label58.TabIndex = 174;
@@ -1155,7 +1158,7 @@ namespace DataLoggerAppV1
             // 
             this.label59.AutoSize = true;
             this.label59.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(349, 148);
+            this.label59.Location = new System.Drawing.Point(384, 163);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(58, 22);
             this.label59.TabIndex = 173;
@@ -1285,11 +1288,12 @@ namespace DataLoggerAppV1
             // 
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Times New Roman", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(174, 52);
+            this.label56.Location = new System.Drawing.Point(207, 71);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(94, 72);
             this.label56.TabIndex = 172;
             this.label56.Text = "62";
+            this.label56.Click += new System.EventHandler(this.label56_Click);
             // 
             // standardControl74
             // 
@@ -1447,7 +1451,7 @@ namespace DataLoggerAppV1
             this.standardControl46.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl46.DebugData"));
             this.standardControl46.FillColor = System.Drawing.Color.Silver;
             this.standardControl46.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl46.Location = new System.Drawing.Point(763, 255);
+            this.standardControl46.Location = new System.Drawing.Point(763, 252);
             this.standardControl46.Name = "standardControl46";
             this.standardControl46.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
             this.standardControl46.Size = new System.Drawing.Size(69, 63);
@@ -1987,7 +1991,7 @@ namespace DataLoggerAppV1
             this.standardControl15.BackColor = System.Drawing.Color.Transparent;
             this.standardControl15.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
             this.standardControl15.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl15.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.standardControl15.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Yellow, "Band2"));
             this.standardControl15.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
             this.standardControl15.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
             this.standardControl15.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
@@ -2013,7 +2017,7 @@ namespace DataLoggerAppV1
             this.standardControl16.BackColor = System.Drawing.Color.Transparent;
             this.standardControl16.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
             this.standardControl16.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl16.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.standardControl16.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Yellow, "Band2"));
             this.standardControl16.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
             this.standardControl16.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
             this.standardControl16.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
@@ -2039,7 +2043,7 @@ namespace DataLoggerAppV1
             this.standardControl12.BackColor = System.Drawing.Color.Transparent;
             this.standardControl12.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
             this.standardControl12.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl12.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.standardControl12.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Yellow, "Band2"));
             this.standardControl12.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
             this.standardControl12.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
             this.standardControl12.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
@@ -2136,7 +2140,7 @@ namespace DataLoggerAppV1
             this.standardControl17.BackColor = System.Drawing.Color.Transparent;
             this.standardControl17.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
             this.standardControl17.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl17.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.standardControl17.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Yellow, "Band2"));
             this.standardControl17.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
             this.standardControl17.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
             this.standardControl17.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
@@ -2162,7 +2166,7 @@ namespace DataLoggerAppV1
             this.standardControl7.BackColor = System.Drawing.Color.Transparent;
             this.standardControl7.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
             this.standardControl7.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl7.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.standardControl7.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Yellow, "Band2"));
             this.standardControl7.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
             this.standardControl7.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
             this.standardControl7.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
@@ -2259,7 +2263,7 @@ namespace DataLoggerAppV1
             this.standardControl19.BackColor = System.Drawing.Color.Transparent;
             this.standardControl19.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
             this.standardControl19.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl19.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.standardControl19.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Yellow, "Band2"));
             this.standardControl19.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
             this.standardControl19.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
             this.standardControl19.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
@@ -2341,7 +2345,6 @@ namespace DataLoggerAppV1
             this.panel5.Controls.Add(this.label50);
             this.panel5.Controls.Add(this.label49);
             this.panel5.Controls.Add(this.label48);
-            this.panel5.Controls.Add(this.label47);
             this.panel5.Location = new System.Drawing.Point(1099, 116);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(202, 226);
@@ -2374,13 +2377,16 @@ namespace DataLoggerAppV1
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.label62);
+            this.panel7.Controls.Add(this.label61);
+            this.panel7.Controls.Add(this.label60);
             this.panel7.Controls.Add(this.label58);
             this.panel7.Controls.Add(this.label59);
             this.panel7.Controls.Add(this.label56);
             this.panel7.Controls.Add(this.label57);
             this.panel7.Controls.Add(this.label54);
             this.panel7.Controls.Add(this.label55);
-            this.panel7.Location = new System.Drawing.Point(227, 554);
+            this.panel7.Location = new System.Drawing.Point(227, 555);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(508, 225);
             this.panel7.TabIndex = 277;
@@ -3035,12 +3041,45 @@ namespace DataLoggerAppV1
             this.standardControl33.SymbolHandle = ((long)(823526416));
             this.standardControl33.TabIndex = 192;
             // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.Location = new System.Drawing.Point(64, 40);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(62, 22);
+            this.label60.TabIndex = 169;
+            this.label60.Text = "6200T";
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.Location = new System.Drawing.Point(223, 41);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(62, 22);
+            this.label61.TabIndex = 175;
+            this.label61.Text = "6200T";
+            this.label61.Click += new System.EventHandler(this.label61_Click);
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.Location = new System.Drawing.Point(382, 41);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(62, 22);
+            this.label62.TabIndex = 176;
+            this.label62.Text = "6200T";
+            // 
             // Monitor
             // 
             this.ClientSize = new System.Drawing.Size(1712, 1002);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.label45);
             this.Controls.Add(this.label41);
+            this.Controls.Add(this.label46);
+            this.Controls.Add(this.label47);
             this.Controls.Add(this.label40);
             this.Controls.Add(this.label39);
             this.Controls.Add(this.label38);
@@ -3150,6 +3189,7 @@ namespace DataLoggerAppV1
             this.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Monitor";
+            this.Load += new System.EventHandler(this.Monitor_Load);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl45)).EndInit();
@@ -3417,9 +3457,10 @@ namespace DataLoggerAppV1
             {
 
                 standardControl19.DiscreteValue1 = true;
-
+                standardControl19.DiscreteValue2 = false;
             }
             else {
+                standardControl19.DiscreteValue1 = false;
                 standardControl19.DiscreteValue2 = true;
 
             }
@@ -3427,53 +3468,115 @@ namespace DataLoggerAppV1
             {
 
                 standardControl7.DiscreteValue1 = true;
+                standardControl7.DiscreteValue2 = false;
 
             }
             else
             {
                 standardControl7.DiscreteValue2 = true;
+                standardControl7.DiscreteValue1 = false;
+
 
             }
+            if (MainForm.boolBypassStream3 == false)
+            {
+
+                standardControl12.DiscreteValue1 = true;
+                standardControl12.DiscreteValue2 = false;
+
+            }
+            else
+            {
+                standardControl12.DiscreteValue2 = true;
+                standardControl12.DiscreteValue1 = false;
+
+            }
+
+           
+
 
             if (MainForm.boolInletStream1 == false)
             {
 
                 standardControl15.DiscreteValue1 = true;
+                standardControl15.DiscreteValue2 = false;
 
             }
             else
             {
                 standardControl15.DiscreteValue2 = true;
+                standardControl15.DiscreteValue1 = false;
 
             }
             if (MainForm.boolInletStream2 == false)
             {
 
                 standardControl16.DiscreteValue1 = true;
+                standardControl16.DiscreteValue2 = false;
 
             }
             else
             {
                 standardControl16.DiscreteValue2 = true;
+                standardControl16.DiscreteValue1 = false;
 
             }
             if (MainForm.boolInletStream3 == false)
             {
 
                 standardControl17.DiscreteValue1 = true;
+                standardControl17.DiscreteValue2 = false;
 
             }
             else
             {
                 standardControl17.DiscreteValue2 = true;
+                standardControl17.DiscreteValue1 = false;
+
 
             }
+
             label50.Text = MainForm.DataAi0.ToString();
             label54.Text = MainForm.DataAi1.ToString();
             label56.Text = MainForm.DataAi2.ToString();
             label58.Text = MainForm.DataAi3.ToString();
             label52.Text = MainForm.DataAi4.ToString();
-           
+
+            label49.Text = Properties.Settings.Default.UnitAi0;
+            label55.Text = Properties.Settings.Default.UnitAi1;
+            label57.Text = Properties.Settings.Default.UnitAi2;
+            label53.Text = Properties.Settings.Default.UnitAi3;
+            label59.Text = Properties.Settings.Default.UnitAi4;
+
+            label48.Text = Properties.Settings.Default.NameAi0;
+            label60.Text = Properties.Settings.Default.NameAi1;
+            label61.Text = Properties.Settings.Default.NameAi2;
+            label62.Text = Properties.Settings.Default.NameAi3;
+            label51.Text = Properties.Settings.Default.NameAi4;
+
+        }
+
+        private Label label62;
+        private Label label61;
+        private Label label60;
+
+        private void Monitor_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label56_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label61_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label57_Click(object sender, EventArgs e)
+        {
 
         }
     }
