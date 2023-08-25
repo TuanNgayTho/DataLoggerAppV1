@@ -573,7 +573,6 @@ namespace DataLoggerAppV1
                         Thread.Sleep(100);
                         result = plc.Open();
                         Thread.Sleep(100);
-                        break;
                     }
                 }
             }
