@@ -120,10 +120,10 @@ namespace DataLoggerAppV1
             {
                 lblNameOfPage.Text = "Dashboard";
                 this.pnlFormLoader.Controls.Clear();
-                this.pnlFormLoader.Hide();
-                this.panel5.Show();
-                this.panel5.BringToFront();
-                this.panel5.TabStop=true;
+                this.pnlDashBoard.Hide();
+                this.pnlAlarm.Show();
+                this.pnlAlarm.BringToFront();
+                this.pnlAlarm.TabStop=true;
                 //Dashboard Dashboard_Vrb = new Dashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
                 //Dashboard_Vrb.FormBorderStyle = FormBorderStyle.None;
                 //this.pnlFormLoader.Controls.Add(Dashboard_Vrb);
