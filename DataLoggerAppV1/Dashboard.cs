@@ -118,7 +118,6 @@ namespace DataLoggerAppV1
             else
             {
                 MainForm.runningConnect = false;
-                ThreadDashBoard();
             }
         }
 
@@ -128,7 +127,7 @@ namespace DataLoggerAppV1
             {
                 MainForm.runningConnect = true;
                 //MessageBox.Show(Convert.ToString(ReadyToCall));
-                ThreadDashBoard();
+                //ThreadDashBoard();
             };
 
             //Creat a new thread and then run method Connect PLC

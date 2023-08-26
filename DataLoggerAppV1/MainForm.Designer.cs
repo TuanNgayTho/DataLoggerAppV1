@@ -41,12 +41,17 @@
             this.btnAlarmList = new System.Windows.Forms.Button();
             this.btnDashboard = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.lblNameOfPage = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblSystemName = new System.Windows.Forms.Label();
             this.pnlFormLoader = new System.Windows.Forms.Panel();
+            this.pnlDashBoard = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -223,7 +228,11 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.panel6);
+            this.panel3.Controls.Add(this.panel5);
+            this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.pictureBox3);
+            this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.lblNameOfPage);
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.label1);
@@ -232,6 +241,34 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1949, 80);
             this.panel3.TabIndex = 1;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel6.CausesValidation = false;
+            this.panel6.Location = new System.Drawing.Point(597, 3);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(52, 56);
+            this.panel6.TabIndex = 1;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel5.CausesValidation = false;
+            this.panel5.Location = new System.Drawing.Point(597, 10);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(59, 64);
+            this.panel5.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(424, 26);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 40);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "6";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox3
             // 
@@ -242,6 +279,16 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 6;
             this.pictureBox3.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(309, 26);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 40);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "5";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // lblNameOfPage
             // 
@@ -290,12 +337,19 @@
             // 
             // pnlFormLoader
             // 
-            this.pnlFormLoader.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlFormLoader.Location = new System.Drawing.Point(208, 78);
+            this.pnlFormLoader.Location = new System.Drawing.Point(245, 121);
             this.pnlFormLoader.Name = "pnlFormLoader";
-            this.pnlFormLoader.Size = new System.Drawing.Size(1712, 1002);
+            this.pnlFormLoader.Size = new System.Drawing.Size(1669, 947);
             this.pnlFormLoader.TabIndex = 2;
             this.pnlFormLoader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlFormLoader_Paint);
+            // 
+            // pnlDashBoard
+            // 
+            this.pnlDashBoard.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pnlDashBoard.Location = new System.Drawing.Point(245, 102);
+            this.pnlDashBoard.Name = "pnlDashBoard";
+            this.pnlDashBoard.Size = new System.Drawing.Size(1641, 889);
+            this.pnlDashBoard.TabIndex = 3;
             // 
             // MainForm
             // 
@@ -304,6 +358,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.ControlBox = false;
+            this.Controls.Add(this.pnlDashBoard);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.pnlFormLoader);
             this.Controls.Add(this.panel1);
@@ -346,6 +401,11 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btnMonitor;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel pnlDashBoard;
     }
 }
 
