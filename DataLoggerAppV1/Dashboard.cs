@@ -125,6 +125,7 @@ namespace DataLoggerAppV1
             else
             {
                 MainForm.runningConnect = false;
+                ThreadDashBoard();
             }
 
         }
@@ -150,13 +151,13 @@ namespace DataLoggerAppV1
                     onCompleted();
                 }
             });
-            t.IsBackground = false;
+            t.IsBackground = true;
             if (t.IsAlive==false)
             {
                 Thread.Sleep(200);
                 t.Start();
                 var numberOfThreads = Process.GetCurrentProcess().Threads.Count;
-                MessageBox.Show(Convert.ToString(numberOfThreads));
+                //MessageBox.Show(Convert.ToString(numberOfThreads));
             }
         }
 
