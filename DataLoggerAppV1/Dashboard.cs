@@ -18,6 +18,7 @@ using MySql.Data.MySqlClient;
 using System.Runtime.InteropServices.ComTypes;
 using Microsoft.Office.Interop.Excel;
 using Action = System.Action;
+using Application = System.Windows.Forms.Application;
 using Label = System.Windows.Forms.Label;
 using ToolTip = System.Windows.Forms.ToolTip;
 
@@ -100,6 +101,8 @@ namespace DataLoggerAppV1
             AiDataCh7 = lblAiDataCh7;
             instance = this;
 
+            this.Refresh();
+
             //Creat a new thread and then run method Connect PLC
             Thread t1 = new Thread(() =>
             {
@@ -127,7 +130,7 @@ namespace DataLoggerAppV1
             Action onCompleted = () =>
             {
                 MainForm.runningConnect = true;
-                //MessageBox.Show(Convert.ToString(ReadyToCall));
+                ReadyToCall = true;
                 ThreadDashBoard();
             };
 
@@ -144,6 +147,7 @@ namespace DataLoggerAppV1
                 }
             });
             t.IsBackground = true;
+            Thread.Sleep(500);
             t.Start();
         }
 
@@ -181,7 +185,8 @@ namespace DataLoggerAppV1
                                 // Read AI Data From PLC
                                 var DbAiData = new DbAiData();
                                 dashBoardplc.ReadClass(DbAiData, 4);
-                                Invoke(new Action(() =>
+
+                                Action UpdateBar = () =>
                                 {
                                     lblAiDataCh0.Text = Convert.ToString(Convert.ToInt32(DbAiData.Ai0 * 100) / 100F);
                                     lblAiDataCh1.Text = Convert.ToString(Convert.ToInt32(DbAiData.Ai1 * 100) / 100F);
@@ -200,9 +205,9 @@ namespace DataLoggerAppV1
                                     barAi5.Value = DbAiData.AiPercent5;
                                     barAi6.Value = DbAiData.AiPercent6;
                                     barAi7.Value = DbAiData.AiPercent7;
+                                };
 
-                                }));
-
+                                Invoke(UpdateBar);
 
                                 //Ai Data
                                 DataAi0 = DbAiData.Ai0;

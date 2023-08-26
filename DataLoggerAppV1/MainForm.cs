@@ -116,6 +116,9 @@ namespace DataLoggerAppV1
             var accept = Dashboard.isStay;
             if (accept==false)
             {
+
+                this.Controls.Clear();
+                this.InitializeComponent();
                 lblNameOfPage.Text = "Dashboard";
                 this.pnlFormLoader.Controls.Clear();
                 Dashboard Dashboard_Vrb = new Dashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
