@@ -255,7 +255,7 @@
             this.tableLayoutPanel1.Controls.Add(this.txbNameAi6, 0, 7);
             this.tableLayoutPanel1.Controls.Add(this.txbNameAi7, 0, 8);
             this.tableLayoutPanel1.Controls.Add(this.txbNameAi1, 0, 2);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(50, 44);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(41, 44);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 9;
@@ -269,7 +269,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.01159F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.01159F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1613, 710);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1627, 710);
             this.tableLayoutPanel1.TabIndex = 2;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
@@ -278,7 +278,7 @@
             this.txbSensorMin7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin7.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMin7.Location = new System.Drawing.Point(309, 657);
+            this.txbSensorMin7.Location = new System.Drawing.Point(311, 657);
             this.txbSensorMin7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMin7.Name = "txbSensorMin7";
             this.txbSensorMin7.Size = new System.Drawing.Size(138, 25);
@@ -290,7 +290,7 @@
             this.txbSensorMax7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax7.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMax7.Location = new System.Drawing.Point(460, 657);
+            this.txbSensorMax7.Location = new System.Drawing.Point(463, 657);
             this.txbSensorMax7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMax7.Name = "txbSensorMax7";
             this.txbSensorMax7.Size = new System.Drawing.Size(138, 25);
@@ -302,7 +302,7 @@
             this.txbOffsetAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi7.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbOffsetAi7.Location = new System.Drawing.Point(611, 657);
+            this.txbOffsetAi7.Location = new System.Drawing.Point(615, 657);
             this.txbOffsetAi7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbOffsetAi7.Name = "txbOffsetAi7";
             this.txbOffsetAi7.Size = new System.Drawing.Size(138, 25);
@@ -314,7 +314,7 @@
             this.txbSlopeAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi7.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSlopeAi7.Location = new System.Drawing.Point(762, 657);
+            this.txbSlopeAi7.Location = new System.Drawing.Point(767, 657);
             this.txbSlopeAi7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSlopeAi7.Name = "txbSlopeAi7";
             this.txbSlopeAi7.Size = new System.Drawing.Size(138, 25);
@@ -326,7 +326,7 @@
             this.txbMesurementMin7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin7.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMin7.Location = new System.Drawing.Point(913, 657);
+            this.txbMesurementMin7.Location = new System.Drawing.Point(919, 657);
             this.txbMesurementMin7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin7.Name = "txbMesurementMin7";
             this.txbMesurementMin7.Size = new System.Drawing.Size(138, 25);
@@ -338,7 +338,7 @@
             this.txbMesurementMax7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax7.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMax7.Location = new System.Drawing.Point(1064, 657);
+            this.txbMesurementMax7.Location = new System.Drawing.Point(1071, 657);
             this.txbMesurementMax7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax7.Name = "txbMesurementMax7";
             this.txbMesurementMax7.Size = new System.Drawing.Size(138, 25);
@@ -350,7 +350,7 @@
             this.txbLowAlarm7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm7.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbLowAlarm7.Location = new System.Drawing.Point(1215, 657);
+            this.txbLowAlarm7.Location = new System.Drawing.Point(1223, 657);
             this.txbLowAlarm7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbLowAlarm7.Name = "txbLowAlarm7";
             this.txbLowAlarm7.Size = new System.Drawing.Size(138, 25);
@@ -362,7 +362,7 @@
             this.tbxHighAlarm7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm7.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxHighAlarm7.Location = new System.Drawing.Point(1366, 657);
+            this.tbxHighAlarm7.Location = new System.Drawing.Point(1375, 657);
             this.tbxHighAlarm7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tbxHighAlarm7.Name = "tbxHighAlarm7";
             this.tbxHighAlarm7.Size = new System.Drawing.Size(138, 25);
@@ -374,7 +374,7 @@
             this.txbSensorMax6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax6.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMax6.Location = new System.Drawing.Point(460, 579);
+            this.txbSensorMax6.Location = new System.Drawing.Point(463, 579);
             this.txbSensorMax6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMax6.Name = "txbSensorMax6";
             this.txbSensorMax6.Size = new System.Drawing.Size(138, 25);
@@ -386,7 +386,7 @@
             this.txbOffsetAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi6.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbOffsetAi6.Location = new System.Drawing.Point(611, 579);
+            this.txbOffsetAi6.Location = new System.Drawing.Point(615, 579);
             this.txbOffsetAi6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbOffsetAi6.Name = "txbOffsetAi6";
             this.txbOffsetAi6.Size = new System.Drawing.Size(138, 25);
@@ -398,7 +398,7 @@
             this.txbSlopeAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi6.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSlopeAi6.Location = new System.Drawing.Point(762, 579);
+            this.txbSlopeAi6.Location = new System.Drawing.Point(767, 579);
             this.txbSlopeAi6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSlopeAi6.Name = "txbSlopeAi6";
             this.txbSlopeAi6.Size = new System.Drawing.Size(138, 25);
@@ -410,7 +410,7 @@
             this.txbMesurementMin6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin6.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMin6.Location = new System.Drawing.Point(913, 579);
+            this.txbMesurementMin6.Location = new System.Drawing.Point(919, 579);
             this.txbMesurementMin6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin6.Name = "txbMesurementMin6";
             this.txbMesurementMin6.Size = new System.Drawing.Size(138, 25);
@@ -422,7 +422,7 @@
             this.txbMesurementMax6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax6.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMax6.Location = new System.Drawing.Point(1064, 579);
+            this.txbMesurementMax6.Location = new System.Drawing.Point(1071, 579);
             this.txbMesurementMax6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax6.Name = "txbMesurementMax6";
             this.txbMesurementMax6.Size = new System.Drawing.Size(138, 25);
@@ -434,7 +434,7 @@
             this.txbLowAlarm6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm6.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbLowAlarm6.Location = new System.Drawing.Point(1215, 579);
+            this.txbLowAlarm6.Location = new System.Drawing.Point(1223, 579);
             this.txbLowAlarm6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbLowAlarm6.Name = "txbLowAlarm6";
             this.txbLowAlarm6.Size = new System.Drawing.Size(138, 25);
@@ -446,7 +446,7 @@
             this.tbxHighAlarm6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm6.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxHighAlarm6.Location = new System.Drawing.Point(1366, 579);
+            this.tbxHighAlarm6.Location = new System.Drawing.Point(1375, 579);
             this.tbxHighAlarm6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tbxHighAlarm6.Name = "tbxHighAlarm6";
             this.tbxHighAlarm6.Size = new System.Drawing.Size(138, 25);
@@ -458,7 +458,7 @@
             this.txbUnitAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi7.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi7.Location = new System.Drawing.Point(158, 657);
+            this.txbUnitAi7.Location = new System.Drawing.Point(159, 657);
             this.txbUnitAi7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbUnitAi7.Name = "txbUnitAi7";
             this.txbUnitAi7.Size = new System.Drawing.Size(138, 25);
@@ -470,7 +470,7 @@
             this.txbOffsetAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi5.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbOffsetAi5.Location = new System.Drawing.Point(611, 501);
+            this.txbOffsetAi5.Location = new System.Drawing.Point(615, 501);
             this.txbOffsetAi5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbOffsetAi5.Name = "txbOffsetAi5";
             this.txbOffsetAi5.Size = new System.Drawing.Size(138, 25);
@@ -482,7 +482,7 @@
             this.txbSlopeAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi5.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSlopeAi5.Location = new System.Drawing.Point(762, 501);
+            this.txbSlopeAi5.Location = new System.Drawing.Point(767, 501);
             this.txbSlopeAi5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSlopeAi5.Name = "txbSlopeAi5";
             this.txbSlopeAi5.Size = new System.Drawing.Size(138, 25);
@@ -494,7 +494,7 @@
             this.txbMesurementMin5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin5.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMin5.Location = new System.Drawing.Point(913, 501);
+            this.txbMesurementMin5.Location = new System.Drawing.Point(919, 501);
             this.txbMesurementMin5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin5.Name = "txbMesurementMin5";
             this.txbMesurementMin5.Size = new System.Drawing.Size(138, 25);
@@ -506,7 +506,7 @@
             this.txbMesurementMax5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax5.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMax5.Location = new System.Drawing.Point(1064, 501);
+            this.txbMesurementMax5.Location = new System.Drawing.Point(1071, 501);
             this.txbMesurementMax5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax5.Name = "txbMesurementMax5";
             this.txbMesurementMax5.Size = new System.Drawing.Size(138, 25);
@@ -518,7 +518,7 @@
             this.txbLowAlarm5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm5.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbLowAlarm5.Location = new System.Drawing.Point(1215, 501);
+            this.txbLowAlarm5.Location = new System.Drawing.Point(1223, 501);
             this.txbLowAlarm5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbLowAlarm5.Name = "txbLowAlarm5";
             this.txbLowAlarm5.Size = new System.Drawing.Size(138, 25);
@@ -530,7 +530,7 @@
             this.tbxHighAlarm5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm5.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxHighAlarm5.Location = new System.Drawing.Point(1366, 501);
+            this.tbxHighAlarm5.Location = new System.Drawing.Point(1375, 501);
             this.tbxHighAlarm5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tbxHighAlarm5.Name = "tbxHighAlarm5";
             this.tbxHighAlarm5.Size = new System.Drawing.Size(138, 25);
@@ -542,7 +542,7 @@
             this.txbUnitAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi6.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi6.Location = new System.Drawing.Point(158, 579);
+            this.txbUnitAi6.Location = new System.Drawing.Point(159, 579);
             this.txbUnitAi6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbUnitAi6.Name = "txbUnitAi6";
             this.txbUnitAi6.Size = new System.Drawing.Size(138, 25);
@@ -554,7 +554,7 @@
             this.txbSensorMin6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin6.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMin6.Location = new System.Drawing.Point(309, 579);
+            this.txbSensorMin6.Location = new System.Drawing.Point(311, 579);
             this.txbSensorMin6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMin6.Name = "txbSensorMin6";
             this.txbSensorMin6.Size = new System.Drawing.Size(138, 25);
@@ -566,7 +566,7 @@
             this.txbSlopeAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi4.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSlopeAi4.Location = new System.Drawing.Point(762, 423);
+            this.txbSlopeAi4.Location = new System.Drawing.Point(767, 423);
             this.txbSlopeAi4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSlopeAi4.Name = "txbSlopeAi4";
             this.txbSlopeAi4.Size = new System.Drawing.Size(138, 25);
@@ -578,7 +578,7 @@
             this.txbMesurementMin4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin4.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMin4.Location = new System.Drawing.Point(913, 423);
+            this.txbMesurementMin4.Location = new System.Drawing.Point(919, 423);
             this.txbMesurementMin4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin4.Name = "txbMesurementMin4";
             this.txbMesurementMin4.Size = new System.Drawing.Size(138, 25);
@@ -590,7 +590,7 @@
             this.txbMesurementMax4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax4.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMax4.Location = new System.Drawing.Point(1064, 423);
+            this.txbMesurementMax4.Location = new System.Drawing.Point(1071, 423);
             this.txbMesurementMax4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax4.Name = "txbMesurementMax4";
             this.txbMesurementMax4.Size = new System.Drawing.Size(138, 25);
@@ -602,7 +602,7 @@
             this.txbLowAlarm4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm4.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbLowAlarm4.Location = new System.Drawing.Point(1215, 423);
+            this.txbLowAlarm4.Location = new System.Drawing.Point(1223, 423);
             this.txbLowAlarm4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbLowAlarm4.Name = "txbLowAlarm4";
             this.txbLowAlarm4.Size = new System.Drawing.Size(138, 25);
@@ -614,7 +614,7 @@
             this.tbxHighAlarm4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm4.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxHighAlarm4.Location = new System.Drawing.Point(1366, 423);
+            this.tbxHighAlarm4.Location = new System.Drawing.Point(1375, 423);
             this.tbxHighAlarm4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tbxHighAlarm4.Name = "tbxHighAlarm4";
             this.tbxHighAlarm4.Size = new System.Drawing.Size(138, 25);
@@ -626,7 +626,7 @@
             this.txbUnitAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi5.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi5.Location = new System.Drawing.Point(158, 501);
+            this.txbUnitAi5.Location = new System.Drawing.Point(159, 501);
             this.txbUnitAi5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbUnitAi5.Name = "txbUnitAi5";
             this.txbUnitAi5.Size = new System.Drawing.Size(138, 25);
@@ -638,7 +638,7 @@
             this.txbSensorMin5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin5.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMin5.Location = new System.Drawing.Point(309, 501);
+            this.txbSensorMin5.Location = new System.Drawing.Point(311, 501);
             this.txbSensorMin5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMin5.Name = "txbSensorMin5";
             this.txbSensorMin5.Size = new System.Drawing.Size(138, 25);
@@ -650,7 +650,7 @@
             this.txbSensorMax5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax5.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMax5.Location = new System.Drawing.Point(460, 501);
+            this.txbSensorMax5.Location = new System.Drawing.Point(463, 501);
             this.txbSensorMax5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMax5.Name = "txbSensorMax5";
             this.txbSensorMax5.Size = new System.Drawing.Size(138, 25);
@@ -662,7 +662,7 @@
             this.txbMesurementMin3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin3.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMin3.Location = new System.Drawing.Point(913, 345);
+            this.txbMesurementMin3.Location = new System.Drawing.Point(919, 345);
             this.txbMesurementMin3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin3.Name = "txbMesurementMin3";
             this.txbMesurementMin3.Size = new System.Drawing.Size(138, 25);
@@ -674,7 +674,7 @@
             this.txbMesurementMax3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax3.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMax3.Location = new System.Drawing.Point(1064, 345);
+            this.txbMesurementMax3.Location = new System.Drawing.Point(1071, 345);
             this.txbMesurementMax3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax3.Name = "txbMesurementMax3";
             this.txbMesurementMax3.Size = new System.Drawing.Size(138, 25);
@@ -686,7 +686,7 @@
             this.txbLowAlarm3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm3.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbLowAlarm3.Location = new System.Drawing.Point(1215, 345);
+            this.txbLowAlarm3.Location = new System.Drawing.Point(1223, 345);
             this.txbLowAlarm3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbLowAlarm3.Name = "txbLowAlarm3";
             this.txbLowAlarm3.Size = new System.Drawing.Size(138, 25);
@@ -698,7 +698,7 @@
             this.tbxHighAlarm3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm3.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxHighAlarm3.Location = new System.Drawing.Point(1366, 345);
+            this.tbxHighAlarm3.Location = new System.Drawing.Point(1375, 345);
             this.tbxHighAlarm3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tbxHighAlarm3.Name = "tbxHighAlarm3";
             this.tbxHighAlarm3.Size = new System.Drawing.Size(138, 25);
@@ -710,7 +710,7 @@
             this.txbUnitAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi4.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi4.Location = new System.Drawing.Point(158, 423);
+            this.txbUnitAi4.Location = new System.Drawing.Point(159, 423);
             this.txbUnitAi4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbUnitAi4.Name = "txbUnitAi4";
             this.txbUnitAi4.Size = new System.Drawing.Size(138, 25);
@@ -722,7 +722,7 @@
             this.txbSensorMin4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin4.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMin4.Location = new System.Drawing.Point(309, 423);
+            this.txbSensorMin4.Location = new System.Drawing.Point(311, 423);
             this.txbSensorMin4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMin4.Name = "txbSensorMin4";
             this.txbSensorMin4.Size = new System.Drawing.Size(138, 25);
@@ -734,7 +734,7 @@
             this.txbSensorMax4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax4.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMax4.Location = new System.Drawing.Point(460, 423);
+            this.txbSensorMax4.Location = new System.Drawing.Point(463, 423);
             this.txbSensorMax4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMax4.Name = "txbSensorMax4";
             this.txbSensorMax4.Size = new System.Drawing.Size(138, 25);
@@ -746,7 +746,7 @@
             this.txbOffsetAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi4.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbOffsetAi4.Location = new System.Drawing.Point(611, 423);
+            this.txbOffsetAi4.Location = new System.Drawing.Point(615, 423);
             this.txbOffsetAi4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbOffsetAi4.Name = "txbOffsetAi4";
             this.txbOffsetAi4.Size = new System.Drawing.Size(138, 25);
@@ -758,7 +758,7 @@
             this.txbMesurementMax2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax2.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMax2.Location = new System.Drawing.Point(1064, 268);
+            this.txbMesurementMax2.Location = new System.Drawing.Point(1071, 268);
             this.txbMesurementMax2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax2.Name = "txbMesurementMax2";
             this.txbMesurementMax2.Size = new System.Drawing.Size(138, 25);
@@ -770,7 +770,7 @@
             this.txbLowAlarm2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm2.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbLowAlarm2.Location = new System.Drawing.Point(1215, 268);
+            this.txbLowAlarm2.Location = new System.Drawing.Point(1223, 268);
             this.txbLowAlarm2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbLowAlarm2.Name = "txbLowAlarm2";
             this.txbLowAlarm2.Size = new System.Drawing.Size(138, 25);
@@ -782,7 +782,7 @@
             this.tbxHighAlarm2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm2.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxHighAlarm2.Location = new System.Drawing.Point(1366, 268);
+            this.tbxHighAlarm2.Location = new System.Drawing.Point(1375, 268);
             this.tbxHighAlarm2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tbxHighAlarm2.Name = "tbxHighAlarm2";
             this.tbxHighAlarm2.Size = new System.Drawing.Size(138, 25);
@@ -794,7 +794,7 @@
             this.txbUnitAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi3.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi3.Location = new System.Drawing.Point(158, 345);
+            this.txbUnitAi3.Location = new System.Drawing.Point(159, 345);
             this.txbUnitAi3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbUnitAi3.Name = "txbUnitAi3";
             this.txbUnitAi3.Size = new System.Drawing.Size(138, 25);
@@ -806,7 +806,7 @@
             this.txbSensorMin3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin3.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMin3.Location = new System.Drawing.Point(309, 345);
+            this.txbSensorMin3.Location = new System.Drawing.Point(311, 345);
             this.txbSensorMin3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMin3.Name = "txbSensorMin3";
             this.txbSensorMin3.Size = new System.Drawing.Size(138, 25);
@@ -819,7 +819,7 @@
             this.txbSensorMax3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax3.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMax3.Location = new System.Drawing.Point(460, 345);
+            this.txbSensorMax3.Location = new System.Drawing.Point(463, 345);
             this.txbSensorMax3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMax3.Name = "txbSensorMax3";
             this.txbSensorMax3.Size = new System.Drawing.Size(138, 25);
@@ -831,7 +831,7 @@
             this.txbOffsetAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi3.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbOffsetAi3.Location = new System.Drawing.Point(611, 345);
+            this.txbOffsetAi3.Location = new System.Drawing.Point(615, 345);
             this.txbOffsetAi3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbOffsetAi3.Name = "txbOffsetAi3";
             this.txbOffsetAi3.Size = new System.Drawing.Size(138, 25);
@@ -843,7 +843,7 @@
             this.txbSlopeAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi3.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSlopeAi3.Location = new System.Drawing.Point(762, 345);
+            this.txbSlopeAi3.Location = new System.Drawing.Point(767, 345);
             this.txbSlopeAi3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSlopeAi3.Name = "txbSlopeAi3";
             this.txbSlopeAi3.Size = new System.Drawing.Size(138, 25);
@@ -855,7 +855,7 @@
             this.txbLowAlarm1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm1.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbLowAlarm1.Location = new System.Drawing.Point(1215, 190);
+            this.txbLowAlarm1.Location = new System.Drawing.Point(1223, 190);
             this.txbLowAlarm1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbLowAlarm1.Name = "txbLowAlarm1";
             this.txbLowAlarm1.Size = new System.Drawing.Size(138, 25);
@@ -867,7 +867,7 @@
             this.tbxHighAlarm1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm1.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxHighAlarm1.Location = new System.Drawing.Point(1366, 190);
+            this.tbxHighAlarm1.Location = new System.Drawing.Point(1375, 190);
             this.tbxHighAlarm1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tbxHighAlarm1.Name = "tbxHighAlarm1";
             this.tbxHighAlarm1.Size = new System.Drawing.Size(138, 25);
@@ -879,7 +879,7 @@
             this.txbUnitAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi2.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi2.Location = new System.Drawing.Point(158, 268);
+            this.txbUnitAi2.Location = new System.Drawing.Point(159, 268);
             this.txbUnitAi2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbUnitAi2.Name = "txbUnitAi2";
             this.txbUnitAi2.Size = new System.Drawing.Size(138, 25);
@@ -891,7 +891,7 @@
             this.txbSensorMin2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin2.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMin2.Location = new System.Drawing.Point(309, 268);
+            this.txbSensorMin2.Location = new System.Drawing.Point(311, 268);
             this.txbSensorMin2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMin2.Name = "txbSensorMin2";
             this.txbSensorMin2.Size = new System.Drawing.Size(138, 25);
@@ -903,7 +903,7 @@
             this.txbSensorMax2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax2.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMax2.Location = new System.Drawing.Point(460, 268);
+            this.txbSensorMax2.Location = new System.Drawing.Point(463, 268);
             this.txbSensorMax2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMax2.Name = "txbSensorMax2";
             this.txbSensorMax2.Size = new System.Drawing.Size(138, 25);
@@ -915,7 +915,7 @@
             this.txbOffsetAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi2.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbOffsetAi2.Location = new System.Drawing.Point(611, 268);
+            this.txbOffsetAi2.Location = new System.Drawing.Point(615, 268);
             this.txbOffsetAi2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbOffsetAi2.Name = "txbOffsetAi2";
             this.txbOffsetAi2.Size = new System.Drawing.Size(138, 25);
@@ -927,7 +927,7 @@
             this.txbSlopeAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi2.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSlopeAi2.Location = new System.Drawing.Point(762, 268);
+            this.txbSlopeAi2.Location = new System.Drawing.Point(767, 268);
             this.txbSlopeAi2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSlopeAi2.Name = "txbSlopeAi2";
             this.txbSlopeAi2.Size = new System.Drawing.Size(138, 25);
@@ -939,7 +939,7 @@
             this.txbMesurementMin2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin2.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMin2.Location = new System.Drawing.Point(913, 268);
+            this.txbMesurementMin2.Location = new System.Drawing.Point(919, 268);
             this.txbMesurementMin2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin2.Name = "txbMesurementMin2";
             this.txbMesurementMin2.Size = new System.Drawing.Size(138, 25);
@@ -951,7 +951,7 @@
             this.tbxHighAlarm0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm0.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm0.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxHighAlarm0.Location = new System.Drawing.Point(1366, 112);
+            this.tbxHighAlarm0.Location = new System.Drawing.Point(1375, 112);
             this.tbxHighAlarm0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tbxHighAlarm0.Name = "tbxHighAlarm0";
             this.tbxHighAlarm0.Size = new System.Drawing.Size(138, 25);
@@ -963,7 +963,7 @@
             this.txbUnitAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi1.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi1.Location = new System.Drawing.Point(158, 190);
+            this.txbUnitAi1.Location = new System.Drawing.Point(159, 190);
             this.txbUnitAi1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbUnitAi1.Name = "txbUnitAi1";
             this.txbUnitAi1.Size = new System.Drawing.Size(138, 25);
@@ -975,7 +975,7 @@
             this.txbSensorMin1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin1.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMin1.Location = new System.Drawing.Point(309, 190);
+            this.txbSensorMin1.Location = new System.Drawing.Point(311, 190);
             this.txbSensorMin1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMin1.Name = "txbSensorMin1";
             this.txbSensorMin1.Size = new System.Drawing.Size(138, 25);
@@ -987,7 +987,7 @@
             this.txbSensorMax1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax1.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMax1.Location = new System.Drawing.Point(460, 190);
+            this.txbSensorMax1.Location = new System.Drawing.Point(463, 190);
             this.txbSensorMax1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMax1.Name = "txbSensorMax1";
             this.txbSensorMax1.Size = new System.Drawing.Size(138, 25);
@@ -999,7 +999,7 @@
             this.txbOffsetAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi1.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbOffsetAi1.Location = new System.Drawing.Point(611, 190);
+            this.txbOffsetAi1.Location = new System.Drawing.Point(615, 190);
             this.txbOffsetAi1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbOffsetAi1.Name = "txbOffsetAi1";
             this.txbOffsetAi1.Size = new System.Drawing.Size(138, 25);
@@ -1011,7 +1011,7 @@
             this.txbSlopeAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi1.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSlopeAi1.Location = new System.Drawing.Point(762, 190);
+            this.txbSlopeAi1.Location = new System.Drawing.Point(767, 190);
             this.txbSlopeAi1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSlopeAi1.Name = "txbSlopeAi1";
             this.txbSlopeAi1.Size = new System.Drawing.Size(138, 25);
@@ -1023,7 +1023,7 @@
             this.txbMesurementMin1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin1.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMin1.Location = new System.Drawing.Point(913, 190);
+            this.txbMesurementMin1.Location = new System.Drawing.Point(919, 190);
             this.txbMesurementMin1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin1.Name = "txbMesurementMin1";
             this.txbMesurementMin1.Size = new System.Drawing.Size(138, 25);
@@ -1035,7 +1035,7 @@
             this.txbMesurementMax1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax1.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMax1.Location = new System.Drawing.Point(1064, 190);
+            this.txbMesurementMax1.Location = new System.Drawing.Point(1071, 190);
             this.txbMesurementMax1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax1.Name = "txbMesurementMax1";
             this.txbMesurementMax1.Size = new System.Drawing.Size(138, 25);
@@ -1047,7 +1047,7 @@
             this.txbUnitAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi0.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi0.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbUnitAi0.Location = new System.Drawing.Point(158, 112);
+            this.txbUnitAi0.Location = new System.Drawing.Point(159, 112);
             this.txbUnitAi0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbUnitAi0.Name = "txbUnitAi0";
             this.txbUnitAi0.Size = new System.Drawing.Size(138, 25);
@@ -1059,7 +1059,7 @@
             this.txbSensorMin0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin0.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin0.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMin0.Location = new System.Drawing.Point(309, 112);
+            this.txbSensorMin0.Location = new System.Drawing.Point(311, 112);
             this.txbSensorMin0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMin0.Name = "txbSensorMin0";
             this.txbSensorMin0.Size = new System.Drawing.Size(138, 25);
@@ -1071,7 +1071,7 @@
             this.txbSensorMax0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax0.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax0.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSensorMax0.Location = new System.Drawing.Point(460, 112);
+            this.txbSensorMax0.Location = new System.Drawing.Point(463, 112);
             this.txbSensorMax0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSensorMax0.Name = "txbSensorMax0";
             this.txbSensorMax0.Size = new System.Drawing.Size(138, 25);
@@ -1083,7 +1083,7 @@
             this.txbOffsetAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi0.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi0.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbOffsetAi0.Location = new System.Drawing.Point(611, 112);
+            this.txbOffsetAi0.Location = new System.Drawing.Point(615, 112);
             this.txbOffsetAi0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbOffsetAi0.Name = "txbOffsetAi0";
             this.txbOffsetAi0.Size = new System.Drawing.Size(138, 25);
@@ -1095,7 +1095,7 @@
             this.txbSlopeAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi0.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi0.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSlopeAi0.Location = new System.Drawing.Point(762, 112);
+            this.txbSlopeAi0.Location = new System.Drawing.Point(767, 112);
             this.txbSlopeAi0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbSlopeAi0.Name = "txbSlopeAi0";
             this.txbSlopeAi0.Size = new System.Drawing.Size(138, 25);
@@ -1107,7 +1107,7 @@
             this.txbMesurementMin0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin0.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin0.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMin0.Location = new System.Drawing.Point(913, 112);
+            this.txbMesurementMin0.Location = new System.Drawing.Point(919, 112);
             this.txbMesurementMin0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin0.Name = "txbMesurementMin0";
             this.txbMesurementMin0.Size = new System.Drawing.Size(138, 25);
@@ -1119,7 +1119,7 @@
             this.txbMesurementMax0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax0.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax0.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMesurementMax0.Location = new System.Drawing.Point(1064, 112);
+            this.txbMesurementMax0.Location = new System.Drawing.Point(1071, 112);
             this.txbMesurementMax0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax0.Name = "txbMesurementMax0";
             this.txbMesurementMax0.Size = new System.Drawing.Size(138, 25);
@@ -1132,7 +1132,7 @@
             this.txbLowAlarm0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm0.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm0.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbLowAlarm0.Location = new System.Drawing.Point(1215, 112);
+            this.txbLowAlarm0.Location = new System.Drawing.Point(1223, 112);
             this.txbLowAlarm0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbLowAlarm0.Name = "txbLowAlarm0";
             this.txbLowAlarm0.Size = new System.Drawing.Size(138, 25);
@@ -1144,7 +1144,7 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(322, 19);
+            this.label3.Location = new System.Drawing.Point(325, 19);
             this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(111, 48);
@@ -1158,7 +1158,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(1231, 31);
+            this.label1.Location = new System.Drawing.Point(1239, 31);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 24);
@@ -1172,7 +1172,7 @@
             this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(1378, 31);
+            this.label11.Location = new System.Drawing.Point(1387, 31);
             this.label11.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(114, 24);
@@ -1186,7 +1186,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 31);
+            this.label2.Location = new System.Drawing.Point(14, 31);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(125, 24);
@@ -1200,7 +1200,7 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(170, 31);
+            this.label4.Location = new System.Drawing.Point(172, 31);
             this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(113, 24);
@@ -1214,7 +1214,7 @@
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(471, 19);
+            this.label6.Location = new System.Drawing.Point(475, 19);
             this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(115, 48);
@@ -1228,7 +1228,7 @@
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(649, 31);
+            this.label9.Location = new System.Drawing.Point(653, 31);
             this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(62, 24);
@@ -1241,7 +1241,7 @@
             // 
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(1064, 1);
+            this.label8.Location = new System.Drawing.Point(1071, 1);
             this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(138, 84);
@@ -1255,7 +1255,7 @@
             this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(802, 31);
+            this.label10.Location = new System.Drawing.Point(807, 31);
             this.label10.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(58, 24);
@@ -1269,7 +1269,7 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(1525, 31);
+            this.label5.Location = new System.Drawing.Point(1537, 31);
             this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(73, 24);
@@ -1282,7 +1282,7 @@
             this.cbxAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi0.AutoSize = true;
             this.cbxAi0.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi0.Location = new System.Drawing.Point(1554, 117);
+            this.cbxAi0.Location = new System.Drawing.Point(1566, 117);
             this.cbxAi0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cbxAi0.Name = "cbxAi0";
             this.cbxAi0.Size = new System.Drawing.Size(15, 14);
@@ -1294,7 +1294,7 @@
             this.cbxAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi1.AutoSize = true;
             this.cbxAi1.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi1.Location = new System.Drawing.Point(1554, 196);
+            this.cbxAi1.Location = new System.Drawing.Point(1566, 196);
             this.cbxAi1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cbxAi1.Name = "cbxAi1";
             this.cbxAi1.Size = new System.Drawing.Size(15, 14);
@@ -1306,7 +1306,7 @@
             this.cbxAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi2.AutoSize = true;
             this.cbxAi2.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi2.Location = new System.Drawing.Point(1554, 273);
+            this.cbxAi2.Location = new System.Drawing.Point(1566, 273);
             this.cbxAi2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cbxAi2.Name = "cbxAi2";
             this.cbxAi2.Size = new System.Drawing.Size(15, 14);
@@ -1318,7 +1318,7 @@
             this.cbxAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi3.AutoSize = true;
             this.cbxAi3.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi3.Location = new System.Drawing.Point(1554, 350);
+            this.cbxAi3.Location = new System.Drawing.Point(1566, 350);
             this.cbxAi3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cbxAi3.Name = "cbxAi3";
             this.cbxAi3.Size = new System.Drawing.Size(15, 14);
@@ -1330,7 +1330,7 @@
             this.cbxAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi4.AutoSize = true;
             this.cbxAi4.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi4.Location = new System.Drawing.Point(1554, 428);
+            this.cbxAi4.Location = new System.Drawing.Point(1566, 428);
             this.cbxAi4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cbxAi4.Name = "cbxAi4";
             this.cbxAi4.Size = new System.Drawing.Size(15, 14);
@@ -1342,7 +1342,7 @@
             this.cbxAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi5.AutoSize = true;
             this.cbxAi5.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi5.Location = new System.Drawing.Point(1554, 506);
+            this.cbxAi5.Location = new System.Drawing.Point(1566, 506);
             this.cbxAi5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cbxAi5.Name = "cbxAi5";
             this.cbxAi5.Size = new System.Drawing.Size(15, 14);
@@ -1354,7 +1354,7 @@
             this.cbxAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi6.AutoSize = true;
             this.cbxAi6.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi6.Location = new System.Drawing.Point(1554, 584);
+            this.cbxAi6.Location = new System.Drawing.Point(1566, 584);
             this.cbxAi6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cbxAi6.Name = "cbxAi6";
             this.cbxAi6.Size = new System.Drawing.Size(15, 14);
@@ -1366,7 +1366,7 @@
             this.cbxAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi7.AutoSize = true;
             this.cbxAi7.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi7.Location = new System.Drawing.Point(1554, 663);
+            this.cbxAi7.Location = new System.Drawing.Point(1566, 663);
             this.cbxAi7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.cbxAi7.Name = "cbxAi7";
             this.cbxAi7.Size = new System.Drawing.Size(15, 14);
@@ -1377,7 +1377,7 @@
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(913, 1);
+            this.label7.Location = new System.Drawing.Point(919, 1);
             this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(138, 84);
@@ -1489,7 +1489,7 @@
             this.btnSave.Location = new System.Drawing.Point(1512, 925);
             this.btnSave.Name = "btnSave";
             this.btnSave.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.btnSave.Size = new System.Drawing.Size(151, 53);
+            this.btnSave.Size = new System.Drawing.Size(156, 53);
             this.btnSave.TabIndex = 14;
             this.btnSave.Text = "Save";
             this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1509,12 +1509,12 @@
             this.tableLayoutPanel2.Controls.Add(this.txbVentTime, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.txbAnalysisTime, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.txbCycleTime, 2, 1);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(50, 790);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(41, 790);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1613, 100);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1627, 100);
             this.tableLayoutPanel2.TabIndex = 17;
             this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
             // 
@@ -1523,7 +1523,7 @@
             this.label12.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(212, 13);
+            this.label12.Location = new System.Drawing.Point(214, 13);
             this.label12.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(124, 24);
@@ -1536,7 +1536,7 @@
             this.label13.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(734, 13);
+            this.label13.Location = new System.Drawing.Point(741, 13);
             this.label13.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(159, 24);
@@ -1550,7 +1550,7 @@
             this.label14.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(1269, 13);
+            this.label14.Location = new System.Drawing.Point(1280, 13);
             this.label14.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(154, 24);
@@ -1563,7 +1563,7 @@
             this.txbVentTime.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbVentTime.BackColor = System.Drawing.SystemColors.Control;
             this.txbVentTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbVentTime.Location = new System.Drawing.Point(50, 62);
+            this.txbVentTime.Location = new System.Drawing.Point(52, 62);
             this.txbVentTime.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbVentTime.Name = "txbVentTime";
             this.txbVentTime.Size = new System.Drawing.Size(449, 25);
@@ -1575,7 +1575,7 @@
             this.txbAnalysisTime.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbAnalysisTime.BackColor = System.Drawing.SystemColors.Control;
             this.txbAnalysisTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbAnalysisTime.Location = new System.Drawing.Point(589, 62);
+            this.txbAnalysisTime.Location = new System.Drawing.Point(596, 62);
             this.txbAnalysisTime.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbAnalysisTime.Name = "txbAnalysisTime";
             this.txbAnalysisTime.Size = new System.Drawing.Size(449, 25);
@@ -1587,7 +1587,7 @@
             this.txbCycleTime.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbCycleTime.BackColor = System.Drawing.SystemColors.Control;
             this.txbCycleTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbCycleTime.Location = new System.Drawing.Point(1121, 62);
+            this.txbCycleTime.Location = new System.Drawing.Point(1133, 62);
             this.txbCycleTime.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbCycleTime.Name = "txbCycleTime";
             this.txbCycleTime.Size = new System.Drawing.Size(449, 25);

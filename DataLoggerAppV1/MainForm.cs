@@ -43,12 +43,6 @@ namespace DataLoggerAppV1
             Monitor.isStay = false;
             Setting.isStay = false;
 
-            lblNameOfPage.Text = "Alarm List";
-            this.pnlFormLoader.Controls.Clear();
-            Alarm Alarm_Vrb = new Alarm() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
-            Alarm_Vrb.FormBorderStyle = FormBorderStyle.None;
-            this.pnlFormLoader.Controls.Add(Alarm_Vrb);
-            Alarm_Vrb.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -129,7 +123,7 @@ namespace DataLoggerAppV1
             {
                 this.pnlDashBoard.Show();
                 this.pnlFormLoader.Hide();
-
+                lblNameOfPage.Text = "Dashboard";
                 btnDashboard.BackColor = SystemColors.Control;
                 btnAlarmList.BackColor = SystemColors.ControlLight;
                 btnTrend.BackColor = SystemColors.ControlLight;
