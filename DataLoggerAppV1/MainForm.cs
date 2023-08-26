@@ -66,6 +66,8 @@ namespace DataLoggerAppV1
             var accept = Trend.isStay;
             if (accept == false)
             {
+                this.pnlDashBoard.Hide();
+                this.pnlFormLoader.Show();
                 lblNameOfPage.Text = "Trend";
                 this.pnlFormLoader.Controls.Clear();
                 Trend Trend_Vrb = new Trend() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
@@ -97,6 +99,8 @@ namespace DataLoggerAppV1
             var accept = Monitor.isStay;
             if (accept == false)
             {
+                this.pnlDashBoard.Hide();
+                this.pnlFormLoader.Show();
                 lblNameOfPage.Text = "Monitor";
                 this.pnlFormLoader.Controls.Clear();
                 Monitor Monitor_Vrb = new Monitor() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
@@ -123,12 +127,8 @@ namespace DataLoggerAppV1
             var accept = Dashboard.isStay;
             if (accept==false)
             {
-                lblNameOfPage.Text = "Dashboard";
-                this.pnlFormLoader.Controls.Clear();
-                Dashboard Dashboard_Vrb = new Dashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
-                Dashboard_Vrb.FormBorderStyle = FormBorderStyle.None;
-                this.pnlFormLoader.Controls.Add(Dashboard_Vrb);
-                Dashboard_Vrb.Show();
+                this.pnlDashBoard.Show();
+                this.pnlFormLoader.Hide();
 
                 btnDashboard.BackColor = SystemColors.Control;
                 btnAlarmList.BackColor = SystemColors.ControlLight;
@@ -155,6 +155,8 @@ namespace DataLoggerAppV1
             var accept = Alarm.isStay;
             if (accept == false)
             {
+                this.pnlDashBoard.Hide();
+                this.pnlFormLoader.Show();
                 lblNameOfPage.Text = "Alarm List";
                 this.pnlFormLoader.Controls.Clear();
                 Alarm Alarm_Vrb = new Alarm() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
@@ -193,6 +195,8 @@ namespace DataLoggerAppV1
                 var accept = Setting.isStay;
                 if (accept == false)
                 {
+                    this.pnlDashBoard.Hide();
+                    this.pnlFormLoader.Show();
                     lblNameOfPage.Text = "Settings";
                     this.pnlFormLoader.Controls.Clear();
                     Setting Setting_Vrb = new Setting() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
@@ -242,24 +246,6 @@ namespace DataLoggerAppV1
         private void pnlFormLoader_Paint(object sender, PaintEventArgs e)
         {
 
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.panel5.Show();
-            this.panel6.Hide();
-
-            this.pnlDashBoard.Show();
-            this.pnlFormLoader.Hide();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.panel6.Show();
-            this.panel5.Hide();
-
-            this.pnlFormLoader.Show();
-            this.pnlDashBoard.Hide();
         }
     }
 }

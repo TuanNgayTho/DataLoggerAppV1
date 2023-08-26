@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.btnStream1 = new System.Windows.Forms.Button();
             this.btnStream2 = new System.Windows.Forms.Button();
@@ -134,7 +133,6 @@
             this.panel16 = new System.Windows.Forms.Panel();
             this.lblAlarmAi0 = new System.Windows.Forms.Label();
             this.btnAutoMode = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -156,7 +154,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1415, 916);
+            this.button1.Location = new System.Drawing.Point(1415, 914);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(249, 49);
             this.button1.TabIndex = 2;
@@ -166,7 +164,7 @@
             // 
             // btnStream1
             // 
-            this.btnStream1.Location = new System.Drawing.Point(45, 749);
+            this.btnStream1.Location = new System.Drawing.Point(45, 752);
             this.btnStream1.Name = "btnStream1";
             this.btnStream1.Size = new System.Drawing.Size(221, 49);
             this.btnStream1.TabIndex = 2;
@@ -176,7 +174,7 @@
             // 
             // btnStream2
             // 
-            this.btnStream2.Location = new System.Drawing.Point(278, 749);
+            this.btnStream2.Location = new System.Drawing.Point(278, 752);
             this.btnStream2.Name = "btnStream2";
             this.btnStream2.Size = new System.Drawing.Size(221, 49);
             this.btnStream2.TabIndex = 2;
@@ -186,7 +184,7 @@
             // 
             // btnStream3
             // 
-            this.btnStream3.Location = new System.Drawing.Point(511, 749);
+            this.btnStream3.Location = new System.Drawing.Point(511, 752);
             this.btnStream3.Name = "btnStream3";
             this.btnStream3.Size = new System.Drawing.Size(221, 49);
             this.btnStream3.TabIndex = 2;
@@ -197,7 +195,7 @@
             // btnSart
             // 
             this.btnSart.BackColor = System.Drawing.Color.LightGreen;
-            this.btnSart.Location = new System.Drawing.Point(744, 749);
+            this.btnSart.Location = new System.Drawing.Point(744, 752);
             this.btnSart.Name = "btnSart";
             this.btnSart.Size = new System.Drawing.Size(221, 49);
             this.btnSart.TabIndex = 2;
@@ -208,7 +206,7 @@
             // btnStop
             // 
             this.btnStop.BackColor = System.Drawing.Color.LightCoral;
-            this.btnStop.Location = new System.Drawing.Point(977, 749);
+            this.btnStop.Location = new System.Drawing.Point(977, 752);
             this.btnStop.Name = "btnStop";
             this.btnStop.Size = new System.Drawing.Size(221, 49);
             this.btnStop.TabIndex = 2;
@@ -218,7 +216,7 @@
             // 
             // btnManMode
             // 
-            this.btnManMode.Location = new System.Drawing.Point(1210, 749);
+            this.btnManMode.Location = new System.Drawing.Point(1210, 752);
             this.btnManMode.Name = "btnManMode";
             this.btnManMode.Size = new System.Drawing.Size(221, 49);
             this.btnManMode.TabIndex = 2;
@@ -231,7 +229,7 @@
             this.lblAlarmSystem.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblAlarmSystem.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAlarmSystem.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAlarmSystem.Location = new System.Drawing.Point(46, 830);
+            this.lblAlarmSystem.Location = new System.Drawing.Point(46, 833);
             this.lblAlarmSystem.Name = "lblAlarmSystem";
             this.lblAlarmSystem.Size = new System.Drawing.Size(1618, 48);
             this.lblAlarmSystem.TabIndex = 3;
@@ -314,7 +312,7 @@
             this.tableLayoutPanel1.Controls.Add(this.panel14, 4, 3);
             this.tableLayoutPanel1.Controls.Add(this.panel15, 4, 2);
             this.tableLayoutPanel1.Controls.Add(this.panel16, 4, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(46, 44);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(44, 46);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 9;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.12121F));
@@ -1418,7 +1416,7 @@
             // 
             // btnAutoMode
             // 
-            this.btnAutoMode.Location = new System.Drawing.Point(1443, 749);
+            this.btnAutoMode.Location = new System.Drawing.Point(1443, 752);
             this.btnAutoMode.Name = "btnAutoMode";
             this.btnAutoMode.Size = new System.Drawing.Size(221, 49);
             this.btnAutoMode.TabIndex = 4;
@@ -1426,18 +1424,12 @@
             this.btnAutoMode.UseVisualStyleBackColor = true;
             this.btnAutoMode.Click += new System.EventHandler(this.btnAutoMode_Click);
             // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1712, 1002);
+            this.ClientSize = new System.Drawing.Size(1709, 1000);
             this.Controls.Add(this.btnAutoMode);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.btnStop);
@@ -1585,6 +1577,5 @@
         private System.Windows.Forms.Label lblMeasurementMinRange1;
         private System.Windows.Forms.Label lblMeasurementMinRange7;
         private System.Windows.Forms.Label lblMeasurementMinRange6;
-        private System.Windows.Forms.Timer timer1;
     }
 }
