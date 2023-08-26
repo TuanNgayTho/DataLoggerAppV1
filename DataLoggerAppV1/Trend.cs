@@ -18,12 +18,12 @@ using LiveCharts.Helpers;
 using MySql.Data.MySqlClient;
 using Separator = LiveCharts.Wpf.Separator;
 using System.Windows.Data;
-
+using HorizontalAlignment = System.Windows.HorizontalAlignment;
 using Binding = System.Windows.Data.Binding;
 using System.Windows.Media;
 using Brushes = System.Windows.Media.Brushes;
 using Winforms.Cartesian.ConstantChanges;
-
+using System.Windows.Media.Imaging;
 namespace DataLoggerAppV1
 {
     public partial class Trend : Form
@@ -120,13 +120,14 @@ namespace DataLoggerAppV1
                 Separator = new Separator
                 {
 
-                    // Step=1,
+                   //  Step= 1,
                     Stroke = Brushes.Black,
                     //Stroke = Brushes.Transparent,
 
                 }
 
             });
+        
             cartesianChart1.AxisY.Add(new Axis
             {
                 Title = Properties.Settings.Default.NameAi1,
@@ -137,7 +138,7 @@ namespace DataLoggerAppV1
                 Separator = new Separator
                 {
 
-                    // Step = 1,
+                   // Step = 1,
                     //Stroke = Brushes.Black,
                     Stroke = Brushes.Transparent,
 
@@ -154,7 +155,7 @@ namespace DataLoggerAppV1
                 Separator = new Separator
                 {
 
-                    //Step = 1,
+                  //  Step = 1,
                     //Stroke = Brushes.Black,
                     Stroke = Brushes.Transparent,
 
@@ -170,7 +171,7 @@ namespace DataLoggerAppV1
                 Separator = new Separator
                 {
 
-                    // Step = 1,
+                  //  Step = 1,
                     //Stroke = Brushes.Black,
                     Stroke = Brushes.Transparent,
 
@@ -188,7 +189,7 @@ namespace DataLoggerAppV1
                 Separator = new Separator
                 {
 
-                    // Step = 1,
+                  //  Step = 1,
                    // Stroke = Brushes.Black,
                     Stroke = Brushes.Transparent,
 
@@ -206,7 +207,7 @@ namespace DataLoggerAppV1
                 Separator = new Separator
                 {
 
-                    //Step = 1,
+                 //   Step = 1,
                     //Stroke = Brushes.Black,
                     Stroke = Brushes.Transparent,
 
@@ -224,7 +225,7 @@ namespace DataLoggerAppV1
                 Separator = new Separator
                 {
 
-                    //Step = 1,
+                   // Step = 1,
                     //Stroke = Brushes.Black,
                     Stroke = Brushes.Transparent,
 
@@ -243,7 +244,7 @@ namespace DataLoggerAppV1
                 Separator = new Separator
                 {
 
-                    //Step = 1,
+                   // Step = 1,
                    // Stroke = Brushes.Black,
                     Stroke = Brushes.Transparent,
 
@@ -377,7 +378,7 @@ namespace DataLoggerAppV1
 
           };
 
-
+           
 
 
 

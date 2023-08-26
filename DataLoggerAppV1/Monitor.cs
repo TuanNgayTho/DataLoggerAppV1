@@ -687,7 +687,7 @@ namespace DataLoggerAppV1
             this.standardControl87.Category = "1PIPE.cat2";
             this.standardControl87.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl87.DebugData"));
             this.standardControl87.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl87.Location = new System.Drawing.Point(48, 582);
+            this.standardControl87.Location = new System.Drawing.Point(50, 582);
             this.standardControl87.Name = "standardControl87";
             this.standardControl87.Size = new System.Drawing.Size(191, 2);
             this.standardControl87.Stretch = true;
@@ -1079,7 +1079,7 @@ namespace DataLoggerAppV1
             this.standardControl81.Category = "1PIPE.cat2";
             this.standardControl81.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl81.DebugData"));
             this.standardControl81.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl81.Location = new System.Drawing.Point(1155, 516);
+            this.standardControl81.Location = new System.Drawing.Point(1153, 516);
             this.standardControl81.Name = "standardControl81";
             this.standardControl81.Size = new System.Drawing.Size(313, 2);
             this.standardControl81.Stretch = true;
@@ -2552,7 +2552,7 @@ namespace DataLoggerAppV1
             this.standardControl65.Category = "1TANK.cat2";
             this.standardControl65.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl65.DebugData"));
             this.standardControl65.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl65.Location = new System.Drawing.Point(779, 745);
+            this.standardControl65.Location = new System.Drawing.Point(778, 745);
             this.standardControl65.Name = "standardControl65";
             this.standardControl65.Size = new System.Drawing.Size(36, 75);
             this.standardControl65.Stretch = true;
@@ -2720,7 +2720,7 @@ namespace DataLoggerAppV1
             this.standardControl66.Category = "1PIPE.cat2";
             this.standardControl66.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl66.DebugData"));
             this.standardControl66.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl66.Location = new System.Drawing.Point(733, 750);
+            this.standardControl66.Location = new System.Drawing.Point(731, 750);
             this.standardControl66.Name = "standardControl66";
             this.standardControl66.Size = new System.Drawing.Size(62, 2);
             this.standardControl66.Stretch = true;
@@ -3004,7 +3004,7 @@ namespace DataLoggerAppV1
             this.standardControl42.Category = "1PIPE.cat2";
             this.standardControl42.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl42.DebugData"));
             this.standardControl42.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl42.Location = new System.Drawing.Point(1155, 455);
+            this.standardControl42.Location = new System.Drawing.Point(1153, 455);
             this.standardControl42.Name = "standardControl42";
             this.standardControl42.Size = new System.Drawing.Size(167, 2);
             this.standardControl42.Stretch = true;
