@@ -186,7 +186,7 @@ namespace DataLoggerAppV1
                                 var DbAiData = new DbAiData();
                                 dashBoardplc.ReadClass(DbAiData, 4);
 
-                                Action UpdateBar = () =>
+                                Invoke(new Action(() =>
                                 {
                                     lblAiDataCh0.Text = Convert.ToString(Convert.ToInt32(DbAiData.Ai0 * 100) / 100F);
                                     lblAiDataCh1.Text = Convert.ToString(Convert.ToInt32(DbAiData.Ai1 * 100) / 100F);
@@ -205,9 +205,7 @@ namespace DataLoggerAppV1
                                     barAi5.Value = DbAiData.AiPercent5;
                                     barAi6.Value = DbAiData.AiPercent6;
                                     barAi7.Value = DbAiData.AiPercent7;
-                                };
-
-                                Invoke(UpdateBar);
+                                }));
 
                                 //Ai Data
                                 DataAi0 = DbAiData.Ai0;
