@@ -46,7 +46,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblSystemName = new System.Windows.Forms.Label();
-            this.pnlFormLoader = new System.Windows.Forms.Panel();
+            this.pnlDashBoard = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -288,14 +288,14 @@
             this.lblSystemName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblSystemName.Click += new System.EventHandler(this.label1_Click);
             // 
-            // pnlFormLoader
+            // pnlDashBoard
             // 
-            this.pnlFormLoader.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlFormLoader.Location = new System.Drawing.Point(208, 78);
-            this.pnlFormLoader.Name = "pnlFormLoader";
-            this.pnlFormLoader.Size = new System.Drawing.Size(1712, 1002);
-            this.pnlFormLoader.TabIndex = 2;
-            this.pnlFormLoader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlFormLoader_Paint);
+            this.pnlDashBoard.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlDashBoard.Location = new System.Drawing.Point(208, 78);
+            this.pnlDashBoard.Name = "pnlDashBoard";
+            this.pnlDashBoard.Size = new System.Drawing.Size(1712, 1002);
+            this.pnlDashBoard.TabIndex = 2;
+            this.pnlDashBoard.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlFormLoader_Paint);
             // 
             // MainForm
             // 
@@ -305,7 +305,7 @@
             this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.ControlBox = false;
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.pnlFormLoader);
+            this.Controls.Add(this.pnlDashBoard);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -339,7 +339,7 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label lblNameOfPage;
         private System.Windows.Forms.Label lblSystemName;
-        private System.Windows.Forms.Panel pnlFormLoader;
+        private System.Windows.Forms.Panel pnlDashBoard;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;

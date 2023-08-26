@@ -32,7 +32,7 @@ namespace DataLoggerAppV1
         public static bool isStay = false;
 
 
-
+        
 
         public ChartValues<MeasureModel> ChartValues { get; set; }
         public ChartValues<MeasureModel> ChartValues1 { get; set; }

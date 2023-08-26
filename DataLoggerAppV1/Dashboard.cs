@@ -18,8 +18,11 @@ using MySql.Data.MySqlClient;
 using System.Runtime.InteropServices.ComTypes;
 using Microsoft.Office.Interop.Excel;
 using Action = System.Action;
+using Application = System.Windows.Forms.Application;
 using Label = System.Windows.Forms.Label;
 using ToolTip = System.Windows.Forms.ToolTip;
+using System.Web.Caching;
+using System.Diagnostics;
 
 namespace DataLoggerAppV1
 {
@@ -100,6 +103,10 @@ namespace DataLoggerAppV1
             AiDataCh7 = lblAiDataCh7;
             instance = this;
 
+            this.Refresh();
+            //this.Controls.Clear();
+            ////this.InitializeComponent();
+
             //Creat a new thread and then run method Connect PLC
             Thread t1 = new Thread(() =>
             {
@@ -118,6 +125,7 @@ namespace DataLoggerAppV1
             else
             {
                 MainForm.runningConnect = false;
+                ThreadDashBoard();
             }
 
         }
@@ -127,7 +135,7 @@ namespace DataLoggerAppV1
             Action onCompleted = () =>
             {
                 MainForm.runningConnect = true;
-                //MessageBox.Show(Convert.ToString(ReadyToCall));
+                ReadyToCall = true;
                 ThreadDashBoard();
             };
 
@@ -144,7 +152,13 @@ namespace DataLoggerAppV1
                 }
             });
             t.IsBackground = true;
-            t.Start();
+            if (t.IsAlive==false)
+            {
+                Thread.Sleep(200);
+                t.Start();
+                var numberOfThreads = Process.GetCurrentProcess().Threads.Count;
+                //MessageBox.Show(Convert.ToString(numberOfThreads));
+            }
         }
 
         //Method Connect PLC and Read Data From PLC
@@ -153,34 +167,29 @@ namespace DataLoggerAppV1
             var IsRunning = MainForm.runningConnect;
             using (var dashBoardplc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1))
             {
-                var i = 0;
                 while (IsRunning)
                 {
+                    Thread.Sleep(200);
+                    dashBoardplc.Close(); dashBoardplc.Close();
+                    var result = dashBoardplc.Open();
+                    
                     while (IsRunning)
                     {
-
-                        dashBoardplc.Close(); dashBoardplc.Close();
-                        var result = dashBoardplc.Open();
+                        Thread.Sleep(50);
                         isConnect = dashBoardplc.IsConnected;
                         try
                         {
-                            if (dashBoardplc.IsConnected == false)
+                            if (result != ErrorCode.NoError)
                             {
-                                if (i>5)
-                                {
-                                    MessageBox.Show("Error: DashBoard " + dashBoardplc.LastErrorCode + "\n" + dashBoardplc.LastErrorString);
-                                    i = 0;
-                                }
-                                dashBoardplc.Close();
-                                i += 1;
+                                MessageBox.Show("Error: DashBoard " + dashBoardplc.LastErrorCode + "\n" + dashBoardplc.LastErrorString);
                                 break;
                             }
                             else
                             {
-                                i = 0;
                                 // Read AI Data From PLC
                                 var DbAiData = new DbAiData();
                                 dashBoardplc.ReadClass(DbAiData, 4);
+
                                 Invoke(new Action(() =>
                                 {
                                     lblAiDataCh0.Text = Convert.ToString(Convert.ToInt32(DbAiData.Ai0 * 100) / 100F);
@@ -200,9 +209,7 @@ namespace DataLoggerAppV1
                                     barAi5.Value = DbAiData.AiPercent5;
                                     barAi6.Value = DbAiData.AiPercent6;
                                     barAi7.Value = DbAiData.AiPercent7;
-
                                 }));
-
 
                                 //Ai Data
                                 DataAi0 = DbAiData.Ai0;
@@ -496,9 +503,9 @@ namespace DataLoggerAppV1
                         {
                             dashBoardplc.Close();
                             Thread.Sleep(100);
-                            //break;
+                            break;
                         }
-                        dashBoardplc.Close();
+                        
                         if (MainForm.runningConnect == false)
                         {
                             break;

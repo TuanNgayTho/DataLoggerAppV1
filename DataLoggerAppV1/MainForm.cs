@@ -32,16 +32,17 @@ namespace DataLoggerAppV1
             btnDashboard.BackColor = SystemColors.Control;
 
             lblNameOfPage.Text = "Dashboard";
-            this.pnlFormLoader.Controls.Clear();
+            this.pnlDashBoard.Controls.Clear();
             Dashboard Dashboard_Vrb = new Dashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
             Dashboard_Vrb.FormBorderStyle = FormBorderStyle.None;
-            this.pnlFormLoader.Controls.Add(Dashboard_Vrb);
+            this.pnlDashBoard.Controls.Add(Dashboard_Vrb);
             Dashboard_Vrb.Show();
             Dashboard.isStay = true;
             Alarm.isStay = false;
             Trend.isStay= false;
             Monitor.isStay = false;
             Setting.isStay = false;
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -60,10 +61,10 @@ namespace DataLoggerAppV1
             if (accept == false)
             {
                 lblNameOfPage.Text = "Trend";
-                this.pnlFormLoader.Controls.Clear();
+                this.pnlDashBoard.Controls.Clear();
                 Trend Trend_Vrb = new Trend() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
                 Trend_Vrb.FormBorderStyle = FormBorderStyle.None;
-                this.pnlFormLoader.Controls.Add(Trend_Vrb);
+                this.pnlDashBoard.Controls.Add(Trend_Vrb);
                 Trend_Vrb.Show();
 
                 btnDashboard.BackColor = SystemColors.ControlLight;
@@ -91,10 +92,10 @@ namespace DataLoggerAppV1
             if (accept == false)
             {
                 lblNameOfPage.Text = "Monitor";
-                this.pnlFormLoader.Controls.Clear();
+                this.pnlDashBoard.Controls.Clear();
                 Monitor Monitor_Vrb = new Monitor() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
                 Monitor_Vrb.FormBorderStyle = FormBorderStyle.None;
-                this.pnlFormLoader.Controls.Add(Monitor_Vrb);
+                this.pnlDashBoard.Controls.Add(Monitor_Vrb);
                 Monitor_Vrb.Show();
 
                 btnDashboard.BackColor = SystemColors.ControlLight;
@@ -117,10 +118,10 @@ namespace DataLoggerAppV1
             if (accept==false)
             {
                 lblNameOfPage.Text = "Dashboard";
-                this.pnlFormLoader.Controls.Clear();
+                this.pnlDashBoard.Controls.Clear();
                 Dashboard Dashboard_Vrb = new Dashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
                 Dashboard_Vrb.FormBorderStyle = FormBorderStyle.None;
-                this.pnlFormLoader.Controls.Add(Dashboard_Vrb);
+                this.pnlDashBoard.Controls.Add(Dashboard_Vrb);
                 Dashboard_Vrb.Show();
 
                 btnDashboard.BackColor = SystemColors.Control;
@@ -135,7 +136,6 @@ namespace DataLoggerAppV1
                 Monitor.isStay = false;
                 Setting.isStay = false;
             }
-            
         }
 
         private void btnDashboard_Leave(object sender, EventArgs e)
@@ -149,10 +149,10 @@ namespace DataLoggerAppV1
             if (accept == false)
             {
                 lblNameOfPage.Text = "Alarm List";
-                this.pnlFormLoader.Controls.Clear();
+                this.pnlDashBoard.Controls.Clear();
                 Alarm Alarm_Vrb = new Alarm() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
                 Alarm_Vrb.FormBorderStyle = FormBorderStyle.None;
-                this.pnlFormLoader.Controls.Add(Alarm_Vrb);
+                this.pnlDashBoard.Controls.Add(Alarm_Vrb);
                 Alarm_Vrb.Show();
 
                 btnDashboard.BackColor = SystemColors.ControlLight;
@@ -187,10 +187,10 @@ namespace DataLoggerAppV1
                 if (accept == false)
                 {
                     lblNameOfPage.Text = "Settings";
-                    this.pnlFormLoader.Controls.Clear();
+                    this.pnlDashBoard.Controls.Clear();
                     Setting Setting_Vrb = new Setting() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
                     Setting_Vrb.FormBorderStyle = FormBorderStyle.None;
-                    this.pnlFormLoader.Controls.Add(Setting_Vrb);
+                    this.pnlDashBoard.Controls.Add(Setting_Vrb);
                     Setting_Vrb.Show();
 
                     btnDashboard.BackColor = SystemColors.ControlLight;
