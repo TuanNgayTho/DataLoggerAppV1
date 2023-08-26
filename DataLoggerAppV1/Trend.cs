@@ -28,8 +28,8 @@ namespace DataLoggerAppV1
 {
     public partial class Trend : Form
     {
-
-
+        public static Trend instance;
+        public static bool isStay = false;
 
 
 
@@ -70,6 +70,7 @@ namespace DataLoggerAppV1
         public Trend()
         {
             InitializeComponent();
+            instance =this;
             
 
             var mapper = Mappers.Xy<MeasureModel>()

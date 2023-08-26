@@ -11,9 +11,12 @@ namespace DataLoggerAppV1
 {
     public partial class Monitor : Form
     {
+        public static Monitor instance;
+        public static bool isStay = false;
         public Monitor()
         {
             InitializeComponent();
+            instance =this;
         }
 
         private void InitializeComponent()
@@ -3453,7 +3456,7 @@ namespace DataLoggerAppV1
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (MainForm.boolBypassStream1 == false)
+            if (Dashboard.boolBypassStream1 == false)
             {
 
                 standardControl19.DiscreteValue1 = true;
@@ -3464,7 +3467,7 @@ namespace DataLoggerAppV1
                 standardControl19.DiscreteValue2 = true;
 
             }
-            if (MainForm.boolBypassStream2 == false)
+            if (Dashboard.boolBypassStream2 == false)
             {
 
                 standardControl7.DiscreteValue1 = true;
@@ -3478,7 +3481,7 @@ namespace DataLoggerAppV1
 
 
             }
-            if (MainForm.boolBypassStream3 == false)
+            if (Dashboard.boolBypassStream3 == false)
             {
 
                 standardControl12.DiscreteValue1 = true;
@@ -3495,7 +3498,7 @@ namespace DataLoggerAppV1
            
 
 
-            if (MainForm.boolInletStream1 == false)
+            if (Dashboard.boolInletStream1 == false)
             {
 
                 standardControl15.DiscreteValue1 = true;
@@ -3508,7 +3511,7 @@ namespace DataLoggerAppV1
                 standardControl15.DiscreteValue1 = false;
 
             }
-            if (MainForm.boolInletStream2 == false)
+            if (Dashboard.boolInletStream2 == false)
             {
 
                 standardControl16.DiscreteValue1 = true;
@@ -3521,7 +3524,7 @@ namespace DataLoggerAppV1
                 standardControl16.DiscreteValue1 = false;
 
             }
-            if (MainForm.boolInletStream3 == false)
+            if (Dashboard.boolInletStream3 == false)
             {
 
                 standardControl17.DiscreteValue1 = true;
@@ -3536,11 +3539,11 @@ namespace DataLoggerAppV1
 
             }
 
-            label50.Text = MainForm.DataAi0.ToString();
-            label54.Text = MainForm.DataAi1.ToString();
-            label56.Text = MainForm.DataAi2.ToString();
-            label58.Text = MainForm.DataAi3.ToString();
-            label52.Text = MainForm.DataAi4.ToString();
+            label50.Text = Dashboard.DataAi0.ToString();
+            label54.Text = Dashboard.DataAi1.ToString();
+            label56.Text = Dashboard.DataAi2.ToString();
+            label58.Text = Dashboard.DataAi3.ToString();
+            label52.Text = Dashboard.DataAi4.ToString();
 
             label49.Text = Properties.Settings.Default.UnitAi0;
             label55.Text = Properties.Settings.Default.UnitAi1;

@@ -13,10 +13,14 @@ namespace DataLoggerAppV1
 {
     public partial class Setting : Form
     {
+        public static Setting instance;
+        
+        public static bool isStay = false;
         public static Plc plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
         public Setting()
         {
             InitializeComponent();
+            instance = this;
         }
 
         private void label4_Click(object sender, EventArgs e)

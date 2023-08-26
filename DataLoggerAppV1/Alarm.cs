@@ -14,9 +14,12 @@ namespace DataLoggerAppV1
 {
     public partial class Alarm : Form
     {
+        public static Alarm instance;
+        public static bool isStay = false;
         public Alarm()
         {
             InitializeComponent();
+            instance = this;
         }
 
         private void button1_Click(object sender, EventArgs e)
