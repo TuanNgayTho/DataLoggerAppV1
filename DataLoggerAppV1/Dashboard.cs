@@ -118,8 +118,8 @@ namespace DataLoggerAppV1
             else
             {
                 MainForm.runningConnect = false;
+                ThreadDashBoard();
             }
-
         }
 
         private void ThreadDashBoard()
@@ -144,6 +144,7 @@ namespace DataLoggerAppV1
                 }
             });
             t.IsBackground = true;
+            Thread.Sleep(200);
             t.Start();
         }
 
@@ -1069,7 +1070,7 @@ namespace DataLoggerAppV1
         {
             DashBoardPlc.Open();
             DashBoardPlc.Write("DB13.DBX0.0", true);
-            //DashBoardPlc.Close();
+            DashBoardPlc.Close();
         }
 
         // btn Stream 2
@@ -1077,7 +1078,7 @@ namespace DataLoggerAppV1
         {
             DashBoardPlc.Open();
             DashBoardPlc.Write("DB13.DBX0.1", true);
-            //DashBoardPlc.Close();
+            DashBoardPlc.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -1095,7 +1096,7 @@ namespace DataLoggerAppV1
         {
             DashBoardPlc.Open();
             DashBoardPlc.Write("DB3.DBX1.0", true);
-            //DashBoardPlc.Close();
+            DashBoardPlc.Close();
         }
 
         // btn Stream 3
@@ -1103,7 +1104,7 @@ namespace DataLoggerAppV1
         {
             DashBoardPlc.Open();
             DashBoardPlc.Write("DB13.DBX0.2", true);
-            //DashBoardPlc.Close();
+            DashBoardPlc.Close();
         }
 
         // btn Auto Mode
@@ -1111,21 +1112,21 @@ namespace DataLoggerAppV1
         {
             DashBoardPlc.Open();
             DashBoardPlc.Write("DB3.DBX1.1", true);
-            //DashBoardPlc.Close();
+            DashBoardPlc.Close();
         }
 
         private void btnStop_Click(object sender, EventArgs e)
         {
             DashBoardPlc.Open();
             DashBoardPlc.Write("DB3.DBX0.7", true);
-            //DashBoardPlc.Close();
+            DashBoardPlc.Close();
         }
 
         private void btnSart_Click(object sender, EventArgs e)
         {
             DashBoardPlc.Open();
             DashBoardPlc.Write("DB3.DBX0.6", true);
-            //DashBoardPlc.Close();
+            DashBoardPlc.Close();
         }
 
         private void Dashboard_FormClosed(object sender, FormClosedEventArgs e)
