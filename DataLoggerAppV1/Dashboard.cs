@@ -154,31 +154,27 @@ namespace DataLoggerAppV1
             var IsRunning = MainForm.runningConnect;
             using (var dashBoardplc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1))
             {
-                var i = 0;
+                Thread.Sleep(100);
                 while (IsRunning)
                 {
+                   
+                    Thread.Sleep(100);
                     while (IsRunning)
                     {
-
-                        dashBoardplc.Close(); dashBoardplc.Close();
+                        
                         var result = dashBoardplc.Open();
+                        Thread.Sleep(100);
                         isConnect = dashBoardplc.IsConnected;
+
                         try
                         {
-                            if (dashBoardplc.IsConnected == false)
+                            if (result != ErrorCode.NoError)
                             {
-                                if (i>5)
-                                {
-                                    MessageBox.Show("Error: DashBoard " + dashBoardplc.LastErrorCode + "\n" + dashBoardplc.LastErrorString);
-                                    i = 0;
-                                }
-                                dashBoardplc.Close();
-                                i += 1;
+                                MessageBox.Show("Error: DashBoard " + dashBoardplc.LastErrorCode + "\n" + dashBoardplc.LastErrorString);
                                 break;
                             }
                             else
                             {
-                                i = 0;
                                 // Read AI Data From PLC
                                 var DbAiData = new DbAiData();
                                 dashBoardplc.ReadClass(DbAiData, 4);
@@ -203,7 +199,6 @@ namespace DataLoggerAppV1
                                     barAi7.Value = DbAiData.AiPercent7;
 
                                 }));
-
 
                                 //Ai Data
                                 DataAi0 = DbAiData.Ai0;
@@ -499,13 +494,15 @@ namespace DataLoggerAppV1
                             Thread.Sleep(100);
                             //break;
                         }
-                        dashBoardplc.Close();
+                        
                         if (MainForm.runningConnect == false)
                         {
                             break;
                         }
-                        
+
                         //MessageBox.Show(Convert.ToString(IsRunning));
+                        dashBoardplc.Close();
+
                     }
                     if (MainForm.runningConnect == false)
                     {
@@ -1068,17 +1065,47 @@ namespace DataLoggerAppV1
         // btn Stream 1
         private void button2_Click(object sender, EventArgs e)
         {
-            DashBoardPlc.Open();
-            DashBoardPlc.Write("DB13.DBX0.0", true);
-            DashBoardPlc.Close();
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            plc.Close();
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                }
+                else
+                {
+                    plc.Write("DB13.DBX0.0", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Close();
         }
 
         // btn Stream 2
         private void button3_Click(object sender, EventArgs e)
         {
-            DashBoardPlc.Open();
-            DashBoardPlc.Write("DB13.DBX0.1", true);
-            DashBoardPlc.Close();
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            plc.Close();
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                }
+                else
+                {
+                    plc.Write("DB13.DBX0.1", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -1094,39 +1121,114 @@ namespace DataLoggerAppV1
         // btn Man Mode
         private void btnManAuto_Click(object sender, EventArgs e)
         {
-            DashBoardPlc.Open();
-            DashBoardPlc.Write("DB3.DBX1.0", true);
-            DashBoardPlc.Close();
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            plc.Close();
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                }
+                else
+                {
+                    plc.Write("DB3.DBX1.0", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Close();
         }
 
         // btn Stream 3
         private void btnStream3_Click(object sender, EventArgs e)
         {
-            DashBoardPlc.Open();
-            DashBoardPlc.Write("DB13.DBX0.2", true);
-            DashBoardPlc.Close();
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            plc.Close();
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                }
+                else
+                {
+                    plc.Write("DB13.DBX0.2", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Close();
         }
 
         // btn Auto Mode
         private void btnAutoMode_Click(object sender, EventArgs e)
         {
-            DashBoardPlc.Open();
-            DashBoardPlc.Write("DB3.DBX1.1", true);
-            DashBoardPlc.Close();
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            plc.Close();
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                }
+                else
+                {
+                    plc.Write("DB3.DBX1.1", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Close();
         }
 
         private void btnStop_Click(object sender, EventArgs e)
         {
-            DashBoardPlc.Open();
-            DashBoardPlc.Write("DB3.DBX0.7", true);
-            DashBoardPlc.Close();
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            plc.Close();
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                }
+                else
+                {
+                    plc.Write("DB3.DBX0.7", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Close();
         }
 
         private void btnSart_Click(object sender, EventArgs e)
         {
-            DashBoardPlc.Open();
-            DashBoardPlc.Write("DB3.DBX0.6", true);
-            DashBoardPlc.Close();
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            plc.Close();
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                }
+                else
+                {
+                    plc.Write("DB3.DBX0.6", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Close();
         }
 
         private void Dashboard_FormClosed(object sender, FormClosedEventArgs e)
@@ -1145,17 +1247,6 @@ namespace DataLoggerAppV1
         private void timer1_Tick(object sender, EventArgs e)
         {
             
-        }
-    }
-
-    //Function Color Progress Bar
-    public static class ModifyProgressBarColor
-    {
-        [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = false)]
-        static extern IntPtr SendMessage(IntPtr hWnd, uint Msg, IntPtr w, IntPtr l);
-        public static void SetState(this ProgressBar pBar, int state)
-        {
-            SendMessage(pBar.Handle, 1040, (IntPtr)state, IntPtr.Zero);
         }
     }
 }
