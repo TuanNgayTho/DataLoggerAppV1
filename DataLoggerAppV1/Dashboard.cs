@@ -1061,6 +1061,27 @@ namespace DataLoggerAppV1
             lblNameAi7.Text = Properties.Settings.Default.NameAi7;
         }
 
+        private void Update()
+        {
+            lblUnitAi0.Text = Properties.Settings.Default.UnitAi0;
+            lblUnitAi1.Text = Properties.Settings.Default.UnitAi1;
+            lblUnitAi2.Text = Properties.Settings.Default.UnitAi2;
+            lblUnitAi3.Text = Properties.Settings.Default.UnitAi3;
+            lblUnitAi4.Text = Properties.Settings.Default.UnitAi4;
+            lblUnitAi5.Text = Properties.Settings.Default.UnitAi5;
+            lblUnitAi6.Text = Properties.Settings.Default.UnitAi6;
+            lblUnitAi7.Text = Properties.Settings.Default.UnitAi7;
+
+            lblNameAi0.Text = Properties.Settings.Default.NameAi0;
+            lblNameAi1.Text = Properties.Settings.Default.NameAi1;
+            lblNameAi2.Text = Properties.Settings.Default.NameAi2;
+            lblNameAi3.Text = Properties.Settings.Default.NameAi3;
+            lblNameAi4.Text = Properties.Settings.Default.NameAi4;
+            lblNameAi5.Text = Properties.Settings.Default.NameAi5;
+            lblNameAi6.Text = Properties.Settings.Default.NameAi6;
+            lblNameAi7.Text = Properties.Settings.Default.NameAi7;
+        }
+
         // btn Stream 1
         private void button2_Click(object sender, EventArgs e)
         {
@@ -1246,6 +1267,11 @@ namespace DataLoggerAppV1
         private void timer1_Tick(object sender, EventArgs e)
         {
             
+        }
+
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+            Update();
         }
     }
 }

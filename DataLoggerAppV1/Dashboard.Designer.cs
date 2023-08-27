@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.btnStream1 = new System.Windows.Forms.Button();
             this.btnStream2 = new System.Windows.Forms.Button();
@@ -133,6 +134,7 @@
             this.panel16 = new System.Windows.Forms.Panel();
             this.lblAlarmAi0 = new System.Windows.Forms.Label();
             this.btnAutoMode = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -1424,6 +1426,12 @@
             this.btnAutoMode.UseVisualStyleBackColor = true;
             this.btnAutoMode.Click += new System.EventHandler(this.btnAutoMode_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
@@ -1577,5 +1585,6 @@
         private System.Windows.Forms.Label lblMeasurementMinRange1;
         private System.Windows.Forms.Label lblMeasurementMinRange7;
         private System.Windows.Forms.Label lblMeasurementMinRange6;
+        private System.Windows.Forms.Timer timer1;
     }
 }
