@@ -1093,6 +1093,9 @@ namespace DataLoggerAppV1
                 if (result != ErrorCode.NoError)
                 {
                     //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                    plc.Close();
+                    plc.Open();
+                    plc.Write("DB13.DBX0.0", true);
                 }
                 else
                 {
@@ -1116,6 +1119,9 @@ namespace DataLoggerAppV1
                 if (result != ErrorCode.NoError)
                 {
                     //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                    plc.Close();
+                    plc.Open();
+                    plc.Write("DB13.DBX0.1", true);
                 }
                 else
                 {
@@ -1149,6 +1155,9 @@ namespace DataLoggerAppV1
                 if (result != ErrorCode.NoError)
                 {
                     //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                    plc.Close();
+                    plc.Open();
+                    plc.Write("DB3.DBX1.0", true);
                 }
                 else
                 {
@@ -1172,6 +1181,9 @@ namespace DataLoggerAppV1
                 if (result != ErrorCode.NoError)
                 {
                     //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                    plc.Close();
+                    plc.Open();
+                    plc.Write("DB13.DBX0.2", true);
                 }
                 else
                 {
@@ -1195,6 +1207,9 @@ namespace DataLoggerAppV1
                 if (result != ErrorCode.NoError)
                 {
                     //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                    plc.Close();
+                    plc.Open();
+                    plc.Write("DB3.DBX1.1", true);
                 }
                 else
                 {
@@ -1217,6 +1232,9 @@ namespace DataLoggerAppV1
                 if (result != ErrorCode.NoError)
                 {
                     //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                    plc.Close();
+                    plc.Open();
+                    plc.Write("DB3.DBX0.7", true);
                 }
                 else
                 {
@@ -1239,6 +1257,9 @@ namespace DataLoggerAppV1
                 if (result != ErrorCode.NoError)
                 {
                     //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                    plc.Close();
+                    plc.Open();
+                    plc.Write("DB3.DBX0.6", true);
                 }
                 else
                 {
