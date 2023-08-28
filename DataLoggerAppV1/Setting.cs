@@ -96,15 +96,122 @@ namespace DataLoggerAppV1
             using (plc)
             {
                 plc.Close();
-                Thread.Sleep(100);
+                //Thread.Sleep(100);
                 var result = plc.Open();
-                Thread.Sleep(100);
-                
+                Thread.Sleep(200);
+
                 try
                 {
                     if (result != ErrorCode.NoError)
                     {
-                        MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                        //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                        plc.Close();
+                        plc.Open();
+                        var DbSettingData = new DbSettingData();
+                        plc.ReadClass(DbSettingData, 1);
+                        Invoke(new Action(() =>
+                        {
+                            //Sensor min range
+                            txbSensorMin0.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMin0 * 100) / 100F);
+                            txbSensorMin1.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMin1 * 100) / 100F);
+                            txbSensorMin2.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMin2 * 100) / 100F);
+                            txbSensorMin3.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMin3 * 100) / 100F);
+                            txbSensorMin4.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMin4 * 100) / 100F);
+                            txbSensorMin5.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMin5 * 100) / 100F);
+                            txbSensorMin6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMin6 * 100) / 100F);
+                            txbSensorMin7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMin7 * 100) / 100F);
+
+                            //Sensor max range
+                            txbSensorMax0.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMax0 * 100) / 100F);
+                            txbSensorMax1.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMax1 * 100) / 100F);
+                            txbSensorMax2.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMax2 * 100) / 100F);
+                            txbSensorMax3.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMax3 * 100) / 100F);
+                            txbSensorMax4.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMax4 * 100) / 100F);
+                            txbSensorMax5.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMax5 * 100) / 100F);
+                            txbSensorMax6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMax6 * 100) / 100F);
+                            txbSensorMax7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.SensorRangeMax7 * 100) / 100F);
+
+                            //Measurement min range
+                            txbMesurementMin0.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin0 * 100) / 100F);
+                            txbMesurementMin1.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin1 * 100) / 100F);
+                            txbMesurementMin2.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin2 * 100) / 100F);
+                            txbMesurementMin3.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin3 * 100) / 100F);
+                            txbMesurementMin4.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin4 * 100) / 100F);
+                            txbMesurementMin5.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin5 * 100) / 100F);
+                            txbMesurementMin6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin6 * 100) / 100F);
+                            txbMesurementMin7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMin7 * 100) / 100F);
+
+                            //Measurement max range
+                            txbMesurementMax0.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax0 * 100) / 100F);
+                            txbMesurementMax1.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax1 * 100) / 100F);
+                            txbMesurementMax2.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax2 * 100) / 100F);
+                            txbMesurementMax3.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax3 * 100) / 100F);
+                            txbMesurementMax4.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax4 * 100) / 100F);
+                            txbMesurementMax5.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax5 * 100) / 100F);
+                            txbMesurementMax6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax6 * 100) / 100F);
+                            txbMesurementMax7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax7 * 100) / 100F);
+
+                            //Offset
+                            txbOffsetAi0.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Offset0 * 100) / 100F);
+                            txbOffsetAi1.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Offset1 * 100) / 100F);
+                            txbOffsetAi2.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Offset2 * 100) / 100F);
+                            txbOffsetAi3.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Offset3 * 100) / 100F);
+                            txbOffsetAi4.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Offset4 * 100) / 100F);
+                            txbOffsetAi5.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Offset5 * 100) / 100F);
+                            txbOffsetAi6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Offset6 * 100) / 100F);
+                            txbOffsetAi7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Offset7 * 100) / 100F);
+
+                            //Slope
+                            txbSlopeAi0.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Slope0 * 100) / 100F);
+                            txbSlopeAi1.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Slope1 * 100) / 100F);
+                            txbSlopeAi2.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Slope2 * 100) / 100F);
+                            txbSlopeAi3.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Slope3 * 100) / 100F);
+                            txbSlopeAi4.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Slope4 * 100) / 100F);
+                            txbSlopeAi5.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Slope5 * 100) / 100F);
+                            txbSlopeAi6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Slope6 * 100) / 100F);
+                            txbSlopeAi7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.Slope7 * 100) / 100F);
+
+                            //Low Alarm
+                            txbLowAlarm0.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmLow0 * 100) / 100F);
+                            txbLowAlarm1.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmLow1 * 100) / 100F);
+                            txbLowAlarm2.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmLow2 * 100) / 100F);
+                            txbLowAlarm3.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmLow3 * 100) / 100F);
+                            txbLowAlarm4.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmLow4 * 100) / 100F);
+                            txbLowAlarm5.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmLow5 * 100) / 100F);
+                            txbLowAlarm6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmLow6 * 100) / 100F);
+                            txbLowAlarm7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmLow7 * 100) / 100F);
+
+                            //High Alarm
+                            tbxHighAlarm0.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh0 * 100) / 100F);
+                            tbxHighAlarm1.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh1 * 100) / 100F);
+                            tbxHighAlarm2.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh2 * 100) / 100F);
+                            tbxHighAlarm3.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh3 * 100) / 100F);
+                            tbxHighAlarm4.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh4 * 100) / 100F);
+                            tbxHighAlarm5.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh5 * 100) / 100F);
+                            tbxHighAlarm6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh6 * 100) / 100F);
+                            tbxHighAlarm7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AlarmHigh7 * 100) / 100F);
+
+                            //Vent Time
+                            txbVentTime.Text = Convert.ToString(Convert.ToInt32(DbSettingData.VentTime * 100) / 100000F);
+
+                            //Analysis Time
+                            txbAnalysisTime.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AnalysisTime * 100) / 100000F);
+                        }));
+
+                        // Read Disable Signal From PLC
+                        var DbEnableSignal = new DbEnableSignal();
+                        plc.ReadClass(DbEnableSignal, 19);
+                        Invoke(new Action(() =>
+                        {
+                            cbxAi0.Checked = DbEnableSignal.DisconnectAi0;
+                            cbxAi1.Checked = DbEnableSignal.DisconnectAi1;
+                            cbxAi2.Checked = DbEnableSignal.DisconnectAi2;
+                            cbxAi3.Checked = DbEnableSignal.DisconnectAi3;
+                            cbxAi4.Checked = DbEnableSignal.DisconnectAi4;
+                            cbxAi5.Checked = DbEnableSignal.DisconnectAi5;
+                            cbxAi6.Checked = DbEnableSignal.DisconnectAi6;
+                            cbxAi7.Checked = DbEnableSignal.DisconnectAi7;
+                        }));
                     }
                     else
                     {
