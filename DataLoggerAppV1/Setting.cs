@@ -98,7 +98,7 @@ namespace DataLoggerAppV1
                 plc.Close();
                 //Thread.Sleep(100);
                 var result = plc.Open();
-                Thread.Sleep(200);
+                Thread.Sleep(20);
 
                 try
                 {
