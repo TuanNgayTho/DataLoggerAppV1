@@ -7,9 +7,9 @@ namespace DataLoggerAppV1
 {
     internal class DbReadBool
     {
-        public bool Stream1 { get; set; }
-        public bool Stream2 { get; set; }
-        public bool Stream3 { get; set; }
+        public bool MStream1 { get; set; }
+        public bool MStream2 { get; set; }
+        public bool MStream3 { get; set; }
         public bool ManAuto { get; set; }
         public bool SystemStatusAuto { get; set; }
         public bool SystemStatusMan { get; set; }
@@ -21,9 +21,9 @@ namespace DataLoggerAppV1
         public bool MStreamStatus1 { get; set; }
         public bool MStreamStatus2 { get; set; }
         public bool MStreamStatus3 { get; set; }
-        public bool Free14 { get; set; }
-        public bool Free15 { get; set; }
-        public bool Free16 { get; set; }
+        public bool AStream1 { get; set; }
+        public bool AStream2 { get; set; }
+        public bool AStream3 { get; set; }
 
         public bool LowAlarm0 { get; set; }
         public bool LowAlarm1 { get; set; }

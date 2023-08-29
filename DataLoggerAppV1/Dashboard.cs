@@ -197,6 +197,8 @@ namespace DataLoggerAppV1
                                     barAi6.Value = DbAiData.AiPercent6;
                                     barAi7.Value = DbAiData.AiPercent7;
 
+                                    lblTime.Text = Convert.ToString(Convert.ToInt32(DbAiData.CountDownCycleTime / 1000));
+
                                 }));
 
                                 //Ai Data
@@ -249,6 +251,7 @@ namespace DataLoggerAppV1
                                     lblMeasurementMaxRange5.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax5 * 100) / 100F);
                                     lblMeasurementMaxRange6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax6 * 100) / 100F);
                                     lblMeasurementMaxRange7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax7 * 100) / 100F);
+
                                 }));
 
                                 // Read Bool Status Data From PLC
@@ -268,9 +271,19 @@ namespace DataLoggerAppV1
                                 {
 
                                     //Button Status
-                                    btnStream1.BackColor = DbReadBool.MStreamStatus1 ? Color.LightBlue : SystemColors.ControlLight;
-                                    btnStream2.BackColor = DbReadBool.MStreamStatus2 ? Color.LightBlue : SystemColors.ControlLight;
-                                    btnStream3.BackColor = DbReadBool.MStreamStatus3 ? Color.LightBlue : SystemColors.ControlLight;
+                                    if (DbReadBool.ManAuto == false)
+                                    {
+                                        btnStream1.BackColor = DbReadBool.MStreamStatus1 ? Color.LightBlue : SystemColors.ControlLight;
+                                        btnStream2.BackColor = DbReadBool.MStreamStatus2 ? Color.LightBlue : SystemColors.ControlLight;
+                                        btnStream3.BackColor = DbReadBool.MStreamStatus3 ? Color.LightBlue : SystemColors.ControlLight;
+                                    }
+
+                                    if (DbReadBool.ManAuto)
+                                    {
+                                        btnStream1.BackColor = DbReadBool.AStream1 ? Color.LightGreen : SystemColors.ControlLight;
+                                        btnStream2.BackColor = DbReadBool.AStream2 ? Color.LightGreen : SystemColors.ControlLight;
+                                        btnStream3.BackColor = DbReadBool.AStream3 ? Color.LightGreen : SystemColors.ControlLight;
+                                    }
 
                                     if (DbReadBool.ManAuto && btnAutoMode.BackColor != Color.LightGreen)
                                     {
@@ -1293,6 +1306,31 @@ namespace DataLoggerAppV1
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             Update();
+        }
+
+        private void Silence_Click(object sender, EventArgs e)
+        {
+            var plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
+            plc.Close();
+            var result = plc.Open();
+            try
+            {
+                if (result != ErrorCode.NoError)
+                {
+                    //MessageBox.Show("Error: " + plc.LastErrorCode + "\n" + plc.LastErrorString);
+                    plc.Close();
+                    plc.Open();
+                    plc.Write("DB3.DBX1.2", true);
+                }
+                else
+                {
+                    plc.Write("DB3.DBX1.2", true);
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+            plc.Close();
         }
     }
 }
