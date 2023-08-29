@@ -135,6 +135,7 @@
             this.lblAlarmAi0 = new System.Windows.Forms.Label();
             this.btnAutoMode = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.panel17 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -152,13 +153,16 @@
             this.panel14.SuspendLayout();
             this.panel15.SuspendLayout();
             this.panel16.SuspendLayout();
+            this.panel17.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1415, 914);
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Location = new System.Drawing.Point(1354, 188);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(249, 49);
+            this.button1.Size = new System.Drawing.Size(276, 49);
             this.button1.TabIndex = 2;
             this.button1.Text = "CREA Certificate";
             this.button1.UseVisualStyleBackColor = true;
@@ -166,9 +170,11 @@
             // 
             // btnStream1
             // 
-            this.btnStream1.Location = new System.Drawing.Point(45, 752);
+            this.btnStream1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnStream1.Location = new System.Drawing.Point(12, 12);
             this.btnStream1.Name = "btnStream1";
-            this.btnStream1.Size = new System.Drawing.Size(221, 49);
+            this.btnStream1.Size = new System.Drawing.Size(200, 49);
             this.btnStream1.TabIndex = 2;
             this.btnStream1.Text = "STREAM 1";
             this.btnStream1.UseVisualStyleBackColor = true;
@@ -176,9 +182,11 @@
             // 
             // btnStream2
             // 
-            this.btnStream2.Location = new System.Drawing.Point(278, 752);
+            this.btnStream2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnStream2.Location = new System.Drawing.Point(245, 12);
             this.btnStream2.Name = "btnStream2";
-            this.btnStream2.Size = new System.Drawing.Size(221, 49);
+            this.btnStream2.Size = new System.Drawing.Size(210, 49);
             this.btnStream2.TabIndex = 2;
             this.btnStream2.Text = "STREAM 2";
             this.btnStream2.UseVisualStyleBackColor = true;
@@ -186,9 +194,11 @@
             // 
             // btnStream3
             // 
-            this.btnStream3.Location = new System.Drawing.Point(511, 752);
+            this.btnStream3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnStream3.Location = new System.Drawing.Point(478, 12);
             this.btnStream3.Name = "btnStream3";
-            this.btnStream3.Size = new System.Drawing.Size(221, 49);
+            this.btnStream3.Size = new System.Drawing.Size(210, 49);
             this.btnStream3.TabIndex = 2;
             this.btnStream3.Text = "STREAM 3";
             this.btnStream3.UseVisualStyleBackColor = true;
@@ -196,10 +206,12 @@
             // 
             // btnSart
             // 
+            this.btnSart.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSart.BackColor = System.Drawing.Color.LightGreen;
-            this.btnSart.Location = new System.Drawing.Point(744, 752);
+            this.btnSart.Location = new System.Drawing.Point(711, 12);
             this.btnSart.Name = "btnSart";
-            this.btnSart.Size = new System.Drawing.Size(221, 49);
+            this.btnSart.Size = new System.Drawing.Size(210, 49);
             this.btnSart.TabIndex = 2;
             this.btnSart.Text = "START";
             this.btnSart.UseVisualStyleBackColor = false;
@@ -207,10 +219,12 @@
             // 
             // btnStop
             // 
+            this.btnStop.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnStop.BackColor = System.Drawing.Color.LightCoral;
-            this.btnStop.Location = new System.Drawing.Point(977, 752);
+            this.btnStop.Location = new System.Drawing.Point(944, 12);
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(221, 49);
+            this.btnStop.Size = new System.Drawing.Size(210, 49);
             this.btnStop.TabIndex = 2;
             this.btnStop.Text = "STOP";
             this.btnStop.UseVisualStyleBackColor = false;
@@ -218,9 +232,11 @@
             // 
             // btnManMode
             // 
-            this.btnManMode.Location = new System.Drawing.Point(1210, 752);
+            this.btnManMode.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnManMode.Location = new System.Drawing.Point(1177, 12);
             this.btnManMode.Name = "btnManMode";
-            this.btnManMode.Size = new System.Drawing.Size(221, 49);
+            this.btnManMode.Size = new System.Drawing.Size(210, 49);
             this.btnManMode.TabIndex = 2;
             this.btnManMode.Text = "MAN MODE";
             this.btnManMode.UseVisualStyleBackColor = true;
@@ -228,19 +244,21 @@
             // 
             // lblAlarmSystem
             // 
+            this.lblAlarmSystem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAlarmSystem.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblAlarmSystem.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAlarmSystem.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAlarmSystem.Location = new System.Drawing.Point(46, 833);
+            this.lblAlarmSystem.Location = new System.Drawing.Point(43, 831);
             this.lblAlarmSystem.Name = "lblAlarmSystem";
-            this.lblAlarmSystem.Size = new System.Drawing.Size(1618, 48);
+            this.lblAlarmSystem.Size = new System.Drawing.Size(1618, 47);
             this.lblAlarmSystem.TabIndex = 3;
             this.lblAlarmSystem.Text = "PLC Disconnected";
             this.lblAlarmSystem.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel1.ColumnCount = 7;
@@ -289,7 +307,6 @@
             this.tableLayoutPanel1.Controls.Add(this.lblHighAlarm0, 6, 1);
             this.tableLayoutPanel1.Controls.Add(this.lblLowAlarm0, 5, 1);
             this.tableLayoutPanel1.Controls.Add(this.lblUnitAi0, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.lblAiDataCh0, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.lblNameAi0, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.panel10, 4, 8);
@@ -314,7 +331,8 @@
             this.tableLayoutPanel1.Controls.Add(this.panel14, 4, 3);
             this.tableLayoutPanel1.Controls.Add(this.panel15, 4, 2);
             this.tableLayoutPanel1.Controls.Add(this.panel16, 4, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(44, 46);
+            this.tableLayoutPanel1.Controls.Add(this.lblAiDataCh0, 1, 1);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(43, 43);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 9;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.12121F));
@@ -333,18 +351,18 @@
             // 
             // lblHighAlarm7
             // 
-            this.lblHighAlarm7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHighAlarm7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHighAlarm7.Location = new System.Drawing.Point(1505, 624);
+            this.lblHighAlarm7.Location = new System.Drawing.Point(1503, 624);
             this.lblHighAlarm7.Name = "lblHighAlarm7";
-            this.lblHighAlarm7.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm7.Size = new System.Drawing.Size(111, 23);
             this.lblHighAlarm7.TabIndex = 55;
             this.lblHighAlarm7.Text = "0,0";
             this.lblHighAlarm7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm7
             // 
-            this.lblLowAlarm7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblLowAlarm7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLowAlarm7.Location = new System.Drawing.Point(1390, 624);
             this.lblLowAlarm7.Name = "lblLowAlarm7";
@@ -366,7 +384,7 @@
             // 
             // lblAiDataCh7
             // 
-            this.lblAiDataCh7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAiDataCh7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAiDataCh7.Location = new System.Drawing.Point(117, 624);
             this.lblAiDataCh7.Name = "lblAiDataCh7";
@@ -388,18 +406,18 @@
             // 
             // lblHighAlarm6
             // 
-            this.lblHighAlarm6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHighAlarm6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHighAlarm6.Location = new System.Drawing.Point(1505, 551);
+            this.lblHighAlarm6.Location = new System.Drawing.Point(1503, 551);
             this.lblHighAlarm6.Name = "lblHighAlarm6";
-            this.lblHighAlarm6.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm6.Size = new System.Drawing.Size(111, 23);
             this.lblHighAlarm6.TabIndex = 50;
             this.lblHighAlarm6.Text = "0,0";
             this.lblHighAlarm6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm6
             // 
-            this.lblLowAlarm6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblLowAlarm6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLowAlarm6.Location = new System.Drawing.Point(1390, 551);
             this.lblLowAlarm6.Name = "lblLowAlarm6";
@@ -422,7 +440,7 @@
             // 
             // lblAiDataCh6
             // 
-            this.lblAiDataCh6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAiDataCh6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAiDataCh6.Location = new System.Drawing.Point(117, 551);
             this.lblAiDataCh6.Name = "lblAiDataCh6";
@@ -444,18 +462,18 @@
             // 
             // lblHighAlarm5
             // 
-            this.lblHighAlarm5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHighAlarm5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHighAlarm5.Location = new System.Drawing.Point(1505, 477);
+            this.lblHighAlarm5.Location = new System.Drawing.Point(1503, 477);
             this.lblHighAlarm5.Name = "lblHighAlarm5";
-            this.lblHighAlarm5.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm5.Size = new System.Drawing.Size(111, 23);
             this.lblHighAlarm5.TabIndex = 44;
             this.lblHighAlarm5.Text = "0,0";
             this.lblHighAlarm5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm5
             // 
-            this.lblLowAlarm5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblLowAlarm5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLowAlarm5.Location = new System.Drawing.Point(1390, 477);
             this.lblLowAlarm5.Name = "lblLowAlarm5";
@@ -477,7 +495,7 @@
             // 
             // lblAiDataCh5
             // 
-            this.lblAiDataCh5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAiDataCh5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAiDataCh5.Location = new System.Drawing.Point(117, 477);
             this.lblAiDataCh5.Name = "lblAiDataCh5";
@@ -499,18 +517,18 @@
             // 
             // lblHighAlarm4
             // 
-            this.lblHighAlarm4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHighAlarm4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHighAlarm4.Location = new System.Drawing.Point(1505, 403);
+            this.lblHighAlarm4.Location = new System.Drawing.Point(1503, 403);
             this.lblHighAlarm4.Name = "lblHighAlarm4";
-            this.lblHighAlarm4.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm4.Size = new System.Drawing.Size(111, 23);
             this.lblHighAlarm4.TabIndex = 38;
             this.lblHighAlarm4.Text = "0,0";
             this.lblHighAlarm4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm4
             // 
-            this.lblLowAlarm4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblLowAlarm4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLowAlarm4.Location = new System.Drawing.Point(1390, 403);
             this.lblLowAlarm4.Name = "lblLowAlarm4";
@@ -532,7 +550,7 @@
             // 
             // lblAiDataCh4
             // 
-            this.lblAiDataCh4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAiDataCh4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAiDataCh4.Location = new System.Drawing.Point(117, 403);
             this.lblAiDataCh4.Name = "lblAiDataCh4";
@@ -554,18 +572,18 @@
             // 
             // lblHighAlarm3
             // 
-            this.lblHighAlarm3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHighAlarm3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHighAlarm3.Location = new System.Drawing.Point(1505, 329);
+            this.lblHighAlarm3.Location = new System.Drawing.Point(1503, 329);
             this.lblHighAlarm3.Name = "lblHighAlarm3";
-            this.lblHighAlarm3.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm3.Size = new System.Drawing.Size(111, 23);
             this.lblHighAlarm3.TabIndex = 32;
             this.lblHighAlarm3.Text = "0,0";
             this.lblHighAlarm3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm3
             // 
-            this.lblLowAlarm3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblLowAlarm3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLowAlarm3.Location = new System.Drawing.Point(1390, 329);
             this.lblLowAlarm3.Name = "lblLowAlarm3";
@@ -587,7 +605,7 @@
             // 
             // lblAiDataCh3
             // 
-            this.lblAiDataCh3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAiDataCh3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAiDataCh3.Location = new System.Drawing.Point(117, 329);
             this.lblAiDataCh3.Name = "lblAiDataCh3";
@@ -609,18 +627,18 @@
             // 
             // lblHighAlarm2
             // 
-            this.lblHighAlarm2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHighAlarm2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHighAlarm2.Location = new System.Drawing.Point(1505, 255);
+            this.lblHighAlarm2.Location = new System.Drawing.Point(1503, 255);
             this.lblHighAlarm2.Name = "lblHighAlarm2";
-            this.lblHighAlarm2.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm2.Size = new System.Drawing.Size(111, 23);
             this.lblHighAlarm2.TabIndex = 26;
             this.lblHighAlarm2.Text = "0,0";
             this.lblHighAlarm2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm2
             // 
-            this.lblLowAlarm2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblLowAlarm2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLowAlarm2.Location = new System.Drawing.Point(1390, 255);
             this.lblLowAlarm2.Name = "lblLowAlarm2";
@@ -642,7 +660,7 @@
             // 
             // lblAiDataCh2
             // 
-            this.lblAiDataCh2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAiDataCh2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAiDataCh2.Location = new System.Drawing.Point(117, 255);
             this.lblAiDataCh2.Name = "lblAiDataCh2";
@@ -664,18 +682,18 @@
             // 
             // lblHighAlarm1
             // 
-            this.lblHighAlarm1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHighAlarm1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHighAlarm1.Location = new System.Drawing.Point(1505, 181);
+            this.lblHighAlarm1.Location = new System.Drawing.Point(1503, 181);
             this.lblHighAlarm1.Name = "lblHighAlarm1";
-            this.lblHighAlarm1.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm1.Size = new System.Drawing.Size(111, 23);
             this.lblHighAlarm1.TabIndex = 20;
             this.lblHighAlarm1.Text = "0,0";
             this.lblHighAlarm1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm1
             // 
-            this.lblLowAlarm1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblLowAlarm1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLowAlarm1.Location = new System.Drawing.Point(1390, 181);
             this.lblLowAlarm1.Name = "lblLowAlarm1";
@@ -697,7 +715,7 @@
             // 
             // lblAiDataCh1
             // 
-            this.lblAiDataCh1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAiDataCh1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAiDataCh1.Location = new System.Drawing.Point(117, 181);
             this.lblAiDataCh1.Name = "lblAiDataCh1";
@@ -719,18 +737,18 @@
             // 
             // lblHighAlarm0
             // 
-            this.lblHighAlarm0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblHighAlarm0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHighAlarm0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHighAlarm0.Location = new System.Drawing.Point(1505, 107);
+            this.lblHighAlarm0.Location = new System.Drawing.Point(1503, 107);
             this.lblHighAlarm0.Name = "lblHighAlarm0";
-            this.lblHighAlarm0.Size = new System.Drawing.Size(106, 23);
+            this.lblHighAlarm0.Size = new System.Drawing.Size(111, 23);
             this.lblHighAlarm0.TabIndex = 14;
             this.lblHighAlarm0.Text = "0,0";
             this.lblHighAlarm0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm0
             // 
-            this.lblLowAlarm0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLowAlarm0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblLowAlarm0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLowAlarm0.Location = new System.Drawing.Point(1390, 107);
             this.lblLowAlarm0.Name = "lblLowAlarm0";
@@ -752,7 +770,7 @@
             // 
             // lblAiDataCh0
             // 
-            this.lblAiDataCh0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAiDataCh0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAiDataCh0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAiDataCh0.Location = new System.Drawing.Point(117, 107);
             this.lblAiDataCh0.Name = "lblAiDataCh0";
@@ -787,10 +805,8 @@
             // 
             // panel10
             // 
-            this.panel10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel10.Controls.Add(this.lblAlarmAi7);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel10.Location = new System.Drawing.Point(1277, 603);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(106, 66);
@@ -809,12 +825,10 @@
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.Controls.Add(this.lblMeasurementMaxRange7);
             this.panel2.Controls.Add(this.lblMeasurementMinRange7);
             this.panel2.Controls.Add(this.barAi7);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(343, 603);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(927, 66);
@@ -844,9 +858,7 @@
             // 
             // barAi7
             // 
-            this.barAi7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.barAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.barAi7.ForeColor = System.Drawing.Color.LightGreen;
             this.barAi7.Location = new System.Drawing.Point(11, 13);
             this.barAi7.Name = "barAi7";
@@ -934,12 +946,10 @@
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Controls.Add(this.lblMeasurementMaxRange6);
             this.panel1.Controls.Add(this.lblMeasurementMinRange6);
             this.panel1.Controls.Add(this.barAi6);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(343, 529);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(927, 67);
@@ -969,9 +979,7 @@
             // 
             // barAi6
             // 
-            this.barAi6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.barAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.barAi6.ForeColor = System.Drawing.Color.LightGreen;
             this.barAi6.Location = new System.Drawing.Point(11, 13);
             this.barAi6.Name = "barAi6";
@@ -981,12 +989,10 @@
             // 
             // panel3
             // 
-            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.Controls.Add(this.lblMeasurementMaxRange5);
             this.panel3.Controls.Add(this.lblMeasurementMinRange5);
             this.panel3.Controls.Add(this.barAi5);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(343, 455);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(927, 67);
@@ -1016,9 +1022,7 @@
             // 
             // barAi5
             // 
-            this.barAi5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.barAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.barAi5.ForeColor = System.Drawing.Color.LightGreen;
             this.barAi5.Location = new System.Drawing.Point(11, 13);
             this.barAi5.Name = "barAi5";
@@ -1028,12 +1032,10 @@
             // 
             // panel4
             // 
-            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.Controls.Add(this.lblMeasurementMaxRange4);
             this.panel4.Controls.Add(this.lblMeasurementMinRange4);
             this.panel4.Controls.Add(this.barAi4);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(343, 381);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(927, 67);
@@ -1063,9 +1065,7 @@
             // 
             // barAi4
             // 
-            this.barAi4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.barAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.barAi4.ForeColor = System.Drawing.Color.LightGreen;
             this.barAi4.Location = new System.Drawing.Point(11, 13);
             this.barAi4.Name = "barAi4";
@@ -1075,12 +1075,10 @@
             // 
             // panel5
             // 
-            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.Controls.Add(this.lblMeasurementMaxRange3);
             this.panel5.Controls.Add(this.lblMeasurementMinRange3);
             this.panel5.Controls.Add(this.barAi3);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(343, 307);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(927, 67);
@@ -1110,9 +1108,7 @@
             // 
             // barAi3
             // 
-            this.barAi3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.barAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.barAi3.ForeColor = System.Drawing.Color.LightGreen;
             this.barAi3.Location = new System.Drawing.Point(11, 13);
             this.barAi3.Name = "barAi3";
@@ -1122,12 +1118,10 @@
             // 
             // panel6
             // 
-            this.panel6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel6.Controls.Add(this.lblMeasurementMaxRange2);
             this.panel6.Controls.Add(this.lblMeasurementMinRange2);
             this.panel6.Controls.Add(this.barAi2);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(343, 233);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(927, 67);
@@ -1157,9 +1151,7 @@
             // 
             // barAi2
             // 
-            this.barAi2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.barAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.barAi2.ForeColor = System.Drawing.Color.LightGreen;
             this.barAi2.Location = new System.Drawing.Point(11, 13);
             this.barAi2.Name = "barAi2";
@@ -1169,12 +1161,10 @@
             // 
             // panel7
             // 
-            this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel7.Controls.Add(this.lblMeasurementMaxRange1);
             this.panel7.Controls.Add(this.lblMeasurementMinRange1);
             this.panel7.Controls.Add(this.barAi1);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(343, 159);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(927, 67);
@@ -1204,9 +1194,7 @@
             // 
             // barAi1
             // 
-            this.barAi1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.barAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.barAi1.ForeColor = System.Drawing.Color.LightGreen;
             this.barAi1.Location = new System.Drawing.Point(11, 13);
             this.barAi1.Name = "barAi1";
@@ -1216,12 +1204,10 @@
             // 
             // panel8
             // 
-            this.panel8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel8.Controls.Add(this.lblMeasurementMaxRange0);
             this.panel8.Controls.Add(this.lblMeasurementMinRange0);
             this.panel8.Controls.Add(this.barAi0);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(343, 85);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(927, 67);
@@ -1251,9 +1237,7 @@
             // 
             // barAi0
             // 
-            this.barAi0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.barAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.barAi0.BackColor = System.Drawing.SystemColors.Control;
             this.barAi0.ForeColor = System.Drawing.Color.LightGreen;
             this.barAi0.Location = new System.Drawing.Point(11, 13);
@@ -1264,10 +1248,8 @@
             // 
             // panel9
             // 
-            this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel9.Controls.Add(this.lblAlarmAi6);
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel9.Location = new System.Drawing.Point(1277, 529);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(106, 67);
@@ -1286,10 +1268,8 @@
             // 
             // panel11
             // 
-            this.panel11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel11.Controls.Add(this.lblAlarmAi5);
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel11.Location = new System.Drawing.Point(1277, 455);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(106, 67);
@@ -1308,10 +1288,8 @@
             // 
             // panel12
             // 
-            this.panel12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel12.Controls.Add(this.lblAlarmAi4);
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel12.Location = new System.Drawing.Point(1277, 381);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(106, 67);
@@ -1330,10 +1308,8 @@
             // 
             // panel13
             // 
-            this.panel13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel13.Controls.Add(this.lblAlarmAi3);
+            this.panel13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel13.Location = new System.Drawing.Point(1277, 307);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(106, 67);
@@ -1352,10 +1328,8 @@
             // 
             // panel14
             // 
-            this.panel14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel14.Controls.Add(this.lblAlarmAi2);
+            this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel14.Location = new System.Drawing.Point(1277, 233);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(106, 67);
@@ -1374,10 +1348,8 @@
             // 
             // panel15
             // 
-            this.panel15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel15.Controls.Add(this.lblAlarmAi1);
+            this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel15.Location = new System.Drawing.Point(1277, 159);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(106, 67);
@@ -1396,10 +1368,8 @@
             // 
             // panel16
             // 
-            this.panel16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel16.Controls.Add(this.lblAlarmAi0);
+            this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel16.Location = new System.Drawing.Point(1277, 85);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(106, 67);
@@ -1418,9 +1388,11 @@
             // 
             // btnAutoMode
             // 
-            this.btnAutoMode.Location = new System.Drawing.Point(1443, 752);
+            this.btnAutoMode.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAutoMode.Location = new System.Drawing.Point(1420, 12);
             this.btnAutoMode.Name = "btnAutoMode";
-            this.btnAutoMode.Size = new System.Drawing.Size(221, 49);
+            this.btnAutoMode.Size = new System.Drawing.Size(210, 49);
             this.btnAutoMode.TabIndex = 4;
             this.btnAutoMode.Text = "AUTO MODE";
             this.btnAutoMode.UseVisualStyleBackColor = true;
@@ -1432,22 +1404,33 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
+            // panel17
+            // 
+            this.panel17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel17.Controls.Add(this.btnAutoMode);
+            this.panel17.Controls.Add(this.button1);
+            this.panel17.Controls.Add(this.btnStop);
+            this.panel17.Controls.Add(this.btnManMode);
+            this.panel17.Controls.Add(this.btnStream2);
+            this.panel17.Controls.Add(this.btnStream3);
+            this.panel17.Controls.Add(this.btnSart);
+            this.panel17.Controls.Add(this.btnStream1);
+            this.panel17.Location = new System.Drawing.Point(31, 738);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(1649, 258);
+            this.panel17.TabIndex = 5;
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1709, 1000);
-            this.Controls.Add(this.btnAutoMode);
+            this.ClientSize = new System.Drawing.Size(1705, 998);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.btnStop);
-            this.Controls.Add(this.btnManMode);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnSart);
             this.Controls.Add(this.lblAlarmSystem);
-            this.Controls.Add(this.btnStream1);
-            this.Controls.Add(this.btnStream3);
-            this.Controls.Add(this.btnStream2);
+            this.Controls.Add(this.panel17);
             this.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
@@ -1475,6 +1458,7 @@
             this.panel14.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
+            this.panel17.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1586,5 +1570,6 @@
         private System.Windows.Forms.Label lblMeasurementMinRange7;
         private System.Windows.Forms.Label lblMeasurementMinRange6;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Panel panel17;
     }
 }

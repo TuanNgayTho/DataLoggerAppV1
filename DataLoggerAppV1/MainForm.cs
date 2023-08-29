@@ -31,6 +31,13 @@ namespace DataLoggerAppV1
 
             btnDashboard.BackColor = SystemColors.Control;
 
+            this.pnlTrend.Controls.Clear();
+            Trend Trend_Vrb = new Trend() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            Trend_Vrb.FormBorderStyle = FormBorderStyle.None;
+            this.pnlTrend.Controls.Add(Trend_Vrb);
+            Trend_Vrb.Show();
+            pnlTrend.Hide();
+
             lblNameOfPage.Text = "Dashboard";
             this.pnlDashBoard.Controls.Clear();
             Dashboard Dashboard_Vrb = new Dashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
@@ -240,6 +247,18 @@ namespace DataLoggerAppV1
         private void pnlFormLoader_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pnlTrend.Hide();
+            pnlDashBoard.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            pnlTrend.Show();
+            pnlDashBoard.Hide();
         }
     }
 }

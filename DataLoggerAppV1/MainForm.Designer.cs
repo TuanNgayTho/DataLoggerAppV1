@@ -48,12 +48,15 @@
             this.lblSystemName = new System.Windows.Forms.Label();
             this.pnlFormLoader = new System.Windows.Forms.Panel();
             this.pnlDashBoard = new System.Windows.Forms.Panel();
+            this.pnlTrend = new System.Windows.Forms.Panel();
+            this.PnlDisplay = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.PnlDisplay.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -66,7 +69,6 @@
             this.panel1.Controls.Add(this.btnTrend);
             this.panel1.Controls.Add(this.btnAlarmList);
             this.panel1.Controls.Add(this.btnDashboard);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.panel1.Name = "panel1";
@@ -292,20 +294,41 @@
             // pnlFormLoader
             // 
             this.pnlFormLoader.BackColor = System.Drawing.SystemColors.Control;
-            this.pnlFormLoader.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlFormLoader.Location = new System.Drawing.Point(208, 78);
+            this.pnlFormLoader.Location = new System.Drawing.Point(20, 15);
             this.pnlFormLoader.Name = "pnlFormLoader";
-            this.pnlFormLoader.Size = new System.Drawing.Size(1712, 1002);
+            this.pnlFormLoader.Size = new System.Drawing.Size(1676, 972);
             this.pnlFormLoader.TabIndex = 2;
             this.pnlFormLoader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlFormLoader_Paint);
             // 
             // pnlDashBoard
             // 
             this.pnlDashBoard.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pnlDashBoard.Location = new System.Drawing.Point(208, 77);
+            this.pnlDashBoard.Location = new System.Drawing.Point(20, 15);
             this.pnlDashBoard.Name = "pnlDashBoard";
-            this.pnlDashBoard.Size = new System.Drawing.Size(1709, 1000);
+            this.pnlDashBoard.Size = new System.Drawing.Size(1676, 972);
             this.pnlDashBoard.TabIndex = 3;
+            // 
+            // pnlTrend
+            // 
+            this.pnlTrend.BackColor = System.Drawing.Color.IndianRed;
+            this.pnlTrend.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.pnlTrend.Location = new System.Drawing.Point(20, 15);
+            this.pnlTrend.Name = "pnlTrend";
+            this.pnlTrend.Size = new System.Drawing.Size(1676, 972);
+            this.pnlTrend.TabIndex = 4;
+            // 
+            // PnlDisplay
+            // 
+            this.PnlDisplay.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PnlDisplay.Controls.Add(this.pnlTrend);
+            this.PnlDisplay.Controls.Add(this.pnlDashBoard);
+            this.PnlDisplay.Controls.Add(this.pnlFormLoader);
+            this.PnlDisplay.Location = new System.Drawing.Point(208, 78);
+            this.PnlDisplay.Name = "PnlDisplay";
+            this.PnlDisplay.Size = new System.Drawing.Size(1712, 1002);
+            this.PnlDisplay.TabIndex = 4;
             // 
             // MainForm
             // 
@@ -314,9 +337,8 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.ControlBox = false;
-            this.Controls.Add(this.pnlDashBoard);
+            this.Controls.Add(this.PnlDisplay);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.pnlFormLoader);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -333,6 +355,7 @@
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.PnlDisplay.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -358,6 +381,8 @@
         private System.Windows.Forms.Button btnMonitor;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel pnlDashBoard;
+        private System.Windows.Forms.Panel pnlTrend;
+        private System.Windows.Forms.Panel PnlDisplay;
     }
 }
 
