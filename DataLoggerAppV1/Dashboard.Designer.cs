@@ -848,7 +848,7 @@
             // 
             this.lblMeasurementMaxRange7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange7.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange7.Location = new System.Drawing.Point(853, 51);
+            this.lblMeasurementMaxRange7.Location = new System.Drawing.Point(853, 47);
             this.lblMeasurementMaxRange7.Name = "lblMeasurementMaxRange7";
             this.lblMeasurementMaxRange7.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMaxRange7.TabIndex = 14;
@@ -859,7 +859,7 @@
             // 
             this.lblMeasurementMinRange7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange7.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange7.Location = new System.Drawing.Point(2, 52);
+            this.lblMeasurementMinRange7.Location = new System.Drawing.Point(2, 48);
             this.lblMeasurementMinRange7.Name = "lblMeasurementMinRange7";
             this.lblMeasurementMinRange7.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMinRange7.TabIndex = 14;
@@ -870,7 +870,7 @@
             // 
             this.barAi7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.barAi7.ForeColor = System.Drawing.Color.LightGreen;
-            this.barAi7.Location = new System.Drawing.Point(11, 11);
+            this.barAi7.Location = new System.Drawing.Point(11, 5);
             this.barAi7.Name = "barAi7";
             this.barAi7.Size = new System.Drawing.Size(869, 41);
             this.barAi7.Step = 1;
@@ -969,7 +969,7 @@
             // 
             this.lblMeasurementMaxRange6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange6.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange6.Location = new System.Drawing.Point(855, 53);
+            this.lblMeasurementMaxRange6.Location = new System.Drawing.Point(855, 49);
             this.lblMeasurementMaxRange6.Name = "lblMeasurementMaxRange6";
             this.lblMeasurementMaxRange6.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMaxRange6.TabIndex = 14;
@@ -980,7 +980,7 @@
             // 
             this.lblMeasurementMinRange6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange6.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange6.Location = new System.Drawing.Point(2, 53);
+            this.lblMeasurementMinRange6.Location = new System.Drawing.Point(2, 49);
             this.lblMeasurementMinRange6.Name = "lblMeasurementMinRange6";
             this.lblMeasurementMinRange6.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMinRange6.TabIndex = 14;
@@ -991,7 +991,7 @@
             // 
             this.barAi6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.barAi6.ForeColor = System.Drawing.Color.LightGreen;
-            this.barAi6.Location = new System.Drawing.Point(11, 12);
+            this.barAi6.Location = new System.Drawing.Point(11, 6);
             this.barAi6.Name = "barAi6";
             this.barAi6.Size = new System.Drawing.Size(869, 42);
             this.barAi6.Step = 1;
@@ -1012,7 +1012,7 @@
             // 
             this.lblMeasurementMaxRange5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange5.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange5.Location = new System.Drawing.Point(853, 53);
+            this.lblMeasurementMaxRange5.Location = new System.Drawing.Point(853, 49);
             this.lblMeasurementMaxRange5.Name = "lblMeasurementMaxRange5";
             this.lblMeasurementMaxRange5.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMaxRange5.TabIndex = 14;
@@ -1023,7 +1023,7 @@
             // 
             this.lblMeasurementMinRange5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange5.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange5.Location = new System.Drawing.Point(2, 53);
+            this.lblMeasurementMinRange5.Location = new System.Drawing.Point(2, 49);
             this.lblMeasurementMinRange5.Name = "lblMeasurementMinRange5";
             this.lblMeasurementMinRange5.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMinRange5.TabIndex = 14;
@@ -1034,7 +1034,7 @@
             // 
             this.barAi5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.barAi5.ForeColor = System.Drawing.Color.LightGreen;
-            this.barAi5.Location = new System.Drawing.Point(11, 12);
+            this.barAi5.Location = new System.Drawing.Point(11, 6);
             this.barAi5.Name = "barAi5";
             this.barAi5.Size = new System.Drawing.Size(869, 42);
             this.barAi5.Step = 1;
@@ -1055,7 +1055,7 @@
             // 
             this.lblMeasurementMaxRange4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange4.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange4.Location = new System.Drawing.Point(855, 53);
+            this.lblMeasurementMaxRange4.Location = new System.Drawing.Point(855, 49);
             this.lblMeasurementMaxRange4.Name = "lblMeasurementMaxRange4";
             this.lblMeasurementMaxRange4.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMaxRange4.TabIndex = 14;
@@ -1066,7 +1066,7 @@
             // 
             this.lblMeasurementMinRange4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange4.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange4.Location = new System.Drawing.Point(2, 53);
+            this.lblMeasurementMinRange4.Location = new System.Drawing.Point(2, 49);
             this.lblMeasurementMinRange4.Name = "lblMeasurementMinRange4";
             this.lblMeasurementMinRange4.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMinRange4.TabIndex = 14;
@@ -1077,7 +1077,7 @@
             // 
             this.barAi4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.barAi4.ForeColor = System.Drawing.Color.LightGreen;
-            this.barAi4.Location = new System.Drawing.Point(11, 12);
+            this.barAi4.Location = new System.Drawing.Point(11, 6);
             this.barAi4.Name = "barAi4";
             this.barAi4.Size = new System.Drawing.Size(869, 42);
             this.barAi4.Step = 1;
@@ -1098,7 +1098,7 @@
             // 
             this.lblMeasurementMaxRange3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange3.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange3.Location = new System.Drawing.Point(855, 53);
+            this.lblMeasurementMaxRange3.Location = new System.Drawing.Point(855, 49);
             this.lblMeasurementMaxRange3.Name = "lblMeasurementMaxRange3";
             this.lblMeasurementMaxRange3.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMaxRange3.TabIndex = 14;
@@ -1109,7 +1109,7 @@
             // 
             this.lblMeasurementMinRange3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange3.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange3.Location = new System.Drawing.Point(2, 53);
+            this.lblMeasurementMinRange3.Location = new System.Drawing.Point(2, 49);
             this.lblMeasurementMinRange3.Name = "lblMeasurementMinRange3";
             this.lblMeasurementMinRange3.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMinRange3.TabIndex = 14;
@@ -1120,7 +1120,7 @@
             // 
             this.barAi3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.barAi3.ForeColor = System.Drawing.Color.LightGreen;
-            this.barAi3.Location = new System.Drawing.Point(11, 12);
+            this.barAi3.Location = new System.Drawing.Point(11, 6);
             this.barAi3.Name = "barAi3";
             this.barAi3.Size = new System.Drawing.Size(869, 42);
             this.barAi3.Step = 1;
@@ -1141,7 +1141,7 @@
             // 
             this.lblMeasurementMaxRange2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange2.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange2.Location = new System.Drawing.Point(855, 53);
+            this.lblMeasurementMaxRange2.Location = new System.Drawing.Point(855, 49);
             this.lblMeasurementMaxRange2.Name = "lblMeasurementMaxRange2";
             this.lblMeasurementMaxRange2.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMaxRange2.TabIndex = 14;
@@ -1152,7 +1152,7 @@
             // 
             this.lblMeasurementMinRange2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange2.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange2.Location = new System.Drawing.Point(2, 53);
+            this.lblMeasurementMinRange2.Location = new System.Drawing.Point(2, 49);
             this.lblMeasurementMinRange2.Name = "lblMeasurementMinRange2";
             this.lblMeasurementMinRange2.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMinRange2.TabIndex = 14;
@@ -1163,7 +1163,7 @@
             // 
             this.barAi2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.barAi2.ForeColor = System.Drawing.Color.LightGreen;
-            this.barAi2.Location = new System.Drawing.Point(11, 12);
+            this.barAi2.Location = new System.Drawing.Point(11, 6);
             this.barAi2.Name = "barAi2";
             this.barAi2.Size = new System.Drawing.Size(869, 42);
             this.barAi2.Step = 1;
@@ -1184,7 +1184,7 @@
             // 
             this.lblMeasurementMaxRange1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange1.Location = new System.Drawing.Point(852, 53);
+            this.lblMeasurementMaxRange1.Location = new System.Drawing.Point(852, 49);
             this.lblMeasurementMaxRange1.Name = "lblMeasurementMaxRange1";
             this.lblMeasurementMaxRange1.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMaxRange1.TabIndex = 14;
@@ -1195,7 +1195,7 @@
             // 
             this.lblMeasurementMinRange1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange1.Location = new System.Drawing.Point(2, 53);
+            this.lblMeasurementMinRange1.Location = new System.Drawing.Point(2, 49);
             this.lblMeasurementMinRange1.Name = "lblMeasurementMinRange1";
             this.lblMeasurementMinRange1.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMinRange1.TabIndex = 14;
@@ -1206,7 +1206,7 @@
             // 
             this.barAi1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.barAi1.ForeColor = System.Drawing.Color.LightGreen;
-            this.barAi1.Location = new System.Drawing.Point(11, 12);
+            this.barAi1.Location = new System.Drawing.Point(11, 6);
             this.barAi1.Name = "barAi1";
             this.barAi1.Size = new System.Drawing.Size(869, 42);
             this.barAi1.Step = 1;
@@ -1227,7 +1227,7 @@
             // 
             this.lblMeasurementMaxRange0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange0.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange0.Location = new System.Drawing.Point(853, 53);
+            this.lblMeasurementMaxRange0.Location = new System.Drawing.Point(853, 49);
             this.lblMeasurementMaxRange0.Name = "lblMeasurementMaxRange0";
             this.lblMeasurementMaxRange0.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMaxRange0.TabIndex = 14;
@@ -1238,7 +1238,7 @@
             // 
             this.lblMeasurementMinRange0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange0.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange0.Location = new System.Drawing.Point(8, 53);
+            this.lblMeasurementMinRange0.Location = new System.Drawing.Point(8, 49);
             this.lblMeasurementMinRange0.Name = "lblMeasurementMinRange0";
             this.lblMeasurementMinRange0.Size = new System.Drawing.Size(35, 11);
             this.lblMeasurementMinRange0.TabIndex = 14;
@@ -1250,7 +1250,7 @@
             this.barAi0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.barAi0.BackColor = System.Drawing.SystemColors.Control;
             this.barAi0.ForeColor = System.Drawing.Color.LightGreen;
-            this.barAi0.Location = new System.Drawing.Point(11, 12);
+            this.barAi0.Location = new System.Drawing.Point(11, 6);
             this.barAi0.Name = "barAi0";
             this.barAi0.Size = new System.Drawing.Size(869, 42);
             this.barAi0.Step = 1;
@@ -1422,7 +1422,7 @@
             this.btnAutoMode.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAutoMode.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAutoMode.Location = new System.Drawing.Point(1338, 12);
+            this.btnAutoMode.Location = new System.Drawing.Point(1342, 12);
             this.btnAutoMode.Name = "btnAutoMode";
             this.btnAutoMode.Size = new System.Drawing.Size(223, 49);
             this.btnAutoMode.TabIndex = 4;

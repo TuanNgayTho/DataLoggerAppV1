@@ -640,7 +640,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(38, 749);
+            this.label1.Location = new System.Drawing.Point(38, 743);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 15);
             this.label1.TabIndex = 19;
