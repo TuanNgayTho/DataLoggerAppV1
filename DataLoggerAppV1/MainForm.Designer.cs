@@ -74,16 +74,16 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(208, 1080);
+            this.panel1.Size = new System.Drawing.Size(244, 1080);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // pnlline
             // 
             this.pnlline.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pnlline.Location = new System.Drawing.Point(0, 77);
+            this.pnlline.Location = new System.Drawing.Point(0, 68);
             this.pnlline.Name = "pnlline";
-            this.pnlline.Size = new System.Drawing.Size(209, 1);
+            this.pnlline.Size = new System.Drawing.Size(245, 10);
             this.pnlline.TabIndex = 5;
             // 
             // panel2
@@ -92,9 +92,10 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.lblUserName);
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Location = new System.Drawing.Point(3, 5);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(203, 389);
+            this.panel2.Size = new System.Drawing.Size(244, 389);
             this.panel2.TabIndex = 1;
             // 
             // label2
@@ -104,7 +105,7 @@
             this.label2.Font = new System.Drawing.Font("Bauhaus 93", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(203, 69);
+            this.label2.Size = new System.Drawing.Size(244, 69);
             this.label2.TabIndex = 2;
             this.label2.Text = "Menu Bar";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -112,7 +113,7 @@
             // lblUserName
             // 
             this.lblUserName.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserName.Location = new System.Drawing.Point(4, 163);
+            this.lblUserName.Location = new System.Drawing.Point(28, 179);
             this.lblUserName.Name = "lblUserName";
             this.lblUserName.Size = new System.Drawing.Size(187, 44);
             this.lblUserName.TabIndex = 1;
@@ -123,7 +124,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(29, 81);
+            this.pictureBox1.Location = new System.Drawing.Point(53, 97);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(138, 90);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -142,7 +143,7 @@
             this.btnSettings.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnSettings.Size = new System.Drawing.Size(208, 73);
+            this.btnSettings.Size = new System.Drawing.Size(243, 73);
             this.btnSettings.TabIndex = 1;
             this.btnSettings.Text = "Settings";
             this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -162,7 +163,7 @@
             this.btnMonitor.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnMonitor.Name = "btnMonitor";
             this.btnMonitor.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnMonitor.Size = new System.Drawing.Size(209, 73);
+            this.btnMonitor.Size = new System.Drawing.Size(244, 73);
             this.btnMonitor.TabIndex = 1;
             this.btnMonitor.Text = "Monitor";
             this.btnMonitor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -181,7 +182,7 @@
             this.btnTrend.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnTrend.Name = "btnTrend";
             this.btnTrend.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnTrend.Size = new System.Drawing.Size(211, 73);
+            this.btnTrend.Size = new System.Drawing.Size(246, 73);
             this.btnTrend.TabIndex = 1;
             this.btnTrend.Text = "Trend";
             this.btnTrend.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -201,7 +202,7 @@
             this.btnAlarmList.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnAlarmList.Name = "btnAlarmList";
             this.btnAlarmList.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnAlarmList.Size = new System.Drawing.Size(209, 73);
+            this.btnAlarmList.Size = new System.Drawing.Size(244, 73);
             this.btnAlarmList.TabIndex = 1;
             this.btnAlarmList.Text = "Alarm List";
             this.btnAlarmList.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -223,7 +224,7 @@
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
             this.btnDashboard.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnDashboard.Size = new System.Drawing.Size(211, 73);
+            this.btnDashboard.Size = new System.Drawing.Size(244, 73);
             this.btnDashboard.TabIndex = 1;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -240,15 +241,15 @@
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.lblSystemName);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(208, 0);
+            this.panel3.Location = new System.Drawing.Point(244, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1712, 80);
+            this.panel3.Size = new System.Drawing.Size(1676, 80);
             this.panel3.TabIndex = 1;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(52, 221);
+            this.pictureBox3.Location = new System.Drawing.Point(76, 237);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(93, 133);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -259,7 +260,7 @@
             // 
             this.lblNameOfPage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNameOfPage.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNameOfPage.Location = new System.Drawing.Point(1593, 54);
+            this.lblNameOfPage.Location = new System.Drawing.Point(1557, 54);
             this.lblNameOfPage.Name = "lblNameOfPage";
             this.lblNameOfPage.Size = new System.Drawing.Size(114, 22);
             this.lblNameOfPage.TabIndex = 1;
@@ -271,7 +272,7 @@
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1668, 7);
+            this.pictureBox2.Location = new System.Drawing.Point(1632, 7);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(39, 33);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -284,7 +285,7 @@
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(1540, 54);
+            this.label1.Location = new System.Drawing.Point(1504, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 23);
             this.label1.TabIndex = 1;
@@ -298,7 +299,7 @@
             this.lblSystemName.Font = new System.Drawing.Font("Times New Roman", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSystemName.Location = new System.Drawing.Point(0, 0);
             this.lblSystemName.Name = "lblSystemName";
-            this.lblSystemName.Size = new System.Drawing.Size(1712, 80);
+            this.lblSystemName.Size = new System.Drawing.Size(1676, 80);
             this.lblSystemName.TabIndex = 1;
             this.lblSystemName.Text = "Data Logger CDQC System";
             this.lblSystemName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -312,7 +313,7 @@
             this.pnlFormLoader.BackColor = System.Drawing.SystemColors.Control;
             this.pnlFormLoader.Location = new System.Drawing.Point(20, 15);
             this.pnlFormLoader.Name = "pnlFormLoader";
-            this.pnlFormLoader.Size = new System.Drawing.Size(1676, 970);
+            this.pnlFormLoader.Size = new System.Drawing.Size(1640, 970);
             this.pnlFormLoader.TabIndex = 2;
             this.pnlFormLoader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlFormLoader_Paint);
             // 
@@ -324,7 +325,7 @@
             this.pnlDashBoard.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.pnlDashBoard.Location = new System.Drawing.Point(20, 15);
             this.pnlDashBoard.Name = "pnlDashBoard";
-            this.pnlDashBoard.Size = new System.Drawing.Size(1676, 970);
+            this.pnlDashBoard.Size = new System.Drawing.Size(1640, 970);
             this.pnlDashBoard.TabIndex = 3;
             // 
             // pnlTrend
@@ -336,7 +337,7 @@
             this.pnlTrend.ForeColor = System.Drawing.SystemColors.ControlText;
             this.pnlTrend.Location = new System.Drawing.Point(20, 15);
             this.pnlTrend.Name = "pnlTrend";
-            this.pnlTrend.Size = new System.Drawing.Size(1676, 970);
+            this.pnlTrend.Size = new System.Drawing.Size(1640, 970);
             this.pnlTrend.TabIndex = 4;
             // 
             // PnlDisplay
@@ -345,9 +346,9 @@
             this.PnlDisplay.Controls.Add(this.pnlDashBoard);
             this.PnlDisplay.Controls.Add(this.pnlFormLoader);
             this.PnlDisplay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PnlDisplay.Location = new System.Drawing.Point(208, 80);
+            this.PnlDisplay.Location = new System.Drawing.Point(244, 80);
             this.PnlDisplay.Name = "PnlDisplay";
-            this.PnlDisplay.Size = new System.Drawing.Size(1712, 1000);
+            this.PnlDisplay.Size = new System.Drawing.Size(1676, 1000);
             this.PnlDisplay.TabIndex = 4;
             this.PnlDisplay.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlDisplay_Paint);
             // 
