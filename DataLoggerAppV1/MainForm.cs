@@ -260,5 +260,10 @@ namespace DataLoggerAppV1
             pnlTrend.Show();
             pnlDashBoard.Hide();
         }
+
+        private void PnlDisplay_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

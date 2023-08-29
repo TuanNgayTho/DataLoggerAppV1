@@ -41,7 +41,9 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -53,7 +55,7 @@
             this.Column2,
             this.Column3,
             this.Column4});
-            this.dataGridView1.Location = new System.Drawing.Point(45, 45);
+            this.dataGridView1.Location = new System.Drawing.Point(18, 23);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -61,7 +63,7 @@
             this.dataGridView1.RowTemplate.Height = 45;
             this.dataGridView1.RowTemplate.ReadOnly = true;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(1620, 845);
+            this.dataGridView1.Size = new System.Drawing.Size(1675, 855);
             this.dataGridView1.TabIndex = 1;
             // 
             // Column1
@@ -97,10 +99,11 @@
             // 
             // Reset
             // 
+            this.Reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Reset.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Reset.Image = ((System.Drawing.Image)(resources.GetObject("Reset.Image")));
             this.Reset.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Reset.Location = new System.Drawing.Point(1491, 908);
+            this.Reset.Location = new System.Drawing.Point(1494, 914);
             this.Reset.Name = "Reset";
             this.Reset.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.Reset.Size = new System.Drawing.Size(174, 56);
@@ -112,10 +115,11 @@
             // 
             // Delete
             // 
+            this.Delete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Delete.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Delete.Image = ((System.Drawing.Image)(resources.GetObject("Delete.Image")));
             this.Delete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Delete.Location = new System.Drawing.Point(1286, 908);
+            this.Delete.Location = new System.Drawing.Point(1289, 914);
             this.Delete.Name = "Delete";
             this.Delete.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.Delete.Size = new System.Drawing.Size(174, 56);
