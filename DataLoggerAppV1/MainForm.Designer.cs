@@ -74,7 +74,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(208, 771);
+            this.panel1.Size = new System.Drawing.Size(208, 1041);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -138,7 +138,7 @@
             this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSettings.Image = ((System.Drawing.Image)(resources.GetObject("btnSettings.Image")));
             this.btnSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSettings.Location = new System.Drawing.Point(1, 691);
+            this.btnSettings.Location = new System.Drawing.Point(1, 961);
             this.btnSettings.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -158,7 +158,7 @@
             this.btnMonitor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMonitor.Image = ((System.Drawing.Image)(resources.GetObject("btnMonitor.Image")));
             this.btnMonitor.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnMonitor.Location = new System.Drawing.Point(0, 608);
+            this.btnMonitor.Location = new System.Drawing.Point(0, 878);
             this.btnMonitor.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnMonitor.Name = "btnMonitor";
             this.btnMonitor.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -177,7 +177,7 @@
             this.btnTrend.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTrend.Image = ((System.Drawing.Image)(resources.GetObject("btnTrend.Image")));
             this.btnTrend.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnTrend.Location = new System.Drawing.Point(-2, 525);
+            this.btnTrend.Location = new System.Drawing.Point(-2, 795);
             this.btnTrend.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnTrend.Name = "btnTrend";
             this.btnTrend.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -197,7 +197,7 @@
             this.btnAlarmList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlarmList.Image = ((System.Drawing.Image)(resources.GetObject("btnAlarmList.Image")));
             this.btnAlarmList.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAlarmList.Location = new System.Drawing.Point(0, 442);
+            this.btnAlarmList.Location = new System.Drawing.Point(0, 712);
             this.btnAlarmList.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnAlarmList.Name = "btnAlarmList";
             this.btnAlarmList.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -218,7 +218,7 @@
             this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
             this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnDashboard.Location = new System.Drawing.Point(-4, 359);
+            this.btnDashboard.Location = new System.Drawing.Point(-4, 629);
             this.btnDashboard.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -242,7 +242,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(208, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1216, 80);
+            this.panel3.Size = new System.Drawing.Size(1696, 80);
             this.panel3.TabIndex = 1;
             // 
             // pictureBox3
@@ -259,7 +259,7 @@
             // 
             this.lblNameOfPage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNameOfPage.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNameOfPage.Location = new System.Drawing.Point(1097, 54);
+            this.lblNameOfPage.Location = new System.Drawing.Point(1577, 54);
             this.lblNameOfPage.Name = "lblNameOfPage";
             this.lblNameOfPage.Size = new System.Drawing.Size(114, 22);
             this.lblNameOfPage.TabIndex = 1;
@@ -271,7 +271,7 @@
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1172, 7);
+            this.pictureBox2.Location = new System.Drawing.Point(1652, 7);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(39, 33);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -284,7 +284,7 @@
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(1044, 54);
+            this.label1.Location = new System.Drawing.Point(1524, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 23);
             this.label1.TabIndex = 1;
@@ -298,7 +298,7 @@
             this.lblSystemName.Font = new System.Drawing.Font("Times New Roman", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSystemName.Location = new System.Drawing.Point(0, 0);
             this.lblSystemName.Name = "lblSystemName";
-            this.lblSystemName.Size = new System.Drawing.Size(1216, 80);
+            this.lblSystemName.Size = new System.Drawing.Size(1696, 80);
             this.lblSystemName.TabIndex = 1;
             this.lblSystemName.Text = "Data Logger CDQC System";
             this.lblSystemName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -312,7 +312,7 @@
             this.pnlFormLoader.BackColor = System.Drawing.SystemColors.Control;
             this.pnlFormLoader.Location = new System.Drawing.Point(20, 15);
             this.pnlFormLoader.Name = "pnlFormLoader";
-            this.pnlFormLoader.Size = new System.Drawing.Size(1180, 661);
+            this.pnlFormLoader.Size = new System.Drawing.Size(1660, 931);
             this.pnlFormLoader.TabIndex = 2;
             this.pnlFormLoader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlFormLoader_Paint);
             // 
@@ -324,7 +324,7 @@
             this.pnlDashBoard.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.pnlDashBoard.Location = new System.Drawing.Point(20, 15);
             this.pnlDashBoard.Name = "pnlDashBoard";
-            this.pnlDashBoard.Size = new System.Drawing.Size(1180, 661);
+            this.pnlDashBoard.Size = new System.Drawing.Size(1660, 931);
             this.pnlDashBoard.TabIndex = 3;
             // 
             // pnlTrend
@@ -336,7 +336,7 @@
             this.pnlTrend.ForeColor = System.Drawing.SystemColors.ControlText;
             this.pnlTrend.Location = new System.Drawing.Point(20, 15);
             this.pnlTrend.Name = "pnlTrend";
-            this.pnlTrend.Size = new System.Drawing.Size(1180, 661);
+            this.pnlTrend.Size = new System.Drawing.Size(1660, 931);
             this.pnlTrend.TabIndex = 4;
             // 
             // PnlDisplay
@@ -347,7 +347,7 @@
             this.PnlDisplay.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PnlDisplay.Location = new System.Drawing.Point(208, 80);
             this.PnlDisplay.Name = "PnlDisplay";
-            this.PnlDisplay.Size = new System.Drawing.Size(1216, 691);
+            this.PnlDisplay.Size = new System.Drawing.Size(1696, 961);
             this.PnlDisplay.TabIndex = 4;
             this.PnlDisplay.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlDisplay_Paint);
             // 
@@ -365,7 +365,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1424, 771);
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.PnlDisplay);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
