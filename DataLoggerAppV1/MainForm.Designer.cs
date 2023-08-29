@@ -32,6 +32,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnlline = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblUserName = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -41,7 +42,7 @@
             this.btnAlarmList = new System.Windows.Forms.Button();
             this.btnDashboard = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pnlLine2 = new System.Windows.Forms.Panel();
             this.lblNameOfPage = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -50,12 +51,12 @@
             this.pnlDashBoard = new System.Windows.Forms.Panel();
             this.pnlTrend = new System.Windows.Forms.Panel();
             this.PnlDisplay = new System.Windows.Forms.Panel();
-            this.pnlLine2 = new System.Windows.Forms.Panel();
+            this.pnlMonitor = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.PnlDisplay.SuspendLayout();
             this.SuspendLayout();
@@ -97,6 +98,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(244, 450);
             this.panel2.TabIndex = 1;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(76, 252);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(93, 193);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label2
             // 
@@ -246,16 +258,13 @@
             this.panel3.Size = new System.Drawing.Size(1676, 80);
             this.panel3.TabIndex = 1;
             // 
-            // pictureBox3
+            // pnlLine2
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(76, 252);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(93, 193);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pnlLine2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.pnlLine2.Location = new System.Drawing.Point(0, 77);
+            this.pnlLine2.Name = "pnlLine2";
+            this.pnlLine2.Size = new System.Drawing.Size(1712, 1);
+            this.pnlLine2.TabIndex = 6;
             // 
             // lblNameOfPage
             // 
@@ -343,6 +352,7 @@
             // 
             // PnlDisplay
             // 
+            this.PnlDisplay.Controls.Add(this.pnlMonitor);
             this.PnlDisplay.Controls.Add(this.pnlTrend);
             this.PnlDisplay.Controls.Add(this.pnlDashBoard);
             this.PnlDisplay.Controls.Add(this.pnlFormLoader);
@@ -353,13 +363,17 @@
             this.PnlDisplay.TabIndex = 4;
             this.PnlDisplay.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlDisplay_Paint);
             // 
-            // pnlLine2
+            // pnlMonitor
             // 
-            this.pnlLine2.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pnlLine2.Location = new System.Drawing.Point(0, 77);
-            this.pnlLine2.Name = "pnlLine2";
-            this.pnlLine2.Size = new System.Drawing.Size(1712, 1);
-            this.pnlLine2.TabIndex = 6;
+            this.pnlMonitor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlMonitor.BackColor = System.Drawing.Color.Gray;
+            this.pnlMonitor.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.pnlMonitor.Location = new System.Drawing.Point(20, 15);
+            this.pnlMonitor.Name = "pnlMonitor";
+            this.pnlMonitor.Size = new System.Drawing.Size(1640, 970);
+            this.pnlMonitor.TabIndex = 5;
             // 
             // MainForm
             // 
@@ -381,10 +395,10 @@
             this.Click += new System.EventHandler(this.MainForm_Click);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.PnlDisplay.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -415,6 +429,7 @@
         private System.Windows.Forms.Panel pnlTrend;
         private System.Windows.Forms.Panel PnlDisplay;
         private System.Windows.Forms.Panel pnlLine2;
+        private System.Windows.Forms.Panel pnlMonitor;
     }
 }
 

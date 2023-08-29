@@ -38,6 +38,14 @@ namespace DataLoggerAppV1
             Trend_Vrb.Show();
             pnlTrend.Hide();
 
+            
+            this.pnlMonitor.Controls.Clear();
+            Monitor Monitor_Vrb = new Monitor() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            Monitor_Vrb.FormBorderStyle = FormBorderStyle.None;
+            this.pnlMonitor.Controls.Add(Monitor_Vrb);
+            Monitor_Vrb.Show();
+            pnlMonitor.Hide();
+
             lblNameOfPage.Text = "Dashboard";
             this.pnlDashBoard.Controls.Clear();
             Dashboard Dashboard_Vrb = new Dashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
@@ -70,6 +78,7 @@ namespace DataLoggerAppV1
                 this.pnlTrend.Show();
                 this.pnlFormLoader.Hide();
                 this.pnlDashBoard.Hide();
+                this.pnlMonitor.Hide();
 
                 lblNameOfPage.Text = "Trend";
                 btnDashboard.BackColor = SystemColors.ControlLight;
@@ -98,14 +107,10 @@ namespace DataLoggerAppV1
             {
                 this.pnlDashBoard.Hide();
                 this.pnlTrend.Hide();
-                this.pnlFormLoader.Show();
-                lblNameOfPage.Text = "Monitor";
-                this.pnlFormLoader.Controls.Clear();
-                Monitor Monitor_Vrb = new Monitor() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
-                Monitor_Vrb.FormBorderStyle = FormBorderStyle.None;
-                this.pnlFormLoader.Controls.Add(Monitor_Vrb);
-                Monitor_Vrb.Show();
+                this.pnlFormLoader.Hide();
+                this.pnlMonitor.Show();
 
+                lblNameOfPage.Text = "Monitor";
                 btnDashboard.BackColor = SystemColors.ControlLight;
                 btnAlarmList.BackColor = SystemColors.ControlLight;
                 btnTrend.BackColor = SystemColors.ControlLight;
@@ -128,6 +133,8 @@ namespace DataLoggerAppV1
                 this.pnlDashBoard.Show();
                 this.pnlFormLoader.Hide();
                 this.pnlTrend.Hide();
+                this.pnlMonitor.Hide();
+
                 lblNameOfPage.Text = "Dashboard";
                 btnDashboard.BackColor = SystemColors.Control;
                 btnAlarmList.BackColor = SystemColors.ControlLight;
@@ -156,7 +163,9 @@ namespace DataLoggerAppV1
             {
                 this.pnlDashBoard.Hide();
                 this.pnlTrend.Hide();
+                this.pnlMonitor.Hide();
                 this.pnlFormLoader.Show();
+
                 lblNameOfPage.Text = "Alarm List";
                 this.pnlFormLoader.Controls.Clear();
                 Alarm Alarm_Vrb = new Alarm() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
@@ -197,8 +206,11 @@ namespace DataLoggerAppV1
                 {
                     this.pnlDashBoard.Hide();
                     this.pnlTrend.Hide();
+                    this.pnlMonitor.Hide();
                     this.pnlFormLoader.Show();
+
                     lblNameOfPage.Text = "Settings";
+
                     this.pnlFormLoader.Controls.Clear();
                     Setting Setting_Vrb = new Setting() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
                     Setting_Vrb.FormBorderStyle = FormBorderStyle.None;
