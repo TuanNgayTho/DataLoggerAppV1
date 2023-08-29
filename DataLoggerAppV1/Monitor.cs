@@ -289,7 +289,7 @@ namespace DataLoggerAppV1
             this.panel6.Controls.Add(this.label52);
             this.panel6.Controls.Add(this.label53);
             this.panel6.Controls.Add(this.label51);
-            this.panel6.Location = new System.Drawing.Point(1202, 571);
+            this.panel6.Location = new System.Drawing.Point(1183, 557);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(254, 73);
             this.panel6.TabIndex = 276;
@@ -298,7 +298,7 @@ namespace DataLoggerAppV1
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(105, 23);
+            this.label52.Location = new System.Drawing.Point(86, 9);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(32, 24);
             this.label52.TabIndex = 168;
@@ -308,7 +308,7 @@ namespace DataLoggerAppV1
             // 
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(179, 26);
+            this.label53.Location = new System.Drawing.Point(160, 12);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(58, 22);
             this.label53.TabIndex = 167;
@@ -318,7 +318,7 @@ namespace DataLoggerAppV1
             // 
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(17, 27);
+            this.label51.Location = new System.Drawing.Point(-2, 13);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(62, 22);
             this.label51.TabIndex = 167;
@@ -328,7 +328,7 @@ namespace DataLoggerAppV1
             // 
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(1260, 529);
+            this.label46.Location = new System.Drawing.Point(1241, 515);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(124, 22);
             this.label46.TabIndex = 157;
@@ -338,7 +338,7 @@ namespace DataLoggerAppV1
             // 
             this.label45.AutoSize = true;
             this.label45.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(421, 529);
+            this.label45.Location = new System.Drawing.Point(402, 515);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(111, 22);
             this.label45.TabIndex = 173;
@@ -347,7 +347,7 @@ namespace DataLoggerAppV1
             // label41
             // 
             this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(779, 17);
+            this.label41.Location = new System.Drawing.Point(760, 3);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(236, 23);
             this.label41.TabIndex = 274;
@@ -356,7 +356,7 @@ namespace DataLoggerAppV1
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(19, 456);
+            this.label40.Location = new System.Drawing.Point(0, 442);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(106, 23);
             this.label40.TabIndex = 273;
@@ -365,7 +365,7 @@ namespace DataLoggerAppV1
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(19, 371);
+            this.label39.Location = new System.Drawing.Point(0, 357);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(106, 23);
             this.label39.TabIndex = 272;
@@ -374,7 +374,7 @@ namespace DataLoggerAppV1
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(19, 278);
+            this.label38.Location = new System.Drawing.Point(0, 264);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(106, 23);
             this.label38.TabIndex = 271;
@@ -383,7 +383,7 @@ namespace DataLoggerAppV1
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(1531, 790);
+            this.label34.Location = new System.Drawing.Point(1512, 776);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(88, 23);
             this.label34.TabIndex = 270;
@@ -392,7 +392,7 @@ namespace DataLoggerAppV1
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(1529, 755);
+            this.label35.Location = new System.Drawing.Point(1510, 741);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(74, 23);
             this.label35.TabIndex = 269;
@@ -401,7 +401,7 @@ namespace DataLoggerAppV1
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(484, 952);
+            this.label32.Location = new System.Drawing.Point(465, 938);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(88, 23);
             this.label32.TabIndex = 268;
@@ -410,7 +410,7 @@ namespace DataLoggerAppV1
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(484, 923);
+            this.label33.Location = new System.Drawing.Point(465, 909);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(74, 23);
             this.label33.TabIndex = 267;
@@ -419,7 +419,7 @@ namespace DataLoggerAppV1
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(832, 790);
+            this.label31.Location = new System.Drawing.Point(813, 776);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(88, 23);
             this.label31.TabIndex = 266;
@@ -428,7 +428,7 @@ namespace DataLoggerAppV1
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(830, 755);
+            this.label30.Location = new System.Drawing.Point(811, 741);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(74, 23);
             this.label30.TabIndex = 265;
@@ -437,7 +437,7 @@ namespace DataLoggerAppV1
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(987, 838);
+            this.label29.Location = new System.Drawing.Point(968, 824);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(107, 23);
             this.label29.TabIndex = 264;
@@ -446,7 +446,7 @@ namespace DataLoggerAppV1
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(963, 349);
+            this.label27.Location = new System.Drawing.Point(944, 335);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(132, 23);
             this.label27.TabIndex = 263;
@@ -455,7 +455,7 @@ namespace DataLoggerAppV1
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(972, 321);
+            this.label28.Location = new System.Drawing.Point(953, 307);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(113, 23);
             this.label28.TabIndex = 262;
@@ -464,7 +464,7 @@ namespace DataLoggerAppV1
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(727, 349);
+            this.label26.Location = new System.Drawing.Point(708, 335);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(132, 23);
             this.label26.TabIndex = 261;
@@ -473,7 +473,7 @@ namespace DataLoggerAppV1
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(736, 321);
+            this.label25.Location = new System.Drawing.Point(717, 307);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(113, 23);
             this.label25.TabIndex = 260;
@@ -496,7 +496,7 @@ namespace DataLoggerAppV1
             this.standardControl45.Category = "1ARW.cat2";
             this.standardControl45.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl45.DebugData"));
             this.standardControl45.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl45.Location = new System.Drawing.Point(1294, 400);
+            this.standardControl45.Location = new System.Drawing.Point(1275, 386);
             this.standardControl45.Name = "standardControl45";
             this.standardControl45.Size = new System.Drawing.Size(29, 23);
             this.standardControl45.Stretch = true;
@@ -506,7 +506,7 @@ namespace DataLoggerAppV1
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(22, 697);
+            this.label24.Location = new System.Drawing.Point(3, 683);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(132, 23);
             this.label24.TabIndex = 258;
@@ -516,7 +516,7 @@ namespace DataLoggerAppV1
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(134, 21);
+            this.label54.Location = new System.Drawing.Point(115, 7);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(32, 24);
             this.label54.TabIndex = 170;
@@ -539,7 +539,7 @@ namespace DataLoggerAppV1
             this.standardControl90.Category = "1ARW.cat2";
             this.standardControl90.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl90.DebugData"));
             this.standardControl90.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl90.Location = new System.Drawing.Point(200, 716);
+            this.standardControl90.Location = new System.Drawing.Point(181, 702);
             this.standardControl90.Name = "standardControl90";
             this.standardControl90.Size = new System.Drawing.Size(29, 23);
             this.standardControl90.Stretch = true;
@@ -550,7 +550,7 @@ namespace DataLoggerAppV1
             // 
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(225, 21);
+            this.label55.Location = new System.Drawing.Point(206, 7);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(58, 22);
             this.label55.TabIndex = 169;
@@ -573,7 +573,7 @@ namespace DataLoggerAppV1
             this.standardControl91.Category = "1PIPE.cat2";
             this.standardControl91.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl91.DebugData"));
             this.standardControl91.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl91.Location = new System.Drawing.Point(29, 726);
+            this.standardControl91.Location = new System.Drawing.Point(10, 712);
             this.standardControl91.Name = "standardControl91";
             this.standardControl91.Size = new System.Drawing.Size(182, 2);
             this.standardControl91.Stretch = true;
@@ -583,7 +583,7 @@ namespace DataLoggerAppV1
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(22, 649);
+            this.label23.Location = new System.Drawing.Point(3, 635);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(170, 23);
             this.label23.TabIndex = 255;
@@ -606,7 +606,7 @@ namespace DataLoggerAppV1
             this.standardControl88.Category = "1ARW.cat2";
             this.standardControl88.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl88.DebugData"));
             this.standardControl88.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl88.Location = new System.Drawing.Point(198, 666);
+            this.standardControl88.Location = new System.Drawing.Point(179, 652);
             this.standardControl88.Name = "standardControl88";
             this.standardControl88.Size = new System.Drawing.Size(29, 23);
             this.standardControl88.Stretch = true;
@@ -630,7 +630,7 @@ namespace DataLoggerAppV1
             this.standardControl89.Category = "1PIPE.cat2";
             this.standardControl89.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl89.DebugData"));
             this.standardControl89.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl89.Location = new System.Drawing.Point(27, 677);
+            this.standardControl89.Location = new System.Drawing.Point(8, 663);
             this.standardControl89.Name = "standardControl89";
             this.standardControl89.Size = new System.Drawing.Size(182, 2);
             this.standardControl89.Stretch = true;
@@ -640,7 +640,7 @@ namespace DataLoggerAppV1
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(44, 554);
+            this.label4.Location = new System.Drawing.Point(25, 540);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(126, 23);
             this.label4.TabIndex = 252;
@@ -663,7 +663,7 @@ namespace DataLoggerAppV1
             this.standardControl86.Category = "1ARW.cat2";
             this.standardControl86.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl86.DebugData"));
             this.standardControl86.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl86.Location = new System.Drawing.Point(240, 571);
+            this.standardControl86.Location = new System.Drawing.Point(221, 557);
             this.standardControl86.Name = "standardControl86";
             this.standardControl86.Size = new System.Drawing.Size(29, 23);
             this.standardControl86.Stretch = true;
@@ -687,7 +687,7 @@ namespace DataLoggerAppV1
             this.standardControl87.Category = "1PIPE.cat2";
             this.standardControl87.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl87.DebugData"));
             this.standardControl87.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl87.Location = new System.Drawing.Point(48, 582);
+            this.standardControl87.Location = new System.Drawing.Point(29, 568);
             this.standardControl87.Name = "standardControl87";
             this.standardControl87.Size = new System.Drawing.Size(191, 2);
             this.standardControl87.Stretch = true;
@@ -698,7 +698,7 @@ namespace DataLoggerAppV1
             // 
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(812, 657);
+            this.label21.Location = new System.Drawing.Point(793, 643);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(21, 23);
             this.label21.TabIndex = 248;
@@ -722,7 +722,7 @@ namespace DataLoggerAppV1
             this.standardControl85.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl85.DebugData"));
             this.standardControl85.FillColor = System.Drawing.Color.White;
             this.standardControl85.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl85.Location = new System.Drawing.Point(801, 650);
+            this.standardControl85.Location = new System.Drawing.Point(782, 636);
             this.standardControl85.Name = "standardControl85";
             this.standardControl85.Size = new System.Drawing.Size(40, 40);
             this.standardControl85.Stretch = true;
@@ -733,7 +733,7 @@ namespace DataLoggerAppV1
             // 
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(812, 613);
+            this.label20.Location = new System.Drawing.Point(793, 599);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(21, 23);
             this.label20.TabIndex = 246;
@@ -757,7 +757,7 @@ namespace DataLoggerAppV1
             this.standardControl84.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl84.DebugData"));
             this.standardControl84.FillColor = System.Drawing.Color.White;
             this.standardControl84.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl84.Location = new System.Drawing.Point(801, 606);
+            this.standardControl84.Location = new System.Drawing.Point(782, 592);
             this.standardControl84.Name = "standardControl84";
             this.standardControl84.Size = new System.Drawing.Size(40, 40);
             this.standardControl84.Stretch = true;
@@ -767,7 +767,7 @@ namespace DataLoggerAppV1
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(856, 652);
+            this.label19.Location = new System.Drawing.Point(837, 638);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(69, 23);
             this.label19.TabIndex = 244;
@@ -776,7 +776,7 @@ namespace DataLoggerAppV1
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(859, 625);
+            this.label18.Location = new System.Drawing.Point(840, 611);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(48, 23);
             this.label18.TabIndex = 243;
@@ -786,7 +786,7 @@ namespace DataLoggerAppV1
             // 
             this.label47.AutoSize = true;
             this.label47.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(1207, 101);
+            this.label47.Location = new System.Drawing.Point(1188, 87);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(97, 22);
             this.label47.TabIndex = 158;
@@ -796,7 +796,7 @@ namespace DataLoggerAppV1
             // 
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(812, 569);
+            this.label16.Location = new System.Drawing.Point(793, 555);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(21, 23);
             this.label16.TabIndex = 242;
@@ -820,7 +820,7 @@ namespace DataLoggerAppV1
             this.standardControl83.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl83.DebugData"));
             this.standardControl83.FillColor = System.Drawing.Color.White;
             this.standardControl83.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl83.Location = new System.Drawing.Point(801, 562);
+            this.standardControl83.Location = new System.Drawing.Point(782, 548);
             this.standardControl83.Name = "standardControl83";
             this.standardControl83.Size = new System.Drawing.Size(40, 40);
             this.standardControl83.Stretch = true;
@@ -830,7 +830,7 @@ namespace DataLoggerAppV1
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(859, 599);
+            this.label17.Location = new System.Drawing.Point(840, 585);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(32, 23);
             this.label17.TabIndex = 240;
@@ -839,7 +839,7 @@ namespace DataLoggerAppV1
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(1005, 707);
+            this.label15.Location = new System.Drawing.Point(986, 693);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(132, 23);
             this.label15.TabIndex = 239;
@@ -862,7 +862,7 @@ namespace DataLoggerAppV1
             this.standardControl31.Category = "1ARW.cat2";
             this.standardControl31.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl31.DebugData"));
             this.standardControl31.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl31.Location = new System.Drawing.Point(1143, 724);
+            this.standardControl31.Location = new System.Drawing.Point(1124, 710);
             this.standardControl31.Name = "standardControl31";
             this.standardControl31.Size = new System.Drawing.Size(29, 23);
             this.standardControl31.Stretch = true;
@@ -886,7 +886,7 @@ namespace DataLoggerAppV1
             this.standardControl59.Category = "1ARW.cat2";
             this.standardControl59.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl59.DebugData"));
             this.standardControl59.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl59.Location = new System.Drawing.Point(1167, 569);
+            this.standardControl59.Location = new System.Drawing.Point(1148, 555);
             this.standardControl59.Name = "standardControl59";
             this.standardControl59.Size = new System.Drawing.Size(29, 23);
             this.standardControl59.Stretch = true;
@@ -897,7 +897,7 @@ namespace DataLoggerAppV1
             // 
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(115, 20);
+            this.label50.Location = new System.Drawing.Point(96, 6);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(32, 24);
             this.label50.TabIndex = 166;
@@ -920,7 +920,7 @@ namespace DataLoggerAppV1
             this.standardControl60.Category = "1ARW.cat2";
             this.standardControl60.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl60.DebugData"));
             this.standardControl60.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl60.Location = new System.Drawing.Point(1145, 675);
+            this.standardControl60.Location = new System.Drawing.Point(1126, 661);
             this.standardControl60.Name = "standardControl60";
             this.standardControl60.Size = new System.Drawing.Size(29, 23);
             this.standardControl60.Stretch = true;
@@ -931,7 +931,7 @@ namespace DataLoggerAppV1
             // 
             this.label57.AutoSize = true;
             this.label57.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(225, 83);
+            this.label57.Location = new System.Drawing.Point(206, 69);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(58, 22);
             this.label57.TabIndex = 171;
@@ -942,7 +942,7 @@ namespace DataLoggerAppV1
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(1484, 506);
+            this.label9.Location = new System.Drawing.Point(1465, 492);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(21, 23);
             this.label9.TabIndex = 231;
@@ -966,7 +966,7 @@ namespace DataLoggerAppV1
             this.standardControl82.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl82.DebugData"));
             this.standardControl82.FillColor = System.Drawing.Color.White;
             this.standardControl82.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl82.Location = new System.Drawing.Point(1474, 498);
+            this.standardControl82.Location = new System.Drawing.Point(1455, 484);
             this.standardControl82.Name = "standardControl82";
             this.standardControl82.Size = new System.Drawing.Size(40, 40);
             this.standardControl82.Stretch = true;
@@ -977,7 +977,7 @@ namespace DataLoggerAppV1
             // 
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(194, 21);
+            this.label49.Location = new System.Drawing.Point(175, 7);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(58, 22);
             this.label49.TabIndex = 165;
@@ -986,7 +986,7 @@ namespace DataLoggerAppV1
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(1002, 660);
+            this.label14.Location = new System.Drawing.Point(983, 646);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(131, 23);
             this.label14.TabIndex = 235;
@@ -995,7 +995,7 @@ namespace DataLoggerAppV1
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(1002, 612);
+            this.label13.Location = new System.Drawing.Point(983, 598);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(116, 23);
             this.label13.TabIndex = 234;
@@ -1004,7 +1004,7 @@ namespace DataLoggerAppV1
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(1002, 554);
+            this.label12.Location = new System.Drawing.Point(983, 540);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(140, 23);
             this.label12.TabIndex = 233;
@@ -1013,7 +1013,7 @@ namespace DataLoggerAppV1
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(1158, 384);
+            this.label11.Location = new System.Drawing.Point(1139, 370);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(126, 23);
             this.label11.TabIndex = 232;
@@ -1022,7 +1022,7 @@ namespace DataLoggerAppV1
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(1520, 506);
+            this.label10.Location = new System.Drawing.Point(1501, 492);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(139, 23);
             this.label10.TabIndex = 229;
@@ -1032,7 +1032,7 @@ namespace DataLoggerAppV1
             // 
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(12, 21);
+            this.label48.Location = new System.Drawing.Point(-7, 7);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(62, 22);
             this.label48.TabIndex = 164;
@@ -1055,7 +1055,7 @@ namespace DataLoggerAppV1
             this.standardControl80.Category = "1ARW.cat2";
             this.standardControl80.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl80.DebugData"));
             this.standardControl80.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl80.Location = new System.Drawing.Point(1439, 505);
+            this.standardControl80.Location = new System.Drawing.Point(1420, 491);
             this.standardControl80.Name = "standardControl80";
             this.standardControl80.Size = new System.Drawing.Size(29, 23);
             this.standardControl80.Stretch = true;
@@ -1079,7 +1079,7 @@ namespace DataLoggerAppV1
             this.standardControl81.Category = "1PIPE.cat2";
             this.standardControl81.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl81.DebugData"));
             this.standardControl81.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl81.Location = new System.Drawing.Point(1155, 516);
+            this.standardControl81.Location = new System.Drawing.Point(1136, 502);
             this.standardControl81.Name = "standardControl81";
             this.standardControl81.Size = new System.Drawing.Size(313, 2);
             this.standardControl81.Stretch = true;
@@ -1090,7 +1090,7 @@ namespace DataLoggerAppV1
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(1520, 592);
+            this.label7.Location = new System.Drawing.Point(1501, 578);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(21, 23);
             this.label7.TabIndex = 226;
@@ -1114,7 +1114,7 @@ namespace DataLoggerAppV1
             this.standardControl79.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl79.DebugData"));
             this.standardControl79.FillColor = System.Drawing.Color.White;
             this.standardControl79.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl79.Location = new System.Drawing.Point(1509, 585);
+            this.standardControl79.Location = new System.Drawing.Point(1490, 571);
             this.standardControl79.Name = "standardControl79";
             this.standardControl79.Size = new System.Drawing.Size(40, 40);
             this.standardControl79.Stretch = true;
@@ -1124,7 +1124,7 @@ namespace DataLoggerAppV1
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(1555, 593);
+            this.label8.Location = new System.Drawing.Point(1536, 579);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(139, 23);
             this.label8.TabIndex = 224;
@@ -1147,7 +1147,7 @@ namespace DataLoggerAppV1
             this.standardControl76.Category = "1ARW.cat2";
             this.standardControl76.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl76.DebugData"));
             this.standardControl76.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl76.Location = new System.Drawing.Point(1447, 236);
+            this.standardControl76.Location = new System.Drawing.Point(1428, 222);
             this.standardControl76.Name = "standardControl76";
             this.standardControl76.Size = new System.Drawing.Size(29, 23);
             this.standardControl76.Stretch = true;
@@ -1158,7 +1158,7 @@ namespace DataLoggerAppV1
             // 
             this.label58.AutoSize = true;
             this.label58.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(134, 146);
+            this.label58.Location = new System.Drawing.Point(115, 132);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(32, 24);
             this.label58.TabIndex = 174;
@@ -1168,7 +1168,7 @@ namespace DataLoggerAppV1
             // 
             this.label59.AutoSize = true;
             this.label59.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(225, 148);
+            this.label59.Location = new System.Drawing.Point(206, 134);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(58, 22);
             this.label59.TabIndex = 173;
@@ -1178,7 +1178,7 @@ namespace DataLoggerAppV1
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(1491, 234);
+            this.label6.Location = new System.Drawing.Point(1472, 220);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(21, 23);
             this.label6.TabIndex = 223;
@@ -1202,7 +1202,7 @@ namespace DataLoggerAppV1
             this.standardControl78.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl78.DebugData"));
             this.standardControl78.FillColor = System.Drawing.Color.White;
             this.standardControl78.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl78.Location = new System.Drawing.Point(1480, 227);
+            this.standardControl78.Location = new System.Drawing.Point(1461, 213);
             this.standardControl78.Name = "standardControl78";
             this.standardControl78.Size = new System.Drawing.Size(40, 40);
             this.standardControl78.Stretch = true;
@@ -1212,7 +1212,7 @@ namespace DataLoggerAppV1
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1526, 235);
+            this.label5.Location = new System.Drawing.Point(1507, 221);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(139, 23);
             this.label5.TabIndex = 170;
@@ -1235,7 +1235,7 @@ namespace DataLoggerAppV1
             this.standardControl77.Category = "1PIPE.cat2";
             this.standardControl77.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl77.DebugData"));
             this.standardControl77.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl77.Location = new System.Drawing.Point(1381, 246);
+            this.standardControl77.Location = new System.Drawing.Point(1362, 232);
             this.standardControl77.Name = "standardControl77";
             this.standardControl77.Size = new System.Drawing.Size(66, 2);
             this.standardControl77.Stretch = true;
@@ -1249,7 +1249,7 @@ namespace DataLoggerAppV1
             this.panel4.Controls.Add(this.label43);
             this.panel4.Controls.Add(this.label42);
             this.panel4.Controls.Add(this.label3);
-            this.panel4.Location = new System.Drawing.Point(154, 827);
+            this.panel4.Location = new System.Drawing.Point(135, 813);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(240, 141);
             this.panel4.TabIndex = 191;
@@ -1258,7 +1258,7 @@ namespace DataLoggerAppV1
             // 
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(7, 15);
+            this.label44.Location = new System.Drawing.Point(-12, 1);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(227, 22);
             this.label44.TabIndex = 3;
@@ -1268,7 +1268,7 @@ namespace DataLoggerAppV1
             // 
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(7, 101);
+            this.label43.Location = new System.Drawing.Point(-12, 87);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(199, 22);
             this.label43.TabIndex = 2;
@@ -1278,7 +1278,7 @@ namespace DataLoggerAppV1
             // 
             this.label42.AutoSize = true;
             this.label42.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(7, 68);
+            this.label42.Location = new System.Drawing.Point(-12, 54);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(101, 22);
             this.label42.TabIndex = 1;
@@ -1288,7 +1288,7 @@ namespace DataLoggerAppV1
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(7, 39);
+            this.label3.Location = new System.Drawing.Point(-12, 25);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(116, 22);
             this.label3.TabIndex = 0;
@@ -1298,7 +1298,7 @@ namespace DataLoggerAppV1
             // 
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(134, 83);
+            this.label56.Location = new System.Drawing.Point(115, 69);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(32, 24);
             this.label56.TabIndex = 172;
@@ -1322,7 +1322,7 @@ namespace DataLoggerAppV1
             this.standardControl74.Category = "1PIPE.cat2";
             this.standardControl74.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl74.DebugData"));
             this.standardControl74.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl74.Location = new System.Drawing.Point(388, 865);
+            this.standardControl74.Location = new System.Drawing.Point(369, 851);
             this.standardControl74.Name = "standardControl74";
             this.standardControl74.Size = new System.Drawing.Size(984, 2);
             this.standardControl74.Stretch = true;
@@ -1346,7 +1346,7 @@ namespace DataLoggerAppV1
             this.standardControl53.Category = "1ash1.cat2";
             this.standardControl53.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl53.DebugData"));
             this.standardControl53.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl53.Location = new System.Drawing.Point(220, 251);
+            this.standardControl53.Location = new System.Drawing.Point(201, 237);
             this.standardControl53.Name = "standardControl53";
             this.standardControl53.Size = new System.Drawing.Size(18, 30);
             this.standardControl53.SymbolHandle = ((long)(1265761081));
@@ -1369,7 +1369,7 @@ namespace DataLoggerAppV1
             this.standardControl72.Category = "1PIPE.cat2";
             this.standardControl72.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl72.DebugData"));
             this.standardControl72.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl72.Location = new System.Drawing.Point(388, 916);
+            this.standardControl72.Location = new System.Drawing.Point(369, 902);
             this.standardControl72.Name = "standardControl72";
             this.standardControl72.Size = new System.Drawing.Size(62, 2);
             this.standardControl72.Stretch = true;
@@ -1394,7 +1394,7 @@ namespace DataLoggerAppV1
             this.standardControl47.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl47.DebugData"));
             this.standardControl47.FillColor = System.Drawing.Color.Silver;
             this.standardControl47.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl47.Location = new System.Drawing.Point(996, 253);
+            this.standardControl47.Location = new System.Drawing.Point(977, 239);
             this.standardControl47.Name = "standardControl47";
             this.standardControl47.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
             this.standardControl47.Size = new System.Drawing.Size(69, 63);
@@ -1418,7 +1418,7 @@ namespace DataLoggerAppV1
             this.standardControl32.Category = "1PIPE.cat2";
             this.standardControl32.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl32.DebugData"));
             this.standardControl32.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl32.Location = new System.Drawing.Point(1386, 137);
+            this.standardControl32.Location = new System.Drawing.Point(1367, 123);
             this.standardControl32.Name = "standardControl32";
             this.standardControl32.Size = new System.Drawing.Size(99, 2);
             this.standardControl32.Stretch = true;
@@ -1429,15 +1429,15 @@ namespace DataLoggerAppV1
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(1485, 120);
+            this.panel2.Location = new System.Drawing.Point(1466, 106);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 70);
+            this.panel2.Size = new System.Drawing.Size(209, 70);
             this.panel2.TabIndex = 188;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 21);
+            this.label1.Location = new System.Drawing.Point(6, 7);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(167, 23);
             this.label1.TabIndex = 0;
@@ -1461,7 +1461,7 @@ namespace DataLoggerAppV1
             this.standardControl46.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl46.DebugData"));
             this.standardControl46.FillColor = System.Drawing.Color.Silver;
             this.standardControl46.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl46.Location = new System.Drawing.Point(763, 252);
+            this.standardControl46.Location = new System.Drawing.Point(744, 238);
             this.standardControl46.Name = "standardControl46";
             this.standardControl46.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
             this.standardControl46.Size = new System.Drawing.Size(69, 63);
@@ -1485,7 +1485,7 @@ namespace DataLoggerAppV1
             this.standardControl14.Category = "1ash1.cat2";
             this.standardControl14.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl14.DebugData"));
             this.standardControl14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl14.Location = new System.Drawing.Point(220, 158);
+            this.standardControl14.Location = new System.Drawing.Point(201, 144);
             this.standardControl14.Name = "standardControl14";
             this.standardControl14.Size = new System.Drawing.Size(18, 30);
             this.standardControl14.SymbolHandle = ((long)(1265761081));
@@ -1508,7 +1508,7 @@ namespace DataLoggerAppV1
             this.standardControl41.Category = "1PIPE.cat2";
             this.standardControl41.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl41.DebugData"));
             this.standardControl41.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl41.Location = new System.Drawing.Point(933, 289);
+            this.standardControl41.Location = new System.Drawing.Point(914, 275);
             this.standardControl41.Name = "standardControl41";
             this.standardControl41.Size = new System.Drawing.Size(2, 418);
             this.standardControl41.Stretch = true;
@@ -1532,7 +1532,7 @@ namespace DataLoggerAppV1
             this.standardControl40.Category = "1PIPE.cat2";
             this.standardControl40.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl40.DebugData"));
             this.standardControl40.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl40.Location = new System.Drawing.Point(934, 639);
+            this.standardControl40.Location = new System.Drawing.Point(915, 625);
             this.standardControl40.Name = "standardControl40";
             this.standardControl40.Size = new System.Drawing.Size(384, 2);
             this.standardControl40.Stretch = true;
@@ -1556,7 +1556,7 @@ namespace DataLoggerAppV1
             this.standardControl26.Category = "1PIPE.cat2";
             this.standardControl26.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl26.DebugData"));
             this.standardControl26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl26.Location = new System.Drawing.Point(439, 49);
+            this.standardControl26.Location = new System.Drawing.Point(420, 35);
             this.standardControl26.Name = "standardControl26";
             this.standardControl26.Size = new System.Drawing.Size(2, 64);
             this.standardControl26.Stretch = true;
@@ -1580,7 +1580,7 @@ namespace DataLoggerAppV1
             this.standardControl25.Category = "1PIPE.cat2";
             this.standardControl25.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl25.DebugData"));
             this.standardControl25.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl25.Location = new System.Drawing.Point(346, 49);
+            this.standardControl25.Location = new System.Drawing.Point(327, 35);
             this.standardControl25.Name = "standardControl25";
             this.standardControl25.Size = new System.Drawing.Size(2, 64);
             this.standardControl25.Stretch = true;
@@ -1604,7 +1604,7 @@ namespace DataLoggerAppV1
             this.standardControl23.Category = "1PIPE.cat2";
             this.standardControl23.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl23.DebugData"));
             this.standardControl23.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl23.Location = new System.Drawing.Point(84, 47);
+            this.standardControl23.Location = new System.Drawing.Point(65, 33);
             this.standardControl23.Name = "standardControl23";
             this.standardControl23.Size = new System.Drawing.Size(1344, 2);
             this.standardControl23.Stretch = true;
@@ -1628,7 +1628,7 @@ namespace DataLoggerAppV1
             this.standardControl22.Category = "1ARW.cat2";
             this.standardControl22.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl22.DebugData"));
             this.standardControl22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl22.Location = new System.Drawing.Point(23, 17);
+            this.standardControl22.Location = new System.Drawing.Point(4, 3);
             this.standardControl22.Name = "standardControl22";
             this.standardControl22.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate180;
             this.standardControl22.Size = new System.Drawing.Size(69, 63);
@@ -1652,7 +1652,7 @@ namespace DataLoggerAppV1
             this.standardControl4.Category = "1PIPE.cat2";
             this.standardControl4.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl4.DebugData"));
             this.standardControl4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl4.Location = new System.Drawing.Point(186, 381);
+            this.standardControl4.Location = new System.Drawing.Point(167, 367);
             this.standardControl4.Name = "standardControl4";
             this.standardControl4.Size = new System.Drawing.Size(155, 2);
             this.standardControl4.Stretch = true;
@@ -1676,7 +1676,7 @@ namespace DataLoggerAppV1
             this.standardControl24.Category = "1PIPE.cat2";
             this.standardControl24.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl24.DebugData"));
             this.standardControl24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl24.Location = new System.Drawing.Point(248, 49);
+            this.standardControl24.Location = new System.Drawing.Point(229, 35);
             this.standardControl24.Name = "standardControl24";
             this.standardControl24.Size = new System.Drawing.Size(2, 64);
             this.standardControl24.Stretch = true;
@@ -1700,7 +1700,7 @@ namespace DataLoggerAppV1
             this.standardControl6.Category = "1PIPE.cat2";
             this.standardControl6.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl6.DebugData"));
             this.standardControl6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl6.Location = new System.Drawing.Point(185, 470);
+            this.standardControl6.Location = new System.Drawing.Point(166, 456);
             this.standardControl6.Name = "standardControl6";
             this.standardControl6.Size = new System.Drawing.Size(156, 2);
             this.standardControl6.Stretch = true;
@@ -1724,7 +1724,7 @@ namespace DataLoggerAppV1
             this.standardControl3.Category = "1ARW.cat2";
             this.standardControl3.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl3.DebugData"));
             this.standardControl3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl3.Location = new System.Drawing.Point(130, 438);
+            this.standardControl3.Location = new System.Drawing.Point(111, 424);
             this.standardControl3.Name = "standardControl3";
             this.standardControl3.Size = new System.Drawing.Size(69, 63);
             this.standardControl3.SymbolHandle = ((long)(34436));
@@ -1747,7 +1747,7 @@ namespace DataLoggerAppV1
             this.standardControl2.Category = "1ARW.cat2";
             this.standardControl2.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl2.DebugData"));
             this.standardControl2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl2.Location = new System.Drawing.Point(131, 349);
+            this.standardControl2.Location = new System.Drawing.Point(112, 335);
             this.standardControl2.Name = "standardControl2";
             this.standardControl2.Size = new System.Drawing.Size(69, 63);
             this.standardControl2.SymbolHandle = ((long)(34436));
@@ -1770,7 +1770,7 @@ namespace DataLoggerAppV1
             this.standardControl1.Category = "1ARW.cat2";
             this.standardControl1.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl1.DebugData"));
             this.standardControl1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl1.Location = new System.Drawing.Point(134, 256);
+            this.standardControl1.Location = new System.Drawing.Point(115, 242);
             this.standardControl1.Name = "standardControl1";
             this.standardControl1.Size = new System.Drawing.Size(69, 63);
             this.standardControl1.SymbolHandle = ((long)(34436));
@@ -1793,7 +1793,7 @@ namespace DataLoggerAppV1
             this.standardControl5.Category = "1PIPE.cat2";
             this.standardControl5.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl5.DebugData"));
             this.standardControl5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl5.Location = new System.Drawing.Point(186, 287);
+            this.standardControl5.Location = new System.Drawing.Point(167, 273);
             this.standardControl5.Name = "standardControl5";
             this.standardControl5.Size = new System.Drawing.Size(155, 2);
             this.standardControl5.Stretch = true;
@@ -1827,7 +1827,7 @@ namespace DataLoggerAppV1
             this.panel1.Controls.Add(this.standardControl19);
             this.panel1.Controls.Add(this.standardControl13);
             this.panel1.Controls.Add(this.standardControl11);
-            this.panel1.Location = new System.Drawing.Point(204, 113);
+            this.panel1.Location = new System.Drawing.Point(185, 99);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(464, 393);
             this.panel1.TabIndex = 175;
@@ -1835,7 +1835,7 @@ namespace DataLoggerAppV1
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(312, 58);
+            this.label37.Location = new System.Drawing.Point(293, 44);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(114, 23);
             this.label37.TabIndex = 152;
@@ -1844,7 +1844,7 @@ namespace DataLoggerAppV1
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(312, 23);
+            this.label36.Location = new System.Drawing.Point(293, 9);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(81, 23);
             this.label36.TabIndex = 152;
@@ -1867,7 +1867,7 @@ namespace DataLoggerAppV1
             this.standardControl58.Category = "1PIPE.cat2";
             this.standardControl58.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl58.DebugData"));
             this.standardControl58.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl58.Location = new System.Drawing.Point(236, 279);
+            this.standardControl58.Location = new System.Drawing.Point(217, 265);
             this.standardControl58.Name = "standardControl58";
             this.standardControl58.Size = new System.Drawing.Size(2, 78);
             this.standardControl58.Stretch = true;
@@ -1891,7 +1891,7 @@ namespace DataLoggerAppV1
             this.standardControl55.Category = "1PIPE.cat2";
             this.standardControl55.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl55.DebugData"));
             this.standardControl55.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl55.Location = new System.Drawing.Point(236, 187);
+            this.standardControl55.Location = new System.Drawing.Point(217, 173);
             this.standardControl55.Name = "standardControl55";
             this.standardControl55.Size = new System.Drawing.Size(2, 65);
             this.standardControl55.Stretch = true;
@@ -1915,7 +1915,7 @@ namespace DataLoggerAppV1
             this.standardControl52.Category = "1PIPE.cat2";
             this.standardControl52.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl52.DebugData"));
             this.standardControl52.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl52.Location = new System.Drawing.Point(236, 125);
+            this.standardControl52.Location = new System.Drawing.Point(217, 111);
             this.standardControl52.Name = "standardControl52";
             this.standardControl52.Size = new System.Drawing.Size(2, 36);
             this.standardControl52.Stretch = true;
@@ -1939,7 +1939,7 @@ namespace DataLoggerAppV1
             this.standardControl51.Category = "1PIPE.cat2";
             this.standardControl51.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl51.DebugData"));
             this.standardControl51.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl51.Location = new System.Drawing.Point(140, 188);
+            this.standardControl51.Location = new System.Drawing.Point(121, 174);
             this.standardControl51.Name = "standardControl51";
             this.standardControl51.Size = new System.Drawing.Size(2, 79);
             this.standardControl51.Stretch = true;
@@ -1963,7 +1963,7 @@ namespace DataLoggerAppV1
             this.standardControl50.Category = "1ash1.cat2";
             this.standardControl50.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl50.DebugData"));
             this.standardControl50.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl50.Location = new System.Drawing.Point(125, 158);
+            this.standardControl50.Location = new System.Drawing.Point(106, 144);
             this.standardControl50.Name = "standardControl50";
             this.standardControl50.Size = new System.Drawing.Size(18, 30);
             this.standardControl50.SymbolHandle = ((long)(1265761081));
@@ -1986,7 +1986,7 @@ namespace DataLoggerAppV1
             this.standardControl27.Category = "1PIPE.cat2";
             this.standardControl27.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl27.DebugData"));
             this.standardControl27.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl27.Location = new System.Drawing.Point(419, 173);
+            this.standardControl27.Location = new System.Drawing.Point(400, 159);
             this.standardControl27.Name = "standardControl27";
             this.standardControl27.Size = new System.Drawing.Size(2, 184);
             this.standardControl27.Stretch = true;
@@ -2012,7 +2012,7 @@ namespace DataLoggerAppV1
             this.standardControl15.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl15.DebugData"));
             this.standardControl15.FillColor = System.Drawing.Color.Silver;
             this.standardControl15.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl15.Location = new System.Drawing.Point(289, 140);
+            this.standardControl15.Location = new System.Drawing.Point(270, 126);
             this.standardControl15.Name = "standardControl15";
             this.standardControl15.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
             this.standardControl15.Size = new System.Drawing.Size(69, 63);
@@ -2038,7 +2038,7 @@ namespace DataLoggerAppV1
             this.standardControl16.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl16.DebugData"));
             this.standardControl16.FillColor = System.Drawing.Color.Silver;
             this.standardControl16.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl16.Location = new System.Drawing.Point(289, 235);
+            this.standardControl16.Location = new System.Drawing.Point(270, 221);
             this.standardControl16.Name = "standardControl16";
             this.standardControl16.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
             this.standardControl16.Size = new System.Drawing.Size(69, 63);
@@ -2064,7 +2064,7 @@ namespace DataLoggerAppV1
             this.standardControl12.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl12.DebugData"));
             this.standardControl12.FillColor = System.Drawing.Color.Silver;
             this.standardControl12.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl12.Location = new System.Drawing.Point(203, 64);
+            this.standardControl12.Location = new System.Drawing.Point(184, 50);
             this.standardControl12.Name = "standardControl12";
             this.standardControl12.Size = new System.Drawing.Size(69, 63);
             this.standardControl12.SymbolHandle = ((long)(794709930));
@@ -2087,7 +2087,7 @@ namespace DataLoggerAppV1
             this.standardControl21.Category = "1PIPE.cat2";
             this.standardControl21.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl21.DebugData"));
             this.standardControl21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl21.Location = new System.Drawing.Point(234, -1);
+            this.standardControl21.Location = new System.Drawing.Point(215, -15);
             this.standardControl21.Name = "standardControl21";
             this.standardControl21.Size = new System.Drawing.Size(2, 65);
             this.standardControl21.Stretch = true;
@@ -2111,7 +2111,7 @@ namespace DataLoggerAppV1
             this.standardControl20.Category = "1PIPE.cat2";
             this.standardControl20.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl20.DebugData"));
             this.standardControl20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl20.Location = new System.Drawing.Point(141, -1);
+            this.standardControl20.Location = new System.Drawing.Point(122, -15);
             this.standardControl20.Name = "standardControl20";
             this.standardControl20.Size = new System.Drawing.Size(2, 65);
             this.standardControl20.Stretch = true;
@@ -2135,7 +2135,7 @@ namespace DataLoggerAppV1
             this.standardControl18.Category = "1PIPE.cat2";
             this.standardControl18.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl18.DebugData"));
             this.standardControl18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl18.Location = new System.Drawing.Point(43, 0);
+            this.standardControl18.Location = new System.Drawing.Point(24, -14);
             this.standardControl18.Name = "standardControl18";
             this.standardControl18.Size = new System.Drawing.Size(2, 64);
             this.standardControl18.Stretch = true;
@@ -2161,7 +2161,7 @@ namespace DataLoggerAppV1
             this.standardControl17.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl17.DebugData"));
             this.standardControl17.FillColor = System.Drawing.Color.Silver;
             this.standardControl17.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl17.Location = new System.Drawing.Point(289, 324);
+            this.standardControl17.Location = new System.Drawing.Point(270, 310);
             this.standardControl17.Name = "standardControl17";
             this.standardControl17.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
             this.standardControl17.Size = new System.Drawing.Size(69, 63);
@@ -2187,7 +2187,7 @@ namespace DataLoggerAppV1
             this.standardControl7.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl7.DebugData"));
             this.standardControl7.FillColor = System.Drawing.Color.Silver;
             this.standardControl7.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl7.Location = new System.Drawing.Point(108, 64);
+            this.standardControl7.Location = new System.Drawing.Point(89, 50);
             this.standardControl7.Name = "standardControl7";
             this.standardControl7.Size = new System.Drawing.Size(69, 63);
             this.standardControl7.SymbolHandle = ((long)(794709930));
@@ -2210,7 +2210,7 @@ namespace DataLoggerAppV1
             this.standardControl10.Category = "1PIPE.cat2";
             this.standardControl10.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl10.DebugData"));
             this.standardControl10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl10.Location = new System.Drawing.Point(-1, 267);
+            this.standardControl10.Location = new System.Drawing.Point(-20, 253);
             this.standardControl10.Name = "standardControl10";
             this.standardControl10.Size = new System.Drawing.Size(420, 2);
             this.standardControl10.Stretch = true;
@@ -2234,7 +2234,7 @@ namespace DataLoggerAppV1
             this.standardControl9.Category = "1PIPE.cat2";
             this.standardControl9.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl9.DebugData"));
             this.standardControl9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl9.Location = new System.Drawing.Point(-1, 173);
+            this.standardControl9.Location = new System.Drawing.Point(-20, 159);
             this.standardControl9.Name = "standardControl9";
             this.standardControl9.Size = new System.Drawing.Size(650, 2);
             this.standardControl9.Stretch = true;
@@ -2258,7 +2258,7 @@ namespace DataLoggerAppV1
             this.standardControl8.Category = "1PIPE.cat2";
             this.standardControl8.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl8.DebugData"));
             this.standardControl8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl8.Location = new System.Drawing.Point(141, 122);
+            this.standardControl8.Location = new System.Drawing.Point(122, 108);
             this.standardControl8.Name = "standardControl8";
             this.standardControl8.Size = new System.Drawing.Size(2, 36);
             this.standardControl8.Stretch = true;
@@ -2284,7 +2284,7 @@ namespace DataLoggerAppV1
             this.standardControl19.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl19.DebugData"));
             this.standardControl19.FillColor = System.Drawing.Color.Silver;
             this.standardControl19.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl19.Location = new System.Drawing.Point(15, 64);
+            this.standardControl19.Location = new System.Drawing.Point(-4, 50);
             this.standardControl19.Name = "standardControl19";
             this.standardControl19.Size = new System.Drawing.Size(69, 63);
             this.standardControl19.SymbolHandle = ((long)(794709930));
@@ -2307,7 +2307,7 @@ namespace DataLoggerAppV1
             this.standardControl13.Category = "1PIPE.cat2";
             this.standardControl13.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl13.DebugData"));
             this.standardControl13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl13.Location = new System.Drawing.Point(43, 125);
+            this.standardControl13.Location = new System.Drawing.Point(24, 111);
             this.standardControl13.Name = "standardControl13";
             this.standardControl13.Size = new System.Drawing.Size(2, 48);
             this.standardControl13.Stretch = true;
@@ -2331,7 +2331,7 @@ namespace DataLoggerAppV1
             this.standardControl11.Category = "1PIPE.cat2";
             this.standardControl11.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl11.DebugData"));
             this.standardControl11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl11.Location = new System.Drawing.Point(0, 356);
+            this.standardControl11.Location = new System.Drawing.Point(-19, 342);
             this.standardControl11.Name = "standardControl11";
             this.standardControl11.Size = new System.Drawing.Size(420, 2);
             this.standardControl11.Stretch = true;
@@ -2343,7 +2343,7 @@ namespace DataLoggerAppV1
             this.label22.AutoSize = true;
             this.label22.BackColor = System.Drawing.Color.Transparent;
             this.label22.Font = new System.Drawing.Font("Times New Roman", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(821, 583);
+            this.label22.Location = new System.Drawing.Point(802, 569);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(63, 73);
             this.label22.TabIndex = 249;
@@ -2356,7 +2356,7 @@ namespace DataLoggerAppV1
             this.panel5.Controls.Add(this.label50);
             this.panel5.Controls.Add(this.label49);
             this.panel5.Controls.Add(this.label48);
-            this.panel5.Location = new System.Drawing.Point(1128, 140);
+            this.panel5.Location = new System.Drawing.Point(1109, 126);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(263, 65);
             this.panel5.TabIndex = 275;
@@ -2378,7 +2378,7 @@ namespace DataLoggerAppV1
             this.standardControl28.Category = "1PIPE.cat2";
             this.standardControl28.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl28.DebugData"));
             this.standardControl28.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl28.Location = new System.Drawing.Point(668, 287);
+            this.standardControl28.Location = new System.Drawing.Point(649, 273);
             this.standardControl28.Name = "standardControl28";
             this.standardControl28.Size = new System.Drawing.Size(851, 2);
             this.standardControl28.Stretch = true;
@@ -2398,7 +2398,7 @@ namespace DataLoggerAppV1
             this.panel7.Controls.Add(this.label57);
             this.panel7.Controls.Add(this.label54);
             this.panel7.Controls.Add(this.label55);
-            this.panel7.Location = new System.Drawing.Point(345, 560);
+            this.panel7.Location = new System.Drawing.Point(326, 546);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(319, 192);
             this.panel7.TabIndex = 277;
@@ -2407,7 +2407,7 @@ namespace DataLoggerAppV1
             // 
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(31, 149);
+            this.label62.Location = new System.Drawing.Point(12, 135);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(62, 22);
             this.label62.TabIndex = 176;
@@ -2417,7 +2417,7 @@ namespace DataLoggerAppV1
             // 
             this.label61.AutoSize = true;
             this.label61.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(31, 83);
+            this.label61.Location = new System.Drawing.Point(12, 69);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(62, 22);
             this.label61.TabIndex = 175;
@@ -2428,7 +2428,7 @@ namespace DataLoggerAppV1
             // 
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(31, 24);
+            this.label60.Location = new System.Drawing.Point(12, 10);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(62, 22);
             this.label60.TabIndex = 169;
@@ -2456,7 +2456,7 @@ namespace DataLoggerAppV1
             this.standardControl69.Category = "1ARW.cat2";
             this.standardControl69.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl69.DebugData"));
             this.standardControl69.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl69.Location = new System.Drawing.Point(1474, 593);
+            this.standardControl69.Location = new System.Drawing.Point(1455, 579);
             this.standardControl69.Name = "standardControl69";
             this.standardControl69.Size = new System.Drawing.Size(29, 23);
             this.standardControl69.Stretch = true;
@@ -2480,7 +2480,7 @@ namespace DataLoggerAppV1
             this.standardControl70.Category = "1PIPE.cat2";
             this.standardControl70.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl70.DebugData"));
             this.standardControl70.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl70.Location = new System.Drawing.Point(1441, 604);
+            this.standardControl70.Location = new System.Drawing.Point(1422, 590);
             this.standardControl70.Name = "standardControl70";
             this.standardControl70.Size = new System.Drawing.Size(62, 2);
             this.standardControl70.Stretch = true;
@@ -2504,7 +2504,7 @@ namespace DataLoggerAppV1
             this.standardControl67.Category = "1TANK.cat2";
             this.standardControl67.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl67.DebugData"));
             this.standardControl67.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl67.Location = new System.Drawing.Point(1487, 745);
+            this.standardControl67.Location = new System.Drawing.Point(1468, 731);
             this.standardControl67.Name = "standardControl67";
             this.standardControl67.Size = new System.Drawing.Size(36, 75);
             this.standardControl67.Stretch = true;
@@ -2528,7 +2528,7 @@ namespace DataLoggerAppV1
             this.standardControl68.Category = "1PIPE.cat2";
             this.standardControl68.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl68.DebugData"));
             this.standardControl68.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl68.Location = new System.Drawing.Point(1441, 750);
+            this.standardControl68.Location = new System.Drawing.Point(1422, 736);
             this.standardControl68.Name = "standardControl68";
             this.standardControl68.Size = new System.Drawing.Size(62, 2);
             this.standardControl68.Stretch = true;
@@ -2552,7 +2552,7 @@ namespace DataLoggerAppV1
             this.standardControl65.Category = "1TANK.cat2";
             this.standardControl65.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl65.DebugData"));
             this.standardControl65.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl65.Location = new System.Drawing.Point(779, 745);
+            this.standardControl65.Location = new System.Drawing.Point(760, 731);
             this.standardControl65.Name = "standardControl65";
             this.standardControl65.Size = new System.Drawing.Size(36, 75);
             this.standardControl65.Stretch = true;
@@ -2576,7 +2576,7 @@ namespace DataLoggerAppV1
             this.standardControl49.Category = "1ARW.cat2";
             this.standardControl49.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl49.DebugData"));
             this.standardControl49.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl49.Location = new System.Drawing.Point(767, 614);
+            this.standardControl49.Location = new System.Drawing.Point(748, 600);
             this.standardControl49.Name = "standardControl49";
             this.standardControl49.Size = new System.Drawing.Size(29, 23);
             this.standardControl49.Stretch = true;
@@ -2600,7 +2600,7 @@ namespace DataLoggerAppV1
             this.standardControl71.Category = "1TANK.cat2";
             this.standardControl71.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl71.DebugData"));
             this.standardControl71.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl71.Location = new System.Drawing.Point(438, 911);
+            this.standardControl71.Location = new System.Drawing.Point(419, 897);
             this.standardControl71.Name = "standardControl71";
             this.standardControl71.Size = new System.Drawing.Size(36, 75);
             this.standardControl71.Stretch = true;
@@ -2624,7 +2624,7 @@ namespace DataLoggerAppV1
             this.standardControl54.Category = "1PIPE.cat2";
             this.standardControl54.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl54.DebugData"));
             this.standardControl54.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl54.Location = new System.Drawing.Point(1009, 735);
+            this.standardControl54.Location = new System.Drawing.Point(990, 721);
             this.standardControl54.Name = "standardControl54";
             this.standardControl54.Size = new System.Drawing.Size(247, 2);
             this.standardControl54.Stretch = true;
@@ -2648,7 +2648,7 @@ namespace DataLoggerAppV1
             this.standardControl63.Category = "1ARW.cat2";
             this.standardControl63.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl63.DebugData"));
             this.standardControl63.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl63.Location = new System.Drawing.Point(765, 658);
+            this.standardControl63.Location = new System.Drawing.Point(746, 644);
             this.standardControl63.Name = "standardControl63";
             this.standardControl63.Size = new System.Drawing.Size(29, 23);
             this.standardControl63.Stretch = true;
@@ -2672,7 +2672,7 @@ namespace DataLoggerAppV1
             this.standardControl64.Category = "1PIPE.cat2";
             this.standardControl64.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl64.DebugData"));
             this.standardControl64.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl64.Location = new System.Drawing.Point(735, 669);
+            this.standardControl64.Location = new System.Drawing.Point(716, 655);
             this.standardControl64.Name = "standardControl64";
             this.standardControl64.Size = new System.Drawing.Size(62, 2);
             this.standardControl64.Stretch = true;
@@ -2696,7 +2696,7 @@ namespace DataLoggerAppV1
             this.standardControl57.Category = "1PIPE.cat2";
             this.standardControl57.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl57.DebugData"));
             this.standardControl57.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl57.Location = new System.Drawing.Point(735, 625);
+            this.standardControl57.Location = new System.Drawing.Point(716, 611);
             this.standardControl57.Name = "standardControl57";
             this.standardControl57.Size = new System.Drawing.Size(62, 2);
             this.standardControl57.Stretch = true;
@@ -2720,7 +2720,7 @@ namespace DataLoggerAppV1
             this.standardControl66.Category = "1PIPE.cat2";
             this.standardControl66.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl66.DebugData"));
             this.standardControl66.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl66.Location = new System.Drawing.Point(733, 750);
+            this.standardControl66.Location = new System.Drawing.Point(714, 736);
             this.standardControl66.Name = "standardControl66";
             this.standardControl66.Size = new System.Drawing.Size(62, 2);
             this.standardControl66.Stretch = true;
@@ -2744,7 +2744,7 @@ namespace DataLoggerAppV1
             this.standardControl73.Category = "1PIPE.cat2";
             this.standardControl73.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl73.DebugData"));
             this.standardControl73.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl73.Location = new System.Drawing.Point(651, 743);
+            this.standardControl73.Location = new System.Drawing.Point(632, 729);
             this.standardControl73.Name = "standardControl73";
             this.standardControl73.Size = new System.Drawing.Size(2, 124);
             this.standardControl73.Stretch = true;
@@ -2768,7 +2768,7 @@ namespace DataLoggerAppV1
             this.standardControl48.Category = "1PIPE.cat2";
             this.standardControl48.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl48.DebugData"));
             this.standardControl48.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl48.Location = new System.Drawing.Point(587, 705);
+            this.standardControl48.Location = new System.Drawing.Point(568, 691);
             this.standardControl48.Name = "standardControl48";
             this.standardControl48.Size = new System.Drawing.Size(346, 2);
             this.standardControl48.Stretch = true;
@@ -2779,7 +2779,7 @@ namespace DataLoggerAppV1
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(1322, 380);
+            this.panel3.Location = new System.Drawing.Point(1303, 366);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(269, 92);
             this.panel3.TabIndex = 189;
@@ -2787,7 +2787,7 @@ namespace DataLoggerAppV1
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 30);
+            this.label2.Location = new System.Drawing.Point(-15, 16);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(248, 23);
             this.label2.TabIndex = 0;
@@ -2810,7 +2810,7 @@ namespace DataLoggerAppV1
             this.standardControl44.Category = "1PIPE.cat2";
             this.standardControl44.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl44.DebugData"));
             this.standardControl44.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl44.Location = new System.Drawing.Point(1160, 411);
+            this.standardControl44.Location = new System.Drawing.Point(1141, 397);
             this.standardControl44.Name = "standardControl44";
             this.standardControl44.Size = new System.Drawing.Size(191, 2);
             this.standardControl44.Stretch = true;
@@ -2835,7 +2835,7 @@ namespace DataLoggerAppV1
             this.standardControl36.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl36.DebugData"));
             this.standardControl36.FillColor = System.Drawing.Color.Black;
             this.standardControl36.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl36.Location = new System.Drawing.Point(1389, 166);
+            this.standardControl36.Location = new System.Drawing.Point(1370, 152);
             this.standardControl36.Name = "standardControl36";
             this.standardControl36.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate180;
             this.standardControl36.Size = new System.Drawing.Size(20, 15);
@@ -2860,7 +2860,7 @@ namespace DataLoggerAppV1
             this.standardControl56.Category = "1PIPE.cat2";
             this.standardControl56.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl56.DebugData"));
             this.standardControl56.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl56.Location = new System.Drawing.Point(1370, 743);
+            this.standardControl56.Location = new System.Drawing.Point(1351, 729);
             this.standardControl56.Name = "standardControl56";
             this.standardControl56.Size = new System.Drawing.Size(2, 124);
             this.standardControl56.Stretch = true;
@@ -2884,7 +2884,7 @@ namespace DataLoggerAppV1
             this.standardControl62.Category = "1ARW.cat2";
             this.standardControl62.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl62.DebugData"));
             this.standardControl62.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl62.Location = new System.Drawing.Point(766, 571);
+            this.standardControl62.Location = new System.Drawing.Point(747, 557);
             this.standardControl62.Name = "standardControl62";
             this.standardControl62.Size = new System.Drawing.Size(29, 23);
             this.standardControl62.Stretch = true;
@@ -2908,7 +2908,7 @@ namespace DataLoggerAppV1
             this.standardControl39.Category = "1PIPE.cat2";
             this.standardControl39.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl39.DebugData"));
             this.standardControl39.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl39.Location = new System.Drawing.Point(735, 582);
+            this.standardControl39.Location = new System.Drawing.Point(716, 568);
             this.standardControl39.Name = "standardControl39";
             this.standardControl39.Size = new System.Drawing.Size(62, 2);
             this.standardControl39.Stretch = true;
@@ -2932,7 +2932,7 @@ namespace DataLoggerAppV1
             this.standardControl61.Category = "1PIPE.cat2";
             this.standardControl61.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl61.DebugData"));
             this.standardControl61.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl61.Location = new System.Drawing.Point(1004, 685);
+            this.standardControl61.Location = new System.Drawing.Point(985, 671);
             this.standardControl61.Name = "standardControl61";
             this.standardControl61.Size = new System.Drawing.Size(247, 2);
             this.standardControl61.Stretch = true;
@@ -2956,7 +2956,7 @@ namespace DataLoggerAppV1
             this.standardControl43.Category = "1PIPE.cat2";
             this.standardControl43.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl43.DebugData"));
             this.standardControl43.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl43.Location = new System.Drawing.Point(1004, 580);
+            this.standardControl43.Location = new System.Drawing.Point(985, 566);
             this.standardControl43.Name = "standardControl43";
             this.standardControl43.Size = new System.Drawing.Size(395, 2);
             this.standardControl43.Stretch = true;
@@ -2980,7 +2980,7 @@ namespace DataLoggerAppV1
             this.standardControl38.Category = "1PIPE.cat2";
             this.standardControl38.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl38.DebugData"));
             this.standardControl38.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl38.Location = new System.Drawing.Point(1152, 456);
+            this.standardControl38.Location = new System.Drawing.Point(1133, 442);
             this.standardControl38.Name = "standardControl38";
             this.standardControl38.Size = new System.Drawing.Size(2, 124);
             this.standardControl38.Stretch = true;
@@ -3004,7 +3004,7 @@ namespace DataLoggerAppV1
             this.standardControl42.Category = "1PIPE.cat2";
             this.standardControl42.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl42.DebugData"));
             this.standardControl42.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl42.Location = new System.Drawing.Point(1155, 455);
+            this.standardControl42.Location = new System.Drawing.Point(1136, 441);
             this.standardControl42.Name = "standardControl42";
             this.standardControl42.Size = new System.Drawing.Size(167, 2);
             this.standardControl42.Stretch = true;
@@ -3028,7 +3028,7 @@ namespace DataLoggerAppV1
             this.standardControl37.Category = "1PIPE.cat2";
             this.standardControl37.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl37.DebugData"));
             this.standardControl37.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl37.Location = new System.Drawing.Point(1517, 288);
+            this.standardControl37.Location = new System.Drawing.Point(1498, 274);
             this.standardControl37.Name = "standardControl37";
             this.standardControl37.Size = new System.Drawing.Size(2, 125);
             this.standardControl37.Stretch = true;
@@ -3053,7 +3053,7 @@ namespace DataLoggerAppV1
             this.standardControl34.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl34.DebugData"));
             this.standardControl34.FillColor = System.Drawing.Color.Black;
             this.standardControl34.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl34.Location = new System.Drawing.Point(1466, 130);
+            this.standardControl34.Location = new System.Drawing.Point(1447, 116);
             this.standardControl34.Name = "standardControl34";
             this.standardControl34.Size = new System.Drawing.Size(20, 15);
             this.standardControl34.Stretch = true;
@@ -3077,7 +3077,7 @@ namespace DataLoggerAppV1
             this.standardControl33.Category = "1PIPE.cat2";
             this.standardControl33.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl33.DebugData"));
             this.standardControl33.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl33.Location = new System.Drawing.Point(1386, 172);
+            this.standardControl33.Location = new System.Drawing.Point(1367, 158);
             this.standardControl33.Name = "standardControl33";
             this.standardControl33.Size = new System.Drawing.Size(99, 2);
             this.standardControl33.Stretch = true;
@@ -3102,7 +3102,7 @@ namespace DataLoggerAppV1
             this.standardControl29.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl29.DebugData"));
             this.standardControl29.FillColor = System.Drawing.Color.Silver;
             this.standardControl29.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl29.Location = new System.Drawing.Point(1091, 130);
+            this.standardControl29.Location = new System.Drawing.Point(1072, 116);
             this.standardControl29.Name = "standardControl29";
             this.standardControl29.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
             this.standardControl29.Size = new System.Drawing.Size(308, 203);
@@ -3128,7 +3128,7 @@ namespace DataLoggerAppV1
             this.standardControl30.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl30.DebugData"));
             this.standardControl30.FillColor = System.Drawing.Color.Silver;
             this.standardControl30.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl30.Location = new System.Drawing.Point(1167, 562);
+            this.standardControl30.Location = new System.Drawing.Point(1148, 548);
             this.standardControl30.Name = "standardControl30";
             this.standardControl30.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
             this.standardControl30.Size = new System.Drawing.Size(301, 203);
@@ -3154,7 +3154,7 @@ namespace DataLoggerAppV1
             this.standardControl35.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl35.DebugData"));
             this.standardControl35.FillColor = System.Drawing.Color.Silver;
             this.standardControl35.FillColorMode = SymbolFactoryNetEngine.FillColorModeOptions.Shaded;
-            this.standardControl35.Location = new System.Drawing.Point(221, 554);
+            this.standardControl35.Location = new System.Drawing.Point(202, 540);
             this.standardControl35.Name = "standardControl35";
             this.standardControl35.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate90;
             this.standardControl35.Size = new System.Drawing.Size(516, 203);
@@ -3164,7 +3164,7 @@ namespace DataLoggerAppV1
             // 
             // Monitor
             // 
-            this.ClientSize = new System.Drawing.Size(1712, 1002);
+            this.ClientSize = new System.Drawing.Size(1640, 970);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.standardControl29);

@@ -158,11 +158,10 @@
             // 
             // button1
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(1354, 160);
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Location = new System.Drawing.Point(1254, 160);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(211, 49);
+            this.button1.Size = new System.Drawing.Size(311, 49);
             this.button1.TabIndex = 2;
             this.button1.Text = "CREA Certificate";
             this.button1.UseVisualStyleBackColor = true;
@@ -172,9 +171,10 @@
             // 
             this.btnStream1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnStream1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStream1.Location = new System.Drawing.Point(12, 12);
             this.btnStream1.Name = "btnStream1";
-            this.btnStream1.Size = new System.Drawing.Size(135, 49);
+            this.btnStream1.Size = new System.Drawing.Size(223, 49);
             this.btnStream1.TabIndex = 2;
             this.btnStream1.Text = "STREAM 1";
             this.btnStream1.UseVisualStyleBackColor = true;
@@ -184,9 +184,10 @@
             // 
             this.btnStream2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnStream2.Location = new System.Drawing.Point(245, 12);
+            this.btnStream2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStream2.Location = new System.Drawing.Point(237, 12);
             this.btnStream2.Name = "btnStream2";
-            this.btnStream2.Size = new System.Drawing.Size(145, 49);
+            this.btnStream2.Size = new System.Drawing.Size(223, 49);
             this.btnStream2.TabIndex = 2;
             this.btnStream2.Text = "STREAM 2";
             this.btnStream2.UseVisualStyleBackColor = true;
@@ -196,9 +197,10 @@
             // 
             this.btnStream3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnStream3.Location = new System.Drawing.Point(478, 12);
+            this.btnStream3.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStream3.Location = new System.Drawing.Point(462, 12);
             this.btnStream3.Name = "btnStream3";
-            this.btnStream3.Size = new System.Drawing.Size(145, 49);
+            this.btnStream3.Size = new System.Drawing.Size(223, 49);
             this.btnStream3.TabIndex = 2;
             this.btnStream3.Text = "STREAM 3";
             this.btnStream3.UseVisualStyleBackColor = true;
@@ -209,9 +211,10 @@
             this.btnSart.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSart.BackColor = System.Drawing.Color.LightGreen;
-            this.btnSart.Location = new System.Drawing.Point(711, 12);
+            this.btnSart.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSart.Location = new System.Drawing.Point(687, 12);
             this.btnSart.Name = "btnSart";
-            this.btnSart.Size = new System.Drawing.Size(145, 49);
+            this.btnSart.Size = new System.Drawing.Size(199, 49);
             this.btnSart.TabIndex = 2;
             this.btnSart.Text = "START";
             this.btnSart.UseVisualStyleBackColor = false;
@@ -222,9 +225,10 @@
             this.btnStop.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnStop.BackColor = System.Drawing.Color.LightCoral;
-            this.btnStop.Location = new System.Drawing.Point(944, 12);
+            this.btnStop.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStop.Location = new System.Drawing.Point(888, 12);
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(145, 49);
+            this.btnStop.Size = new System.Drawing.Size(223, 49);
             this.btnStop.TabIndex = 2;
             this.btnStop.Text = "STOP";
             this.btnStop.UseVisualStyleBackColor = false;
@@ -234,9 +238,10 @@
             // 
             this.btnManMode.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnManMode.Location = new System.Drawing.Point(1177, 12);
+            this.btnManMode.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnManMode.Location = new System.Drawing.Point(1113, 12);
             this.btnManMode.Name = "btnManMode";
-            this.btnManMode.Size = new System.Drawing.Size(145, 49);
+            this.btnManMode.Size = new System.Drawing.Size(223, 49);
             this.btnManMode.TabIndex = 2;
             this.btnManMode.Text = "MAN MODE";
             this.btnManMode.UseVisualStyleBackColor = true;
@@ -375,7 +380,7 @@
             // 
             // lblUnitAi7
             // 
-            this.lblUnitAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblUnitAi7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUnitAi7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUnitAi7.Location = new System.Drawing.Point(222, 598);
             this.lblUnitAi7.Name = "lblUnitAi7";
@@ -397,7 +402,7 @@
             // 
             // lblNameAi7
             // 
-            this.lblNameAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblNameAi7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNameAi7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNameAi7.Location = new System.Drawing.Point(4, 598);
             this.lblNameAi7.Name = "lblNameAi7";
@@ -431,7 +436,7 @@
             // 
             // lblUnitAi6
             // 
-            this.lblUnitAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblUnitAi6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUnitAi6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUnitAi6.Location = new System.Drawing.Point(222, 527);
             this.lblUnitAi6.Name = "lblUnitAi6";
@@ -453,7 +458,7 @@
             // 
             // lblNameAi6
             // 
-            this.lblNameAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblNameAi6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNameAi6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNameAi6.Location = new System.Drawing.Point(4, 527);
             this.lblNameAi6.Name = "lblNameAi6";
@@ -486,7 +491,7 @@
             // 
             // lblUnitAi5
             // 
-            this.lblUnitAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblUnitAi5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUnitAi5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUnitAi5.Location = new System.Drawing.Point(222, 456);
             this.lblUnitAi5.Name = "lblUnitAi5";
@@ -508,7 +513,7 @@
             // 
             // lblNameAi5
             // 
-            this.lblNameAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblNameAi5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNameAi5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNameAi5.Location = new System.Drawing.Point(4, 456);
             this.lblNameAi5.Name = "lblNameAi5";
@@ -541,7 +546,7 @@
             // 
             // lblUnitAi4
             // 
-            this.lblUnitAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblUnitAi4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUnitAi4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUnitAi4.Location = new System.Drawing.Point(222, 385);
             this.lblUnitAi4.Name = "lblUnitAi4";
@@ -563,7 +568,7 @@
             // 
             // lblNameAi4
             // 
-            this.lblNameAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblNameAi4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNameAi4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNameAi4.Location = new System.Drawing.Point(4, 385);
             this.lblNameAi4.Name = "lblNameAi4";
@@ -596,7 +601,7 @@
             // 
             // lblUnitAi3
             // 
-            this.lblUnitAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblUnitAi3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUnitAi3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUnitAi3.Location = new System.Drawing.Point(222, 314);
             this.lblUnitAi3.Name = "lblUnitAi3";
@@ -618,7 +623,7 @@
             // 
             // lblNameAi3
             // 
-            this.lblNameAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblNameAi3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNameAi3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNameAi3.Location = new System.Drawing.Point(4, 314);
             this.lblNameAi3.Name = "lblNameAi3";
@@ -651,7 +656,7 @@
             // 
             // lblUnitAi2
             // 
-            this.lblUnitAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblUnitAi2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUnitAi2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUnitAi2.Location = new System.Drawing.Point(222, 243);
             this.lblUnitAi2.Name = "lblUnitAi2";
@@ -673,7 +678,7 @@
             // 
             // lblNameAi2
             // 
-            this.lblNameAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblNameAi2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNameAi2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNameAi2.Location = new System.Drawing.Point(4, 243);
             this.lblNameAi2.Name = "lblNameAi2";
@@ -706,7 +711,7 @@
             // 
             // lblUnitAi1
             // 
-            this.lblUnitAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblUnitAi1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUnitAi1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUnitAi1.Location = new System.Drawing.Point(222, 172);
             this.lblUnitAi1.Name = "lblUnitAi1";
@@ -728,7 +733,7 @@
             // 
             // lblNameAi1
             // 
-            this.lblNameAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblNameAi1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNameAi1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNameAi1.Location = new System.Drawing.Point(4, 172);
             this.lblNameAi1.Name = "lblNameAi1";
@@ -761,7 +766,7 @@
             // 
             // lblUnitAi0
             // 
-            this.lblUnitAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblUnitAi0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUnitAi0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUnitAi0.Location = new System.Drawing.Point(222, 101);
             this.lblUnitAi0.Name = "lblUnitAi0";
@@ -783,7 +788,7 @@
             // 
             // lblNameAi0
             // 
-            this.lblNameAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblNameAi0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNameAi0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNameAi0.Location = new System.Drawing.Point(4, 101);
             this.lblNameAi0.Name = "lblNameAi0";
@@ -794,12 +799,12 @@
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 25);
+            this.label1.Location = new System.Drawing.Point(4, 1);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 28);
+            this.label1.Size = new System.Drawing.Size(102, 76);
             this.label1.TabIndex = 8;
             this.label1.Text = "Name";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -873,12 +878,12 @@
             // 
             // label2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(130, 25);
+            this.label2.Location = new System.Drawing.Point(113, 1);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 28);
+            this.label2.Size = new System.Drawing.Size(102, 76);
             this.label2.TabIndex = 8;
             this.label2.Text = "Value";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -886,12 +891,12 @@
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(245, 25);
+            this.label3.Location = new System.Drawing.Point(222, 1);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 28);
+            this.label3.Size = new System.Drawing.Size(102, 76);
             this.label3.TabIndex = 8;
             this.label3.Text = "Unit";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -899,12 +904,12 @@
             // 
             // label4
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(721, 25);
+            this.label4.Location = new System.Drawing.Point(331, 1);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 28);
+            this.label4.Size = new System.Drawing.Size(890, 76);
             this.label4.TabIndex = 8;
             this.label4.Text = "Value Bar";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -912,12 +917,12 @@
             // 
             // label5
             // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
+            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(1242, 25);
+            this.label5.Location = new System.Drawing.Point(1228, 1);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 28);
+            this.label5.Size = new System.Drawing.Size(102, 76);
             this.label5.TabIndex = 8;
             this.label5.Text = "Alarm";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -925,12 +930,12 @@
             // 
             // label6
             // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
+            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(1351, 11);
+            this.label6.Location = new System.Drawing.Point(1337, 1);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(74, 56);
+            this.label6.Size = new System.Drawing.Size(102, 76);
             this.label6.TabIndex = 8;
             this.label6.Text = "Low Alarm";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -938,12 +943,12 @@
             // 
             // label7
             // 
-            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.AutoSize = true;
+            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(1460, 11);
+            this.label7.Location = new System.Drawing.Point(1446, 1);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 56);
+            this.label7.Size = new System.Drawing.Size(103, 76);
             this.label7.TabIndex = 8;
             this.label7.Text = "High Alarm";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1416,9 +1421,10 @@
             // 
             this.btnAutoMode.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAutoMode.Location = new System.Drawing.Point(1420, 12);
+            this.btnAutoMode.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAutoMode.Location = new System.Drawing.Point(1338, 12);
             this.btnAutoMode.Name = "btnAutoMode";
-            this.btnAutoMode.Size = new System.Drawing.Size(145, 49);
+            this.btnAutoMode.Size = new System.Drawing.Size(223, 49);
             this.btnAutoMode.TabIndex = 4;
             this.btnAutoMode.Text = "AUTO MODE";
             this.btnAutoMode.UseVisualStyleBackColor = true;

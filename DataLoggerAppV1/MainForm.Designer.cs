@@ -81,9 +81,9 @@
             // pnlline
             // 
             this.pnlline.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pnlline.Location = new System.Drawing.Point(0, 68);
+            this.pnlline.Location = new System.Drawing.Point(0, 77);
             this.pnlline.Name = "pnlline";
-            this.pnlline.Size = new System.Drawing.Size(245, 10);
+            this.pnlline.Size = new System.Drawing.Size(245, 1);
             this.pnlline.TabIndex = 5;
             // 
             // panel2
@@ -102,10 +102,10 @@
             // 
             this.label2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label2.Font = new System.Drawing.Font("Bauhaus 93", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Bauhaus 93", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(244, 69);
+            this.label2.Size = new System.Drawing.Size(244, 76);
             this.label2.TabIndex = 2;
             this.label2.Text = "Menu Bar";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -365,7 +365,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.ControlBox = false;

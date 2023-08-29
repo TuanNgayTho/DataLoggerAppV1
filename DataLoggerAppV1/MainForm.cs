@@ -67,15 +67,11 @@ namespace DataLoggerAppV1
             var accept = Trend.isStay;
             if (accept == false)
             {
+                this.pnlTrend.Show();
+                this.pnlFormLoader.Hide();
                 this.pnlDashBoard.Hide();
-                this.pnlFormLoader.Show();
-                lblNameOfPage.Text = "Trend";
-                this.pnlFormLoader.Controls.Clear();
-                Trend Trend_Vrb = new Trend() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
-                Trend_Vrb.FormBorderStyle = FormBorderStyle.None;
-                this.pnlFormLoader.Controls.Add(Trend_Vrb);
-                Trend_Vrb.Show();
 
+                lblNameOfPage.Text = "Trend";
                 btnDashboard.BackColor = SystemColors.ControlLight;
                 btnAlarmList.BackColor = SystemColors.ControlLight;
                 btnTrend.BackColor = SystemColors.Control;
@@ -101,6 +97,7 @@ namespace DataLoggerAppV1
             if (accept == false)
             {
                 this.pnlDashBoard.Hide();
+                this.pnlTrend.Hide();
                 this.pnlFormLoader.Show();
                 lblNameOfPage.Text = "Monitor";
                 this.pnlFormLoader.Controls.Clear();
@@ -130,6 +127,7 @@ namespace DataLoggerAppV1
             {
                 this.pnlDashBoard.Show();
                 this.pnlFormLoader.Hide();
+                this.pnlTrend.Hide();
                 lblNameOfPage.Text = "Dashboard";
                 btnDashboard.BackColor = SystemColors.Control;
                 btnAlarmList.BackColor = SystemColors.ControlLight;
@@ -157,6 +155,7 @@ namespace DataLoggerAppV1
             if (accept == false)
             {
                 this.pnlDashBoard.Hide();
+                this.pnlTrend.Hide();
                 this.pnlFormLoader.Show();
                 lblNameOfPage.Text = "Alarm List";
                 this.pnlFormLoader.Controls.Clear();
@@ -197,6 +196,7 @@ namespace DataLoggerAppV1
                 if (accept == false)
                 {
                     this.pnlDashBoard.Hide();
+                    this.pnlTrend.Hide();
                     this.pnlFormLoader.Show();
                     lblNameOfPage.Text = "Settings";
                     this.pnlFormLoader.Controls.Clear();

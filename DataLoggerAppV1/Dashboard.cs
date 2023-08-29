@@ -268,9 +268,9 @@ namespace DataLoggerAppV1
                                 {
 
                                     //Button Status
-                                    btnStream1.BackColor = DbReadBool.MStreamStatus1 ? Color.LightGreen : SystemColors.ControlLight;
-                                    btnStream2.BackColor = DbReadBool.MStreamStatus2 ? Color.LightGreen : SystemColors.ControlLight;
-                                    btnStream3.BackColor = DbReadBool.MStreamStatus3 ? Color.LightGreen : SystemColors.ControlLight;
+                                    btnStream1.BackColor = DbReadBool.MStreamStatus1 ? Color.LightBlue : SystemColors.ControlLight;
+                                    btnStream2.BackColor = DbReadBool.MStreamStatus2 ? Color.LightBlue : SystemColors.ControlLight;
+                                    btnStream3.BackColor = DbReadBool.MStreamStatus3 ? Color.LightBlue : SystemColors.ControlLight;
 
                                     if (DbReadBool.ManAuto && btnAutoMode.BackColor != Color.LightGreen)
                                     {

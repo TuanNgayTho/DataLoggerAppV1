@@ -164,7 +164,7 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(426, 51);
+            this.button2.Location = new System.Drawing.Point(388, 36);
             this.button2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -183,7 +183,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(249, 51);
+            this.button1.Location = new System.Drawing.Point(211, 36);
             this.button1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -212,7 +212,7 @@
             this.btnDashboard.FlatAppearance.BorderSize = 0;
             this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
-            this.btnDashboard.Location = new System.Drawing.Point(72, 51);
+            this.btnDashboard.Location = new System.Drawing.Point(34, 36);
             this.btnDashboard.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -232,7 +232,7 @@
             this.checkBox8.Checked = true;
             this.checkBox8.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox8.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox8.Location = new System.Drawing.Point(1481, 899);
+            this.checkBox8.Location = new System.Drawing.Point(1443, 884);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(155, 35);
             this.checkBox8.TabIndex = 21;
@@ -247,7 +247,7 @@
             this.checkBox7.Checked = true;
             this.checkBox7.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox7.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.Location = new System.Drawing.Point(1282, 899);
+            this.checkBox7.Location = new System.Drawing.Point(1244, 884);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(155, 35);
             this.checkBox7.TabIndex = 20;
@@ -262,7 +262,7 @@
             this.checkBox6.Checked = true;
             this.checkBox6.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox6.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.Location = new System.Drawing.Point(1083, 899);
+            this.checkBox6.Location = new System.Drawing.Point(1045, 884);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(155, 35);
             this.checkBox6.TabIndex = 19;
@@ -277,7 +277,7 @@
             this.checkBox5.Checked = true;
             this.checkBox5.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox5.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(884, 899);
+            this.checkBox5.Location = new System.Drawing.Point(846, 884);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(155, 35);
             this.checkBox5.TabIndex = 18;
@@ -292,7 +292,7 @@
             this.checkBox4.Checked = true;
             this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox4.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(685, 899);
+            this.checkBox4.Location = new System.Drawing.Point(647, 884);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(155, 35);
             this.checkBox4.TabIndex = 17;
@@ -307,7 +307,7 @@
             this.checkBox3.Checked = true;
             this.checkBox3.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox3.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(486, 899);
+            this.checkBox3.Location = new System.Drawing.Point(448, 884);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(155, 35);
             this.checkBox3.TabIndex = 16;
@@ -322,7 +322,7 @@
             this.checkBox2.Checked = true;
             this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(287, 899);
+            this.checkBox2.Location = new System.Drawing.Point(249, 884);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(155, 35);
             this.checkBox2.TabIndex = 15;
@@ -337,7 +337,7 @@
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(88, 899);
+            this.checkBox1.Location = new System.Drawing.Point(50, 884);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(155, 35);
             this.checkBox1.TabIndex = 14;
@@ -348,7 +348,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Location = new System.Drawing.Point(72, 874);
+            this.panel1.Location = new System.Drawing.Point(31, 859);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1579, 84);
             this.panel1.TabIndex = 22;
@@ -364,7 +364,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.dateTimePicker1);
             this.panel2.Controls.Add(this.button3);
-            this.panel2.Location = new System.Drawing.Point(62, 44);
+            this.panel2.Location = new System.Drawing.Point(24, 29);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1589, 91);
             this.panel2.TabIndex = 23;
@@ -375,7 +375,7 @@
             this.cartesianChart1.BackColor = System.Drawing.SystemColors.Control;
             this.cartesianChart1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cartesianChart1.ForeColor = System.Drawing.SystemColors.Control;
-            this.cartesianChart1.Location = new System.Drawing.Point(67, 169);
+            this.cartesianChart1.Location = new System.Drawing.Point(29, 154);
             this.cartesianChart1.Margin = new System.Windows.Forms.Padding(5);
             this.cartesianChart1.Name = "cartesianChart1";
             this.cartesianChart1.Size = new System.Drawing.Size(1579, 665);
@@ -387,7 +387,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1712, 1002);
+            this.ClientSize = new System.Drawing.Size(1640, 970);
             this.Controls.Add(this.cartesianChart1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);

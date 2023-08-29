@@ -63,7 +63,7 @@
             this.dataGridView1.RowTemplate.Height = 45;
             this.dataGridView1.RowTemplate.ReadOnly = true;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(1675, 855);
+            this.dataGridView1.Size = new System.Drawing.Size(1603, 823);
             this.dataGridView1.TabIndex = 1;
             // 
             // Column1
@@ -103,7 +103,7 @@
             this.Reset.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Reset.Image = ((System.Drawing.Image)(resources.GetObject("Reset.Image")));
             this.Reset.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Reset.Location = new System.Drawing.Point(1494, 914);
+            this.Reset.Location = new System.Drawing.Point(1422, 882);
             this.Reset.Name = "Reset";
             this.Reset.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.Reset.Size = new System.Drawing.Size(174, 56);
@@ -119,7 +119,7 @@
             this.Delete.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Delete.Image = ((System.Drawing.Image)(resources.GetObject("Delete.Image")));
             this.Delete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Delete.Location = new System.Drawing.Point(1289, 914);
+            this.Delete.Location = new System.Drawing.Point(1217, 882);
             this.Delete.Name = "Delete";
             this.Delete.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.Delete.Size = new System.Drawing.Size(174, 56);
@@ -134,7 +134,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1712, 1002);
+            this.ClientSize = new System.Drawing.Size(1640, 970);
             this.Controls.Add(this.Delete);
             this.Controls.Add(this.Reset);
             this.Controls.Add(this.dataGridView1);
