@@ -848,9 +848,9 @@
             // 
             this.lblMeasurementMaxRange7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange7.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange7.Location = new System.Drawing.Point(853, 47);
+            this.lblMeasurementMaxRange7.Location = new System.Drawing.Point(853, 45);
             this.lblMeasurementMaxRange7.Name = "lblMeasurementMaxRange7";
-            this.lblMeasurementMaxRange7.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMaxRange7.Size = new System.Drawing.Size(35, 18);
             this.lblMeasurementMaxRange7.TabIndex = 14;
             this.lblMeasurementMaxRange7.Text = "0,0";
             this.lblMeasurementMaxRange7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -859,9 +859,9 @@
             // 
             this.lblMeasurementMinRange7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange7.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange7.Location = new System.Drawing.Point(2, 48);
+            this.lblMeasurementMinRange7.Location = new System.Drawing.Point(2, 47);
             this.lblMeasurementMinRange7.Name = "lblMeasurementMinRange7";
-            this.lblMeasurementMinRange7.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMinRange7.Size = new System.Drawing.Size(35, 17);
             this.lblMeasurementMinRange7.TabIndex = 14;
             this.lblMeasurementMinRange7.Text = "0,0";
             this.lblMeasurementMinRange7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -969,9 +969,9 @@
             // 
             this.lblMeasurementMaxRange6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange6.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange6.Location = new System.Drawing.Point(855, 49);
+            this.lblMeasurementMaxRange6.Location = new System.Drawing.Point(855, 47);
             this.lblMeasurementMaxRange6.Name = "lblMeasurementMaxRange6";
-            this.lblMeasurementMaxRange6.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMaxRange6.Size = new System.Drawing.Size(35, 18);
             this.lblMeasurementMaxRange6.TabIndex = 14;
             this.lblMeasurementMaxRange6.Text = "0,0";
             this.lblMeasurementMaxRange6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1012,9 +1012,9 @@
             // 
             this.lblMeasurementMaxRange5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange5.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange5.Location = new System.Drawing.Point(853, 49);
+            this.lblMeasurementMaxRange5.Location = new System.Drawing.Point(853, 47);
             this.lblMeasurementMaxRange5.Name = "lblMeasurementMaxRange5";
-            this.lblMeasurementMaxRange5.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMaxRange5.Size = new System.Drawing.Size(35, 18);
             this.lblMeasurementMaxRange5.TabIndex = 14;
             this.lblMeasurementMaxRange5.Text = "0,0";
             this.lblMeasurementMaxRange5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1023,9 +1023,9 @@
             // 
             this.lblMeasurementMinRange5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange5.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange5.Location = new System.Drawing.Point(2, 49);
+            this.lblMeasurementMinRange5.Location = new System.Drawing.Point(2, 48);
             this.lblMeasurementMinRange5.Name = "lblMeasurementMinRange5";
-            this.lblMeasurementMinRange5.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMinRange5.Size = new System.Drawing.Size(35, 17);
             this.lblMeasurementMinRange5.TabIndex = 14;
             this.lblMeasurementMinRange5.Text = "0,0";
             this.lblMeasurementMinRange5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1055,9 +1055,9 @@
             // 
             this.lblMeasurementMaxRange4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange4.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange4.Location = new System.Drawing.Point(855, 49);
+            this.lblMeasurementMaxRange4.Location = new System.Drawing.Point(855, 47);
             this.lblMeasurementMaxRange4.Name = "lblMeasurementMaxRange4";
-            this.lblMeasurementMaxRange4.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMaxRange4.Size = new System.Drawing.Size(35, 18);
             this.lblMeasurementMaxRange4.TabIndex = 14;
             this.lblMeasurementMaxRange4.Text = "0,0";
             this.lblMeasurementMaxRange4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1066,9 +1066,9 @@
             // 
             this.lblMeasurementMinRange4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange4.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange4.Location = new System.Drawing.Point(2, 49);
+            this.lblMeasurementMinRange4.Location = new System.Drawing.Point(2, 48);
             this.lblMeasurementMinRange4.Name = "lblMeasurementMinRange4";
-            this.lblMeasurementMinRange4.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMinRange4.Size = new System.Drawing.Size(35, 17);
             this.lblMeasurementMinRange4.TabIndex = 14;
             this.lblMeasurementMinRange4.Text = "0,0";
             this.lblMeasurementMinRange4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1098,9 +1098,9 @@
             // 
             this.lblMeasurementMaxRange3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange3.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange3.Location = new System.Drawing.Point(855, 49);
+            this.lblMeasurementMaxRange3.Location = new System.Drawing.Point(855, 47);
             this.lblMeasurementMaxRange3.Name = "lblMeasurementMaxRange3";
-            this.lblMeasurementMaxRange3.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMaxRange3.Size = new System.Drawing.Size(35, 18);
             this.lblMeasurementMaxRange3.TabIndex = 14;
             this.lblMeasurementMaxRange3.Text = "0,0";
             this.lblMeasurementMaxRange3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1109,9 +1109,9 @@
             // 
             this.lblMeasurementMinRange3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange3.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange3.Location = new System.Drawing.Point(2, 49);
+            this.lblMeasurementMinRange3.Location = new System.Drawing.Point(2, 48);
             this.lblMeasurementMinRange3.Name = "lblMeasurementMinRange3";
-            this.lblMeasurementMinRange3.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMinRange3.Size = new System.Drawing.Size(35, 17);
             this.lblMeasurementMinRange3.TabIndex = 14;
             this.lblMeasurementMinRange3.Text = "0,0";
             this.lblMeasurementMinRange3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1141,9 +1141,9 @@
             // 
             this.lblMeasurementMaxRange2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange2.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange2.Location = new System.Drawing.Point(855, 49);
+            this.lblMeasurementMaxRange2.Location = new System.Drawing.Point(855, 47);
             this.lblMeasurementMaxRange2.Name = "lblMeasurementMaxRange2";
-            this.lblMeasurementMaxRange2.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMaxRange2.Size = new System.Drawing.Size(35, 18);
             this.lblMeasurementMaxRange2.TabIndex = 14;
             this.lblMeasurementMaxRange2.Text = "0,0";
             this.lblMeasurementMaxRange2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1152,9 +1152,9 @@
             // 
             this.lblMeasurementMinRange2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange2.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange2.Location = new System.Drawing.Point(2, 49);
+            this.lblMeasurementMinRange2.Location = new System.Drawing.Point(2, 48);
             this.lblMeasurementMinRange2.Name = "lblMeasurementMinRange2";
-            this.lblMeasurementMinRange2.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMinRange2.Size = new System.Drawing.Size(35, 17);
             this.lblMeasurementMinRange2.TabIndex = 14;
             this.lblMeasurementMinRange2.Text = "0,0";
             this.lblMeasurementMinRange2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1184,9 +1184,9 @@
             // 
             this.lblMeasurementMaxRange1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange1.Location = new System.Drawing.Point(852, 49);
+            this.lblMeasurementMaxRange1.Location = new System.Drawing.Point(852, 47);
             this.lblMeasurementMaxRange1.Name = "lblMeasurementMaxRange1";
-            this.lblMeasurementMaxRange1.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMaxRange1.Size = new System.Drawing.Size(35, 18);
             this.lblMeasurementMaxRange1.TabIndex = 14;
             this.lblMeasurementMaxRange1.Text = "0,0";
             this.lblMeasurementMaxRange1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1195,9 +1195,9 @@
             // 
             this.lblMeasurementMinRange1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange1.Location = new System.Drawing.Point(2, 49);
+            this.lblMeasurementMinRange1.Location = new System.Drawing.Point(2, 48);
             this.lblMeasurementMinRange1.Name = "lblMeasurementMinRange1";
-            this.lblMeasurementMinRange1.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMinRange1.Size = new System.Drawing.Size(35, 17);
             this.lblMeasurementMinRange1.TabIndex = 14;
             this.lblMeasurementMinRange1.Text = "0,0";
             this.lblMeasurementMinRange1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1227,9 +1227,9 @@
             // 
             this.lblMeasurementMaxRange0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMeasurementMaxRange0.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange0.Location = new System.Drawing.Point(853, 49);
+            this.lblMeasurementMaxRange0.Location = new System.Drawing.Point(853, 48);
             this.lblMeasurementMaxRange0.Name = "lblMeasurementMaxRange0";
-            this.lblMeasurementMaxRange0.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMaxRange0.Size = new System.Drawing.Size(35, 18);
             this.lblMeasurementMaxRange0.TabIndex = 14;
             this.lblMeasurementMaxRange0.Text = "0,0";
             this.lblMeasurementMaxRange0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1238,9 +1238,9 @@
             // 
             this.lblMeasurementMinRange0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMeasurementMinRange0.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMinRange0.Location = new System.Drawing.Point(8, 49);
+            this.lblMeasurementMinRange0.Location = new System.Drawing.Point(2, 48);
             this.lblMeasurementMinRange0.Name = "lblMeasurementMinRange0";
-            this.lblMeasurementMinRange0.Size = new System.Drawing.Size(35, 11);
+            this.lblMeasurementMinRange0.Size = new System.Drawing.Size(35, 17);
             this.lblMeasurementMinRange0.TabIndex = 14;
             this.lblMeasurementMinRange0.Text = "0,0";
             this.lblMeasurementMinRange0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
