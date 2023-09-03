@@ -137,5 +137,10 @@ namespace DataLoggerAppV1
                 MessageBox.Show(a.Message);
             }
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

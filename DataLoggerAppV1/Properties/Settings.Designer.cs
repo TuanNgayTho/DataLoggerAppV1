@@ -373,7 +373,7 @@ namespace DataLoggerAppV1.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Yellow")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Black")]
         public global::System.Drawing.Color ColorAi1 {
             get {
                 return ((global::System.Drawing.Color)(this["ColorAi1"]));
@@ -452,6 +452,198 @@ namespace DataLoggerAppV1.Properties {
             }
             set {
                 this["ColorAi7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double MinAi0 {
+            get {
+                return ((double)(this["MinAi0"]));
+            }
+            set {
+                this["MinAi0"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double MinAi1 {
+            get {
+                return ((double)(this["MinAi1"]));
+            }
+            set {
+                this["MinAi1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double MinAi2 {
+            get {
+                return ((double)(this["MinAi2"]));
+            }
+            set {
+                this["MinAi2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double MinAi3 {
+            get {
+                return ((double)(this["MinAi3"]));
+            }
+            set {
+                this["MinAi3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double MinAi4 {
+            get {
+                return ((double)(this["MinAi4"]));
+            }
+            set {
+                this["MinAi4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double MinAi5 {
+            get {
+                return ((double)(this["MinAi5"]));
+            }
+            set {
+                this["MinAi5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double MinAi6 {
+            get {
+                return ((double)(this["MinAi6"]));
+            }
+            set {
+                this["MinAi6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public double MinAi7 {
+            get {
+                return ((double)(this["MinAi7"]));
+            }
+            set {
+                this["MinAi7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        public double MaxAi0 {
+            get {
+                return ((double)(this["MaxAi0"]));
+            }
+            set {
+                this["MaxAi0"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        public double MaxAi1 {
+            get {
+                return ((double)(this["MaxAi1"]));
+            }
+            set {
+                this["MaxAi1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        public double MaxAi2 {
+            get {
+                return ((double)(this["MaxAi2"]));
+            }
+            set {
+                this["MaxAi2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        public double MaxAi3 {
+            get {
+                return ((double)(this["MaxAi3"]));
+            }
+            set {
+                this["MaxAi3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        public double MaxAi4 {
+            get {
+                return ((double)(this["MaxAi4"]));
+            }
+            set {
+                this["MaxAi4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        public double MaxAi5 {
+            get {
+                return ((double)(this["MaxAi5"]));
+            }
+            set {
+                this["MaxAi5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        public double MaxAi6 {
+            get {
+                return ((double)(this["MaxAi6"]));
+            }
+            set {
+                this["MaxAi6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        public double MaxAi7 {
+            get {
+                return ((double)(this["MaxAi7"]));
+            }
+            set {
+                this["MaxAi7"] = value;
             }
         }
     }

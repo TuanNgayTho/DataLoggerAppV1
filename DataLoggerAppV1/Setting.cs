@@ -475,6 +475,24 @@ namespace DataLoggerAppV1
 
                         Properties.Settings.Default.CycleTime = Convert.ToInt32(txbCycleTime.Text) * 1000;
 
+                        Properties.Settings.Default.MinAi0 = Convert.ToDouble(txbMesurementMin0.Text);
+                        Properties.Settings.Default.MinAi1 = Convert.ToDouble(txbMesurementMin1.Text);
+                        Properties.Settings.Default.MinAi2 = Convert.ToDouble(txbMesurementMin2.Text);
+                        Properties.Settings.Default.MinAi3 = Convert.ToDouble(txbMesurementMin3.Text);
+                        Properties.Settings.Default.MinAi4 = Convert.ToDouble(txbMesurementMin4.Text);
+                        Properties.Settings.Default.MinAi5 = Convert.ToDouble(txbMesurementMin5.Text);
+                        Properties.Settings.Default.MinAi6 = Convert.ToDouble(txbMesurementMin6.Text);
+                        Properties.Settings.Default.MinAi7 = Convert.ToDouble(txbMesurementMin7.Text);
+
+                        Properties.Settings.Default.MaxAi0 = Convert.ToDouble(txbMesurementMax0.Text);
+                        Properties.Settings.Default.MaxAi1 = Convert.ToDouble(txbMesurementMax1.Text);
+                        Properties.Settings.Default.MaxAi2 = Convert.ToDouble(txbMesurementMax2.Text);
+                        Properties.Settings.Default.MaxAi3 = Convert.ToDouble(txbMesurementMax3.Text);
+                        Properties.Settings.Default.MaxAi4 = Convert.ToDouble(txbMesurementMax4.Text);
+                        Properties.Settings.Default.MaxAi5 = Convert.ToDouble(txbMesurementMax5.Text);
+                        Properties.Settings.Default.MaxAi6 = Convert.ToDouble(txbMesurementMax6.Text);
+                        Properties.Settings.Default.MaxAi7 = Convert.ToDouble(txbMesurementMax7.Text);
+
                         Properties.Settings.Default.Save();
                         MessageBox.Show("Save Successful!");
                     }
