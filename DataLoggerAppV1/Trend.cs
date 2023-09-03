@@ -34,7 +34,14 @@ namespace DataLoggerAppV1
         public static bool isStay = false;
 
         List<DateTime> times = new List<DateTime>();
-        List<double> valueChart = new List<double>();
+        List<float> valueChart = new List<float>();
+        List<float> valueChart1 = new List<float>();
+        List<float> valueChart2 = new List<float>();
+        List<float> valueChart3 = new List<float>();
+        List<float> valueChart4 = new List<float>();
+        List<float> valueChart5= new List<float>();
+        List<float> valueChart6= new List<float>();
+        List<float> valueChart7 = new List<float>();
         int count;
 
 
@@ -259,8 +266,8 @@ namespace DataLoggerAppV1
 
 
             SetAxisLimits(System.DateTime.Now);
-            dateTimePicker1.Value = DateTime.Now;
-            dateTimePicker2.Value = DateTime.Now;
+            date.Value = DateTime.Now;
+            hour2.Value = DateTime.Now;
 
             //The next code simulates data changes every 500 ms
 
@@ -684,24 +691,25 @@ namespace DataLoggerAppV1
             String iDay2, iMonth2, iYear2, iHour2, iMininute2, iSeconds2;
             String Day1, Day2;
             //var now = System.DateTime.Now;
+            count = 0;
+            iDay = date.Value.Day.ToString();
+            iMonth = date.Value.Month.ToString();
+            iYear = date.Value.Year.ToString();
 
-            iDay = dateTimePicker1.Value.Day.ToString();
-            iMonth = dateTimePicker1.Value.Month.ToString();
-            iYear = dateTimePicker1.Value.Year.ToString();
-            iHour = dateTimePicker1.Value.Hour.ToString();
-            iMininute = dateTimePicker1.Value.Minute.ToString();
-            iSeconds = dateTimePicker1.Value.Second.ToString();
+            iHour = hour1.Value.Hour.ToString();
+            iMininute = hour1.Value.Minute.ToString();
+            iSeconds = hour1.Value.Second.ToString();
             Day1 = iYear + "-" + iMonth + "-" + iDay + " " + iHour + ":" + iMininute + ":" + iSeconds;
 
-            iDay2 = dateTimePicker2.Value.Day.ToString();
-            iMonth2 = dateTimePicker2.Value.Month.ToString();
-            iYear2 = dateTimePicker2.Value.Year.ToString();
-            iHour2 = dateTimePicker2.Value.Hour.ToString();
-            iMininute2 = dateTimePicker2.Value.Minute.ToString();
-            iSeconds2 = dateTimePicker2.Value.Second.ToString();
+            iDay2 = date.Value.Day.ToString();
+            iMonth2 = date.Value.Month.ToString();
+            iYear2 = date.Value.Year.ToString();
+            iHour2 = hour2.Value.Hour.ToString();
+            iMininute2 = hour2.Value.Minute.ToString();
+            iSeconds2 = hour2.Value.Second.ToString();
             Day2 = iYear2 + "-" + iMonth2 + "-" + iDay2 + " " + iHour2 + ":" + iMininute2 + ":" + iSeconds2;
 
-            System.Windows.MessageBox.Show("" + Day1 + Day2);
+            //System.Windows.MessageBox.Show("" + Day1 + Day2);
 
             string server = "localhost";
             string database = "datalogger";
@@ -712,12 +720,21 @@ namespace DataLoggerAppV1
             con.Open();
             var query = "select * from samples WHERE ts >='" + Day1 + "' AND ts <='" + Day2 + "'";
 
-            System.Windows.MessageBox.Show("" + query);
+            
 
 
             MySqlCommand cmd = new MySqlCommand(query, con);
             MySqlDataReader reader = cmd.ExecuteReader();
-           // times.RemoveAll();
+            
+            valueChart.Clear();
+            valueChart1.Clear();
+            valueChart2.Clear();
+            valueChart3.Clear();
+            valueChart4.Clear();
+            valueChart5.Clear();
+            valueChart6.Clear();
+            valueChart7.Clear();
+            times.Clear();
             while (reader.Read())
             {
                 
@@ -740,8 +757,19 @@ namespace DataLoggerAppV1
                 value6 = Convert.ToInt32(float.Parse(reader["aivalue6"].ToString()) * 100) / 100F;
                 value7 = Convert.ToInt32(float.Parse(reader["aivalue7"].ToString()) * 100) / 100F;
                 ts = DateTime.Parse(reader["ts"].ToString());
+                
                 times.Add(ts);
+                
                 valueChart.Add(value);
+                valueChart1.Add(value1);
+                valueChart2.Add(value2);
+                valueChart3.Add(value3);
+                valueChart4.Add(value4);
+                valueChart5.Add(value5);
+                valueChart6.Add(value6);
+                valueChart7.Add(value7);
+
+                //System.Windows.MessageBox.Show(valueChart[count].ToString());
                 count++;
 
 
@@ -754,12 +782,97 @@ namespace DataLoggerAppV1
             else flg = 20;
             for (int i = 0; i <= flg; i++) {
 
-                ChartValues.Add(new MeasureModel
+                if (count < 20)
                 {
-                    DateTime = times[i],
-                  Value = double.Parse(valueChart[i].ToString())
-                });
+               // System.Windows.MessageBox.Show(valueChart[i].ToString());
+                   ChartValues.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart[i].ToString())
+                    });
+                    ChartValues1.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart1[i].ToString())
+                    });
+                    ChartValues2.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart2[i].ToString())
+                    });
+                    ChartValues3.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart3[i].ToString())
+                    });
+                    ChartValues4.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart4[i].ToString())
+                    });
+                    ChartValues5.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart5[i].ToString())
+                    });
+                    ChartValues6.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart6[i].ToString())
+                    });
+                    ChartValues7.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart7[i].ToString())
+                    });
 
+
+
+                }
+                else
+                {
+
+                    ChartValues.Add(new MeasureModel
+                    {
+                        DateTime = times[count - 21 + i],
+                        Value = double.Parse(valueChart[count - 21 + i].ToString())
+                    });
+                    ChartValues1.Add(new MeasureModel
+                    {
+                        DateTime = times[count - 21 + i],
+                        Value = double.Parse(valueChart1[count - 21 + i].ToString())
+                    });
+                    ChartValues2.Add(new MeasureModel
+                    {
+                        DateTime = times[count - 21 + i],
+                        Value = double.Parse(valueChart2[count - 21 + i].ToString())
+                    });
+                    ChartValues3.Add(new MeasureModel
+                    {
+                        DateTime = times[count - 21 + i],
+                        Value = double.Parse(valueChart3[count - 21 + i].ToString())
+                    });
+                    ChartValues4.Add(new MeasureModel
+                    {
+                        DateTime = times[count - 21 + i],
+                        Value = double.Parse(valueChart4[count - 21 + i].ToString())
+                    });
+                    ChartValues5.Add(new MeasureModel
+                    {
+                        DateTime = times[count - 21 + i],
+                        Value = double.Parse(valueChart5[count - 21 + i].ToString())
+                    });
+                    ChartValues6.Add(new MeasureModel
+                    {
+                        DateTime = times[count - 21 + i],
+                        Value = double.Parse(valueChart6[count - 21 + i].ToString())
+                    });
+                    ChartValues7.Add(new MeasureModel
+                    {
+                        DateTime = times[count - 21 + i],
+                        Value = double.Parse(valueChart7[count - 21 + i].ToString())
+                    });
+                }
 
 
             }
@@ -802,7 +915,7 @@ namespace DataLoggerAppV1
             //});
 
             con.Close();
-            SetAxisLimits1(dateTimePicker1.Value, dateTimePicker2.Value, 20);
+            SetAxisLimits1(date.Value, hour2.Value, 20);
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -824,7 +937,7 @@ namespace DataLoggerAppV1
 
         private void button6_Click(object sender, EventArgs e)
         {
-            SetAxisLimits1(dateTimePicker1.Value, dateTimePicker2.Value, 20);
+            SetAxisLimits1(date.Value, hour2.Value, 20);
         }
 
         private void Trend_Load(object sender, EventArgs e)

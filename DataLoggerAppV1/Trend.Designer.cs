@@ -32,13 +32,13 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.hour2 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.date = new System.Windows.Forms.DateTimePicker();
             this.btnDashboard = new System.Windows.Forms.Button();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
@@ -51,6 +51,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
+            this.hour1 = new System.Windows.Forms.DateTimePicker();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -111,20 +112,20 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // dateTimePicker2
+            // hour2
             // 
-            this.dateTimePicker2.CustomFormat = "yyyy-MM-dd HH:mm:ss ";
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker2.Location = new System.Drawing.Point(1186, 45);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(194, 29);
-            this.dateTimePicker2.TabIndex = 19;
-            this.dateTimePicker2.Value = new System.DateTime(2023, 8, 21, 15, 46, 49, 0);
+            this.hour2.CustomFormat = "HH:mm:ss ";
+            this.hour2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.hour2.Location = new System.Drawing.Point(1289, 42);
+            this.hour2.Name = "hour2";
+            this.hour2.Size = new System.Drawing.Size(91, 29);
+            this.hour2.TabIndex = 19;
+            this.hour2.Value = new System.DateTime(2023, 9, 3, 15, 46, 0, 0);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(1144, 51);
+            this.label2.Location = new System.Drawing.Point(1245, 45);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(36, 21);
             this.label2.TabIndex = 18;
@@ -133,7 +134,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(1116, 15);
+            this.label1.Location = new System.Drawing.Point(1069, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 21);
             this.label1.TabIndex = 17;
@@ -196,15 +197,15 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // dateTimePicker1
+            // date
             // 
-            this.dateTimePicker1.CustomFormat = "yyyy-MM-dd HH:mm:ss";
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(1186, 7);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(194, 29);
-            this.dateTimePicker1.TabIndex = 15;
-            this.dateTimePicker1.Value = new System.DateTime(2023, 8, 21, 15, 46, 44, 0);
+            this.date.CustomFormat = "yyyy-MM-dd ";
+            this.date.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.date.Location = new System.Drawing.Point(1139, 7);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(241, 29);
+            this.date.TabIndex = 15;
+            this.date.Value = new System.DateTime(2023, 8, 21, 15, 46, 44, 0);
             // 
             // btnDashboard
             // 
@@ -356,13 +357,14 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.Controls.Add(this.hour1);
             this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.dateTimePicker2);
+            this.panel2.Controls.Add(this.hour2);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.dateTimePicker1);
+            this.panel2.Controls.Add(this.date);
             this.panel2.Controls.Add(this.button3);
             this.panel2.Location = new System.Drawing.Point(24, 29);
             this.panel2.Name = "panel2";
@@ -381,6 +383,16 @@
             this.cartesianChart1.Size = new System.Drawing.Size(1579, 665);
             this.cartesianChart1.TabIndex = 27;
             this.cartesianChart1.Text = "cartesianChart1";
+            // 
+            // hour1
+            // 
+            this.hour1.CustomFormat = "HH:mm:ss ";
+            this.hour1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.hour1.Location = new System.Drawing.Point(1139, 42);
+            this.hour1.Name = "hour1";
+            this.hour1.Size = new System.Drawing.Size(89, 29);
+            this.hour1.TabIndex = 22;
+            this.hour1.Value = new System.DateTime(2023, 8, 21, 15, 46, 49, 0);
             // 
             // Trend
             // 
@@ -420,13 +432,13 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker hour2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker date;
         private System.Windows.Forms.Button btnDashboard;
         private System.Windows.Forms.CheckBox checkBox8;
         private System.Windows.Forms.CheckBox checkBox7;
@@ -439,5 +451,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private LiveCharts.WinForms.CartesianChart cartesianChart1;
+        private System.Windows.Forms.DateTimePicker hour1;
     }
 }
