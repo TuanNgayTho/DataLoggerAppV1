@@ -50,8 +50,9 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
             this.hour1 = new System.Windows.Forms.DateTimePicker();
+            this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -371,6 +372,16 @@
             this.panel2.Size = new System.Drawing.Size(1589, 91);
             this.panel2.TabIndex = 23;
             // 
+            // hour1
+            // 
+            this.hour1.CustomFormat = "HH:mm:ss ";
+            this.hour1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.hour1.Location = new System.Drawing.Point(1139, 42);
+            this.hour1.Name = "hour1";
+            this.hour1.Size = new System.Drawing.Size(89, 29);
+            this.hour1.TabIndex = 22;
+            this.hour1.Value = new System.DateTime(2023, 8, 21, 15, 46, 49, 0);
+            // 
             // cartesianChart1
             // 
             this.cartesianChart1.AccessibleName = "TEXT";
@@ -384,15 +395,12 @@
             this.cartesianChart1.TabIndex = 27;
             this.cartesianChart1.Text = "cartesianChart1";
             // 
-            // hour1
+            // textBox1
             // 
-            this.hour1.CustomFormat = "HH:mm:ss ";
-            this.hour1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.hour1.Location = new System.Drawing.Point(1139, 42);
-            this.hour1.Name = "hour1";
-            this.hour1.Size = new System.Drawing.Size(89, 29);
-            this.hour1.TabIndex = 22;
-            this.hour1.Value = new System.DateTime(2023, 8, 21, 15, 46, 49, 0);
+            this.textBox1.Location = new System.Drawing.Point(1087, 1);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 29);
+            this.textBox1.TabIndex = 28;
             // 
             // Trend
             // 
@@ -400,6 +408,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1640, 970);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.cartesianChart1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -452,5 +461,6 @@
         private System.Windows.Forms.Panel panel2;
         private LiveCharts.WinForms.CartesianChart cartesianChart1;
         private System.Windows.Forms.DateTimePicker hour1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
