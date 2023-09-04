@@ -83,7 +83,11 @@ namespace DataLoggerAppV1
         {
             InitializeComponent();
             instance =this;
-            
+            button3.Enabled = false;
+            button4.Enabled = false;
+            button5.Enabled = false;
+            button6.Enabled = false;
+
 
             var mapper = Mappers.Xy<MeasureModel>()
                .X(model => model.DateTime.Ticks)   //use DateTime.Ticks as X
@@ -655,6 +659,10 @@ namespace DataLoggerAppV1
         private void btnDashboard_Click(object sender, EventArgs e)
         {
             Timer.Start();
+            button3.Enabled = false;
+            button4.Enabled = false;
+            button5.Enabled = false;
+            button6.Enabled = false;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -666,6 +674,10 @@ namespace DataLoggerAppV1
         private void button1_Click(object sender, EventArgs e)
         {
             Timer.Stop();
+            button3.Enabled = true;
+            button4.Enabled = true;
+            button5.Enabled = true;
+            button6.Enabled = true;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -693,6 +705,13 @@ namespace DataLoggerAppV1
             String Day1, Day2;
             //var now = System.DateTime.Now;
             ChartValues.Clear();
+            ChartValues1.Clear();
+            ChartValues2.Clear();
+            ChartValues3.Clear();
+            ChartValues4.Clear();
+            ChartValues5.Clear();
+            ChartValues6.Clear();
+            ChartValues7.Clear();
             busy1 = false;
             count_tong = 0;
             count = 0;
@@ -783,10 +802,10 @@ namespace DataLoggerAppV1
                 //System.Windows.MessageBox.Show(reader["ts"].ToString());
 
             }
-            if (reader.Read())
+            if (busy1==true)
             {
-                cartesianChart1.AxisX[0].MinValue = times[0].Ticks; ; //we only care about the last 8 seconds
-                cartesianChart1.AxisX[0].MaxValue = times[19].Ticks;
+                cartesianChart1.AxisX[0].MinValue = times[times.Count-21].Ticks; ; //we only care about the last 8 seconds
+                cartesianChart1.AxisX[0].MaxValue = times[times.Count-1].Ticks;
             }
             textBox1.Text = sott.ToString();
             int flg = 0;
@@ -933,7 +952,14 @@ namespace DataLoggerAppV1
 
         private void button4_Click(object sender, EventArgs e)
         {
-           ChartValues.Clear();
+            ChartValues.Clear();
+            ChartValues1.Clear();
+            ChartValues2.Clear();
+            ChartValues3.Clear();
+            ChartValues4.Clear();
+            ChartValues5.Clear();
+            ChartValues6.Clear();
+            ChartValues7.Clear();
             busy2 = false;
             //cartesianChart1.AxisX[0].Labels.Clear();
             //SetAxisLimits1(dateTimePicker1.Value, dateTimePicker2.Value, count);
@@ -1022,6 +1048,41 @@ namespace DataLoggerAppV1
                         DateTime = times[i],
                         Value = double.Parse(valueChart[i].ToString())
                     });
+                    ChartValues1.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart1[i].ToString())
+                    });
+                    ChartValues2.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart2[i].ToString())
+                    });
+                    ChartValues3.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart3[i].ToString())
+                    });
+                    ChartValues4.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart4[i].ToString())
+                    });
+                    ChartValues5.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart5[i].ToString())
+                    });
+                    ChartValues6.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart6[i].ToString())
+                    });
+                    ChartValues7.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart7[i].ToString())
+                    });
 
                 }
 
@@ -1105,6 +1166,41 @@ namespace DataLoggerAppV1
                         DateTime = times[i],
                         Value = double.Parse(valueChart[i].ToString())
                     });
+                    ChartValues1.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart1[i].ToString())
+                    });
+                    ChartValues2.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart2[i].ToString())
+                    });
+                    ChartValues3.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart3[i].ToString())
+                    });
+                    ChartValues4.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart4[i].ToString())
+                    });
+                    ChartValues5.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart5[i].ToString())
+                    });
+                    ChartValues6.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart6[i].ToString())
+                    });
+                    ChartValues7.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart7[i].ToString())
+                    });
 
                 }
 
@@ -1120,11 +1216,18 @@ namespace DataLoggerAppV1
         private void button5_Click(object sender, EventArgs e)
         {
             ChartValues.Clear();
+            ChartValues1.Clear();
+            ChartValues2.Clear();
+            ChartValues3.Clear();
+            ChartValues4.Clear();
+            ChartValues5.Clear();
+            ChartValues6.Clear();
+            ChartValues7.Clear();
             count_inc = 0;
             busy3=false;
             //cartesianChart1.AxisX[0].Labels.Clear();
             //SetAxisLimits1(dateTimePicker1.Value, dateTimePicker2.Value, count);
-            if (count < (count_tong-20) && count >= 20)
+            if (count <= (count_tong-20) && count >= 20)
             {
                 count = count + 20;
                 sott = sott + 20;
@@ -1215,6 +1318,41 @@ namespace DataLoggerAppV1
                     {
                         DateTime = times[i],
                         Value = double.Parse(valueChart[i].ToString())
+                    });
+                    ChartValues1.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart1[i].ToString())
+                    });
+                    ChartValues2.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart2[i].ToString())
+                    });
+                    ChartValues3.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart3[i].ToString())
+                    });
+                    ChartValues4.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart4[i].ToString())
+                    });
+                    ChartValues5.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart5[i].ToString())
+                    });
+                    ChartValues6.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart6[i].ToString())
+                    });
+                    ChartValues7.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart7[i].ToString())
                     });
 
                 }
@@ -1319,6 +1457,41 @@ namespace DataLoggerAppV1
                     {
                         DateTime = times[i],
                         Value = double.Parse(valueChart[i].ToString())
+                    });
+                    ChartValues1.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart1[i].ToString())
+                    });
+                    ChartValues2.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart2[i].ToString())
+                    });
+                    ChartValues3.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart3[i].ToString())
+                    });
+                    ChartValues4.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart4[i].ToString())
+                    });
+                    ChartValues5.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart5[i].ToString())
+                    });
+                    ChartValues6.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart6[i].ToString())
+                    });
+                    ChartValues7.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart7[i].ToString())
                     });
 
                 }
