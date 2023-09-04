@@ -116,17 +116,18 @@
             // hour2
             // 
             this.hour2.CustomFormat = "HH:mm:ss ";
-            this.hour2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.hour2.Location = new System.Drawing.Point(1289, 42);
+            this.hour2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.hour2.Location = new System.Drawing.Point(1266, 45);
             this.hour2.Name = "hour2";
-            this.hour2.Size = new System.Drawing.Size(91, 29);
+            this.hour2.ShowUpDown = true;
+            this.hour2.Size = new System.Drawing.Size(128, 29);
             this.hour2.TabIndex = 19;
             this.hour2.Value = new System.DateTime(2023, 9, 3, 15, 46, 0, 0);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(1245, 45);
+            this.label2.Location = new System.Drawing.Point(1214, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(36, 21);
             this.label2.TabIndex = 18;
@@ -204,7 +205,7 @@
             this.date.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.date.Location = new System.Drawing.Point(1139, 7);
             this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(241, 29);
+            this.date.Size = new System.Drawing.Size(255, 29);
             this.date.TabIndex = 15;
             this.date.Value = new System.DateTime(2023, 8, 21, 15, 46, 44, 0);
             // 
@@ -338,11 +339,15 @@
             this.checkBox1.BackColor = System.Drawing.Color.Silver;
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.checkBox1.Location = new System.Drawing.Point(50, 884);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(155, 35);
+            this.checkBox1.Size = new System.Drawing.Size(152, 35);
             this.checkBox1.TabIndex = 14;
+            this.checkBox1.TabStop = false;
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = false;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
@@ -374,12 +379,18 @@
             // 
             // hour1
             // 
+            this.hour1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.hour1.CausesValidation = false;
+            this.hour1.Checked = false;
             this.hour1.CustomFormat = "HH:mm:ss ";
-            this.hour1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.hour1.Location = new System.Drawing.Point(1139, 42);
+            this.hour1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.hour1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.hour1.Location = new System.Drawing.Point(1073, 45);
             this.hour1.Name = "hour1";
-            this.hour1.Size = new System.Drawing.Size(89, 29);
+            this.hour1.ShowUpDown = true;
+            this.hour1.Size = new System.Drawing.Size(126, 29);
             this.hour1.TabIndex = 22;
+            this.hour1.TabStop = false;
             this.hour1.Value = new System.DateTime(2023, 8, 21, 15, 46, 49, 0);
             // 
             // cartesianChart1
@@ -397,7 +408,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(1087, 1);
+            this.textBox1.Location = new System.Drawing.Point(1057, -1);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 29);
             this.textBox1.TabIndex = 28;
@@ -460,7 +471,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private LiveCharts.WinForms.CartesianChart cartesianChart1;
-        private System.Windows.Forms.DateTimePicker hour1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DateTimePicker hour1;
     }
 }

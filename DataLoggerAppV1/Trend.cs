@@ -42,6 +42,7 @@ namespace DataLoggerAppV1
         List<float> valueChart5= new List<float>();
         List<float> valueChart6= new List<float>();
         List<float> valueChart7 = new List<float>();
+        bool busy1, busy2, busy3;
         int count,count_tong,sott, count_inc,temp;
 
 
@@ -576,7 +577,7 @@ namespace DataLoggerAppV1
                  : Visibility.Visible;
             cartesianChart1.AxisY[0].ShowLabels = cartesianChart1.AxisY[0].ShowLabels == false ? cartesianChart1.AxisY[0].ShowLabels = true : cartesianChart1.AxisY[0].ShowLabels = false;
            // cartesianChart1.AxisY[0].Separator.Step = Math.Round((cartesianChart1.AxisY[0].MaxValue - cartesianChart1.AxisY[0].MinValue),2);
-            //cartesianChart1.AxisY[0].Title = cartesianChart1.AxisY[0].Title == Properties.Settings.Default.NameAi0 ? cartesianChart1.AxisY[0].Title = "" : cartesianChart1.AxisY[0].Title = Properties.Settings.Default.NameAi0;
+            cartesianChart1.AxisY[0].Title = cartesianChart1.AxisY[0].Title == Properties.Settings.Default.NameAi0 ? cartesianChart1.AxisY[0].Title = "" : cartesianChart1.AxisY[0].Title = Properties.Settings.Default.NameAi0;
             //cartesianChart1.AxisY[0].Separator.Stroke = cartesianChart1.AxisY[0].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[0].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[0].Separator.Stroke = Brushes.Black;
 
 
@@ -692,6 +693,8 @@ namespace DataLoggerAppV1
             String Day1, Day2;
             //var now = System.DateTime.Now;
             ChartValues.Clear();
+            busy1 = false;
+            count_tong = 0;
             count = 0;
             iDay = date.Value.Day.ToString();
             iMonth = date.Value.Month.ToString();
@@ -749,6 +752,7 @@ namespace DataLoggerAppV1
                 value6 = int.Parse(reader["aivalue6"].ToString());
                 value7 = int.Parse(reader["aivalue7"].ToString());
                 */
+                busy1 = true;
                 sott = int.Parse(reader["id"].ToString());
                 value = Convert.ToInt32(float.Parse(reader["aivalue0"].ToString()) * 100) / 100F;
                 value1 = Convert.ToInt32(float.Parse(reader["aivalue1"].ToString()) * 100) / 100F;
@@ -778,6 +782,11 @@ namespace DataLoggerAppV1
 
                 //System.Windows.MessageBox.Show(reader["ts"].ToString());
 
+            }
+            if (reader.Read())
+            {
+                cartesianChart1.AxisX[0].MinValue = times[0].Ticks; ; //we only care about the last 8 seconds
+                cartesianChart1.AxisX[0].MaxValue = times[19].Ticks;
             }
             textBox1.Text = sott.ToString();
             int flg = 0;
@@ -918,18 +927,31 @@ namespace DataLoggerAppV1
             //});
 
             con.Close();
-            SetAxisLimits1(date.Value, hour2.Value, 20);
+            
+           // SetAxisLimits1(date.Value, hour2.Value, 20);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
            ChartValues.Clear();
+            busy2 = false;
             //cartesianChart1.AxisX[0].Labels.Clear();
             //SetAxisLimits1(dateTimePicker1.Value, dateTimePicker2.Value, count);
             if (count >= 20)
             {
-                count = count - 20;
-                sott = sott - 20;
+                if (count != 20)
+                {
+                    count = count - 20;
+                    sott = sott - 20;
+                }
+                else
+                {
+                    count = 1;
+                    sott = sott - 1;
+
+                }
+
+                
 
                 string server = "localhost";
                 string database = "datalogger";
@@ -960,7 +982,7 @@ namespace DataLoggerAppV1
                 while (reader.Read())
                 {
 
-
+                    busy2 = true;
                     value = Convert.ToInt32(float.Parse(reader["aivalue0"].ToString()) * 100) / 100F;
                     value1 = Convert.ToInt32(float.Parse(reader["aivalue1"].ToString()) * 100) / 100F;
                     value2 = Convert.ToInt32(float.Parse(reader["aivalue2"].ToString()) * 100) / 100F;
@@ -985,7 +1007,7 @@ namespace DataLoggerAppV1
 
                 }
                 textBox1.Text = count.ToString();
-                if (!reader.Read())
+                if (busy2==true)
                 {
                     cartesianChart1.AxisX[0].MinValue = times[0].Ticks; ; //we only care about the last 8 seconds
                     cartesianChart1.AxisX[0].MaxValue = times[19].Ticks;
@@ -1006,10 +1028,11 @@ namespace DataLoggerAppV1
                 con.Close();
             }
             else {
-                //count = 0;
-                if (count > 1)
+                
+                if (count >= 0)
                 {
-                    temp = count;
+                    if (count != 1) { temp = count; }
+
                     sott = sott - count;
                     count = 1;
                 }
@@ -1042,7 +1065,7 @@ namespace DataLoggerAppV1
                 while (reader.Read())
                 {
 
-
+                    busy2 = true;
                     value = Convert.ToInt32(float.Parse(reader["aivalue0"].ToString()) * 100) / 100F;
                     value1 = Convert.ToInt32(float.Parse(reader["aivalue1"].ToString()) * 100) / 100F;
                     value2 = Convert.ToInt32(float.Parse(reader["aivalue2"].ToString()) * 100) / 100F;
@@ -1067,7 +1090,7 @@ namespace DataLoggerAppV1
 
                 }
                 textBox1.Text = count.ToString();
-                if (!reader.Read())
+                if (busy2 == true)
                 {
                     cartesianChart1.AxisX[0].MinValue = times[0].Ticks; ; //we only care about the last 8 seconds
                     cartesianChart1.AxisX[0].MaxValue = times[count - 1].Ticks;
@@ -1098,13 +1121,118 @@ namespace DataLoggerAppV1
         {
             ChartValues.Clear();
             count_inc = 0;
+            busy3=false;
             //cartesianChart1.AxisX[0].Labels.Clear();
             //SetAxisLimits1(dateTimePicker1.Value, dateTimePicker2.Value, count);
-            if (count < count_tong)
+            if (count < (count_tong-20) && count >= 20)
             {
                 count = count + 20;
                 sott = sott + 20;
-               
+
+                string server = "localhost";
+                string database = "datalogger";
+                string uid = "root";
+                string password = "root";
+                string constring = "Server=" + server + "; database=" + database + "; uid=" + uid + "; pwd=" + password;
+                MySqlConnection con = new MySqlConnection(constring);
+                con.Open();
+
+                var query = "select * from samples WHERE id >= " + sott + "  LIMIT 20";
+
+
+
+
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                valueChart.Clear();
+                valueChart1.Clear();
+                valueChart2.Clear();
+                valueChart3.Clear();
+                valueChart4.Clear();
+                valueChart5.Clear();
+                valueChart6.Clear();
+                valueChart7.Clear();
+                times.Clear();
+
+
+                while (reader.Read())
+                {
+                    busy3 = true;
+                    /*
+                    value = int.Parse(reader["aivalue0"].ToString());
+                    value1 = int.Parse(reader["aivalue1"].ToString());
+                    value2 = int.Parse(reader["aivalue2"].ToString());
+                    value3 = int.Parse(reader["aivalue3"].ToString());
+                    value4 = int.Parse(reader["aivalue4"].ToString());
+                    value5 = int.Parse(reader["aivalue5"].ToString());
+                    value6 = int.Parse(reader["aivalue6"].ToString());
+                    value7 = int.Parse(reader["aivalue7"].ToString());
+                    */
+
+                    value = Convert.ToInt32(float.Parse(reader["aivalue0"].ToString()) * 100) / 100F;
+                    value1 = Convert.ToInt32(float.Parse(reader["aivalue1"].ToString()) * 100) / 100F;
+                    value2 = Convert.ToInt32(float.Parse(reader["aivalue2"].ToString()) * 100) / 100F;
+                    value3 = Convert.ToInt32(float.Parse(reader["aivalue3"].ToString()) * 100) / 100F;
+                    value4 = Convert.ToInt32(float.Parse(reader["aivalue4"].ToString()) * 100) / 100F;
+                    value5 = Convert.ToInt32(float.Parse(reader["aivalue5"].ToString()) * 100) / 100F;
+                    value6 = Convert.ToInt32(float.Parse(reader["aivalue6"].ToString()) * 100) / 100F;
+                    value7 = Convert.ToInt32(float.Parse(reader["aivalue7"].ToString()) * 100) / 100F;
+                    ts = DateTime.Parse(reader["ts"].ToString());
+
+                    times.Add(ts);
+
+                    valueChart.Add(value);
+                    valueChart1.Add(value1);
+                    valueChart2.Add(value2);
+                    valueChart3.Add(value3);
+                    valueChart4.Add(value4);
+                    valueChart5.Add(value5);
+                    valueChart6.Add(value6);
+                    valueChart7.Add(value7);
+                    count_inc++;
+                    //System.Windows.MessageBox.Show(valueChart[count].ToString());
+                    //count++;
+
+
+
+                    //System.Windows.MessageBox.Show(reader["ts"].ToString());
+
+                }
+                textBox1.Text = count.ToString();
+                if (busy3==true)
+                {
+                    cartesianChart1.AxisX[0].MinValue = times[0].Ticks + TimeSpan.FromSeconds(1).Ticks; //we only care about the last 8 seconds
+
+                    cartesianChart1.AxisX[0].MaxValue = times[count_inc - 1].Ticks;
+                }
+
+                for (int i = 0; i <= count_inc - 1; i++)
+                {
+
+
+
+                    ChartValues.Add(new MeasureModel
+                    {
+                        DateTime = times[i],
+                        Value = double.Parse(valueChart[i].ToString())
+                    });
+
+                }
+
+                con.Close();
+
+
+
+                // cartesianChart1.AxisX[0].MaxValue += TimeSpan.FromSeconds(20).Ticks; ; // lets force the axis to be 100ms ahead
+                // cartesianChart1.AxisX[0].MinValue += TimeSpan.FromSeconds(20).Ticks; ; //we only care about the last 8 seconds
+
+
+            }
+            else if (count < count_tong && count < 20) {
+
+                count = count + temp-1;
+                sott = sott + temp-1;
+
                 string server = "localhost";
                 string database = "datalogger";
                 string uid = "root";
@@ -1165,7 +1293,7 @@ namespace DataLoggerAppV1
                     valueChart5.Add(value5);
                     valueChart6.Add(value6);
                     valueChart7.Add(value7);
-                    count_inc ++;
+                    count_inc++;
                     //System.Windows.MessageBox.Show(valueChart[count].ToString());
                     //count++;
 
@@ -1175,14 +1303,14 @@ namespace DataLoggerAppV1
 
                 }
                 textBox1.Text = count.ToString();
-                if (times[0] != null)
+                if (busy3 == true)
                 {
                     cartesianChart1.AxisX[0].MinValue = times[0].Ticks + TimeSpan.FromSeconds(1).Ticks; //we only care about the last 8 seconds
 
                     cartesianChart1.AxisX[0].MaxValue = times[count_inc - 1].Ticks;
                 }
-               
-                for (int i = 0; i <= count_inc-1; i++)
+
+                for (int i = 0; i <= count_inc - 1; i++)
                 {
 
 
@@ -1203,10 +1331,13 @@ namespace DataLoggerAppV1
                 // cartesianChart1.AxisX[0].MinValue += TimeSpan.FromSeconds(20).Ticks; ; //we only care about the last 8 seconds
 
 
+
+
+
             }
 
 
-    }
+        }
 
       
 
