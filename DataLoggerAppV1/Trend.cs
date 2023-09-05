@@ -272,6 +272,7 @@ namespace DataLoggerAppV1
 
             SetAxisLimits(System.DateTime.Now);
             date.Value = DateTime.Now;
+            hour1.Value = DateTime.Now;
             hour2.Value = DateTime.Now;
 
             //The next code simulates data changes every 500 ms
@@ -733,221 +734,229 @@ namespace DataLoggerAppV1
             Day2 = iYear2 + "-" + iMonth2 + "-" + iDay2 + " " + iHour2 + ":" + iMininute2 + ":" + iSeconds2;
 
             //System.Windows.MessageBox.Show("" + Day1 + Day2);
-
-            string server = "localhost";
-            string database = "datalogger";
-            string uid = "root";
-            string password = "root";
-            string constring = "Server=" + server + "; database=" + database + "; uid=" + uid + "; pwd=" + password;
-            MySqlConnection con = new MySqlConnection(constring);
-            con.Open();
-            var query = "select * from samples WHERE ts >='" + Day1 + "' AND ts <='" + Day2 + "'";
-
-            
-
-
-            MySqlCommand cmd = new MySqlCommand(query, con);
-            MySqlDataReader reader = cmd.ExecuteReader();
-            
-            valueChart.Clear();
-            valueChart1.Clear();
-            valueChart2.Clear();
-            valueChart3.Clear();
-            valueChart4.Clear();
-            valueChart5.Clear();
-            valueChart6.Clear();
-            valueChart7.Clear();
-            times.Clear();
-            while (reader.Read())
+            if (DateTime.Parse(Day2) > DateTime.Parse(Day1))
             {
-
-                /*
-                value = int.Parse(reader["aivalue0"].ToString());
-                value1 = int.Parse(reader["aivalue1"].ToString());
-                value2 = int.Parse(reader["aivalue2"].ToString());
-                value3 = int.Parse(reader["aivalue3"].ToString());
-                value4 = int.Parse(reader["aivalue4"].ToString());
-                value5 = int.Parse(reader["aivalue5"].ToString());
-                value6 = int.Parse(reader["aivalue6"].ToString());
-                value7 = int.Parse(reader["aivalue7"].ToString());
-                */
-                busy1 = true;
-                sott = int.Parse(reader["id"].ToString());
-                value = Convert.ToInt32(float.Parse(reader["aivalue0"].ToString()) * 100) / 100F;
-                value1 = Convert.ToInt32(float.Parse(reader["aivalue1"].ToString()) * 100) / 100F;
-                value2 = Convert.ToInt32(float.Parse(reader["aivalue2"].ToString()) * 100) / 100F;
-                value3 = Convert.ToInt32(float.Parse(reader["aivalue3"].ToString()) * 100) / 100F;
-                value4 = Convert.ToInt32(float.Parse(reader["aivalue4"].ToString()) * 100) / 100F;
-                value5 = Convert.ToInt32(float.Parse(reader["aivalue5"].ToString()) * 100) / 100F;
-                value6 = Convert.ToInt32(float.Parse(reader["aivalue6"].ToString()) * 100) / 100F;
-                value7 = Convert.ToInt32(float.Parse(reader["aivalue7"].ToString()) * 100) / 100F;
-                ts = DateTime.Parse(reader["ts"].ToString());
-                
-                times.Add(ts);
-                
-                valueChart.Add(value);
-                valueChart1.Add(value1);
-                valueChart2.Add(value2);
-                valueChart3.Add(value3);
-                valueChart4.Add(value4);
-                valueChart5.Add(value5);
-                valueChart6.Add(value6);
-                valueChart7.Add(value7);
-
-                //System.Windows.MessageBox.Show(valueChart[count].ToString());
-                count++;
-                count_tong++;
+                string server = "localhost";
+                string database = "datalogger";
+                string uid = "root";
+                string password = "root";
+                string constring = "Server=" + server + "; database=" + database + "; uid=" + uid + "; pwd=" + password;
+                MySqlConnection con = new MySqlConnection(constring);
+                con.Open();
+                var query = "select * from samples WHERE ts >='" + Day1 + "' AND ts <='" + Day2 + "'";
 
 
-                //System.Windows.MessageBox.Show(reader["ts"].ToString());
 
-            }
-            if (busy1==true)
-            {
-                cartesianChart1.AxisX[0].MinValue = times[times.Count-21].Ticks; ; //we only care about the last 8 seconds
-                cartesianChart1.AxisX[0].MaxValue = times[times.Count-1].Ticks;
-            }
-            textBox1.Text = sott.ToString();
-            int flg = 0;
-            if (count < 20) flg = count-1;
-            else flg = 20;
-            for (int i = 0; i < flg; i++) {
 
-                if (count < 20)
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                MySqlDataReader reader = cmd.ExecuteReader();
+
+                valueChart.Clear();
+                valueChart1.Clear();
+                valueChart2.Clear();
+                valueChart3.Clear();
+                valueChart4.Clear();
+                valueChart5.Clear();
+                valueChart6.Clear();
+                valueChart7.Clear();
+                times.Clear();
+                while (reader.Read())
                 {
-               // System.Windows.MessageBox.Show(valueChart[i].ToString());
-                   ChartValues.Add(new MeasureModel
-                    {
-                        DateTime = times[i],
-                        Value = double.Parse(valueChart[i].ToString())
-                    });
-                    ChartValues1.Add(new MeasureModel
-                    {
-                        DateTime = times[i],
-                        Value = double.Parse(valueChart1[i].ToString())
-                    });
-                    ChartValues2.Add(new MeasureModel
-                    {
-                        DateTime = times[i],
-                        Value = double.Parse(valueChart2[i].ToString())
-                    });
-                    ChartValues3.Add(new MeasureModel
-                    {
-                        DateTime = times[i],
-                        Value = double.Parse(valueChart3[i].ToString())
-                    });
-                    ChartValues4.Add(new MeasureModel
-                    {
-                        DateTime = times[i],
-                        Value = double.Parse(valueChart4[i].ToString())
-                    });
-                    ChartValues5.Add(new MeasureModel
-                    {
-                        DateTime = times[i],
-                        Value = double.Parse(valueChart5[i].ToString())
-                    });
-                    ChartValues6.Add(new MeasureModel
-                    {
-                        DateTime = times[i],
-                        Value = double.Parse(valueChart6[i].ToString())
-                    });
-                    ChartValues7.Add(new MeasureModel
-                    {
-                        DateTime = times[i],
-                        Value = double.Parse(valueChart7[i].ToString())
-                    });
 
+                    /*
+                    value = int.Parse(reader["aivalue0"].ToString());
+                    value1 = int.Parse(reader["aivalue1"].ToString());
+                    value2 = int.Parse(reader["aivalue2"].ToString());
+                    value3 = int.Parse(reader["aivalue3"].ToString());
+                    value4 = int.Parse(reader["aivalue4"].ToString());
+                    value5 = int.Parse(reader["aivalue5"].ToString());
+                    value6 = int.Parse(reader["aivalue6"].ToString());
+                    value7 = int.Parse(reader["aivalue7"].ToString());
+                    */
+                    busy1 = true;
+                    sott = int.Parse(reader["id"].ToString());
+                    value = Convert.ToInt32(float.Parse(reader["aivalue0"].ToString()) * 100) / 100F;
+                    value1 = Convert.ToInt32(float.Parse(reader["aivalue1"].ToString()) * 100) / 100F;
+                    value2 = Convert.ToInt32(float.Parse(reader["aivalue2"].ToString()) * 100) / 100F;
+                    value3 = Convert.ToInt32(float.Parse(reader["aivalue3"].ToString()) * 100) / 100F;
+                    value4 = Convert.ToInt32(float.Parse(reader["aivalue4"].ToString()) * 100) / 100F;
+                    value5 = Convert.ToInt32(float.Parse(reader["aivalue5"].ToString()) * 100) / 100F;
+                    value6 = Convert.ToInt32(float.Parse(reader["aivalue6"].ToString()) * 100) / 100F;
+                    value7 = Convert.ToInt32(float.Parse(reader["aivalue7"].ToString()) * 100) / 100F;
+                    ts = DateTime.Parse(reader["ts"].ToString());
+
+                    times.Add(ts);
+
+                    valueChart.Add(value);
+                    valueChart1.Add(value1);
+                    valueChart2.Add(value2);
+                    valueChart3.Add(value3);
+                    valueChart4.Add(value4);
+                    valueChart5.Add(value5);
+                    valueChart6.Add(value6);
+                    valueChart7.Add(value7);
+
+                    //System.Windows.MessageBox.Show(valueChart[count].ToString());
+                    count++;
+                    count_tong++;
+
+
+                    //System.Windows.MessageBox.Show(reader["ts"].ToString());
+
+                }
+                if (busy1 == true)
+                {
+                    cartesianChart1.AxisX[0].MinValue = times[times.Count - 21].Ticks; ; //we only care about the last 8 seconds
+                    cartesianChart1.AxisX[0].MaxValue = times[times.Count - 1].Ticks;
+                }
+                textBox1.Text = sott.ToString();
+                int flg = 0;
+                if (count < 20) flg = count - 1;
+                else flg = 20;
+                for (int i = 0; i < flg; i++)
+                {
+
+                    if (count < 20)
+                    {
+                        // System.Windows.MessageBox.Show(valueChart[i].ToString());
+                        ChartValues.Add(new MeasureModel
+                        {
+                            DateTime = times[i],
+                            Value = double.Parse(valueChart[i].ToString())
+                        });
+                        ChartValues1.Add(new MeasureModel
+                        {
+                            DateTime = times[i],
+                            Value = double.Parse(valueChart1[i].ToString())
+                        });
+                        ChartValues2.Add(new MeasureModel
+                        {
+                            DateTime = times[i],
+                            Value = double.Parse(valueChart2[i].ToString())
+                        });
+                        ChartValues3.Add(new MeasureModel
+                        {
+                            DateTime = times[i],
+                            Value = double.Parse(valueChart3[i].ToString())
+                        });
+                        ChartValues4.Add(new MeasureModel
+                        {
+                            DateTime = times[i],
+                            Value = double.Parse(valueChart4[i].ToString())
+                        });
+                        ChartValues5.Add(new MeasureModel
+                        {
+                            DateTime = times[i],
+                            Value = double.Parse(valueChart5[i].ToString())
+                        });
+                        ChartValues6.Add(new MeasureModel
+                        {
+                            DateTime = times[i],
+                            Value = double.Parse(valueChart6[i].ToString())
+                        });
+                        ChartValues7.Add(new MeasureModel
+                        {
+                            DateTime = times[i],
+                            Value = double.Parse(valueChart7[i].ToString())
+                        });
+
+
+
+                    }
+                    else
+                    {
+
+                        ChartValues.Add(new MeasureModel
+                        {
+                            DateTime = times[count - 21 + i],
+                            Value = double.Parse(valueChart[count - 21 + i].ToString())
+                        });
+                        ChartValues1.Add(new MeasureModel
+                        {
+                            DateTime = times[count - 21 + i],
+                            Value = double.Parse(valueChart1[count - 21 + i].ToString())
+                        });
+                        ChartValues2.Add(new MeasureModel
+                        {
+                            DateTime = times[count - 21 + i],
+                            Value = double.Parse(valueChart2[count - 21 + i].ToString())
+                        });
+                        ChartValues3.Add(new MeasureModel
+                        {
+                            DateTime = times[count - 21 + i],
+                            Value = double.Parse(valueChart3[count - 21 + i].ToString())
+                        });
+                        ChartValues4.Add(new MeasureModel
+                        {
+                            DateTime = times[count - 21 + i],
+                            Value = double.Parse(valueChart4[count - 21 + i].ToString())
+                        });
+                        ChartValues5.Add(new MeasureModel
+                        {
+                            DateTime = times[count - 21 + i],
+                            Value = double.Parse(valueChart5[count - 21 + i].ToString())
+                        });
+                        ChartValues6.Add(new MeasureModel
+                        {
+                            DateTime = times[count - 21 + i],
+                            Value = double.Parse(valueChart6[count - 21 + i].ToString())
+                        });
+                        ChartValues7.Add(new MeasureModel
+                        {
+                            DateTime = times[count - 21 + i],
+                            Value = double.Parse(valueChart7[count - 21 + i].ToString())
+                        });
+                    }
 
 
                 }
-                else
-                {
 
-                    ChartValues.Add(new MeasureModel
-                    {
-                        DateTime = times[count - 21 + i],
-                        Value = double.Parse(valueChart[count - 21 + i].ToString())
-                    });
-                    ChartValues1.Add(new MeasureModel
-                    {
-                        DateTime = times[count - 21 + i],
-                        Value = double.Parse(valueChart1[count - 21 + i].ToString())
-                    });
-                    ChartValues2.Add(new MeasureModel
-                    {
-                        DateTime = times[count - 21 + i],
-                        Value = double.Parse(valueChart2[count - 21 + i].ToString())
-                    });
-                    ChartValues3.Add(new MeasureModel
-                    {
-                        DateTime = times[count - 21 + i],
-                        Value = double.Parse(valueChart3[count - 21 + i].ToString())
-                    });
-                    ChartValues4.Add(new MeasureModel
-                    {
-                        DateTime = times[count - 21 + i],
-                        Value = double.Parse(valueChart4[count - 21 + i].ToString())
-                    });
-                    ChartValues5.Add(new MeasureModel
-                    {
-                        DateTime = times[count - 21 + i],
-                        Value = double.Parse(valueChart5[count - 21 + i].ToString())
-                    });
-                    ChartValues6.Add(new MeasureModel
-                    {
-                        DateTime = times[count - 21 + i],
-                        Value = double.Parse(valueChart6[count - 21 + i].ToString())
-                    });
-                    ChartValues7.Add(new MeasureModel
-                    {
-                        DateTime = times[count - 21 + i],
-                        Value = double.Parse(valueChart7[count - 21 + i].ToString())
-                    });
-                }
+
+                //ChartValues1.Add(new MeasureModel
+                //{
+                //    DateTime = ts,
+                //    Value = double.Parse(value1.ToString())
+                //});
+                //ChartValues2.Add(new MeasureModel
+                //{
+                //    DateTime = ts,
+                //    Value = double.Parse(value2.ToString())
+                //});
+                //ChartValues3.Add(new MeasureModel
+                //{
+                //    DateTime = ts,
+                //    Value = double.Parse(value3.ToString())
+                //});
+                //ChartValues4.Add(new MeasureModel
+                //{
+                //    DateTime = ts,
+                //    Value = double.Parse(value4.ToString())
+                //});
+                //ChartValues5.Add(new MeasureModel
+                //{
+                //    DateTime = ts,
+                //    Value = double.Parse(value5.ToString())
+                //});
+                //ChartValues6.Add(new MeasureModel
+                //{
+                //    DateTime = ts,
+                //    Value = double.Parse(value6.ToString())
+                //});
+                //ChartValues7.Add(new MeasureModel
+                //{
+                //    DateTime = ts,
+                //    Value = double.Parse(value7.ToString())
+                //});
+
+                con.Close();
+
+                // SetAxisLimits1(date.Value, hour2.Value, 20);
+            }
+            else {
+                System.Windows.MessageBox.Show("Please try again");
 
 
             }
-
-
-            //ChartValues1.Add(new MeasureModel
-            //{
-            //    DateTime = ts,
-            //    Value = double.Parse(value1.ToString())
-            //});
-            //ChartValues2.Add(new MeasureModel
-            //{
-            //    DateTime = ts,
-            //    Value = double.Parse(value2.ToString())
-            //});
-            //ChartValues3.Add(new MeasureModel
-            //{
-            //    DateTime = ts,
-            //    Value = double.Parse(value3.ToString())
-            //});
-            //ChartValues4.Add(new MeasureModel
-            //{
-            //    DateTime = ts,
-            //    Value = double.Parse(value4.ToString())
-            //});
-            //ChartValues5.Add(new MeasureModel
-            //{
-            //    DateTime = ts,
-            //    Value = double.Parse(value5.ToString())
-            //});
-            //ChartValues6.Add(new MeasureModel
-            //{
-            //    DateTime = ts,
-            //    Value = double.Parse(value6.ToString())
-            //});
-            //ChartValues7.Add(new MeasureModel
-            //{
-            //    DateTime = ts,
-            //    Value = double.Parse(value7.ToString())
-            //});
-
-            con.Close();
-            
-           // SetAxisLimits1(date.Value, hour2.Value, 20);
         }
 
         private void button4_Click(object sender, EventArgs e)
