@@ -110,6 +110,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Control;
             this.button2.Location = new System.Drawing.Point(165, 342);
             this.button2.Name = "button2";
@@ -122,10 +123,11 @@
             // lblExit
             // 
             this.lblExit.AutoSize = true;
+            this.lblExit.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblExit.ForeColor = System.Drawing.Color.LightCoral;
             this.lblExit.Location = new System.Drawing.Point(128, 422);
             this.lblExit.Name = "lblExit";
-            this.lblExit.Size = new System.Drawing.Size(47, 24);
+            this.lblExit.Size = new System.Drawing.Size(46, 24);
             this.lblExit.TabIndex = 7;
             this.lblExit.Text = "Exit";
             this.lblExit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -149,6 +151,7 @@
             // 
             this.txtUser.BackColor = System.Drawing.SystemColors.Control;
             this.txtUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUser.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUser.Location = new System.Drawing.Point(60, 211);
             this.txtUser.Multiline = true;
             this.txtUser.Name = "txtUser";
@@ -160,6 +163,7 @@
             // 
             this.txtPassWord.BackColor = System.Drawing.SystemColors.Control;
             this.txtPassWord.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPassWord.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassWord.Location = new System.Drawing.Point(60, 280);
             this.txtPassWord.Multiline = true;
             this.txtPassWord.Name = "txtPassWord";
@@ -172,6 +176,7 @@
             this.button1.BackColor = System.Drawing.Color.LightCoral;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Control;
             this.button1.Location = new System.Drawing.Point(22, 342);
             this.button1.Name = "button1";
@@ -198,7 +203,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "LoginPage";

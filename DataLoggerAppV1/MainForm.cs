@@ -46,7 +46,7 @@ namespace DataLoggerAppV1
             Monitor_Vrb.Show();
             pnlMonitor.Hide();
 
-            lblNameOfPage.Text = "Dashboard";
+            lblNameOfPage.Text = "";
             this.pnlDashBoard.Controls.Clear();
             Dashboard Dashboard_Vrb = new Dashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
             Dashboard_Vrb.FormBorderStyle = FormBorderStyle.None;
@@ -80,7 +80,7 @@ namespace DataLoggerAppV1
                 this.pnlDashBoard.Hide();
                 this.pnlMonitor.Hide();
 
-                lblNameOfPage.Text = "Trend";
+                lblNameOfPage.Text = "";
                 btnDashboard.BackColor = SystemColors.ControlLight;
                 btnAlarmList.BackColor = SystemColors.ControlLight;
                 btnTrend.BackColor = SystemColors.Control;
@@ -110,7 +110,7 @@ namespace DataLoggerAppV1
                 this.pnlFormLoader.Hide();
                 this.pnlMonitor.Show();
 
-                lblNameOfPage.Text = "Monitor";
+                lblNameOfPage.Text = "";
                 btnDashboard.BackColor = SystemColors.ControlLight;
                 btnAlarmList.BackColor = SystemColors.ControlLight;
                 btnTrend.BackColor = SystemColors.ControlLight;
@@ -135,7 +135,7 @@ namespace DataLoggerAppV1
                 this.pnlTrend.Hide();
                 this.pnlMonitor.Hide();
 
-                lblNameOfPage.Text = "Dashboard";
+                lblNameOfPage.Text = "";
                 btnDashboard.BackColor = SystemColors.Control;
                 btnAlarmList.BackColor = SystemColors.ControlLight;
                 btnTrend.BackColor = SystemColors.ControlLight;
@@ -166,7 +166,7 @@ namespace DataLoggerAppV1
                 this.pnlMonitor.Hide();
                 this.pnlFormLoader.Show();
 
-                lblNameOfPage.Text = "Alarm List";
+                lblNameOfPage.Text = "";
                 this.pnlFormLoader.Controls.Clear();
                 Alarm Alarm_Vrb = new Alarm() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
                 Alarm_Vrb.FormBorderStyle = FormBorderStyle.None;
@@ -192,11 +192,6 @@ namespace DataLoggerAppV1
             
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            new LoginPage().ShowDialog();
-        }
-
         private void btnSettings_Click(object sender, EventArgs e)
         {
             if (IsLogIn == true)
@@ -209,7 +204,7 @@ namespace DataLoggerAppV1
                     this.pnlMonitor.Hide();
                     this.pnlFormLoader.Show();
 
-                    lblNameOfPage.Text = "Settings";
+                    lblNameOfPage.Text = "";
 
                     this.pnlFormLoader.Controls.Clear();
                     Setting Setting_Vrb = new Setting() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
@@ -261,17 +256,6 @@ namespace DataLoggerAppV1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            pnlTrend.Hide();
-            pnlDashBoard.Show();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            pnlTrend.Show();
-            pnlDashBoard.Hide();
-        }
 
         private void PnlDisplay_Paint(object sender, PaintEventArgs e)
         {
@@ -280,7 +264,12 @@ namespace DataLoggerAppV1
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            new LoginPage().ShowDialog();
+        }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            MainForm.ActiveForm.WindowState = FormWindowState.Minimized;
         }
     }
 }

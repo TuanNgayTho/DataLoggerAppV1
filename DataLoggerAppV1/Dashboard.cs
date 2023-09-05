@@ -337,7 +337,7 @@ namespace DataLoggerAppV1
                                     }
                                     else
                                     {
-                                        lblAlarmSystem.Text = "SYSTEM STOPED";
+                                        lblAlarmSystem.Text = "SYSTEM STOPPED";
                                     }
                                 }));
 

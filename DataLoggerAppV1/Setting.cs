@@ -522,5 +522,10 @@ namespace DataLoggerAppV1
         private void Setting_FormClosed(object sender, FormClosedEventArgs e)
         {
         }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
