@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Trend));
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -53,6 +54,7 @@
             this.hour1 = new System.Windows.Forms.DateTimePicker();
             this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +64,7 @@
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.Location = new System.Drawing.Point(718, 7);
+            this.button6.Location = new System.Drawing.Point(541, 7);
             this.button6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.button6.Name = "button6";
             this.button6.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -100,7 +102,7 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(541, 7);
+            this.button4.Location = new System.Drawing.Point(718, 7);
             this.button4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.button4.Name = "button4";
             this.button4.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -167,7 +169,7 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(388, 36);
+            this.button2.Location = new System.Drawing.Point(364, 7);
             this.button2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -365,6 +367,7 @@
             this.panel2.BackColor = System.Drawing.Color.Silver;
             this.panel2.Controls.Add(this.hour1);
             this.panel2.Controls.Add(this.button6);
+            this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.hour2);
@@ -402,7 +405,7 @@
             this.cartesianChart1.Location = new System.Drawing.Point(29, 154);
             this.cartesianChart1.Margin = new System.Windows.Forms.Padding(5);
             this.cartesianChart1.Name = "cartesianChart1";
-            this.cartesianChart1.Size = new System.Drawing.Size(1579, 665);
+            this.cartesianChart1.Size = new System.Drawing.Size(1581, 665);
             this.cartesianChart1.TabIndex = 27;
             this.cartesianChart1.Text = "cartesianChart1";
             // 
@@ -413,6 +416,11 @@
             this.textBox1.Size = new System.Drawing.Size(100, 29);
             this.textBox1.TabIndex = 28;
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Trend
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -421,7 +429,6 @@
             this.ClientSize = new System.Drawing.Size(1640, 970);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.cartesianChart1);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnDashboard);
             this.Controls.Add(this.checkBox8);
@@ -473,5 +480,6 @@
         private LiveCharts.WinForms.CartesianChart cartesianChart1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DateTimePicker hour1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
