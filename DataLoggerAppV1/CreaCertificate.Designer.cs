@@ -87,11 +87,11 @@
             // 
             // tbxCustomerName
             // 
-            this.tbxCustomerName.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbxCustomerName.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbxCustomerName.Location = new System.Drawing.Point(39, 52);
             this.tbxCustomerName.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tbxCustomerName.Name = "tbxCustomerName";
-            this.tbxCustomerName.Size = new System.Drawing.Size(643, 32);
+            this.tbxCustomerName.Size = new System.Drawing.Size(643, 29);
             this.tbxCustomerName.TabIndex = 0;
             // 
             // tableLayoutPanel1
@@ -155,23 +155,23 @@
             // 
             // lblNameAi0
             // 
-            this.lblNameAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblNameAi0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNameAi0.Location = new System.Drawing.Point(4, 71);
+            this.lblNameAi0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblNameAi0.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNameAi0.Location = new System.Drawing.Point(4, 57);
             this.lblNameAi0.Name = "lblNameAi0";
-            this.lblNameAi0.Size = new System.Drawing.Size(172, 23);
+            this.lblNameAi0.Size = new System.Drawing.Size(172, 51);
             this.lblNameAi0.TabIndex = 17;
             this.lblNameAi0.Text = "Name";
             this.lblNameAi0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(58, 16);
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(4, 1);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 24);
+            this.label2.Size = new System.Drawing.Size(172, 55);
             this.label2.TabIndex = 17;
             this.label2.Text = "Name";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -266,256 +266,256 @@
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(227, 16);
+            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(183, 1);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 24);
+            this.label3.Size = new System.Drawing.Size(172, 55);
             this.label3.TabIndex = 17;
             this.label3.Text = "Reading";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(424, 16);
+            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(362, 1);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 24);
+            this.label4.Size = new System.Drawing.Size(172, 55);
             this.label4.TabIndex = 17;
             this.label4.Text = "Unit";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(558, 16);
+            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(541, 1);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 24);
+            this.label5.Size = new System.Drawing.Size(98, 55);
             this.label5.TabIndex = 17;
             this.label5.Text = "Select";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNameAi1
             // 
-            this.lblNameAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblNameAi1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNameAi1.Location = new System.Drawing.Point(4, 123);
+            this.lblNameAi1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblNameAi1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNameAi1.Location = new System.Drawing.Point(4, 109);
             this.lblNameAi1.Name = "lblNameAi1";
-            this.lblNameAi1.Size = new System.Drawing.Size(172, 23);
+            this.lblNameAi1.Size = new System.Drawing.Size(172, 51);
             this.lblNameAi1.TabIndex = 17;
             this.lblNameAi1.Text = "Name";
             this.lblNameAi1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNameAi2
             // 
-            this.lblNameAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblNameAi2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNameAi2.Location = new System.Drawing.Point(4, 175);
+            this.lblNameAi2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblNameAi2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNameAi2.Location = new System.Drawing.Point(4, 161);
             this.lblNameAi2.Name = "lblNameAi2";
-            this.lblNameAi2.Size = new System.Drawing.Size(172, 23);
+            this.lblNameAi2.Size = new System.Drawing.Size(172, 51);
             this.lblNameAi2.TabIndex = 17;
             this.lblNameAi2.Text = "Name";
             this.lblNameAi2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNameAi3
             // 
-            this.lblNameAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblNameAi3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNameAi3.Location = new System.Drawing.Point(4, 227);
+            this.lblNameAi3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblNameAi3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNameAi3.Location = new System.Drawing.Point(4, 213);
             this.lblNameAi3.Name = "lblNameAi3";
-            this.lblNameAi3.Size = new System.Drawing.Size(172, 23);
+            this.lblNameAi3.Size = new System.Drawing.Size(172, 51);
             this.lblNameAi3.TabIndex = 17;
             this.lblNameAi3.Text = "Name";
             this.lblNameAi3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNameAi4
             // 
-            this.lblNameAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblNameAi4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNameAi4.Location = new System.Drawing.Point(4, 279);
+            this.lblNameAi4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblNameAi4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNameAi4.Location = new System.Drawing.Point(4, 265);
             this.lblNameAi4.Name = "lblNameAi4";
-            this.lblNameAi4.Size = new System.Drawing.Size(172, 23);
+            this.lblNameAi4.Size = new System.Drawing.Size(172, 51);
             this.lblNameAi4.TabIndex = 17;
             this.lblNameAi4.Text = "Name";
             this.lblNameAi4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNameAi5
             // 
-            this.lblNameAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblNameAi5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNameAi5.Location = new System.Drawing.Point(4, 331);
+            this.lblNameAi5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblNameAi5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNameAi5.Location = new System.Drawing.Point(4, 317);
             this.lblNameAi5.Name = "lblNameAi5";
-            this.lblNameAi5.Size = new System.Drawing.Size(172, 23);
+            this.lblNameAi5.Size = new System.Drawing.Size(172, 51);
             this.lblNameAi5.TabIndex = 17;
             this.lblNameAi5.Text = "Name";
             this.lblNameAi5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNameAi6
             // 
-            this.lblNameAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblNameAi6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNameAi6.Location = new System.Drawing.Point(4, 383);
+            this.lblNameAi6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblNameAi6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNameAi6.Location = new System.Drawing.Point(4, 369);
             this.lblNameAi6.Name = "lblNameAi6";
-            this.lblNameAi6.Size = new System.Drawing.Size(172, 23);
+            this.lblNameAi6.Size = new System.Drawing.Size(172, 51);
             this.lblNameAi6.TabIndex = 17;
             this.lblNameAi6.Text = "Name";
             this.lblNameAi6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNameAi7
             // 
-            this.lblNameAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblNameAi7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNameAi7.Location = new System.Drawing.Point(4, 436);
+            this.lblNameAi7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblNameAi7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNameAi7.Location = new System.Drawing.Point(4, 421);
             this.lblNameAi7.Name = "lblNameAi7";
-            this.lblNameAi7.Size = new System.Drawing.Size(172, 23);
+            this.lblNameAi7.Size = new System.Drawing.Size(172, 54);
             this.lblNameAi7.TabIndex = 17;
             this.lblNameAi7.Text = "Name";
             this.lblNameAi7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUnitAi0
             // 
-            this.lblUnitAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblUnitAi0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUnitAi0.Location = new System.Drawing.Point(362, 71);
+            this.lblUnitAi0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblUnitAi0.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUnitAi0.Location = new System.Drawing.Point(362, 57);
             this.lblUnitAi0.Name = "lblUnitAi0";
-            this.lblUnitAi0.Size = new System.Drawing.Size(172, 23);
+            this.lblUnitAi0.Size = new System.Drawing.Size(172, 51);
             this.lblUnitAi0.TabIndex = 17;
             this.lblUnitAi0.Text = "Name";
             this.lblUnitAi0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUnitAi1
             // 
-            this.lblUnitAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblUnitAi1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUnitAi1.Location = new System.Drawing.Point(362, 123);
+            this.lblUnitAi1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblUnitAi1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUnitAi1.Location = new System.Drawing.Point(362, 109);
             this.lblUnitAi1.Name = "lblUnitAi1";
-            this.lblUnitAi1.Size = new System.Drawing.Size(172, 23);
+            this.lblUnitAi1.Size = new System.Drawing.Size(172, 51);
             this.lblUnitAi1.TabIndex = 17;
             this.lblUnitAi1.Text = "Name";
             this.lblUnitAi1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUnitAi2
             // 
-            this.lblUnitAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblUnitAi2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUnitAi2.Location = new System.Drawing.Point(362, 175);
+            this.lblUnitAi2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblUnitAi2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUnitAi2.Location = new System.Drawing.Point(362, 161);
             this.lblUnitAi2.Name = "lblUnitAi2";
-            this.lblUnitAi2.Size = new System.Drawing.Size(172, 23);
+            this.lblUnitAi2.Size = new System.Drawing.Size(172, 51);
             this.lblUnitAi2.TabIndex = 17;
             this.lblUnitAi2.Text = "Name";
             this.lblUnitAi2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUnitAi3
             // 
-            this.lblUnitAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblUnitAi3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUnitAi3.Location = new System.Drawing.Point(362, 227);
+            this.lblUnitAi3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblUnitAi3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUnitAi3.Location = new System.Drawing.Point(362, 213);
             this.lblUnitAi3.Name = "lblUnitAi3";
-            this.lblUnitAi3.Size = new System.Drawing.Size(172, 23);
+            this.lblUnitAi3.Size = new System.Drawing.Size(172, 51);
             this.lblUnitAi3.TabIndex = 17;
             this.lblUnitAi3.Text = "Name";
             this.lblUnitAi3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUnitAi4
             // 
-            this.lblUnitAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblUnitAi4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUnitAi4.Location = new System.Drawing.Point(362, 279);
+            this.lblUnitAi4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblUnitAi4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUnitAi4.Location = new System.Drawing.Point(362, 265);
             this.lblUnitAi4.Name = "lblUnitAi4";
-            this.lblUnitAi4.Size = new System.Drawing.Size(172, 23);
+            this.lblUnitAi4.Size = new System.Drawing.Size(172, 51);
             this.lblUnitAi4.TabIndex = 17;
             this.lblUnitAi4.Text = "Name";
             this.lblUnitAi4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUnitAi5
             // 
-            this.lblUnitAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblUnitAi5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUnitAi5.Location = new System.Drawing.Point(362, 331);
+            this.lblUnitAi5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblUnitAi5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUnitAi5.Location = new System.Drawing.Point(362, 317);
             this.lblUnitAi5.Name = "lblUnitAi5";
-            this.lblUnitAi5.Size = new System.Drawing.Size(172, 23);
+            this.lblUnitAi5.Size = new System.Drawing.Size(172, 51);
             this.lblUnitAi5.TabIndex = 17;
             this.lblUnitAi5.Text = "Name";
             this.lblUnitAi5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUnitAi6
             // 
-            this.lblUnitAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblUnitAi6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUnitAi6.Location = new System.Drawing.Point(362, 383);
+            this.lblUnitAi6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblUnitAi6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUnitAi6.Location = new System.Drawing.Point(362, 369);
             this.lblUnitAi6.Name = "lblUnitAi6";
-            this.lblUnitAi6.Size = new System.Drawing.Size(172, 23);
+            this.lblUnitAi6.Size = new System.Drawing.Size(172, 51);
             this.lblUnitAi6.TabIndex = 17;
             this.lblUnitAi6.Text = "Name";
             this.lblUnitAi6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUnitAi7
             // 
-            this.lblUnitAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblUnitAi7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUnitAi7.Location = new System.Drawing.Point(362, 436);
+            this.lblUnitAi7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblUnitAi7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUnitAi7.Location = new System.Drawing.Point(362, 421);
             this.lblUnitAi7.Name = "lblUnitAi7";
-            this.lblUnitAi7.Size = new System.Drawing.Size(172, 23);
+            this.lblUnitAi7.Size = new System.Drawing.Size(172, 54);
             this.lblUnitAi7.TabIndex = 17;
             this.lblUnitAi7.Text = "Name";
             this.lblUnitAi7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblAiDataCh0
             // 
-            this.lblAiDataCh0.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblAiDataCh0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAiDataCh0.Location = new System.Drawing.Point(183, 71);
+            this.lblAiDataCh0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblAiDataCh0.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh0.Location = new System.Drawing.Point(183, 57);
             this.lblAiDataCh0.Name = "lblAiDataCh0";
-            this.lblAiDataCh0.Size = new System.Drawing.Size(172, 23);
+            this.lblAiDataCh0.Size = new System.Drawing.Size(172, 51);
             this.lblAiDataCh0.TabIndex = 17;
             this.lblAiDataCh0.Text = "0,0";
             this.lblAiDataCh0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblAiDataCh2
             // 
-            this.lblAiDataCh2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblAiDataCh2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAiDataCh2.Location = new System.Drawing.Point(183, 175);
+            this.lblAiDataCh2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblAiDataCh2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh2.Location = new System.Drawing.Point(183, 161);
             this.lblAiDataCh2.Name = "lblAiDataCh2";
-            this.lblAiDataCh2.Size = new System.Drawing.Size(172, 23);
+            this.lblAiDataCh2.Size = new System.Drawing.Size(172, 51);
             this.lblAiDataCh2.TabIndex = 17;
             this.lblAiDataCh2.Text = "0,0";
             this.lblAiDataCh2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblAiDataCh3
             // 
-            this.lblAiDataCh3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblAiDataCh3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAiDataCh3.Location = new System.Drawing.Point(183, 227);
+            this.lblAiDataCh3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblAiDataCh3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh3.Location = new System.Drawing.Point(183, 213);
             this.lblAiDataCh3.Name = "lblAiDataCh3";
-            this.lblAiDataCh3.Size = new System.Drawing.Size(172, 23);
+            this.lblAiDataCh3.Size = new System.Drawing.Size(172, 51);
             this.lblAiDataCh3.TabIndex = 17;
             this.lblAiDataCh3.Text = "0,0";
             this.lblAiDataCh3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblAiDataCh4
             // 
-            this.lblAiDataCh4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblAiDataCh4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAiDataCh4.Location = new System.Drawing.Point(183, 279);
+            this.lblAiDataCh4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblAiDataCh4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh4.Location = new System.Drawing.Point(183, 265);
             this.lblAiDataCh4.Name = "lblAiDataCh4";
-            this.lblAiDataCh4.Size = new System.Drawing.Size(172, 23);
+            this.lblAiDataCh4.Size = new System.Drawing.Size(172, 51);
             this.lblAiDataCh4.TabIndex = 17;
             this.lblAiDataCh4.Text = "0,0";
             this.lblAiDataCh4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblAiDataCh5
             // 
-            this.lblAiDataCh5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblAiDataCh5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAiDataCh5.Location = new System.Drawing.Point(183, 331);
+            this.lblAiDataCh5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblAiDataCh5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh5.Location = new System.Drawing.Point(183, 317);
             this.lblAiDataCh5.Name = "lblAiDataCh5";
-            this.lblAiDataCh5.Size = new System.Drawing.Size(172, 23);
+            this.lblAiDataCh5.Size = new System.Drawing.Size(172, 51);
             this.lblAiDataCh5.TabIndex = 17;
             this.lblAiDataCh5.Text = "0,0";
             this.lblAiDataCh5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -523,60 +523,58 @@
             // 
             // lblAiDataCh6
             // 
-            this.lblAiDataCh6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblAiDataCh6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAiDataCh6.Location = new System.Drawing.Point(183, 383);
+            this.lblAiDataCh6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblAiDataCh6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh6.Location = new System.Drawing.Point(183, 369);
             this.lblAiDataCh6.Name = "lblAiDataCh6";
-            this.lblAiDataCh6.Size = new System.Drawing.Size(172, 23);
+            this.lblAiDataCh6.Size = new System.Drawing.Size(172, 51);
             this.lblAiDataCh6.TabIndex = 17;
             this.lblAiDataCh6.Text = "0,0";
             this.lblAiDataCh6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblAiDataCh7
             // 
-            this.lblAiDataCh7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblAiDataCh7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAiDataCh7.Location = new System.Drawing.Point(183, 436);
+            this.lblAiDataCh7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblAiDataCh7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh7.Location = new System.Drawing.Point(183, 421);
             this.lblAiDataCh7.Name = "lblAiDataCh7";
-            this.lblAiDataCh7.Size = new System.Drawing.Size(172, 23);
+            this.lblAiDataCh7.Size = new System.Drawing.Size(172, 54);
             this.lblAiDataCh7.TabIndex = 17;
             this.lblAiDataCh7.Text = "0,0";
             this.lblAiDataCh7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblAiDataCh1
             // 
-            this.lblAiDataCh1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblAiDataCh1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAiDataCh1.Location = new System.Drawing.Point(183, 123);
+            this.lblAiDataCh1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblAiDataCh1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAiDataCh1.Location = new System.Drawing.Point(183, 109);
             this.lblAiDataCh1.Name = "lblAiDataCh1";
-            this.lblAiDataCh1.Size = new System.Drawing.Size(172, 23);
+            this.lblAiDataCh1.Size = new System.Drawing.Size(172, 51);
             this.lblAiDataCh1.TabIndex = 17;
             this.lblAiDataCh1.Text = "0,0";
             this.lblAiDataCh1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.Location = new System.Drawing.Point(361, 186);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(321, 32);
+            this.dateTimePicker1.Size = new System.Drawing.Size(321, 29);
             this.dateTimePicker1.TabIndex = 2;
             // 
             // lblCustomerName
             // 
-            this.lblCustomerName.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblCustomerName.AutoSize = true;
-            this.lblCustomerName.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCustomerName.Location = new System.Drawing.Point(37, 31);
+            this.lblCustomerName.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCustomerName.Location = new System.Drawing.Point(36, 23);
             this.lblCustomerName.Name = "lblCustomerName";
-            this.lblCustomerName.Size = new System.Drawing.Size(152, 23);
+            this.lblCustomerName.Size = new System.Drawing.Size(245, 29);
             this.lblCustomerName.TabIndex = 12;
             this.lblCustomerName.Text = "Customer Name:";
-            this.lblCustomerName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCustomerName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(526, 753);
@@ -592,36 +590,34 @@
             // dateTimePicker2
             // 
             this.dateTimePicker2.CustomFormat = "hh/mm/ss";
-            this.dateTimePicker2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker2.Location = new System.Drawing.Point(39, 186);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.ShowUpDown = true;
-            this.dateTimePicker2.Size = new System.Drawing.Size(316, 32);
+            this.dateTimePicker2.Size = new System.Drawing.Size(316, 29);
             this.dateTimePicker2.TabIndex = 14;
             this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             this.dateTimePicker2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dateTimePicker2_MouseDown);
             // 
             // lblCustomerID
             // 
-            this.lblCustomerID.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblCustomerID.AutoSize = true;
-            this.lblCustomerID.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCustomerID.Location = new System.Drawing.Point(35, 103);
+            this.lblCustomerID.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCustomerID.Location = new System.Drawing.Point(36, 96);
             this.lblCustomerID.Name = "lblCustomerID";
-            this.lblCustomerID.Size = new System.Drawing.Size(124, 23);
+            this.lblCustomerID.Size = new System.Drawing.Size(245, 29);
             this.lblCustomerID.TabIndex = 16;
             this.lblCustomerID.Text = "Customer ID:";
-            this.lblCustomerID.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCustomerID.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblCustomerID.Click += new System.EventHandler(this.label1_Click);
             // 
             // tbxCustomerID
             // 
-            this.tbxCustomerID.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbxCustomerID.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbxCustomerID.Location = new System.Drawing.Point(39, 125);
             this.tbxCustomerID.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tbxCustomerID.Name = "tbxCustomerID";
-            this.tbxCustomerID.Size = new System.Drawing.Size(643, 32);
+            this.tbxCustomerID.Size = new System.Drawing.Size(643, 29);
             this.tbxCustomerID.TabIndex = 15;
             this.tbxCustomerID.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -649,11 +645,10 @@
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(38, 743);
+            this.label1.Location = new System.Drawing.Point(38, 740);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 15);
+            this.label1.Size = new System.Drawing.Size(54, 27);
             this.label1.TabIndex = 19;
             this.label1.Text = "Location";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -693,7 +688,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(720, 837);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txbFilePath);
             this.Controls.Add(this.dateTimePicker1);
@@ -705,6 +699,7 @@
             this.Controls.Add(this.lblCustomerID);
             this.Controls.Add(this.lblCustomerName);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);

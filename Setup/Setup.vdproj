@@ -328,7 +328,7 @@
         "Entry"
         {
         "MsmKey" = "8:_9D0BD5A01E69FDC6A750BA10CAB3D5A6"
-        "OwnerKey" = "8:_A852945ACD16407EDE37C16876E93BA6"
+        "OwnerKey" = "8:_A8E0B9F385774EDE753E107D4D6EDBFE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -339,8 +339,20 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_9D0BD5A01E69FDC6A750BA10CAB3D5A6"
+        "OwnerKey" = "8:_A852945ACD16407EDE37C16876E93BA6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_A052DA0BBD64840F65BCC9305E070EBD"
         "OwnerKey" = "8:_82177B37CA2F4596825F0B86F2C813AD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A052DA0BBD64840F65BCC9305E070EBD"
+        "OwnerKey" = "8:_A852945ACD16407EDE37C16876E93BA6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -352,12 +364,18 @@
         "Entry"
         {
         "MsmKey" = "8:_A052DA0BBD64840F65BCC9305E070EBD"
-        "OwnerKey" = "8:_A852945ACD16407EDE37C16876E93BA6"
+        "OwnerKey" = "8:_A8E0B9F385774EDE753E107D4D6EDBFE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_A852945ACD16407EDE37C16876E93BA6"
+        "OwnerKey" = "8:_82177B37CA2F4596825F0B86F2C813AD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A8E0B9F385774EDE753E107D4D6EDBFE"
         "OwnerKey" = "8:_82177B37CA2F4596825F0B86F2C813AD"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -479,6 +497,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_A852945ACD16407EDE37C16876E93BA6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_A8E0B9F385774EDE753E107D4D6EDBFE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1343,6 +1367,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A8E0B9F385774EDE753E107D4D6EDBFE"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:LiveCharts.Geared, Version=1.2.8.2, Culture=neutral, PublicKeyToken=7292f245d14ab8bf, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_A8E0B9F385774EDE753E107D4D6EDBFE"
+                    {
+                    "Name" = "8:LiveCharts.Geared.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:LiveCharts.Geared.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_072E5776FA72440B8CA92050A85CB48E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C28D0BC94AC1B2ECD9C641947E712C76"
             {
             "AssemblyRegister" = "3:1"
@@ -1543,14 +1598,14 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DataLoggerApp"
-        "ProductCode" = "8:{A608985B-BB24-4A0F-B60B-59EA89633960}"
-        "PackageCode" = "8:{B707025C-C58E-4640-828E-51A446E2B2C7}"
+        "ProductCode" = "8:{1A4B9F2F-52FB-4BF4-BFD6-0D89A9323CCC}"
+        "PackageCode" = "8:{F6D9C1D2-DD0B-46D3-8A4A-80C5F7D5BD46}"
         "UpgradeCode" = "8:{65F28DBF-BC0C-4D0B-8360-7AC89FFCCC22}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
+        "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:DataLoggerApp"
         "ARPHELPTELEPHONE" = "8:"
