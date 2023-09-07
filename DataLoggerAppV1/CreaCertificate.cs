@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Windows.Forms.Design;
 using Microsoft.Office.Interop.Excel;
 
 namespace DataLoggerAppV1
@@ -92,7 +93,11 @@ namespace DataLoggerAppV1
         private void button1_Click(object sender, EventArgs e)
         {
             //string url = "C:\\Users\\Admin\\Downloads\\Certificate.xlsx";
-            string url = txbFilePath.Text + "\\Certificate.xlsx";
+
+            dateTimePickerTime.Value = dateTimePicker2.Value;
+            dateTimePickerDate.Value = dateTimePicker1.Value;
+
+            string url = txbFilePath.Text + "\\" + dateTimePickerTime.Text + dateTimePickerDate.Text + "_" + tbxCustomerName.Text + ".xlsx";
 
             string[] CustomerInfor = {dateTimePicker2.Text, dateTimePicker1.Text, tbxCustomerName.Text,tbxCustomerID.Text};
             string[] DataAi0 = { lblNameAi0.Text, lblAiDataCh0.Text, lblUnitAi0.Text };

@@ -252,6 +252,33 @@ namespace DataLoggerAppV1
                                     lblMeasurementMaxRange6.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax6 * 100) / 100F);
                                     lblMeasurementMaxRange7.Text = Convert.ToString(Convert.ToInt32(DbSettingData.MeasureRangeMax7 * 100) / 100F);
 
+                                    lblMidleBar0.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin0 + ((DbSettingData.MeasureRangeMax0 - DbSettingData.MeasureRangeMin0) / 2)) * 100) / 100F));
+                                    lblMidleBar1.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin1 + ((DbSettingData.MeasureRangeMax1 - DbSettingData.MeasureRangeMin1) / 2)) * 100) / 100F));
+                                    lblMidleBar2.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin2 + ((DbSettingData.MeasureRangeMax2 - DbSettingData.MeasureRangeMin2) / 2)) * 100) / 100F));
+                                    lblMidleBar3.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin3 + ((DbSettingData.MeasureRangeMax3 - DbSettingData.MeasureRangeMin3) / 2)) * 100) / 100F));
+                                    lblMidleBar4.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin4 + ((DbSettingData.MeasureRangeMax4 - DbSettingData.MeasureRangeMin4) / 2)) * 100) / 100F));
+                                    lblMidleBar5.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin5 + ((DbSettingData.MeasureRangeMax5 - DbSettingData.MeasureRangeMin5) / 2)) * 100) / 100F));
+                                    lblMidleBar6.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin6 + ((DbSettingData.MeasureRangeMax6 - DbSettingData.MeasureRangeMin6) / 2)) * 100) / 100F));
+                                    lblMidleBar7.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin7 + ((DbSettingData.MeasureRangeMax7 - DbSettingData.MeasureRangeMin7) / 2)) * 100) / 100F));
+
+                                    lbl25Bar0.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin0 + ((DbSettingData.MeasureRangeMax0 - DbSettingData.MeasureRangeMin0) / 4)) * 100) / 100F));
+                                    lbl25Bar1.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin1 + ((DbSettingData.MeasureRangeMax1 - DbSettingData.MeasureRangeMin1) / 4)) * 100) / 100F));
+                                    lbl25Bar2.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin2 + ((DbSettingData.MeasureRangeMax2 - DbSettingData.MeasureRangeMin2) / 4)) * 100) / 100F));
+                                    lbl25Bar3.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin3 + ((DbSettingData.MeasureRangeMax3 - DbSettingData.MeasureRangeMin3) / 4)) * 100) / 100F));
+                                    lbl25Bar4.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin4 + ((DbSettingData.MeasureRangeMax4 - DbSettingData.MeasureRangeMin4) / 4)) * 100) / 100F));
+                                    lbl25Bar5.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin5 + ((DbSettingData.MeasureRangeMax5 - DbSettingData.MeasureRangeMin5) / 4)) * 100) / 100F));
+                                    lbl25Bar6.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin6 + ((DbSettingData.MeasureRangeMax6 - DbSettingData.MeasureRangeMin6) / 4)) * 100) / 100F));
+                                    lbl25Bar7.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin7 + ((DbSettingData.MeasureRangeMax7 - DbSettingData.MeasureRangeMin7) / 4)) * 100) / 100F));
+
+                                    lbl75Bar0.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin0 + ((DbSettingData.MeasureRangeMax0 - DbSettingData.MeasureRangeMin0) / 4) * 3) * 100) / 100F));
+                                    lbl75Bar1.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin1 + ((DbSettingData.MeasureRangeMax1 - DbSettingData.MeasureRangeMin1) / 4) * 3) * 100) / 100F));
+                                    lbl75Bar2.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin2 + ((DbSettingData.MeasureRangeMax2 - DbSettingData.MeasureRangeMin2) / 4) * 3) * 100) / 100F));
+                                    lbl75Bar3.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin3 + ((DbSettingData.MeasureRangeMax3 - DbSettingData.MeasureRangeMin3) / 4) * 3) * 100) / 100F));
+                                    lbl75Bar4.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin4 + ((DbSettingData.MeasureRangeMax4 - DbSettingData.MeasureRangeMin4) / 4) * 3) * 100) / 100F));
+                                    lbl75Bar5.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin5 + ((DbSettingData.MeasureRangeMax5 - DbSettingData.MeasureRangeMin5) / 4) * 3) * 100) / 100F));
+                                    lbl75Bar6.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin6 + ((DbSettingData.MeasureRangeMax6 - DbSettingData.MeasureRangeMin6) / 4) * 3) * 100) / 100F));
+                                    lbl75Bar7.Text = Convert.ToString(Convert.ToInt32(((DbSettingData.MeasureRangeMin7 + ((DbSettingData.MeasureRangeMax7 - DbSettingData.MeasureRangeMin7) / 4) * 3) * 100) / 100F));
+
                                 }));
 
                                 // Read Bool Status Data From PLC
@@ -1331,6 +1358,11 @@ namespace DataLoggerAppV1
             {
             }
             plc.Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
