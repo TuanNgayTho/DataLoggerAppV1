@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Trend));
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.hour2 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -51,6 +50,7 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.hour1 = new System.Windows.Forms.DateTimePicker();
             this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -83,53 +83,34 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(895, 7);
+            this.button5.Location = new System.Drawing.Point(1412, 7);
             this.button5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.button5.Name = "button5";
             this.button5.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
             this.button5.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.button5.Size = new System.Drawing.Size(165, 73);
             this.button5.TabIndex = 20;
-            this.button5.Text = "Next";
+            this.button5.Text = "Export";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(718, 7);
-            this.button4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.button4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button4.Size = new System.Drawing.Size(165, 73);
-            this.button4.TabIndex = 14;
-            this.button4.Text = "Prev";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // hour2
             // 
             this.hour2.CustomFormat = "HH:mm:ss ";
             this.hour2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.hour2.Location = new System.Drawing.Point(1266, 45);
+            this.hour2.Location = new System.Drawing.Point(1081, 48);
             this.hour2.Name = "hour2";
             this.hour2.ShowUpDown = true;
             this.hour2.Size = new System.Drawing.Size(128, 29);
             this.hour2.TabIndex = 19;
-            this.hour2.Value = new System.DateTime(2023, 9, 3, 15, 46, 0, 0);
+            this.hour2.Value = new System.DateTime(2023, 9, 7, 23, 59, 59, 0);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(1214, 50);
+            this.label2.Location = new System.Drawing.Point(1029, 53);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(36, 21);
             this.label2.TabIndex = 18;
@@ -138,7 +119,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(1069, 13);
+            this.label1.Location = new System.Drawing.Point(818, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 21);
             this.label1.TabIndex = 17;
@@ -150,7 +131,7 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(1403, 7);
+            this.button3.Location = new System.Drawing.Point(1235, 7);
             this.button3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -205,11 +186,11 @@
             // 
             this.date.CustomFormat = "yyyy-MM-dd ";
             this.date.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.date.Location = new System.Drawing.Point(1139, 7);
+            this.date.Location = new System.Drawing.Point(888, 10);
             this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(255, 29);
+            this.date.Size = new System.Drawing.Size(321, 29);
             this.date.TabIndex = 15;
-            this.date.Value = new System.DateTime(2023, 8, 21, 15, 46, 44, 0);
+            this.date.Value = new System.DateTime(2023, 9, 7, 0, 0, 1, 0);
             // 
             // btnDashboard
             // 
@@ -365,11 +346,11 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.hour1);
             this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button5);
-            this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.hour2);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
@@ -380,6 +361,15 @@
             this.panel2.Size = new System.Drawing.Size(1589, 91);
             this.panel2.TabIndex = 23;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(818, 16);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(57, 21);
+            this.label3.TabIndex = 27;
+            this.label3.Text = "DATE";
+            // 
             // hour1
             // 
             this.hour1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
@@ -388,13 +378,13 @@
             this.hour1.CustomFormat = "HH:mm:ss ";
             this.hour1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.hour1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.hour1.Location = new System.Drawing.Point(1073, 45);
+            this.hour1.Location = new System.Drawing.Point(888, 48);
             this.hour1.Name = "hour1";
             this.hour1.ShowUpDown = true;
             this.hour1.Size = new System.Drawing.Size(126, 29);
             this.hour1.TabIndex = 22;
             this.hour1.TabStop = false;
-            this.hour1.Value = new System.DateTime(2023, 8, 21, 15, 46, 49, 0);
+            this.hour1.Value = new System.DateTime(2023, 9, 7, 0, 0, 1, 0);
             // 
             // cartesianChart1
             // 
@@ -458,7 +448,6 @@
 
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.DateTimePicker hour2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
@@ -481,5 +470,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DateTimePicker hour1;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label3;
     }
 }

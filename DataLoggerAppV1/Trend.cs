@@ -53,6 +53,10 @@ namespace DataLoggerAppV1
         int count,count_tong,sott, count_inc,temp,temp1;
 
 
+        String iDay, iMonth, iYear, iHour, iMininute, iSeconds;
+        String iDay2, iMonth2, iYear2, iHour2, iMininute2, iSeconds2;
+        String Day1, Day2;
+
         public ChartValues<MeasureModel> ChartValues { get; set; }
         public ChartValues<MeasureModel> ChartValues1 { get; set; }
         public ChartValues<MeasureModel> ChartValues2 { get; set; }
@@ -108,7 +112,7 @@ namespace DataLoggerAppV1
             InitializeComponent();
             instance =this;
             button3.Enabled = false;
-            button4.Enabled = false;
+            //button4.Enabled = false;
             button5.Enabled = false;
             //button6.Enabled = false;
             
@@ -303,7 +307,7 @@ namespace DataLoggerAppV1
 
           //  SetAxisLimits(System.DateTime.Now);
             date.Value = DateTime.Now;
-            hour2.Value = DateTime.Now;
+            hour1.Value = DateTime.Parse("00:00:00");
 
            
         
@@ -559,7 +563,7 @@ namespace DataLoggerAppV1
             // Timer.Start();
             _viewModel.Read(times1);
             button3.Enabled = false;
-            button4.Enabled = false;
+            //button4.Enabled = false;
             button5.Enabled = false;
            // button6.Enabled = false;
         }
@@ -575,7 +579,7 @@ namespace DataLoggerAppV1
            // Timer.Stop();
            _viewModel.Stop();
             button3.Enabled = true;
-            button4.Enabled = true;
+            //button4.Enabled = true;
             button5.Enabled = true;
            // button6.Enabled = true;
         }
@@ -587,7 +591,7 @@ namespace DataLoggerAppV1
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            textBox1.Text = TruyXuat1.Count.ToString();
+            textBox1.Text = _viewModel.Count.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -606,9 +610,7 @@ namespace DataLoggerAppV1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            String iDay, iMonth, iYear, iHour, iMininute, iSeconds;
-            String iDay2, iMonth2, iYear2, iHour2, iMininute2, iSeconds2;
-            String Day1, Day2;
+           
             List<float> value = new List<float>();
             List<float> value1 = new List<float>();
             List<float> value2 = new List<float>();
@@ -652,7 +654,7 @@ namespace DataLoggerAppV1
 
         private void button5_Click(object sender, EventArgs e)
         {
-           
+            WriteExcel.WriteReport(Day1, Day2);
 
 
         }
