@@ -77,8 +77,12 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.dateTimePickerTime = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerDate = new System.Windows.Forms.DateTimePicker();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbxCustomerName
@@ -587,6 +591,7 @@
             // 
             // dateTimePicker2
             // 
+            this.dateTimePicker2.CustomFormat = "hh/mm/ss";
             this.dateTimePicker2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker2.Location = new System.Drawing.Point(39, 186);
@@ -653,6 +658,36 @@
             this.label1.Text = "Location";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // dateTimePickerTime
+            // 
+            this.dateTimePickerTime.CustomFormat = "ss-mm-hh_";
+            this.dateTimePickerTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerTime.Location = new System.Drawing.Point(20, 10);
+            this.dateTimePickerTime.Name = "dateTimePickerTime";
+            this.dateTimePickerTime.ShowUpDown = true;
+            this.dateTimePickerTime.Size = new System.Drawing.Size(132, 32);
+            this.dateTimePickerTime.TabIndex = 20;
+            // 
+            // dateTimePickerDate
+            // 
+            this.dateTimePickerDate.CustomFormat = "dd-MM-yyyy";
+            this.dateTimePickerDate.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerDate.Location = new System.Drawing.Point(194, 10);
+            this.dateTimePickerDate.Name = "dateTimePickerDate";
+            this.dateTimePickerDate.Size = new System.Drawing.Size(142, 32);
+            this.dateTimePickerDate.TabIndex = 21;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.dateTimePickerTime);
+            this.panel1.Controls.Add(this.dateTimePickerDate);
+            this.panel1.Location = new System.Drawing.Point(691, 52);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(20, 52);
+            this.panel1.TabIndex = 22;
+            // 
             // CreaCertificate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
@@ -669,6 +704,7 @@
             this.Controls.Add(this.tbxCustomerName);
             this.Controls.Add(this.lblCustomerID);
             this.Controls.Add(this.lblCustomerName);
+            this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
@@ -679,6 +715,7 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -734,5 +771,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
+        private System.Windows.Forms.DateTimePicker dateTimePickerTime;
+        private System.Windows.Forms.DateTimePicker dateTimePickerDate;
+        private System.Windows.Forms.Panel panel1;
     }
 }

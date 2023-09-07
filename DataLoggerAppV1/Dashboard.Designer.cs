@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.button1 = new System.Windows.Forms.Button();
             this.btnStream1 = new System.Windows.Forms.Button();
             this.btnStream2 = new System.Windows.Forms.Button();
@@ -91,8 +92,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblMeasurementMaxRange6 = new System.Windows.Forms.Label();
             this.lblMeasurementMinRange6 = new System.Windows.Forms.Label();
+            this.lblMeasurementMaxRange6 = new System.Windows.Forms.Label();
             this.barAi6 = new System.Windows.Forms.ProgressBar();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lblMeasurementMaxRange5 = new System.Windows.Forms.Label();
@@ -115,6 +116,7 @@
             this.lblMeasurementMinRange1 = new System.Windows.Forms.Label();
             this.barAi1 = new System.Windows.Forms.ProgressBar();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblMeasurementMaxRange0 = new System.Windows.Forms.Label();
             this.lblMeasurementMinRange0 = new System.Windows.Forms.Label();
             this.barAi0 = new System.Windows.Forms.ProgressBar();
@@ -149,6 +151,7 @@
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel9.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -1009,18 +1012,6 @@
             this.panel1.Size = new System.Drawing.Size(887, 64);
             this.panel1.TabIndex = 2;
             // 
-            // lblMeasurementMaxRange6
-            // 
-            this.lblMeasurementMaxRange6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblMeasurementMaxRange6.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeasurementMaxRange6.Location = new System.Drawing.Point(856, 46);
-            this.lblMeasurementMaxRange6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblMeasurementMaxRange6.Name = "lblMeasurementMaxRange6";
-            this.lblMeasurementMaxRange6.Size = new System.Drawing.Size(36, 17);
-            this.lblMeasurementMaxRange6.TabIndex = 14;
-            this.lblMeasurementMaxRange6.Text = "0,0";
-            this.lblMeasurementMaxRange6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // lblMeasurementMinRange6
             // 
             this.lblMeasurementMinRange6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -1032,6 +1023,18 @@
             this.lblMeasurementMinRange6.TabIndex = 14;
             this.lblMeasurementMinRange6.Text = "0,0";
             this.lblMeasurementMinRange6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblMeasurementMaxRange6
+            // 
+            this.lblMeasurementMaxRange6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblMeasurementMaxRange6.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMeasurementMaxRange6.Location = new System.Drawing.Point(856, 46);
+            this.lblMeasurementMaxRange6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMeasurementMaxRange6.Name = "lblMeasurementMaxRange6";
+            this.lblMeasurementMaxRange6.Size = new System.Drawing.Size(36, 17);
+            this.lblMeasurementMaxRange6.TabIndex = 14;
+            this.lblMeasurementMaxRange6.Text = "0,0";
+            this.lblMeasurementMaxRange6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // barAi6
             // 
@@ -1281,6 +1284,7 @@
             // 
             // panel8
             // 
+            this.panel8.Controls.Add(this.pictureBox1);
             this.panel8.Controls.Add(this.lblMeasurementMaxRange0);
             this.panel8.Controls.Add(this.lblMeasurementMinRange0);
             this.panel8.Controls.Add(this.barAi0);
@@ -1290,6 +1294,17 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(887, 64);
             this.panel8.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(4, 39);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(883, 13);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
             // 
             // lblMeasurementMaxRange0
             // 
@@ -1621,6 +1636,7 @@
             this.panel6.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
@@ -1744,5 +1760,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button Silence;
         private System.Windows.Forms.Label lblTime;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -47,7 +47,7 @@ namespace DataLoggerAppV1
             Range celRange = ws.Range["D2:G2"];
             string[] CustomerInfor = Infor;
             celRange.set_Value(XlRangeValueDataType.xlRangeValueDefault, CustomerInfor);
-
+            
             // Write Ai Value to Excel
             int stt = 2;
             string range = "A" + stt + ":" + "C" + stt;
@@ -122,7 +122,8 @@ namespace DataLoggerAppV1
             }
             catch (Exception e)
             {
-                MessageBox.Show("Some excel files is opened, please close excel files and try again!\nOr file path wrong!");
+                //MessageBox.Show("Some excel files is opened, please close excel files and try again!\nOr file path wrong!");
+                MessageBox.Show(e.Message);
             }
 
         }
