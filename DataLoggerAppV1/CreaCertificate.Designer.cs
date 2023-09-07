@@ -178,89 +178,89 @@
             // 
             // cbxAi0
             // 
-            this.cbxAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi0.AutoSize = true;
             this.cbxAi0.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi0.Location = new System.Drawing.Point(582, 75);
+            this.cbxAi0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbxAi0.Location = new System.Drawing.Point(541, 60);
             this.cbxAi0.Name = "cbxAi0";
-            this.cbxAi0.Size = new System.Drawing.Size(15, 14);
+            this.cbxAi0.Size = new System.Drawing.Size(98, 45);
             this.cbxAi0.TabIndex = 17;
             this.cbxAi0.UseVisualStyleBackColor = true;
             // 
             // cbxAi1
             // 
-            this.cbxAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi1.AutoSize = true;
             this.cbxAi1.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi1.Location = new System.Drawing.Point(582, 127);
+            this.cbxAi1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbxAi1.Location = new System.Drawing.Point(541, 112);
             this.cbxAi1.Name = "cbxAi1";
-            this.cbxAi1.Size = new System.Drawing.Size(15, 14);
+            this.cbxAi1.Size = new System.Drawing.Size(98, 45);
             this.cbxAi1.TabIndex = 17;
             this.cbxAi1.UseVisualStyleBackColor = true;
             // 
             // cbxAi2
             // 
-            this.cbxAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi2.AutoSize = true;
             this.cbxAi2.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi2.Location = new System.Drawing.Point(582, 179);
+            this.cbxAi2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbxAi2.Location = new System.Drawing.Point(541, 164);
             this.cbxAi2.Name = "cbxAi2";
-            this.cbxAi2.Size = new System.Drawing.Size(15, 14);
+            this.cbxAi2.Size = new System.Drawing.Size(98, 45);
             this.cbxAi2.TabIndex = 17;
             this.cbxAi2.UseVisualStyleBackColor = true;
             // 
             // cbxAi3
             // 
-            this.cbxAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi3.AutoSize = true;
             this.cbxAi3.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi3.Location = new System.Drawing.Point(582, 231);
+            this.cbxAi3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbxAi3.Location = new System.Drawing.Point(541, 216);
             this.cbxAi3.Name = "cbxAi3";
-            this.cbxAi3.Size = new System.Drawing.Size(15, 14);
+            this.cbxAi3.Size = new System.Drawing.Size(98, 45);
             this.cbxAi3.TabIndex = 17;
             this.cbxAi3.UseVisualStyleBackColor = true;
             // 
             // cbxAi4
             // 
-            this.cbxAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi4.AutoSize = true;
             this.cbxAi4.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi4.Location = new System.Drawing.Point(582, 283);
+            this.cbxAi4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbxAi4.Location = new System.Drawing.Point(541, 268);
             this.cbxAi4.Name = "cbxAi4";
-            this.cbxAi4.Size = new System.Drawing.Size(15, 14);
+            this.cbxAi4.Size = new System.Drawing.Size(98, 45);
             this.cbxAi4.TabIndex = 17;
             this.cbxAi4.UseVisualStyleBackColor = true;
             // 
             // cbxAi5
             // 
-            this.cbxAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi5.AutoSize = true;
             this.cbxAi5.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi5.Location = new System.Drawing.Point(582, 335);
+            this.cbxAi5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbxAi5.Location = new System.Drawing.Point(541, 320);
             this.cbxAi5.Name = "cbxAi5";
-            this.cbxAi5.Size = new System.Drawing.Size(15, 14);
+            this.cbxAi5.Size = new System.Drawing.Size(98, 45);
             this.cbxAi5.TabIndex = 17;
             this.cbxAi5.UseVisualStyleBackColor = true;
             // 
             // cbxAi6
             // 
-            this.cbxAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi6.AutoSize = true;
             this.cbxAi6.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi6.Location = new System.Drawing.Point(582, 387);
+            this.cbxAi6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbxAi6.Location = new System.Drawing.Point(541, 372);
             this.cbxAi6.Name = "cbxAi6";
-            this.cbxAi6.Size = new System.Drawing.Size(15, 14);
+            this.cbxAi6.Size = new System.Drawing.Size(98, 45);
             this.cbxAi6.TabIndex = 17;
             this.cbxAi6.UseVisualStyleBackColor = true;
             // 
             // cbxAi7
             // 
-            this.cbxAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxAi7.AutoSize = true;
             this.cbxAi7.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbxAi7.Location = new System.Drawing.Point(582, 441);
+            this.cbxAi7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbxAi7.Location = new System.Drawing.Point(541, 424);
             this.cbxAi7.Name = "cbxAi7";
-            this.cbxAi7.Size = new System.Drawing.Size(15, 14);
+            this.cbxAi7.Size = new System.Drawing.Size(98, 48);
             this.cbxAi7.TabIndex = 17;
             this.cbxAi7.UseVisualStyleBackColor = true;
             // 
