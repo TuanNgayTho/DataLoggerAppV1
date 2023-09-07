@@ -191,6 +191,7 @@
             this.date.Size = new System.Drawing.Size(321, 29);
             this.date.TabIndex = 15;
             this.date.Value = new System.DateTime(2023, 9, 7, 0, 0, 1, 0);
+            this.date.ValueChanged += new System.EventHandler(this.date_ValueChanged);
             // 
             // btnDashboard
             // 
@@ -384,7 +385,7 @@
             this.hour1.Size = new System.Drawing.Size(126, 29);
             this.hour1.TabIndex = 22;
             this.hour1.TabStop = false;
-            this.hour1.Value = new System.DateTime(2023, 9, 7, 0, 0, 1, 0);
+            this.hour1.Value = new System.DateTime(2023, 9, 8, 0, 0, 0, 0);
             // 
             // cartesianChart1
             // 

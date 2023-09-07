@@ -502,6 +502,12 @@ namespace DataLoggerAppV1
 
         }
 
+        private void date_ValueChanged(object sender, EventArgs e)
+        {
+            hour1.Value= date.Value;
+            hour2.Value= date.Value;
+        }
+
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
             MaterialGas3.Visibility = MaterialGas3.Visibility == Visibility.Visible
