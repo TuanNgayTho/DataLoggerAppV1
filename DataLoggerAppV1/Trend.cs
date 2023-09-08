@@ -147,8 +147,8 @@ namespace DataLoggerAppV1
                 Title = "Time Line",
                 Labels = times1,
                 DisableAnimations = true,
-                LabelFormatter = value => new System.DateTime((long)value).ToString("dd-MM-yyyy HH:mm:ss"),
-                LabelsRotation = -13,
+                LabelFormatter = value => new System.DateTime((long)value).ToString("dd-MM-yyyy" +" HH:mm:ss"),
+                LabelsRotation = -18,
                 Foreground = Brushes.Red,
                 
                 Separator = new Separator
@@ -683,12 +683,31 @@ namespace DataLoggerAppV1
 
         private void button5_Click(object sender, EventArgs e)
         {
-            WriteExcel.WriteReport(Day1, Day2);
+            
+            busy1 = false;
+            count_tong = 0;
+            count = 0;
+            iDay = date.Value.Day.ToString();
+            iMonth = date.Value.Month.ToString();
+            iYear = date.Value.Year.ToString();
 
+            iHour = hour1.Value.Hour.ToString();
+            iMininute = hour1.Value.Minute.ToString();
+            iSeconds = hour1.Value.Second.ToString();
+            Day1 = iYear + "-" + iMonth + "-" + iDay + " " + iHour + ":" + iMininute + ":" + iSeconds;
 
+            iDay2 = date.Value.Day.ToString();
+            iMonth2 = date.Value.Month.ToString();
+            iYear2 = date.Value.Year.ToString();
+            iHour2 = hour2.Value.Hour.ToString();
+            iMininute2 = hour2.Value.Minute.ToString();
+            iSeconds2 = hour2.Value.Second.ToString();
+            Day2 = iYear2 + "-" + iMonth2 + "-" + iDay2 + " " + iHour2 + ":" + iMininute2 + ":" + iSeconds2;
+            WriteExcel.WriteReport_pdf(Day1, Day2);
+             //WriteExcel.WriteReport(Day1, Day2);
         }
 
-      
+
 
         private void button6_Click(object sender, EventArgs e)
         {
