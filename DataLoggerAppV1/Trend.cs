@@ -115,7 +115,7 @@ namespace DataLoggerAppV1
             //button4.Enabled = false;
             button5.Enabled = false;
             //button6.Enabled = false;
-            
+            _viewModel.Read(times1);
 
             var mapper = Mappers.Xy<MeasureModel>()
                .X(model => model.DateTime.Ticks)  //use DateTime.Ticks as X
@@ -148,7 +148,7 @@ namespace DataLoggerAppV1
                 Labels = times1,
                 DisableAnimations = true,
                 LabelFormatter = value => new System.DateTime((long)value).ToString("dd-MM-yyyy HH:mm:ss"),
-                LabelsRotation = 13,
+                LabelsRotation = -13,
                 Foreground = Brushes.Red,
                 
                 Separator = new Separator
@@ -161,12 +161,13 @@ namespace DataLoggerAppV1
             }) ;
             cartesianChart1.AxisY.Add(new Axis
             {
-                Title = Name = Properties.Settings.Default.NameAi0,
+                Title = Properties.Settings.Default.NameAi0,
+               // Unit =100,
                 LabelFormatter = val => val + " " + Properties.Settings.Default.UnitAi0,
 
                 DisableAnimations = true,
                 Foreground = Brushes.Red,
-               // MinValue = 0,
+                // MinValue = 0,
 
                 Separator = new Separator
                 {
@@ -177,10 +178,11 @@ namespace DataLoggerAppV1
 
                 }
 
-            });
+            }) ;
             cartesianChart1.AxisY.Add(new Axis
             {
                 Title = Properties.Settings.Default.NameAi1,
+
                 LabelFormatter = val => val + " " + Properties.Settings.Default.UnitAi1,
                 DisableAnimations = true,
                 Foreground = Brushes.Black,
@@ -423,9 +425,12 @@ namespace DataLoggerAppV1
               MaterialGas8,
 
           };
-           
 
 
+
+            // System.Windows.Controls.Panel.SetZIndex(MaterialGas9, 1);
+            cartesianChart1.AxisY[0].MaxRange = Properties.Settings.Default.MaxAi0;
+            cartesianChart1.AxisY[0].MinRange = Properties.Settings.Default.MinAi0;
             cartesianChart1.AxisY[0].MaxValue = Properties.Settings.Default.MaxAi0;
             cartesianChart1.AxisY[0].MinValue = Properties.Settings.Default.MinAi0;
             cartesianChart1.AxisY[1].MaxValue = Properties.Settings.Default.MaxAi1;
@@ -485,7 +490,7 @@ namespace DataLoggerAppV1
            // cartesianChart1.AxisY[0].Separator.Step = Math.Round((cartesianChart1.AxisY[0].MaxValue - cartesianChart1.AxisY[0].MinValue),2);
             cartesianChart1.AxisY[0].Title = cartesianChart1.AxisY[0].Title == Properties.Settings.Default.NameAi0 ? cartesianChart1.AxisY[0].Title = "" : cartesianChart1.AxisY[0].Title = Properties.Settings.Default.NameAi0;
             //cartesianChart1.AxisY[0].Separator.Stroke = cartesianChart1.AxisY[0].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[0].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[0].Separator.Stroke = Brushes.Black;
-
+            checkBox1.BackColor = checkBox1.BackColor == System.Drawing.Color.Gainsboro? checkBox1.BackColor= System.Drawing.Color.Gray : checkBox1.BackColor = System.Drawing.Color.Gainsboro;
 
 
 
@@ -499,6 +504,7 @@ namespace DataLoggerAppV1
             cartesianChart1.AxisY[1].ShowLabels = cartesianChart1.AxisY[1].ShowLabels == false ? cartesianChart1.AxisY[1].ShowLabels = true : cartesianChart1.AxisY[1].ShowLabels = false;
             cartesianChart1.AxisY[1].Title = cartesianChart1.AxisY[1].Title == Properties.Settings.Default.NameAi1 ? cartesianChart1.AxisY[1].Title = "" : cartesianChart1.AxisY[1].Title = Properties.Settings.Default.NameAi1;
             //cartesianChart1.AxisY[1].Separator.Stroke = cartesianChart1.AxisY[1].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[1].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[1].Separator.Stroke = Brushes.Black;
+            checkBox2.BackColor = checkBox2.BackColor == System.Drawing.Color.Gainsboro ? checkBox2.BackColor = System.Drawing.Color.Gray : checkBox2.BackColor = System.Drawing.Color.Gainsboro;
 
         }
 
@@ -508,6 +514,11 @@ namespace DataLoggerAppV1
             hour2.Value= date.Value;
         }
 
+        private void checkBox1_CheckStateChanged(object sender, EventArgs e)
+        {
+            
+        }
+
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
             MaterialGas3.Visibility = MaterialGas3.Visibility == Visibility.Visible
@@ -515,7 +526,9 @@ namespace DataLoggerAppV1
                  : Visibility.Visible;
             cartesianChart1.AxisY[2].ShowLabels = cartesianChart1.AxisY[2].ShowLabels == false ? cartesianChart1.AxisY[2].ShowLabels = true : cartesianChart1.AxisY[2].ShowLabels = false;
             cartesianChart1.AxisY[2].Title = cartesianChart1.AxisY[2].Title == Properties.Settings.Default.NameAi2 ? cartesianChart1.AxisY[2].Title = "" : cartesianChart1.AxisY[2].Title = Properties.Settings.Default.NameAi2;
-           // cartesianChart1.AxisY[2].Separator.Stroke = cartesianChart1.AxisY[2].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[2].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[2].Separator.Stroke = Brushes.Black;
+            checkBox3.BackColor = checkBox3.BackColor == System.Drawing.Color.Gainsboro ? checkBox3.BackColor = System.Drawing.Color.Gray : checkBox3.BackColor = System.Drawing.Color.Gainsboro;
+
+            // cartesianChart1.AxisY[2].Separator.Stroke = cartesianChart1.AxisY[2].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[2].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[2].Separator.Stroke = Brushes.Black;
         }
 
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
@@ -525,7 +538,9 @@ namespace DataLoggerAppV1
                  : Visibility.Visible;
             cartesianChart1.AxisY[3].ShowLabels = cartesianChart1.AxisY[3].ShowLabels == false ? cartesianChart1.AxisY[3].ShowLabels = true : cartesianChart1.AxisY[3].ShowLabels = false;
             cartesianChart1.AxisY[3].Title = cartesianChart1.AxisY[3].Title == Properties.Settings.Default.NameAi3 ? cartesianChart1.AxisY[3].Title = "" : cartesianChart1.AxisY[3].Title = Properties.Settings.Default.NameAi3;
-           // cartesianChart1.AxisY[3].Separator.Stroke = cartesianChart1.AxisY[3].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[3].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[3].Separator.Stroke = Brushes.Black;
+            checkBox4.BackColor = checkBox4.BackColor == System.Drawing.Color.Gainsboro ? checkBox4.BackColor = System.Drawing.Color.Gray : checkBox4.BackColor = System.Drawing.Color.Gainsboro;
+
+            // cartesianChart1.AxisY[3].Separator.Stroke = cartesianChart1.AxisY[3].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[3].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[3].Separator.Stroke = Brushes.Black;
         }
         private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
@@ -534,7 +549,9 @@ namespace DataLoggerAppV1
                  : Visibility.Visible;
             cartesianChart1.AxisY[4].ShowLabels = cartesianChart1.AxisY[4].ShowLabels == false ? cartesianChart1.AxisY[4].ShowLabels = true : cartesianChart1.AxisY[4].ShowLabels = false;
             cartesianChart1.AxisY[4].Title = cartesianChart1.AxisY[4].Title == Properties.Settings.Default.NameAi4 ? cartesianChart1.AxisY[4].Title = "" : cartesianChart1.AxisY[4].Title = Properties.Settings.Default.NameAi4;
-           // cartesianChart1.AxisY[4].Separator.Stroke = cartesianChart1.AxisY[4].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[4].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[4].Separator.Stroke = Brushes.Black;
+            checkBox5.BackColor = checkBox5.BackColor == System.Drawing.Color.Gainsboro ? checkBox5.BackColor = System.Drawing.Color.Gray : checkBox5.BackColor = System.Drawing.Color.Gainsboro;
+
+            // cartesianChart1.AxisY[4].Separator.Stroke = cartesianChart1.AxisY[4].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[4].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[4].Separator.Stroke = Brushes.Black;
         }
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
@@ -543,7 +560,9 @@ namespace DataLoggerAppV1
                  : Visibility.Visible;
             cartesianChart1.AxisY[5].ShowLabels = cartesianChart1.AxisY[5].ShowLabels == false ? cartesianChart1.AxisY[5].ShowLabels = true : cartesianChart1.AxisY[5].ShowLabels = false;
             cartesianChart1.AxisY[5].Title = cartesianChart1.AxisY[5].Title == Properties.Settings.Default.NameAi5 ? cartesianChart1.AxisY[5].Title = "" : cartesianChart1.AxisY[5].Title = Properties.Settings.Default.NameAi5;
-           // cartesianChart1.AxisY[5].Separator.Stroke = cartesianChart1.AxisY[5].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[5].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[5].Separator.Stroke = Brushes.Black;
+            checkBox6.BackColor = checkBox6.BackColor == System.Drawing.Color.Gainsboro ? checkBox6.BackColor = System.Drawing.Color.Gray : checkBox6.BackColor = System.Drawing.Color.Gainsboro;
+
+            // cartesianChart1.AxisY[5].Separator.Stroke = cartesianChart1.AxisY[5].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[5].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[5].Separator.Stroke = Brushes.Black;
         }
         private void checkBox7_CheckedChanged(object sender, EventArgs e)
         {
@@ -552,7 +571,9 @@ namespace DataLoggerAppV1
                  : Visibility.Visible;
             cartesianChart1.AxisY[6].ShowLabels = cartesianChart1.AxisY[6].ShowLabels == false ? cartesianChart1.AxisY[6].ShowLabels = true : cartesianChart1.AxisY[6].ShowLabels = false;
             cartesianChart1.AxisY[6].Title = cartesianChart1.AxisY[6].Title == Properties.Settings.Default.NameAi6 ? cartesianChart1.AxisY[6].Title = "" : cartesianChart1.AxisY[6].Title = Properties.Settings.Default.NameAi6;
-           // cartesianChart1.AxisY[6].Separator.Stroke = cartesianChart1.AxisY[6].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[6].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[6].Separator.Stroke = Brushes.Black;
+            checkBox7.BackColor = checkBox7.BackColor == System.Drawing.Color.Gainsboro ? checkBox7.BackColor = System.Drawing.Color.Gray : checkBox7.BackColor = System.Drawing.Color.Gainsboro;
+
+            // cartesianChart1.AxisY[6].Separator.Stroke = cartesianChart1.AxisY[6].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[6].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[6].Separator.Stroke = Brushes.Black;
         }
         private void checkBox8_CheckedChanged(object sender, EventArgs e)
         {
@@ -561,7 +582,9 @@ namespace DataLoggerAppV1
                  : Visibility.Visible;
             cartesianChart1.AxisY[7].ShowLabels = cartesianChart1.AxisY[7].ShowLabels == false ? cartesianChart1.AxisY[7].ShowLabels = true : cartesianChart1.AxisY[7].ShowLabels = false;
             cartesianChart1.AxisY[7].Title = cartesianChart1.AxisY[7].Title == Properties.Settings.Default.NameAi7 ? cartesianChart1.AxisY[7].Title = "" : cartesianChart1.AxisY[7].Title = Properties.Settings.Default.NameAi7;
-           // cartesianChart1.AxisY[7].Separator.Stroke = cartesianChart1.AxisY[7].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[7].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[7].Separator.Stroke = Brushes.Black;
+            checkBox8.BackColor = checkBox8.BackColor == System.Drawing.Color.Gainsboro ? checkBox8.BackColor = System.Drawing.Color.Gray : checkBox8.BackColor = System.Drawing.Color.Gainsboro;
+
+            // cartesianChart1.AxisY[7].Separator.Stroke = cartesianChart1.AxisY[7].Separator.Stroke == Brushes.Black ? cartesianChart1.AxisY[7].Separator.Stroke = Brushes.Transparent : cartesianChart1.AxisY[7].Separator.Stroke = Brushes.Black;
         }
 
         private void btnDashboard_Click(object sender, EventArgs e)
@@ -597,7 +620,7 @@ namespace DataLoggerAppV1
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            textBox1.Text = _viewModel.Count.ToString();
+            //textBox1.Text = _viewModel.Count.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)

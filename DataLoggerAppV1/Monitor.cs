@@ -33,10 +33,6 @@ namespace DataLoggerAppV1
             this.label40 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
@@ -101,7 +97,6 @@ namespace DataLoggerAppV1
             this.label56 = new System.Windows.Forms.Label();
             this.standardControl74 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl53 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl72 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl47 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl32 = new SymbolFactoryDotNet.StandardControl();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -154,11 +149,8 @@ namespace DataLoggerAppV1
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.standardControl69 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl70 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl67 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl68 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl65 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl49 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl71 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl54 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl63 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl64 = new SymbolFactoryDotNet.StandardControl();
@@ -207,7 +199,6 @@ namespace DataLoggerAppV1
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl74)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl53)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl72)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl47)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl32)).BeginInit();
             this.panel2.SuspendLayout();
@@ -252,11 +243,8 @@ namespace DataLoggerAppV1
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl69)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl70)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl67)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl68)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl65)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl49)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl71)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl54)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl63)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl64)).BeginInit();
@@ -379,42 +367,6 @@ namespace DataLoggerAppV1
             this.label38.Size = new System.Drawing.Size(106, 23);
             this.label38.TabIndex = 271;
             this.label38.Text = "SAMPLE 1";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(1475, 776);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(88, 23);
-            this.label34.TabIndex = 270;
-            this.label34.Text = "BOTTLE";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(1473, 741);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(74, 23);
-            this.label35.TabIndex = 269;
-            this.label35.Text = "DRAIN";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(465, 938);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(88, 23);
-            this.label32.TabIndex = 268;
-            this.label32.Text = "BOTTLE";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(465, 909);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(74, 23);
-            this.label33.TabIndex = 267;
-            this.label33.Text = "DRAIN";
             // 
             // label31
             // 
@@ -1351,30 +1303,6 @@ namespace DataLoggerAppV1
             this.standardControl53.Size = new System.Drawing.Size(18, 30);
             this.standardControl53.SymbolHandle = ((long)(1265761081));
             this.standardControl53.TabIndex = 77;
-            // 
-            // standardControl72
-            // 
-            this.standardControl72.AnalogIntValue1 = ((short)(0));
-            this.standardControl72.AnalogValue1 = 0D;
-            this.standardControl72.BackColor = System.Drawing.Color.Transparent;
-            this.standardControl72.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl72.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl72.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl72.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl72.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl72.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl72.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl72.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl72.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl72.Category = "1PIPE.cat2";
-            this.standardControl72.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl72.DebugData"));
-            this.standardControl72.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl72.Location = new System.Drawing.Point(369, 902);
-            this.standardControl72.Name = "standardControl72";
-            this.standardControl72.Size = new System.Drawing.Size(62, 2);
-            this.standardControl72.Stretch = true;
-            this.standardControl72.SymbolHandle = ((long)(823526416));
-            this.standardControl72.TabIndex = 217;
             // 
             // standardControl47
             // 
@@ -2487,54 +2415,6 @@ namespace DataLoggerAppV1
             this.standardControl70.SymbolHandle = ((long)(823526416));
             this.standardControl70.TabIndex = 213;
             // 
-            // standardControl67
-            // 
-            this.standardControl67.AnalogIntValue1 = ((short)(0));
-            this.standardControl67.AnalogValue1 = 0D;
-            this.standardControl67.BackColor = System.Drawing.Color.Transparent;
-            this.standardControl67.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl67.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl67.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl67.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl67.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl67.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl67.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl67.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl67.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl67.Category = "1TANK.cat2";
-            this.standardControl67.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl67.DebugData"));
-            this.standardControl67.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl67.Location = new System.Drawing.Point(1431, 731);
-            this.standardControl67.Name = "standardControl67";
-            this.standardControl67.Size = new System.Drawing.Size(36, 75);
-            this.standardControl67.Stretch = true;
-            this.standardControl67.SymbolHandle = ((long)(2057225536));
-            this.standardControl67.TabIndex = 211;
-            // 
-            // standardControl68
-            // 
-            this.standardControl68.AnalogIntValue1 = ((short)(0));
-            this.standardControl68.AnalogValue1 = 0D;
-            this.standardControl68.BackColor = System.Drawing.Color.Transparent;
-            this.standardControl68.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl68.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl68.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl68.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl68.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl68.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl68.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl68.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl68.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl68.Category = "1PIPE.cat2";
-            this.standardControl68.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl68.DebugData"));
-            this.standardControl68.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl68.Location = new System.Drawing.Point(1381, 736);
-            this.standardControl68.Name = "standardControl68";
-            this.standardControl68.Size = new System.Drawing.Size(62, 2);
-            this.standardControl68.Stretch = true;
-            this.standardControl68.SymbolHandle = ((long)(823526416));
-            this.standardControl68.TabIndex = 212;
-            // 
             // standardControl65
             // 
             this.standardControl65.AnalogIntValue1 = ((short)(0));
@@ -2582,30 +2462,6 @@ namespace DataLoggerAppV1
             this.standardControl49.Stretch = true;
             this.standardControl49.SymbolHandle = ((long)(34436));
             this.standardControl49.TabIndex = 206;
-            // 
-            // standardControl71
-            // 
-            this.standardControl71.AnalogIntValue1 = ((short)(0));
-            this.standardControl71.AnalogValue1 = 0D;
-            this.standardControl71.BackColor = System.Drawing.Color.Transparent;
-            this.standardControl71.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl71.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl71.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl71.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl71.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl71.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl71.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl71.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl71.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl71.Category = "1TANK.cat2";
-            this.standardControl71.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl71.DebugData"));
-            this.standardControl71.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl71.Location = new System.Drawing.Point(419, 897);
-            this.standardControl71.Name = "standardControl71";
-            this.standardControl71.Size = new System.Drawing.Size(36, 75);
-            this.standardControl71.Stretch = true;
-            this.standardControl71.SymbolHandle = ((long)(2057225536));
-            this.standardControl71.TabIndex = 216;
             // 
             // standardControl54
             // 
@@ -3177,10 +3033,6 @@ namespace DataLoggerAppV1
             this.Controls.Add(this.label40);
             this.Controls.Add(this.label39);
             this.Controls.Add(this.label38);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label35);
-            this.Controls.Add(this.label32);
-            this.Controls.Add(this.label33);
             this.Controls.Add(this.label31);
             this.Controls.Add(this.label30);
             this.Controls.Add(this.label29);
@@ -3230,7 +3082,6 @@ namespace DataLoggerAppV1
             this.Controls.Add(this.standardControl77);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.standardControl74);
-            this.Controls.Add(this.standardControl72);
             this.Controls.Add(this.standardControl47);
             this.Controls.Add(this.standardControl32);
             this.Controls.Add(this.standardControl46);
@@ -3249,10 +3100,8 @@ namespace DataLoggerAppV1
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.standardControl69);
             this.Controls.Add(this.standardControl70);
-            this.Controls.Add(this.standardControl67);
             this.Controls.Add(this.standardControl65);
             this.Controls.Add(this.standardControl49);
-            this.Controls.Add(this.standardControl71);
             this.Controls.Add(this.standardControl63);
             this.Controls.Add(this.standardControl64);
             this.Controls.Add(this.standardControl57);
@@ -3273,7 +3122,6 @@ namespace DataLoggerAppV1
             this.Controls.Add(this.standardControl43);
             this.Controls.Add(this.standardControl35);
             this.Controls.Add(this.standardControl40);
-            this.Controls.Add(this.standardControl68);
             this.Controls.Add(this.standardControl56);
             this.Controls.Add(this.standardControl48);
             this.Controls.Add(this.standardControl5);
@@ -3309,7 +3157,6 @@ namespace DataLoggerAppV1
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl74)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl53)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl72)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl47)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl32)).EndInit();
             this.panel2.ResumeLayout(false);
@@ -3358,11 +3205,8 @@ namespace DataLoggerAppV1
             this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl69)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl70)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl67)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl68)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl65)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl49)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl71)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl54)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl63)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl64)).EndInit();
@@ -3402,10 +3246,6 @@ namespace DataLoggerAppV1
         private Label label40;
         private Label label39;
         private Label label38;
-        private Label label34;
-        private Label label35;
-        private Label label32;
-        private Label label33;
         private Label label31;
         private Label label30;
         private Label label29;
@@ -3470,7 +3310,6 @@ namespace DataLoggerAppV1
         private Label label56;
         private SymbolFactoryDotNet.StandardControl standardControl74;
         private SymbolFactoryDotNet.StandardControl standardControl53;
-        private SymbolFactoryDotNet.StandardControl standardControl72;
         private SymbolFactoryDotNet.StandardControl standardControl47;
         private SymbolFactoryDotNet.StandardControl standardControl32;
         private Panel panel2;
@@ -3520,11 +3359,8 @@ namespace DataLoggerAppV1
         private Timer timer1;
         private SymbolFactoryDotNet.StandardControl standardControl69;
         private SymbolFactoryDotNet.StandardControl standardControl70;
-        private SymbolFactoryDotNet.StandardControl standardControl67;
-        private SymbolFactoryDotNet.StandardControl standardControl68;
         private SymbolFactoryDotNet.StandardControl standardControl65;
         private SymbolFactoryDotNet.StandardControl standardControl49;
-        private SymbolFactoryDotNet.StandardControl standardControl71;
         private SymbolFactoryDotNet.StandardControl standardControl54;
         private SymbolFactoryDotNet.StandardControl standardControl63;
         private SymbolFactoryDotNet.StandardControl standardControl64;

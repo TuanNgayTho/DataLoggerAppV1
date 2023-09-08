@@ -99,7 +99,7 @@
       <Value Profile="(Default)">Violet</Value>
     </Setting>
     <Setting Name="ColorAi4" Type="System.Drawing.Color" Scope="User">
-      <Value Profile="(Default)">Gray</Value>
+      <Value Profile="(Default)">Lime</Value>
     </Setting>
     <Setting Name="ColorAi5" Type="System.Drawing.Color" Scope="User">
       <Value Profile="(Default)">Blue</Value>

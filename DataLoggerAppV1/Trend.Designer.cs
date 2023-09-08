@@ -47,7 +47,6 @@
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -55,6 +54,9 @@
             this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -214,139 +216,158 @@
             // 
             // checkBox8
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.BackColor = System.Drawing.Color.Silver;
+            this.checkBox8.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox8.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkBox8.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox8.Checked = true;
             this.checkBox8.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox8.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox8.Location = new System.Drawing.Point(1443, 884);
+            this.checkBox8.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
+            this.checkBox8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.checkBox8.Location = new System.Drawing.Point(1402, 31);
             this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(155, 35);
+            this.checkBox8.Size = new System.Drawing.Size(181, 68);
             this.checkBox8.TabIndex = 21;
             this.checkBox8.Text = "checkBox8";
+            this.checkBox8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox8.UseVisualStyleBackColor = false;
             this.checkBox8.CheckedChanged += new System.EventHandler(this.checkBox8_CheckedChanged);
             // 
             // checkBox7
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.BackColor = System.Drawing.Color.Silver;
+            this.checkBox7.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox7.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkBox7.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox7.Checked = true;
             this.checkBox7.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox7.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.Location = new System.Drawing.Point(1244, 884);
+            this.checkBox7.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
+            this.checkBox7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.checkBox7.Location = new System.Drawing.Point(1204, 31);
             this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(155, 35);
+            this.checkBox7.Size = new System.Drawing.Size(181, 68);
             this.checkBox7.TabIndex = 20;
             this.checkBox7.Text = "checkBox7";
+            this.checkBox7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox7.UseVisualStyleBackColor = false;
             this.checkBox7.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
             // 
             // checkBox6
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.BackColor = System.Drawing.Color.Silver;
+            this.checkBox6.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox6.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkBox6.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox6.Checked = true;
             this.checkBox6.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox6.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.Location = new System.Drawing.Point(1045, 884);
+            this.checkBox6.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
+            this.checkBox6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.checkBox6.Location = new System.Drawing.Point(1006, 31);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(155, 35);
+            this.checkBox6.Size = new System.Drawing.Size(181, 68);
             this.checkBox6.TabIndex = 19;
             this.checkBox6.Text = "checkBox6";
+            this.checkBox6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox6.UseVisualStyleBackColor = false;
             this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
             // 
             // checkBox5
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.BackColor = System.Drawing.Color.Silver;
+            this.checkBox5.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox5.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkBox5.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox5.Checked = true;
             this.checkBox5.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox5.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(846, 884);
+            this.checkBox5.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
+            this.checkBox5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.checkBox5.Location = new System.Drawing.Point(808, 31);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(155, 35);
+            this.checkBox5.Size = new System.Drawing.Size(181, 68);
             this.checkBox5.TabIndex = 18;
             this.checkBox5.Text = "checkBox5";
+            this.checkBox5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox5.UseVisualStyleBackColor = false;
             this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
             // 
             // checkBox4
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.BackColor = System.Drawing.Color.Silver;
+            this.checkBox4.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox4.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkBox4.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox4.Checked = true;
             this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox4.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(647, 884);
+            this.checkBox4.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
+            this.checkBox4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.checkBox4.Location = new System.Drawing.Point(610, 31);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(155, 35);
+            this.checkBox4.Size = new System.Drawing.Size(181, 68);
             this.checkBox4.TabIndex = 17;
             this.checkBox4.Text = "checkBox4";
+            this.checkBox4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox4.UseVisualStyleBackColor = false;
             this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
             // checkBox3
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.BackColor = System.Drawing.Color.Silver;
+            this.checkBox3.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox3.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkBox3.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox3.Checked = true;
             this.checkBox3.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox3.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(448, 884);
+            this.checkBox3.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
+            this.checkBox3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.checkBox3.Location = new System.Drawing.Point(412, 31);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(155, 35);
+            this.checkBox3.Size = new System.Drawing.Size(181, 68);
             this.checkBox3.TabIndex = 16;
             this.checkBox3.Text = "checkBox3";
+            this.checkBox3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox3.UseVisualStyleBackColor = false;
             this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // checkBox2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.BackColor = System.Drawing.Color.Silver;
+            this.checkBox2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox2.BackColor = System.Drawing.Color.Gainsboro;
             this.checkBox2.Checked = true;
             this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(249, 884);
+            this.checkBox2.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
+            this.checkBox2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.checkBox2.Location = new System.Drawing.Point(214, 31);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(155, 35);
+            this.checkBox2.Size = new System.Drawing.Size(181, 68);
             this.checkBox2.TabIndex = 15;
             this.checkBox2.Text = "checkBox2";
+            this.checkBox2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox2.UseVisualStyleBackColor = false;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.Silver;
-            this.checkBox1.Checked = true;
-            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.checkBox1.Location = new System.Drawing.Point(50, 884);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(152, 35);
-            this.checkBox1.TabIndex = 14;
-            this.checkBox1.TabStop = false;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = false;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
-            // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Location = new System.Drawing.Point(31, 859);
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.checkBox1);
+            this.panel1.Controls.Add(this.checkBox2);
+            this.panel1.Controls.Add(this.checkBox3);
+            this.panel1.Controls.Add(this.checkBox4);
+            this.panel1.Controls.Add(this.checkBox8);
+            this.panel1.Controls.Add(this.checkBox5);
+            this.panel1.Controls.Add(this.checkBox7);
+            this.panel1.Controls.Add(this.checkBox6);
+            this.panel1.Location = new System.Drawing.Point(24, 841);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1579, 84);
+            this.panel1.Size = new System.Drawing.Size(1604, 117);
             this.panel1.TabIndex = 22;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.hour1);
             this.panel2.Controls.Add(this.button6);
@@ -392,7 +413,7 @@
             this.cartesianChart1.AccessibleName = "TEXT";
             this.cartesianChart1.BackColor = System.Drawing.SystemColors.Control;
             this.cartesianChart1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cartesianChart1.ForeColor = System.Drawing.SystemColors.Control;
+            this.cartesianChart1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.cartesianChart1.Location = new System.Drawing.Point(29, 154);
             this.cartesianChart1.Margin = new System.Windows.Forms.Padding(5);
             this.cartesianChart1.Name = "cartesianChart1";
@@ -412,6 +433,36 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox1.BackColor = System.Drawing.Color.Gainsboro;
+            this.checkBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.checkBox1.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
+            this.checkBox1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.checkBox1.Location = new System.Drawing.Point(16, 31);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(181, 68);
+            this.checkBox1.TabIndex = 22;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox1.UseVisualStyleBackColor = false;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
+            this.checkBox1.CheckStateChanged += new System.EventHandler(this.checkBox1_CheckStateChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(19, 4);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(74, 21);
+            this.label4.TabIndex = 23;
+            this.label4.Text = "Visibility";
+            // 
             // Trend
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -422,14 +473,6 @@
             this.Controls.Add(this.cartesianChart1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnDashboard);
-            this.Controls.Add(this.checkBox8);
-            this.Controls.Add(this.checkBox7);
-            this.Controls.Add(this.checkBox6);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -438,6 +481,8 @@
             this.Name = "Trend";
             this.Text = "Export";
             this.Load += new System.EventHandler(this.Trend_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
@@ -464,7 +509,6 @@
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private LiveCharts.WinForms.CartesianChart cartesianChart1;
@@ -472,5 +516,7 @@
         private System.Windows.Forms.DateTimePicker hour1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label label4;
     }
 }

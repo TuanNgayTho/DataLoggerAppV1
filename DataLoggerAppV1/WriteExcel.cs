@@ -133,9 +133,9 @@ namespace DataLoggerAppV1
         }
         public static void WriteReport(String Day1 ,String Day2) {
 
-            float[] value_0 = new float[86400];
-            float[] value_1 = new float[86400];
-            float[] value_2 = new float[86400];
+            float[] value_0 = new float[86400] ;
+            float[] value_1 = new float[86400] ;
+            float[] value_2 = new float[86400] ;
             float[] value_3 = new float[86400];
             float[] value_4 = new float[86400];
             float[] value_5 = new float[86400];
