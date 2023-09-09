@@ -973,7 +973,6 @@
             this.barAi7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.barAi7.Name = "barAi7";
             this.barAi7.Size = new System.Drawing.Size(873, 41);
-            this.barAi7.Step = 1;
             this.barAi7.TabIndex = 0;
             // 
             // label2
@@ -1143,7 +1142,6 @@
             this.barAi6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.barAi6.Name = "barAi6";
             this.barAi6.Size = new System.Drawing.Size(873, 41);
-            this.barAi6.Step = 1;
             this.barAi6.TabIndex = 0;
             // 
             // panel3
@@ -1229,7 +1227,6 @@
             this.barAi5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.barAi5.Name = "barAi5";
             this.barAi5.Size = new System.Drawing.Size(873, 41);
-            this.barAi5.Step = 1;
             this.barAi5.TabIndex = 0;
             // 
             // panel4
@@ -1315,7 +1312,6 @@
             this.barAi4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.barAi4.Name = "barAi4";
             this.barAi4.Size = new System.Drawing.Size(873, 41);
-            this.barAi4.Step = 1;
             this.barAi4.TabIndex = 0;
             // 
             // panel5
@@ -1401,7 +1397,6 @@
             this.barAi3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.barAi3.Name = "barAi3";
             this.barAi3.Size = new System.Drawing.Size(873, 41);
-            this.barAi3.Step = 1;
             this.barAi3.TabIndex = 0;
             // 
             // panel6
@@ -1487,7 +1482,6 @@
             this.barAi2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.barAi2.Name = "barAi2";
             this.barAi2.Size = new System.Drawing.Size(873, 41);
-            this.barAi2.Step = 1;
             this.barAi2.TabIndex = 0;
             // 
             // panel7
@@ -1573,7 +1567,6 @@
             this.barAi1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.barAi1.Name = "barAi1";
             this.barAi1.Size = new System.Drawing.Size(873, 41);
-            this.barAi1.Step = 1;
             this.barAi1.TabIndex = 0;
             // 
             // panel8
