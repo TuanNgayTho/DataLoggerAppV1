@@ -82,6 +82,7 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Default;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
