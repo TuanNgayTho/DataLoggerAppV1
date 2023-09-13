@@ -264,12 +264,22 @@ namespace DataLoggerAppV1
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            new LoginPage().ShowDialog();
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             MainForm.ActiveForm.WindowState = FormWindowState.Minimized;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            new LoginPage().ShowDialog();
         }
     }
 }
