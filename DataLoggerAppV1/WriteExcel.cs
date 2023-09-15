@@ -17,6 +17,7 @@ using System.Drawing.Printing;
 using System.Xml.Linq;
 using iTextSharp.text.pdf;
 using iTextSharp.text;
+using System.Threading;
 
 namespace DataLoggerAppV1
 {
@@ -126,7 +127,7 @@ namespace DataLoggerAppV1
                 wb.Close();
 
                 Process.Start(url);
-                excel.Quit();
+                //excel.Quit();
                 MessageBox.Show("Export successful!");
             }
             catch (Exception e)
