@@ -1,5 +1,7 @@
 CREATE DATABASE datalogger;
 USE datalogger;
+SET GLOBAL event_scheduler = ON;
+
 CREATE TABLE samples(
 	id int primary key not null auto_increment,
     aivalue0 float default 0,
@@ -28,3 +30,10 @@ CREATE TABLE alarmlist(
     alarmstatus bool default false, -- false => mới xảy ra lỗi, true => lỗi đã kết thúc
     ts TIMESTAMP  DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
+
+CREATE EVENT AutoDeleteOldData
+ON SCHEDULE EVERY 1 DAY
+STARTS CURRENT_TIMESTAMP
+ON COMPLETION PRESERVE ENABLE
+DO 
+	DELETE LOW_PRIORITY FROM datalogger.samples WHERE ts < DATE_SUB(NOW(), INTERVAL 1 YEAR);
