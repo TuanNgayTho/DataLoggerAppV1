@@ -75,7 +75,7 @@ namespace DataLoggerAppV1
                                     reader.GetString(13));
                                 if (reader.GetBoolean(11))
                                 {
-                                    dataGridView1.Rows[currentRow].DefaultCellStyle.BackColor = Color.LightCoral;
+                                    dataGridView1.Rows[currentRow].DefaultCellStyle.BackColor = Color.Red;
                                 }
                                 else if (reader.GetBoolean(11) == false)
                                 {

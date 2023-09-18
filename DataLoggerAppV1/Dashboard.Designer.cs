@@ -248,7 +248,7 @@
             // 
             // btnStop
             // 
-            this.btnStop.BackColor = System.Drawing.Color.LightCoral;
+            this.btnStop.BackColor = System.Drawing.Color.Red;
             this.btnStop.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStop.Location = new System.Drawing.Point(324, 83);
             this.btnStop.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);

@@ -124,7 +124,7 @@
             // 
             this.lblExit.AutoSize = true;
             this.lblExit.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExit.ForeColor = System.Drawing.Color.LightCoral;
+            this.lblExit.ForeColor = System.Drawing.Color.Red;
             this.lblExit.Location = new System.Drawing.Point(128, 422);
             this.lblExit.Name = "lblExit";
             this.lblExit.Size = new System.Drawing.Size(46, 24);
@@ -173,7 +173,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.LightCoral;
+            this.button1.BackColor = System.Drawing.Color.Red;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
