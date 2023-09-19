@@ -158,5 +158,29 @@
     <Setting Name="MaxAi7" Type="System.Double" Scope="User">
       <Value Profile="(Default)">100</Value>
     </Setting>
+    <Setting Name="ISBT0" Type="System.String" Scope="User">
+      <Value Profile="(Default)">50.1</Value>
+    </Setting>
+    <Setting Name="ISBT1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">50.2</Value>
+    </Setting>
+    <Setting Name="ISBT2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">50.3</Value>
+    </Setting>
+    <Setting Name="ISBT3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">50.4</Value>
+    </Setting>
+    <Setting Name="ISBT4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">50.5</Value>
+    </Setting>
+    <Setting Name="ISBT5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">50.6</Value>
+    </Setting>
+    <Setting Name="ISBT6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">50.7</Value>
+    </Setting>
+    <Setting Name="ISBT7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">50.8</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

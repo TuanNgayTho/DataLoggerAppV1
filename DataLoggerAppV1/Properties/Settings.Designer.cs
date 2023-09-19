@@ -646,5 +646,101 @@ namespace DataLoggerAppV1.Properties {
                 this["MaxAi7"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("50.1")]
+        public string ISBT0 {
+            get {
+                return ((string)(this["ISBT0"]));
+            }
+            set {
+                this["ISBT0"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("50.2")]
+        public string ISBT1 {
+            get {
+                return ((string)(this["ISBT1"]));
+            }
+            set {
+                this["ISBT1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("50.3")]
+        public string ISBT2 {
+            get {
+                return ((string)(this["ISBT2"]));
+            }
+            set {
+                this["ISBT2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("50.4")]
+        public string ISBT3 {
+            get {
+                return ((string)(this["ISBT3"]));
+            }
+            set {
+                this["ISBT3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("50.5")]
+        public string ISBT4 {
+            get {
+                return ((string)(this["ISBT4"]));
+            }
+            set {
+                this["ISBT4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("50.6")]
+        public string ISBT5 {
+            get {
+                return ((string)(this["ISBT5"]));
+            }
+            set {
+                this["ISBT5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("50.7")]
+        public string ISBT6 {
+            get {
+                return ((string)(this["ISBT6"]));
+            }
+            set {
+                this["ISBT6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("50.8")]
+        public string ISBT7 {
+            get {
+                return ((string)(this["ISBT7"]));
+            }
+            set {
+                this["ISBT7"] = value;
+            }
+        }
     }
 }

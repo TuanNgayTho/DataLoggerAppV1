@@ -53,6 +53,15 @@ namespace DataLoggerAppV1
             txbNameAi6.Text = Properties.Settings.Default.NameAi6;
             txbNameAi7.Text = Properties.Settings.Default.NameAi7;
 
+            tbxISBT0.Text = Properties.Settings.Default.ISBT0;
+            tbxISBT1.Text = Properties.Settings.Default.ISBT1;
+            tbxISBT2.Text = Properties.Settings.Default.ISBT2;
+            tbxISBT3.Text = Properties.Settings.Default.ISBT3;
+            tbxISBT4.Text = Properties.Settings.Default.ISBT4;
+            tbxISBT5.Text = Properties.Settings.Default.ISBT5;
+            tbxISBT6.Text = Properties.Settings.Default.ISBT6;
+            tbxISBT7.Text = Properties.Settings.Default.ISBT7;
+
             txbCycleTime.Text = Convert.ToString(Properties.Settings.Default.CycleTime / 1000);
 
             // Creat a new thread and then run method read from PLC
@@ -492,6 +501,15 @@ namespace DataLoggerAppV1
                         Properties.Settings.Default.MaxAi5 = Convert.ToDouble(txbMesurementMax5.Text);
                         Properties.Settings.Default.MaxAi6 = Convert.ToDouble(txbMesurementMax6.Text);
                         Properties.Settings.Default.MaxAi7 = Convert.ToDouble(txbMesurementMax7.Text);
+
+                        Properties.Settings.Default.ISBT0 = tbxISBT0.Text;
+                        Properties.Settings.Default.ISBT1 = tbxISBT1.Text;
+                        Properties.Settings.Default.ISBT2 = tbxISBT2.Text;
+                        Properties.Settings.Default.ISBT3 = tbxISBT3.Text;
+                        Properties.Settings.Default.ISBT4 = tbxISBT4.Text;
+                        Properties.Settings.Default.ISBT5 = tbxISBT5.Text;
+                        Properties.Settings.Default.ISBT6 = tbxISBT6.Text;
+                        Properties.Settings.Default.ISBT7 = tbxISBT7.Text;
 
                         Properties.Settings.Default.Save();
                         MessageBox.Show("Save Successful!");

@@ -1151,6 +1151,15 @@ namespace DataLoggerAppV1
             lblNameAi5.Text = Properties.Settings.Default.NameAi5;
             lblNameAi6.Text = Properties.Settings.Default.NameAi6;
             lblNameAi7.Text = Properties.Settings.Default.NameAi7;
+
+            lblISBT0.Text = Properties.Settings.Default.ISBT0;
+            lblISBT1.Text = Properties.Settings.Default.ISBT1;
+            lblISBT2.Text = Properties.Settings.Default.ISBT2;
+            lblISBT3.Text = Properties.Settings.Default.ISBT3;
+            lblISBT4.Text = Properties.Settings.Default.ISBT4;
+            lblISBT5.Text = Properties.Settings.Default.ISBT5;
+            lblISBT6.Text = Properties.Settings.Default.ISBT6;
+            lblISBT7.Text = Properties.Settings.Default.ISBT7;
         }
 
         // btn Stream 1
@@ -1392,6 +1401,11 @@ namespace DataLoggerAppV1
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblLowAlarm7_Click(object sender, EventArgs e)
         {
 
         }
