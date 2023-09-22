@@ -79,7 +79,7 @@ namespace DataLoggerAppV1
                                 }
                                 else if (reader.GetBoolean(11) == false)
                                 {
-                                    dataGridView1.Rows[currentRow].DefaultCellStyle.BackColor = Color.Gold;
+                                    dataGridView1.Rows[currentRow].DefaultCellStyle.BackColor = Color.Yellow;
                                 }
                             }
                         }

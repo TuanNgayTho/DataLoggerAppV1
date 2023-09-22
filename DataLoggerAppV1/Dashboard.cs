@@ -199,8 +199,12 @@ namespace DataLoggerAppV1
                         {
                             if (result != ErrorCode.NoError)
                             {
-                                AutoClosingMessageBox.Show("Error: DashBoard " + dashBoardplc.LastErrorCode + "\n" + dashBoardplc.LastErrorString, "Caption", 30000);
-                                //MessageBox.Show("Error: DashBoard " + dashBoardplc.LastErrorCode + "\n" + dashBoardplc.LastErrorString);
+                                var accept = Setting.isStay;
+                                if (accept == false)
+                                {
+                                    AutoClosingMessageBox.Show("Error: DashBoard " + dashBoardplc.LastErrorCode + "\n" + dashBoardplc.LastErrorString, "Caption", 30000);
+                                    //MessageBox.Show("Error: DashBoard " + dashBoardplc.LastErrorCode + "\n" + dashBoardplc.LastErrorString);
+                                }
                                 break;
                             }
                             else
@@ -371,9 +375,9 @@ namespace DataLoggerAppV1
                                     {
                                         lblAlarmSystem.BackColor = Color.LightBlue;
                                     }
-                                    else if (DbReadBool.SystemStatusLowAlarm && lblAlarmSystem.BackColor != Color.Gold)
+                                    else if (DbReadBool.SystemStatusLowAlarm && lblAlarmSystem.BackColor != Color.Yellow)
                                     {
-                                        lblAlarmSystem.BackColor = Color.Gold;
+                                        lblAlarmSystem.BackColor = Color.Yellow;
                                     }
                                     else if (DbReadBool.SystemStatusHighAlarm && lblAlarmSystem.BackColor != Color.Red)
                                     {
@@ -402,10 +406,10 @@ namespace DataLoggerAppV1
                                 Invoke(new Action(() =>
                                 {
                                     // Ai0 Status
-                                    if (DbReadBool.LowAlarm0 && lblAlarmAi0.BackColor != Color.Gold)
+                                    if (DbReadBool.LowAlarm0 && lblAlarmAi0.BackColor != Color.Yellow)
                                     {
-                                        lblAlarmAi0.BackColor = Color.Gold;
-                                        barAi0.ForeColor = Color.Gold;
+                                        lblAlarmAi0.BackColor = Color.Yellow;
+                                        barAi0.ForeColor = Color.Yellow;
                                     }
                                     else if (DbReadBool.HighAlarm0 && lblAlarmAi0.BackColor != Color.Red)
                                     {
@@ -419,10 +423,10 @@ namespace DataLoggerAppV1
                                     }
 
                                     // Ai1 Status
-                                    if (DbReadBool.LowAlarm1 && lblAlarmAi1.BackColor != Color.Gold)
+                                    if (DbReadBool.LowAlarm1 && lblAlarmAi1.BackColor != Color.Yellow)
                                     {
-                                        lblAlarmAi1.BackColor = Color.Gold;
-                                        barAi1.ForeColor = Color.Gold;
+                                        lblAlarmAi1.BackColor = Color.Yellow;
+                                        barAi1.ForeColor = Color.Yellow;
                                     }
                                     else if (DbReadBool.HighAlarm1 && lblAlarmAi1.BackColor != Color.Red)
                                     {
@@ -436,10 +440,10 @@ namespace DataLoggerAppV1
                                     }
 
                                     // Ai2 Status
-                                    if (DbReadBool.LowAlarm2 && lblAlarmAi2.BackColor != Color.Gold)
+                                    if (DbReadBool.LowAlarm2 && lblAlarmAi2.BackColor != Color.Yellow)
                                     {
-                                        lblAlarmAi2.BackColor = Color.Gold;
-                                        barAi2.ForeColor = Color.Gold;
+                                        lblAlarmAi2.BackColor = Color.Yellow;
+                                        barAi2.ForeColor = Color.Yellow;
                                     }
                                     else if (DbReadBool.HighAlarm2 && lblAlarmAi2.BackColor != Color.Red)
                                     {
@@ -453,10 +457,10 @@ namespace DataLoggerAppV1
                                     }
 
                                     // Ai3 Status
-                                    if (DbReadBool.LowAlarm3 && lblAlarmAi3.BackColor != Color.Gold)
+                                    if (DbReadBool.LowAlarm3 && lblAlarmAi3.BackColor != Color.Yellow)
                                     {
-                                        lblAlarmAi3.BackColor = Color.Gold;
-                                        barAi3.ForeColor = Color.Gold;
+                                        lblAlarmAi3.BackColor = Color.Yellow;
+                                        barAi3.ForeColor = Color.Yellow;
                                     }
                                     else if (DbReadBool.HighAlarm3 && lblAlarmAi3.BackColor != Color.Red)
                                     {
@@ -470,10 +474,10 @@ namespace DataLoggerAppV1
                                     }
 
                                     // Ai4 Status
-                                    if (DbReadBool.LowAlarm4 && lblAlarmAi4.BackColor != Color.Gold)
+                                    if (DbReadBool.LowAlarm4 && lblAlarmAi4.BackColor != Color.Yellow)
                                     {
-                                        lblAlarmAi4.BackColor = Color.Gold;
-                                        barAi4.ForeColor = Color.Gold;
+                                        lblAlarmAi4.BackColor = Color.Yellow;
+                                        barAi4.ForeColor = Color.Yellow;
                                     }
                                     else if (DbReadBool.HighAlarm4 && lblAlarmAi4.BackColor != Color.Red)
                                     {
@@ -487,10 +491,10 @@ namespace DataLoggerAppV1
                                     }
 
                                     // Ai5 Status
-                                    if (DbReadBool.LowAlarm5 && lblAlarmAi5.BackColor != Color.Gold)
+                                    if (DbReadBool.LowAlarm5 && lblAlarmAi5.BackColor != Color.Yellow)
                                     {
-                                        lblAlarmAi5.BackColor = Color.Gold;
-                                        barAi5.ForeColor = Color.Gold;
+                                        lblAlarmAi5.BackColor = Color.Yellow;
+                                        barAi5.ForeColor = Color.Yellow;
                                     }
                                     else if (DbReadBool.HighAlarm5 && lblAlarmAi5.BackColor != Color.Red)
                                     {
@@ -504,10 +508,10 @@ namespace DataLoggerAppV1
                                     }
 
                                     // Ai6 Status
-                                    if (DbReadBool.LowAlarm6 && lblAlarmAi6.BackColor != Color.Gold)
+                                    if (DbReadBool.LowAlarm6 && lblAlarmAi6.BackColor != Color.Yellow)
                                     {
-                                        lblAlarmAi6.BackColor = Color.Gold;
-                                        barAi6.ForeColor = Color.Gold;
+                                        lblAlarmAi6.BackColor = Color.Yellow;
+                                        barAi6.ForeColor = Color.Yellow;
                                     }
                                     else if (DbReadBool.HighAlarm6 && lblAlarmAi6.BackColor != Color.Red)
                                     {
@@ -521,10 +525,10 @@ namespace DataLoggerAppV1
                                     }
 
                                     // Ai7 Status
-                                    if (DbReadBool.LowAlarm7 && lblAlarmAi7.BackColor != Color.Gold)
+                                    if (DbReadBool.LowAlarm7 && lblAlarmAi7.BackColor != Color.Yellow)
                                     {
-                                        lblAlarmAi7.BackColor = Color.Gold;
-                                        barAi7.ForeColor = Color.Gold;
+                                        lblAlarmAi7.BackColor = Color.Yellow;
+                                        barAi7.ForeColor = Color.Yellow;
                                     }
                                     else if (DbReadBool.HighAlarm7 && lblAlarmAi7.BackColor != Color.Red)
                                     {

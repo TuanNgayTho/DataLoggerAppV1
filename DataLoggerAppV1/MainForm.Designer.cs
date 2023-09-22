@@ -288,11 +288,11 @@
             // 
             // lblSystemName
             // 
-            this.lblSystemName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblSystemName.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSystemName.Location = new System.Drawing.Point(0, 0);
+            this.lblSystemName.BackColor = System.Drawing.Color.Yellow;
+            this.lblSystemName.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSystemName.Location = new System.Drawing.Point(240, 13);
             this.lblSystemName.Name = "lblSystemName";
-            this.lblSystemName.Size = new System.Drawing.Size(1676, 80);
+            this.lblSystemName.Size = new System.Drawing.Size(1204, 52);
             this.lblSystemName.TabIndex = 1;
             this.lblSystemName.Text = "CARBON DIOXIDE QUALITY MONITORING DATALOGGER";
             this.lblSystemName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

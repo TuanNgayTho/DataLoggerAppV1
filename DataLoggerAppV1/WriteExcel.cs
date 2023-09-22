@@ -357,7 +357,7 @@ namespace DataLoggerAppV1
                         catch (IOException ex)
                         {
                             fileError = true;
-                            MessageBox.Show("Không thể ghi dữ liệu tới ổ đĩa. Mô tả lỗi:" + ex.Message);
+                            MessageBox.Show(ex.Message);
                         }
                     }
                     if (!fileError)
@@ -416,18 +416,18 @@ namespace DataLoggerAppV1
                                 PdfWriter.GetInstance(pdfDoc, stream);
                          
                                 pdfDoc.Open();
-                                pdfDoc.Add(new Paragraph("CFC_EXPORT DATALOGGING"+"   "+DateTime.Now.ToString()));
+                                pdfDoc.Add(new Paragraph("EXPORT DATALOGGING"+"   "+DateTime.Now.ToString()));
                                 pdfDoc.Add(new Paragraph("   "));
                                 pdfDoc.Add(pdfTable);
                                 pdfDoc.Close();
                                 stream.Close();
                             }
 
-                            MessageBox.Show("Dữ liệu Export thành công!!!", "Info");
+                            MessageBox.Show("Export successful!", "Info");
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show("Mô tả lỗi :" + ex.Message);
+                            MessageBox.Show(ex.Message);
                         }
                     }
                 }
