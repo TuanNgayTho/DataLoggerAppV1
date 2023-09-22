@@ -148,7 +148,6 @@
             this.txbCycleTime = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label15 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -156,9 +155,7 @@
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel1.ColumnCount = 12;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8.5F));
@@ -281,7 +278,7 @@
             this.tableLayoutPanel1.Controls.Add(this.tbxISBT5, 10, 6);
             this.tableLayoutPanel1.Controls.Add(this.tbxISBT6, 10, 7);
             this.tableLayoutPanel1.Controls.Add(this.tbxISBT7, 10, 8);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(41, 34);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(41, 13);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 9;
@@ -313,7 +310,7 @@
             // 
             // txbSensorMin7
             // 
-            this.txbSensorMin7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMin7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin7.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMin7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -326,7 +323,7 @@
             // 
             // txbSensorMax7
             // 
-            this.txbSensorMax7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMax7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax7.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMax7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -339,7 +336,7 @@
             // 
             // txbOffsetAi7
             // 
-            this.txbOffsetAi7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbOffsetAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi7.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbOffsetAi7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -352,7 +349,7 @@
             // 
             // txbSlopeAi7
             // 
-            this.txbSlopeAi7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSlopeAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi7.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSlopeAi7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -365,33 +362,33 @@
             // 
             // txbMesurementMin7
             // 
-            this.txbMesurementMin7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMin7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin7.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMin7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMin7.Location = new System.Drawing.Point(783, 625);
+            this.txbMesurementMin7.Location = new System.Drawing.Point(786, 625);
             this.txbMesurementMin7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin7.Name = "txbMesurementMin7";
-            this.txbMesurementMin7.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMin7.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMin7.TabIndex = 87;
             this.txbMesurementMin7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbMesurementMax7
             // 
-            this.txbMesurementMax7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMax7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax7.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMax7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMax7.Location = new System.Drawing.Point(922, 625);
+            this.txbMesurementMax7.Location = new System.Drawing.Point(925, 625);
             this.txbMesurementMax7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax7.Name = "txbMesurementMax7";
-            this.txbMesurementMax7.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMax7.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMax7.TabIndex = 88;
             this.txbMesurementMax7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbLowAlarm7
             // 
-            this.txbLowAlarm7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbLowAlarm7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm7.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbLowAlarm7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -404,7 +401,7 @@
             // 
             // tbxHighAlarm7
             // 
-            this.tbxHighAlarm7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxHighAlarm7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm7.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxHighAlarm7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -417,7 +414,7 @@
             // 
             // txbSensorMax6
             // 
-            this.txbSensorMax6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMax6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax6.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMax6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -430,7 +427,7 @@
             // 
             // txbOffsetAi6
             // 
-            this.txbOffsetAi6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbOffsetAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi6.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbOffsetAi6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -443,7 +440,7 @@
             // 
             // txbSlopeAi6
             // 
-            this.txbSlopeAi6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSlopeAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi6.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSlopeAi6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -456,33 +453,33 @@
             // 
             // txbMesurementMin6
             // 
-            this.txbMesurementMin6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMin6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin6.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMin6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMin6.Location = new System.Drawing.Point(783, 549);
+            this.txbMesurementMin6.Location = new System.Drawing.Point(786, 549);
             this.txbMesurementMin6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin6.Name = "txbMesurementMin6";
-            this.txbMesurementMin6.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMin6.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMin6.TabIndex = 78;
             this.txbMesurementMin6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbMesurementMax6
             // 
-            this.txbMesurementMax6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMax6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax6.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMax6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMax6.Location = new System.Drawing.Point(922, 549);
+            this.txbMesurementMax6.Location = new System.Drawing.Point(925, 549);
             this.txbMesurementMax6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax6.Name = "txbMesurementMax6";
-            this.txbMesurementMax6.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMax6.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMax6.TabIndex = 79;
             this.txbMesurementMax6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbLowAlarm6
             // 
-            this.txbLowAlarm6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbLowAlarm6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm6.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbLowAlarm6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -495,7 +492,7 @@
             // 
             // tbxHighAlarm6
             // 
-            this.tbxHighAlarm6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxHighAlarm6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm6.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxHighAlarm6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -508,7 +505,7 @@
             // 
             // txbUnitAi7
             // 
-            this.txbUnitAi7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbUnitAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi7.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbUnitAi7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -521,7 +518,7 @@
             // 
             // txbOffsetAi5
             // 
-            this.txbOffsetAi5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbOffsetAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi5.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbOffsetAi5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -534,7 +531,7 @@
             // 
             // txbSlopeAi5
             // 
-            this.txbSlopeAi5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSlopeAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi5.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSlopeAi5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -547,33 +544,33 @@
             // 
             // txbMesurementMin5
             // 
-            this.txbMesurementMin5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMin5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin5.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMin5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMin5.Location = new System.Drawing.Point(783, 475);
+            this.txbMesurementMin5.Location = new System.Drawing.Point(786, 475);
             this.txbMesurementMin5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin5.Name = "txbMesurementMin5";
-            this.txbMesurementMin5.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMin5.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMin5.TabIndex = 69;
             this.txbMesurementMin5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbMesurementMax5
             // 
-            this.txbMesurementMax5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMax5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax5.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMax5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMax5.Location = new System.Drawing.Point(922, 475);
+            this.txbMesurementMax5.Location = new System.Drawing.Point(925, 475);
             this.txbMesurementMax5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax5.Name = "txbMesurementMax5";
-            this.txbMesurementMax5.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMax5.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMax5.TabIndex = 70;
             this.txbMesurementMax5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbLowAlarm5
             // 
-            this.txbLowAlarm5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbLowAlarm5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm5.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbLowAlarm5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -586,7 +583,7 @@
             // 
             // tbxHighAlarm5
             // 
-            this.tbxHighAlarm5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxHighAlarm5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm5.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxHighAlarm5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -599,7 +596,7 @@
             // 
             // txbUnitAi6
             // 
-            this.txbUnitAi6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbUnitAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi6.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbUnitAi6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -612,7 +609,7 @@
             // 
             // txbSensorMin6
             // 
-            this.txbSensorMin6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMin6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin6.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMin6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -625,7 +622,7 @@
             // 
             // txbSlopeAi4
             // 
-            this.txbSlopeAi4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSlopeAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi4.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSlopeAi4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -638,33 +635,33 @@
             // 
             // txbMesurementMin4
             // 
-            this.txbMesurementMin4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMin4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin4.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMin4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMin4.Location = new System.Drawing.Point(783, 401);
+            this.txbMesurementMin4.Location = new System.Drawing.Point(786, 401);
             this.txbMesurementMin4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin4.Name = "txbMesurementMin4";
-            this.txbMesurementMin4.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMin4.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMin4.TabIndex = 60;
             this.txbMesurementMin4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbMesurementMax4
             // 
-            this.txbMesurementMax4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMax4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax4.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMax4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMax4.Location = new System.Drawing.Point(922, 401);
+            this.txbMesurementMax4.Location = new System.Drawing.Point(925, 401);
             this.txbMesurementMax4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax4.Name = "txbMesurementMax4";
-            this.txbMesurementMax4.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMax4.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMax4.TabIndex = 61;
             this.txbMesurementMax4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbLowAlarm4
             // 
-            this.txbLowAlarm4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbLowAlarm4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm4.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbLowAlarm4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -677,7 +674,7 @@
             // 
             // tbxHighAlarm4
             // 
-            this.tbxHighAlarm4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxHighAlarm4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm4.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxHighAlarm4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -690,7 +687,7 @@
             // 
             // txbUnitAi5
             // 
-            this.txbUnitAi5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbUnitAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi5.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbUnitAi5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -703,7 +700,7 @@
             // 
             // txbSensorMin5
             // 
-            this.txbSensorMin5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMin5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin5.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMin5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -716,7 +713,7 @@
             // 
             // txbSensorMax5
             // 
-            this.txbSensorMax5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMax5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax5.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMax5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -729,33 +726,33 @@
             // 
             // txbMesurementMin3
             // 
-            this.txbMesurementMin3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMin3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin3.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMin3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMin3.Location = new System.Drawing.Point(783, 327);
+            this.txbMesurementMin3.Location = new System.Drawing.Point(786, 327);
             this.txbMesurementMin3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin3.Name = "txbMesurementMin3";
-            this.txbMesurementMin3.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMin3.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMin3.TabIndex = 51;
             this.txbMesurementMin3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbMesurementMax3
             // 
-            this.txbMesurementMax3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMax3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax3.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMax3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMax3.Location = new System.Drawing.Point(922, 327);
+            this.txbMesurementMax3.Location = new System.Drawing.Point(925, 327);
             this.txbMesurementMax3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax3.Name = "txbMesurementMax3";
-            this.txbMesurementMax3.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMax3.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMax3.TabIndex = 52;
             this.txbMesurementMax3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbLowAlarm3
             // 
-            this.txbLowAlarm3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbLowAlarm3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm3.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbLowAlarm3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -768,7 +765,7 @@
             // 
             // tbxHighAlarm3
             // 
-            this.tbxHighAlarm3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxHighAlarm3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm3.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxHighAlarm3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -781,7 +778,7 @@
             // 
             // txbUnitAi4
             // 
-            this.txbUnitAi4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbUnitAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi4.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbUnitAi4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -794,7 +791,7 @@
             // 
             // txbSensorMin4
             // 
-            this.txbSensorMin4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMin4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin4.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMin4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -807,7 +804,7 @@
             // 
             // txbSensorMax4
             // 
-            this.txbSensorMax4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMax4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax4.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMax4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -820,7 +817,7 @@
             // 
             // txbOffsetAi4
             // 
-            this.txbOffsetAi4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbOffsetAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi4.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbOffsetAi4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -833,20 +830,20 @@
             // 
             // txbMesurementMax2
             // 
-            this.txbMesurementMax2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMax2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax2.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMax2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMax2.Location = new System.Drawing.Point(922, 254);
+            this.txbMesurementMax2.Location = new System.Drawing.Point(925, 254);
             this.txbMesurementMax2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax2.Name = "txbMesurementMax2";
-            this.txbMesurementMax2.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMax2.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMax2.TabIndex = 43;
             this.txbMesurementMax2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbLowAlarm2
             // 
-            this.txbLowAlarm2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbLowAlarm2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm2.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbLowAlarm2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -859,7 +856,7 @@
             // 
             // tbxHighAlarm2
             // 
-            this.tbxHighAlarm2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxHighAlarm2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm2.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxHighAlarm2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -872,7 +869,7 @@
             // 
             // txbUnitAi3
             // 
-            this.txbUnitAi3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbUnitAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi3.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbUnitAi3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -885,7 +882,7 @@
             // 
             // txbSensorMin3
             // 
-            this.txbSensorMin3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMin3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin3.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMin3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -899,7 +896,7 @@
             // 
             // txbSensorMax3
             // 
-            this.txbSensorMax3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMax3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax3.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMax3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -912,7 +909,7 @@
             // 
             // txbOffsetAi3
             // 
-            this.txbOffsetAi3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbOffsetAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi3.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbOffsetAi3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -925,7 +922,7 @@
             // 
             // txbSlopeAi3
             // 
-            this.txbSlopeAi3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSlopeAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi3.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSlopeAi3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -938,7 +935,7 @@
             // 
             // txbLowAlarm1
             // 
-            this.txbLowAlarm1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbLowAlarm1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm1.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbLowAlarm1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -951,7 +948,7 @@
             // 
             // tbxHighAlarm1
             // 
-            this.tbxHighAlarm1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxHighAlarm1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm1.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxHighAlarm1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -964,7 +961,7 @@
             // 
             // txbUnitAi2
             // 
-            this.txbUnitAi2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbUnitAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi2.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbUnitAi2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -977,7 +974,7 @@
             // 
             // txbSensorMin2
             // 
-            this.txbSensorMin2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMin2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin2.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMin2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -990,7 +987,7 @@
             // 
             // txbSensorMax2
             // 
-            this.txbSensorMax2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMax2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax2.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMax2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1003,7 +1000,7 @@
             // 
             // txbOffsetAi2
             // 
-            this.txbOffsetAi2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbOffsetAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi2.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbOffsetAi2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1016,7 +1013,7 @@
             // 
             // txbSlopeAi2
             // 
-            this.txbSlopeAi2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSlopeAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi2.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSlopeAi2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1029,20 +1026,20 @@
             // 
             // txbMesurementMin2
             // 
-            this.txbMesurementMin2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMin2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin2.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMin2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMin2.Location = new System.Drawing.Point(783, 254);
+            this.txbMesurementMin2.Location = new System.Drawing.Point(786, 254);
             this.txbMesurementMin2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin2.Name = "txbMesurementMin2";
-            this.txbMesurementMin2.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMin2.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMin2.TabIndex = 42;
             this.txbMesurementMin2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tbxHighAlarm0
             // 
-            this.tbxHighAlarm0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxHighAlarm0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxHighAlarm0.BackColor = System.Drawing.SystemColors.Control;
             this.tbxHighAlarm0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxHighAlarm0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1055,7 +1052,7 @@
             // 
             // txbUnitAi1
             // 
-            this.txbUnitAi1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbUnitAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi1.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbUnitAi1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1068,7 +1065,7 @@
             // 
             // txbSensorMin1
             // 
-            this.txbSensorMin1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMin1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin1.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMin1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1081,7 +1078,7 @@
             // 
             // txbSensorMax1
             // 
-            this.txbSensorMax1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMax1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax1.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMax1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1094,7 +1091,7 @@
             // 
             // txbOffsetAi1
             // 
-            this.txbOffsetAi1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbOffsetAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi1.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbOffsetAi1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1107,7 +1104,7 @@
             // 
             // txbSlopeAi1
             // 
-            this.txbSlopeAi1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSlopeAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi1.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSlopeAi1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1120,33 +1117,33 @@
             // 
             // txbMesurementMin1
             // 
-            this.txbMesurementMin1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMin1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin1.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMin1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMin1.Location = new System.Drawing.Point(783, 180);
+            this.txbMesurementMin1.Location = new System.Drawing.Point(786, 180);
             this.txbMesurementMin1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin1.Name = "txbMesurementMin1";
-            this.txbMesurementMin1.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMin1.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMin1.TabIndex = 33;
             this.txbMesurementMin1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbMesurementMax1
             // 
-            this.txbMesurementMax1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMax1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax1.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMax1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMax1.Location = new System.Drawing.Point(922, 180);
+            this.txbMesurementMax1.Location = new System.Drawing.Point(925, 180);
             this.txbMesurementMax1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax1.Name = "txbMesurementMax1";
-            this.txbMesurementMax1.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMax1.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMax1.TabIndex = 34;
             this.txbMesurementMax1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbUnitAi0
             // 
-            this.txbUnitAi0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbUnitAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbUnitAi0.BackColor = System.Drawing.SystemColors.Control;
             this.txbUnitAi0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbUnitAi0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1159,7 +1156,7 @@
             // 
             // txbSensorMin0
             // 
-            this.txbSensorMin0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMin0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMin0.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMin0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMin0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1172,7 +1169,7 @@
             // 
             // txbSensorMax0
             // 
-            this.txbSensorMax0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSensorMax0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSensorMax0.BackColor = System.Drawing.SystemColors.Control;
             this.txbSensorMax0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSensorMax0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1185,7 +1182,7 @@
             // 
             // txbOffsetAi0
             // 
-            this.txbOffsetAi0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbOffsetAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbOffsetAi0.BackColor = System.Drawing.SystemColors.Control;
             this.txbOffsetAi0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbOffsetAi0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1198,7 +1195,7 @@
             // 
             // txbSlopeAi0
             // 
-            this.txbSlopeAi0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbSlopeAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSlopeAi0.BackColor = System.Drawing.SystemColors.Control;
             this.txbSlopeAi0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSlopeAi0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1211,34 +1208,34 @@
             // 
             // txbMesurementMin0
             // 
-            this.txbMesurementMin0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMin0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMin0.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMin0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMin0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMin0.Location = new System.Drawing.Point(783, 106);
+            this.txbMesurementMin0.Location = new System.Drawing.Point(786, 106);
             this.txbMesurementMin0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMin0.Name = "txbMesurementMin0";
-            this.txbMesurementMin0.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMin0.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMin0.TabIndex = 24;
             this.txbMesurementMin0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txbMesurementMax0
             // 
-            this.txbMesurementMax0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbMesurementMax0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbMesurementMax0.BackColor = System.Drawing.SystemColors.Control;
             this.txbMesurementMax0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbMesurementMax0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMesurementMax0.Location = new System.Drawing.Point(922, 106);
+            this.txbMesurementMax0.Location = new System.Drawing.Point(925, 106);
             this.txbMesurementMax0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbMesurementMax0.Name = "txbMesurementMax0";
-            this.txbMesurementMax0.Size = new System.Drawing.Size(126, 25);
+            this.txbMesurementMax0.Size = new System.Drawing.Size(119, 25);
             this.txbMesurementMax0.TabIndex = 25;
             this.txbMesurementMax0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txbMesurementMax0.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
             // 
             // txbLowAlarm0
             // 
-            this.txbLowAlarm0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbLowAlarm0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbLowAlarm0.BackColor = System.Drawing.SystemColors.Control;
             this.txbLowAlarm0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbLowAlarm0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1498,7 +1495,7 @@
             // 
             // txbNameAi0
             // 
-            this.txbNameAi0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbNameAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbNameAi0.BackColor = System.Drawing.SystemColors.Control;
             this.txbNameAi0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbNameAi0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1511,7 +1508,7 @@
             // 
             // txbNameAi2
             // 
-            this.txbNameAi2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbNameAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbNameAi2.BackColor = System.Drawing.SystemColors.Control;
             this.txbNameAi2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbNameAi2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1524,7 +1521,7 @@
             // 
             // txbNameAi3
             // 
-            this.txbNameAi3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbNameAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbNameAi3.BackColor = System.Drawing.SystemColors.Control;
             this.txbNameAi3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbNameAi3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1537,7 +1534,7 @@
             // 
             // txbNameAi4
             // 
-            this.txbNameAi4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbNameAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbNameAi4.BackColor = System.Drawing.SystemColors.Control;
             this.txbNameAi4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbNameAi4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1550,7 +1547,7 @@
             // 
             // txbNameAi5
             // 
-            this.txbNameAi5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbNameAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbNameAi5.BackColor = System.Drawing.SystemColors.Control;
             this.txbNameAi5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbNameAi5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1563,7 +1560,7 @@
             // 
             // txbNameAi6
             // 
-            this.txbNameAi6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbNameAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbNameAi6.BackColor = System.Drawing.SystemColors.Control;
             this.txbNameAi6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbNameAi6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1576,7 +1573,7 @@
             // 
             // txbNameAi7
             // 
-            this.txbNameAi7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbNameAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbNameAi7.BackColor = System.Drawing.SystemColors.Control;
             this.txbNameAi7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbNameAi7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1589,7 +1586,7 @@
             // 
             // txbNameAi1
             // 
-            this.txbNameAi1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbNameAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbNameAi1.BackColor = System.Drawing.SystemColors.Control;
             this.txbNameAi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbNameAi1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1602,7 +1599,7 @@
             // 
             // tbxISBT0
             // 
-            this.tbxISBT0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxISBT0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxISBT0.BackColor = System.Drawing.SystemColors.Control;
             this.tbxISBT0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxISBT0.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1615,7 +1612,7 @@
             // 
             // tbxISBT1
             // 
-            this.tbxISBT1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxISBT1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxISBT1.BackColor = System.Drawing.SystemColors.Control;
             this.tbxISBT1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxISBT1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1628,7 +1625,7 @@
             // 
             // tbxISBT2
             // 
-            this.tbxISBT2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxISBT2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxISBT2.BackColor = System.Drawing.SystemColors.Control;
             this.tbxISBT2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxISBT2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1641,7 +1638,7 @@
             // 
             // tbxISBT3
             // 
-            this.tbxISBT3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxISBT3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxISBT3.BackColor = System.Drawing.SystemColors.Control;
             this.tbxISBT3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxISBT3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1654,7 +1651,7 @@
             // 
             // tbxISBT4
             // 
-            this.tbxISBT4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxISBT4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxISBT4.BackColor = System.Drawing.SystemColors.Control;
             this.tbxISBT4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxISBT4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1667,7 +1664,7 @@
             // 
             // tbxISBT5
             // 
-            this.tbxISBT5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxISBT5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxISBT5.BackColor = System.Drawing.SystemColors.Control;
             this.tbxISBT5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxISBT5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1680,7 +1677,7 @@
             // 
             // tbxISBT6
             // 
-            this.tbxISBT6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxISBT6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxISBT6.BackColor = System.Drawing.SystemColors.Control;
             this.tbxISBT6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxISBT6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1693,7 +1690,7 @@
             // 
             // tbxISBT7
             // 
-            this.tbxISBT7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbxISBT7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tbxISBT7.BackColor = System.Drawing.SystemColors.Control;
             this.tbxISBT7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbxISBT7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1706,11 +1703,11 @@
             // 
             // btnSave
             // 
-            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSave.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSave.Location = new System.Drawing.Point(1440, 893);
+            this.btnSave.Location = new System.Drawing.Point(1440, 908);
             this.btnSave.Name = "btnSave";
             this.btnSave.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.btnSave.Size = new System.Drawing.Size(156, 53);
@@ -1722,8 +1719,7 @@
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel2.ColumnCount = 3;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34F));
@@ -1735,7 +1731,7 @@
             this.tableLayoutPanel2.Controls.Add(this.txbVentTime, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.txbAnalysisTime, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.txbCycleTime, 2, 1);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(41, 780);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(41, 776);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -1825,13 +1821,12 @@
             // 
             // tableLayoutPanel3
             // 
-            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tableLayoutPanel3.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel3.ColumnCount = 1;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Controls.Add(this.label15, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(41, 738);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(41, 734);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -1852,15 +1847,6 @@
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
-            // panel1
-            // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.Location = new System.Drawing.Point(36, 729);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1576, 229);
-            this.panel1.TabIndex = 19;
-            // 
             // Setting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
@@ -1871,7 +1857,6 @@
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
@@ -2010,6 +1995,5 @@
         private System.Windows.Forms.TextBox tbxISBT5;
         private System.Windows.Forms.TextBox tbxISBT6;
         private System.Windows.Forms.TextBox tbxISBT7;
-        private System.Windows.Forms.Panel panel1;
     }
 }

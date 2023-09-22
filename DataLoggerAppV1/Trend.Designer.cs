@@ -65,7 +65,7 @@
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.Location = new System.Drawing.Point(541, 7);
+            this.button6.Location = new System.Drawing.Point(576, 6);
             this.button6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.button6.Name = "button6";
             this.button6.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -85,7 +85,7 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(1412, 7);
+            this.button5.Location = new System.Drawing.Point(1410, 7);
             this.button5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.button5.Name = "button5";
             this.button5.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -102,7 +102,7 @@
             // 
             this.hour2.CustomFormat = "HH:mm:ss ";
             this.hour2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.hour2.Location = new System.Drawing.Point(1081, 48);
+            this.hour2.Location = new System.Drawing.Point(1049, 49);
             this.hour2.Name = "hour2";
             this.hour2.ShowUpDown = true;
             this.hour2.Size = new System.Drawing.Size(128, 29);
@@ -112,7 +112,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(1029, 53);
+            this.label2.Location = new System.Drawing.Point(997, 54);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(36, 21);
             this.label2.TabIndex = 18;
@@ -121,7 +121,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(818, 54);
+            this.label1.Location = new System.Drawing.Point(786, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 21);
             this.label1.TabIndex = 17;
@@ -133,7 +133,7 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(1235, 7);
+            this.button3.Location = new System.Drawing.Point(1221, 7);
             this.button3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -152,7 +152,7 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(364, 7);
+            this.button2.Location = new System.Drawing.Point(389, 6);
             this.button2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -171,7 +171,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(211, 36);
+            this.button1.Location = new System.Drawing.Point(202, 6);
             this.button1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -188,7 +188,7 @@
             // 
             this.date.CustomFormat = "yyyy-MM-dd ";
             this.date.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.date.Location = new System.Drawing.Point(888, 10);
+            this.date.Location = new System.Drawing.Point(856, 11);
             this.date.Name = "date";
             this.date.Size = new System.Drawing.Size(321, 29);
             this.date.TabIndex = 15;
@@ -201,7 +201,7 @@
             this.btnDashboard.FlatAppearance.BorderSize = 0;
             this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
-            this.btnDashboard.Location = new System.Drawing.Point(34, 36);
+            this.btnDashboard.Location = new System.Drawing.Point(15, 6);
             this.btnDashboard.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
@@ -224,7 +224,7 @@
             this.checkBox8.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox8.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
             this.checkBox8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.checkBox8.Location = new System.Drawing.Point(1402, 31);
+            this.checkBox8.Location = new System.Drawing.Point(1397, 36);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(181, 68);
             this.checkBox8.TabIndex = 21;
@@ -243,7 +243,7 @@
             this.checkBox7.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox7.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
             this.checkBox7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.checkBox7.Location = new System.Drawing.Point(1204, 31);
+            this.checkBox7.Location = new System.Drawing.Point(1199, 36);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(181, 68);
             this.checkBox7.TabIndex = 20;
@@ -262,7 +262,7 @@
             this.checkBox6.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox6.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
             this.checkBox6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.checkBox6.Location = new System.Drawing.Point(1006, 31);
+            this.checkBox6.Location = new System.Drawing.Point(1001, 36);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(181, 68);
             this.checkBox6.TabIndex = 19;
@@ -281,7 +281,7 @@
             this.checkBox5.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox5.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
             this.checkBox5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.checkBox5.Location = new System.Drawing.Point(808, 31);
+            this.checkBox5.Location = new System.Drawing.Point(803, 36);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(181, 68);
             this.checkBox5.TabIndex = 18;
@@ -300,7 +300,7 @@
             this.checkBox4.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox4.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
             this.checkBox4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.checkBox4.Location = new System.Drawing.Point(610, 31);
+            this.checkBox4.Location = new System.Drawing.Point(605, 36);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(181, 68);
             this.checkBox4.TabIndex = 17;
@@ -319,7 +319,7 @@
             this.checkBox3.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox3.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
             this.checkBox3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.checkBox3.Location = new System.Drawing.Point(412, 31);
+            this.checkBox3.Location = new System.Drawing.Point(407, 36);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(181, 68);
             this.checkBox3.TabIndex = 16;
@@ -337,7 +337,7 @@
             this.checkBox2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox2.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
             this.checkBox2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.checkBox2.Location = new System.Drawing.Point(214, 31);
+            this.checkBox2.Location = new System.Drawing.Point(209, 36);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(181, 68);
             this.checkBox2.TabIndex = 15;
@@ -361,15 +361,15 @@
             this.panel1.Controls.Add(this.checkBox5);
             this.panel1.Controls.Add(this.checkBox7);
             this.panel1.Controls.Add(this.checkBox6);
-            this.panel1.Location = new System.Drawing.Point(24, 841);
+            this.panel1.Location = new System.Drawing.Point(24, 832);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1604, 117);
+            this.panel1.Size = new System.Drawing.Size(1589, 117);
             this.panel1.TabIndex = 22;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(19, 4);
+            this.label4.Location = new System.Drawing.Point(14, 9);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(74, 21);
             this.label4.TabIndex = 23;
@@ -386,7 +386,7 @@
             this.checkBox1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.Image = global::DataLoggerAppV1.Properties.Resources.chart__1_;
             this.checkBox1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.checkBox1.Location = new System.Drawing.Point(16, 31);
+            this.checkBox1.Location = new System.Drawing.Point(11, 36);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(181, 68);
             this.checkBox1.TabIndex = 22;
@@ -401,6 +401,8 @@
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.btnDashboard);
             this.panel2.Controls.Add(this.hour1);
             this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.button2);
@@ -410,7 +412,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.date);
             this.panel2.Controls.Add(this.button3);
-            this.panel2.Location = new System.Drawing.Point(24, 29);
+            this.panel2.Location = new System.Drawing.Point(24, 20);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1589, 91);
             this.panel2.TabIndex = 23;
@@ -418,7 +420,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(818, 16);
+            this.label3.Location = new System.Drawing.Point(786, 17);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 21);
             this.label3.TabIndex = 27;
@@ -432,7 +434,7 @@
             this.hour1.CustomFormat = "HH:mm:ss ";
             this.hour1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.hour1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.hour1.Location = new System.Drawing.Point(888, 48);
+            this.hour1.Location = new System.Drawing.Point(856, 49);
             this.hour1.Name = "hour1";
             this.hour1.ShowUpDown = true;
             this.hour1.Size = new System.Drawing.Size(126, 29);
@@ -449,7 +451,7 @@
             this.cartesianChart1.BackColor = System.Drawing.SystemColors.Control;
             this.cartesianChart1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cartesianChart1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.cartesianChart1.Location = new System.Drawing.Point(29, 154);
+            this.cartesianChart1.Location = new System.Drawing.Point(29, 145);
             this.cartesianChart1.Margin = new System.Windows.Forms.Padding(5);
             this.cartesianChart1.Name = "cartesianChart1";
             this.cartesianChart1.Size = new System.Drawing.Size(1581, 665);
@@ -468,8 +470,6 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1640, 970);
             this.Controls.Add(this.cartesianChart1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnDashboard);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

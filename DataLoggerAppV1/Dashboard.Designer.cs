@@ -422,7 +422,7 @@
             this.lblHighAlarm7.Name = "lblHighAlarm7";
             this.lblHighAlarm7.Size = new System.Drawing.Size(104, 38);
             this.lblHighAlarm7.TabIndex = 55;
-            this.lblHighAlarm7.Text = "0,0";
+            this.lblHighAlarm7.Text = "0.0";
             this.lblHighAlarm7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm7
@@ -434,7 +434,7 @@
             this.lblLowAlarm7.Name = "lblLowAlarm7";
             this.lblLowAlarm7.Size = new System.Drawing.Size(101, 38);
             this.lblLowAlarm7.TabIndex = 54;
-            this.lblLowAlarm7.Text = "0,0";
+            this.lblLowAlarm7.Text = "0.0";
             this.lblLowAlarm7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblLowAlarm7.Click += new System.EventHandler(this.lblLowAlarm7_Click);
             // 
@@ -459,7 +459,7 @@
             this.lblAiDataCh7.Name = "lblAiDataCh7";
             this.lblAiDataCh7.Size = new System.Drawing.Size(101, 38);
             this.lblAiDataCh7.TabIndex = 52;
-            this.lblAiDataCh7.Text = "0,0";
+            this.lblAiDataCh7.Text = "0.0";
             this.lblAiDataCh7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNameAi7
@@ -483,7 +483,7 @@
             this.lblHighAlarm6.Name = "lblHighAlarm6";
             this.lblHighAlarm6.Size = new System.Drawing.Size(104, 38);
             this.lblHighAlarm6.TabIndex = 50;
-            this.lblHighAlarm6.Text = "0,0";
+            this.lblHighAlarm6.Text = "0.0";
             this.lblHighAlarm6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm6
@@ -495,7 +495,7 @@
             this.lblLowAlarm6.Name = "lblLowAlarm6";
             this.lblLowAlarm6.Size = new System.Drawing.Size(101, 38);
             this.lblLowAlarm6.TabIndex = 49;
-            this.lblLowAlarm6.Text = "0,0";
+            this.lblLowAlarm6.Text = "0.0";
             this.lblLowAlarm6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblLowAlarm6.Click += new System.EventHandler(this.label48_Click);
             // 
@@ -520,7 +520,7 @@
             this.lblAiDataCh6.Name = "lblAiDataCh6";
             this.lblAiDataCh6.Size = new System.Drawing.Size(101, 38);
             this.lblAiDataCh6.TabIndex = 46;
-            this.lblAiDataCh6.Text = "0,0";
+            this.lblAiDataCh6.Text = "0.0";
             this.lblAiDataCh6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNameAi6
@@ -544,7 +544,7 @@
             this.lblHighAlarm5.Name = "lblHighAlarm5";
             this.lblHighAlarm5.Size = new System.Drawing.Size(104, 38);
             this.lblHighAlarm5.TabIndex = 44;
-            this.lblHighAlarm5.Text = "0,0";
+            this.lblHighAlarm5.Text = "0.0";
             this.lblHighAlarm5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm5
@@ -556,7 +556,7 @@
             this.lblLowAlarm5.Name = "lblLowAlarm5";
             this.lblLowAlarm5.Size = new System.Drawing.Size(101, 38);
             this.lblLowAlarm5.TabIndex = 43;
-            this.lblLowAlarm5.Text = "0,0";
+            this.lblLowAlarm5.Text = "0.0";
             this.lblLowAlarm5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUnitAi5
@@ -580,7 +580,7 @@
             this.lblAiDataCh5.Name = "lblAiDataCh5";
             this.lblAiDataCh5.Size = new System.Drawing.Size(101, 38);
             this.lblAiDataCh5.TabIndex = 40;
-            this.lblAiDataCh5.Text = "0,0";
+            this.lblAiDataCh5.Text = "0.0";
             this.lblAiDataCh5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNameAi5
@@ -604,7 +604,7 @@
             this.lblHighAlarm4.Name = "lblHighAlarm4";
             this.lblHighAlarm4.Size = new System.Drawing.Size(104, 38);
             this.lblHighAlarm4.TabIndex = 38;
-            this.lblHighAlarm4.Text = "0,0";
+            this.lblHighAlarm4.Text = "0.0";
             this.lblHighAlarm4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm4
@@ -616,7 +616,7 @@
             this.lblLowAlarm4.Name = "lblLowAlarm4";
             this.lblLowAlarm4.Size = new System.Drawing.Size(101, 38);
             this.lblLowAlarm4.TabIndex = 37;
-            this.lblLowAlarm4.Text = "0,0";
+            this.lblLowAlarm4.Text = "0.0";
             this.lblLowAlarm4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUnitAi4
@@ -640,7 +640,7 @@
             this.lblAiDataCh4.Name = "lblAiDataCh4";
             this.lblAiDataCh4.Size = new System.Drawing.Size(101, 38);
             this.lblAiDataCh4.TabIndex = 34;
-            this.lblAiDataCh4.Text = "0,0";
+            this.lblAiDataCh4.Text = "0.0";
             this.lblAiDataCh4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNameAi4
@@ -664,7 +664,7 @@
             this.lblHighAlarm3.Name = "lblHighAlarm3";
             this.lblHighAlarm3.Size = new System.Drawing.Size(104, 38);
             this.lblHighAlarm3.TabIndex = 32;
-            this.lblHighAlarm3.Text = "0,0";
+            this.lblHighAlarm3.Text = "0.0";
             this.lblHighAlarm3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm3
@@ -676,7 +676,7 @@
             this.lblLowAlarm3.Name = "lblLowAlarm3";
             this.lblLowAlarm3.Size = new System.Drawing.Size(101, 38);
             this.lblLowAlarm3.TabIndex = 31;
-            this.lblLowAlarm3.Text = "0,0";
+            this.lblLowAlarm3.Text = "0.0";
             this.lblLowAlarm3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUnitAi3
@@ -700,7 +700,7 @@
             this.lblAiDataCh3.Name = "lblAiDataCh3";
             this.lblAiDataCh3.Size = new System.Drawing.Size(101, 38);
             this.lblAiDataCh3.TabIndex = 28;
-            this.lblAiDataCh3.Text = "0,0";
+            this.lblAiDataCh3.Text = "0.0";
             this.lblAiDataCh3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNameAi3
@@ -724,7 +724,7 @@
             this.lblHighAlarm2.Name = "lblHighAlarm2";
             this.lblHighAlarm2.Size = new System.Drawing.Size(104, 38);
             this.lblHighAlarm2.TabIndex = 26;
-            this.lblHighAlarm2.Text = "0,0";
+            this.lblHighAlarm2.Text = "0.0";
             this.lblHighAlarm2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm2
@@ -736,7 +736,7 @@
             this.lblLowAlarm2.Name = "lblLowAlarm2";
             this.lblLowAlarm2.Size = new System.Drawing.Size(101, 38);
             this.lblLowAlarm2.TabIndex = 25;
-            this.lblLowAlarm2.Text = "0,0";
+            this.lblLowAlarm2.Text = "0.0";
             this.lblLowAlarm2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUnitAi2
@@ -760,7 +760,7 @@
             this.lblAiDataCh2.Name = "lblAiDataCh2";
             this.lblAiDataCh2.Size = new System.Drawing.Size(101, 38);
             this.lblAiDataCh2.TabIndex = 22;
-            this.lblAiDataCh2.Text = "0,0";
+            this.lblAiDataCh2.Text = "0.0";
             this.lblAiDataCh2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNameAi2
@@ -784,7 +784,7 @@
             this.lblHighAlarm1.Name = "lblHighAlarm1";
             this.lblHighAlarm1.Size = new System.Drawing.Size(104, 38);
             this.lblHighAlarm1.TabIndex = 20;
-            this.lblHighAlarm1.Text = "0,0";
+            this.lblHighAlarm1.Text = "0.0";
             this.lblHighAlarm1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm1
@@ -796,7 +796,7 @@
             this.lblLowAlarm1.Name = "lblLowAlarm1";
             this.lblLowAlarm1.Size = new System.Drawing.Size(101, 38);
             this.lblLowAlarm1.TabIndex = 19;
-            this.lblLowAlarm1.Text = "0,0";
+            this.lblLowAlarm1.Text = "0.0";
             this.lblLowAlarm1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUnitAi1
@@ -820,7 +820,7 @@
             this.lblAiDataCh1.Name = "lblAiDataCh1";
             this.lblAiDataCh1.Size = new System.Drawing.Size(101, 38);
             this.lblAiDataCh1.TabIndex = 16;
-            this.lblAiDataCh1.Text = "0,0";
+            this.lblAiDataCh1.Text = "0.0";
             this.lblAiDataCh1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblNameAi1
@@ -844,7 +844,7 @@
             this.lblHighAlarm0.Name = "lblHighAlarm0";
             this.lblHighAlarm0.Size = new System.Drawing.Size(104, 38);
             this.lblHighAlarm0.TabIndex = 14;
-            this.lblHighAlarm0.Text = "0,0";
+            this.lblHighAlarm0.Text = "0.0";
             this.lblHighAlarm0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblLowAlarm0
@@ -856,7 +856,7 @@
             this.lblLowAlarm0.Name = "lblLowAlarm0";
             this.lblLowAlarm0.Size = new System.Drawing.Size(101, 38);
             this.lblLowAlarm0.TabIndex = 13;
-            this.lblLowAlarm0.Text = "0,0";
+            this.lblLowAlarm0.Text = "0.0";
             this.lblLowAlarm0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUnitAi0
@@ -910,8 +910,7 @@
             // 
             // lblAlarmAi7
             // 
-            this.lblAlarmAi7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblAlarmAi7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAlarmAi7.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblAlarmAi7.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblAlarmAi7.Location = new System.Drawing.Point(32, 14);
@@ -945,7 +944,7 @@
             this.lblMidleBar7.Name = "lblMidleBar7";
             this.lblMidleBar7.Size = new System.Drawing.Size(36, 17);
             this.lblMidleBar7.TabIndex = 14;
-            this.lblMidleBar7.Text = "0,0";
+            this.lblMidleBar7.Text = "0.0";
             this.lblMidleBar7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl75Bar7
@@ -957,7 +956,7 @@
             this.lbl75Bar7.Name = "lbl75Bar7";
             this.lbl75Bar7.Size = new System.Drawing.Size(36, 17);
             this.lbl75Bar7.TabIndex = 14;
-            this.lbl75Bar7.Text = "0,0";
+            this.lbl75Bar7.Text = "0.0";
             this.lbl75Bar7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl25Bar7
@@ -969,7 +968,7 @@
             this.lbl25Bar7.Name = "lbl25Bar7";
             this.lbl25Bar7.Size = new System.Drawing.Size(36, 17);
             this.lbl25Bar7.TabIndex = 14;
-            this.lbl25Bar7.Text = "0,0";
+            this.lbl25Bar7.Text = "0.0";
             this.lbl25Bar7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMaxRange7
@@ -981,7 +980,7 @@
             this.lblMeasurementMaxRange7.Name = "lblMeasurementMaxRange7";
             this.lblMeasurementMaxRange7.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMaxRange7.TabIndex = 14;
-            this.lblMeasurementMaxRange7.Text = "0,0";
+            this.lblMeasurementMaxRange7.Text = "0.0";
             this.lblMeasurementMaxRange7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMinRange7
@@ -993,7 +992,7 @@
             this.lblMeasurementMinRange7.Name = "lblMeasurementMinRange7";
             this.lblMeasurementMinRange7.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMinRange7.TabIndex = 14;
-            this.lblMeasurementMinRange7.Text = "0,0";
+            this.lblMeasurementMinRange7.Text = "0.0";
             this.lblMeasurementMinRange7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // barAi7
@@ -1114,7 +1113,7 @@
             this.lblMidleBar6.Name = "lblMidleBar6";
             this.lblMidleBar6.Size = new System.Drawing.Size(36, 17);
             this.lblMidleBar6.TabIndex = 14;
-            this.lblMidleBar6.Text = "0,0";
+            this.lblMidleBar6.Text = "0.0";
             this.lblMidleBar6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl75Bar6
@@ -1126,7 +1125,7 @@
             this.lbl75Bar6.Name = "lbl75Bar6";
             this.lbl75Bar6.Size = new System.Drawing.Size(36, 17);
             this.lbl75Bar6.TabIndex = 14;
-            this.lbl75Bar6.Text = "0,0";
+            this.lbl75Bar6.Text = "0.0";
             this.lbl75Bar6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl25Bar6
@@ -1138,7 +1137,7 @@
             this.lbl25Bar6.Name = "lbl25Bar6";
             this.lbl25Bar6.Size = new System.Drawing.Size(36, 17);
             this.lbl25Bar6.TabIndex = 14;
-            this.lbl25Bar6.Text = "0,0";
+            this.lbl25Bar6.Text = "0.0";
             this.lbl25Bar6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMinRange6
@@ -1150,7 +1149,7 @@
             this.lblMeasurementMinRange6.Name = "lblMeasurementMinRange6";
             this.lblMeasurementMinRange6.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMinRange6.TabIndex = 14;
-            this.lblMeasurementMinRange6.Text = "0,0";
+            this.lblMeasurementMinRange6.Text = "0.0";
             this.lblMeasurementMinRange6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMaxRange6
@@ -1162,7 +1161,7 @@
             this.lblMeasurementMaxRange6.Name = "lblMeasurementMaxRange6";
             this.lblMeasurementMaxRange6.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMaxRange6.TabIndex = 14;
-            this.lblMeasurementMaxRange6.Text = "0,0";
+            this.lblMeasurementMaxRange6.Text = "0.0";
             this.lblMeasurementMaxRange6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // barAi6
@@ -1199,7 +1198,7 @@
             this.lblMidleBar5.Name = "lblMidleBar5";
             this.lblMidleBar5.Size = new System.Drawing.Size(36, 17);
             this.lblMidleBar5.TabIndex = 14;
-            this.lblMidleBar5.Text = "0,0";
+            this.lblMidleBar5.Text = "0.0";
             this.lblMidleBar5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl75Bar5
@@ -1211,7 +1210,7 @@
             this.lbl75Bar5.Name = "lbl75Bar5";
             this.lbl75Bar5.Size = new System.Drawing.Size(36, 17);
             this.lbl75Bar5.TabIndex = 14;
-            this.lbl75Bar5.Text = "0,0";
+            this.lbl75Bar5.Text = "0.0";
             this.lbl75Bar5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl25Bar5
@@ -1223,7 +1222,7 @@
             this.lbl25Bar5.Name = "lbl25Bar5";
             this.lbl25Bar5.Size = new System.Drawing.Size(36, 17);
             this.lbl25Bar5.TabIndex = 14;
-            this.lbl25Bar5.Text = "0,0";
+            this.lbl25Bar5.Text = "0.0";
             this.lbl25Bar5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMaxRange5
@@ -1235,7 +1234,7 @@
             this.lblMeasurementMaxRange5.Name = "lblMeasurementMaxRange5";
             this.lblMeasurementMaxRange5.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMaxRange5.TabIndex = 14;
-            this.lblMeasurementMaxRange5.Text = "0,0";
+            this.lblMeasurementMaxRange5.Text = "0.0";
             this.lblMeasurementMaxRange5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMinRange5
@@ -1247,7 +1246,7 @@
             this.lblMeasurementMinRange5.Name = "lblMeasurementMinRange5";
             this.lblMeasurementMinRange5.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMinRange5.TabIndex = 14;
-            this.lblMeasurementMinRange5.Text = "0,0";
+            this.lblMeasurementMinRange5.Text = "0.0";
             this.lblMeasurementMinRange5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // barAi5
@@ -1284,7 +1283,7 @@
             this.lblMidleBar4.Name = "lblMidleBar4";
             this.lblMidleBar4.Size = new System.Drawing.Size(36, 17);
             this.lblMidleBar4.TabIndex = 14;
-            this.lblMidleBar4.Text = "0,0";
+            this.lblMidleBar4.Text = "0.0";
             this.lblMidleBar4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl75Bar4
@@ -1296,7 +1295,7 @@
             this.lbl75Bar4.Name = "lbl75Bar4";
             this.lbl75Bar4.Size = new System.Drawing.Size(36, 17);
             this.lbl75Bar4.TabIndex = 14;
-            this.lbl75Bar4.Text = "0,0";
+            this.lbl75Bar4.Text = "0.0";
             this.lbl75Bar4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl25Bar4
@@ -1308,7 +1307,7 @@
             this.lbl25Bar4.Name = "lbl25Bar4";
             this.lbl25Bar4.Size = new System.Drawing.Size(36, 17);
             this.lbl25Bar4.TabIndex = 14;
-            this.lbl25Bar4.Text = "0,0";
+            this.lbl25Bar4.Text = "0.0";
             this.lbl25Bar4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMaxRange4
@@ -1320,7 +1319,7 @@
             this.lblMeasurementMaxRange4.Name = "lblMeasurementMaxRange4";
             this.lblMeasurementMaxRange4.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMaxRange4.TabIndex = 14;
-            this.lblMeasurementMaxRange4.Text = "0,0";
+            this.lblMeasurementMaxRange4.Text = "0.0";
             this.lblMeasurementMaxRange4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMinRange4
@@ -1332,7 +1331,7 @@
             this.lblMeasurementMinRange4.Name = "lblMeasurementMinRange4";
             this.lblMeasurementMinRange4.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMinRange4.TabIndex = 14;
-            this.lblMeasurementMinRange4.Text = "0,0";
+            this.lblMeasurementMinRange4.Text = "0.0";
             this.lblMeasurementMinRange4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // barAi4
@@ -1369,7 +1368,7 @@
             this.lblMidleBar3.Name = "lblMidleBar3";
             this.lblMidleBar3.Size = new System.Drawing.Size(36, 17);
             this.lblMidleBar3.TabIndex = 14;
-            this.lblMidleBar3.Text = "0,0";
+            this.lblMidleBar3.Text = "0.0";
             this.lblMidleBar3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl75Bar3
@@ -1381,7 +1380,7 @@
             this.lbl75Bar3.Name = "lbl75Bar3";
             this.lbl75Bar3.Size = new System.Drawing.Size(36, 17);
             this.lbl75Bar3.TabIndex = 14;
-            this.lbl75Bar3.Text = "0,0";
+            this.lbl75Bar3.Text = "0.0";
             this.lbl75Bar3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl25Bar3
@@ -1393,7 +1392,7 @@
             this.lbl25Bar3.Name = "lbl25Bar3";
             this.lbl25Bar3.Size = new System.Drawing.Size(36, 17);
             this.lbl25Bar3.TabIndex = 14;
-            this.lbl25Bar3.Text = "0,0";
+            this.lbl25Bar3.Text = "0.0";
             this.lbl25Bar3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMaxRange3
@@ -1405,7 +1404,7 @@
             this.lblMeasurementMaxRange3.Name = "lblMeasurementMaxRange3";
             this.lblMeasurementMaxRange3.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMaxRange3.TabIndex = 14;
-            this.lblMeasurementMaxRange3.Text = "0,0";
+            this.lblMeasurementMaxRange3.Text = "0.0";
             this.lblMeasurementMaxRange3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMinRange3
@@ -1417,7 +1416,7 @@
             this.lblMeasurementMinRange3.Name = "lblMeasurementMinRange3";
             this.lblMeasurementMinRange3.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMinRange3.TabIndex = 14;
-            this.lblMeasurementMinRange3.Text = "0,0";
+            this.lblMeasurementMinRange3.Text = "0.0";
             this.lblMeasurementMinRange3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // barAi3
@@ -1454,7 +1453,7 @@
             this.lblMidleBar2.Name = "lblMidleBar2";
             this.lblMidleBar2.Size = new System.Drawing.Size(36, 17);
             this.lblMidleBar2.TabIndex = 14;
-            this.lblMidleBar2.Text = "0,0";
+            this.lblMidleBar2.Text = "0.0";
             this.lblMidleBar2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl75Bar2
@@ -1466,7 +1465,7 @@
             this.lbl75Bar2.Name = "lbl75Bar2";
             this.lbl75Bar2.Size = new System.Drawing.Size(36, 17);
             this.lbl75Bar2.TabIndex = 14;
-            this.lbl75Bar2.Text = "0,0";
+            this.lbl75Bar2.Text = "0.0";
             this.lbl75Bar2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl25Bar2
@@ -1478,7 +1477,7 @@
             this.lbl25Bar2.Name = "lbl25Bar2";
             this.lbl25Bar2.Size = new System.Drawing.Size(36, 17);
             this.lbl25Bar2.TabIndex = 14;
-            this.lbl25Bar2.Text = "0,0";
+            this.lbl25Bar2.Text = "0.0";
             this.lbl25Bar2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMaxRange2
@@ -1490,7 +1489,7 @@
             this.lblMeasurementMaxRange2.Name = "lblMeasurementMaxRange2";
             this.lblMeasurementMaxRange2.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMaxRange2.TabIndex = 14;
-            this.lblMeasurementMaxRange2.Text = "0,0";
+            this.lblMeasurementMaxRange2.Text = "0.0";
             this.lblMeasurementMaxRange2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMinRange2
@@ -1502,7 +1501,7 @@
             this.lblMeasurementMinRange2.Name = "lblMeasurementMinRange2";
             this.lblMeasurementMinRange2.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMinRange2.TabIndex = 14;
-            this.lblMeasurementMinRange2.Text = "0,0";
+            this.lblMeasurementMinRange2.Text = "0.0";
             this.lblMeasurementMinRange2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // barAi2
@@ -1539,7 +1538,7 @@
             this.lblMidleBar1.Name = "lblMidleBar1";
             this.lblMidleBar1.Size = new System.Drawing.Size(36, 17);
             this.lblMidleBar1.TabIndex = 14;
-            this.lblMidleBar1.Text = "0,0";
+            this.lblMidleBar1.Text = "0.0";
             this.lblMidleBar1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl75Bar1
@@ -1551,7 +1550,7 @@
             this.lbl75Bar1.Name = "lbl75Bar1";
             this.lbl75Bar1.Size = new System.Drawing.Size(36, 17);
             this.lbl75Bar1.TabIndex = 14;
-            this.lbl75Bar1.Text = "0,0";
+            this.lbl75Bar1.Text = "0.0";
             this.lbl75Bar1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl25Bar1
@@ -1563,7 +1562,7 @@
             this.lbl25Bar1.Name = "lbl25Bar1";
             this.lbl25Bar1.Size = new System.Drawing.Size(36, 17);
             this.lbl25Bar1.TabIndex = 14;
-            this.lbl25Bar1.Text = "0,0";
+            this.lbl25Bar1.Text = "0.0";
             this.lbl25Bar1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMaxRange1
@@ -1575,7 +1574,7 @@
             this.lblMeasurementMaxRange1.Name = "lblMeasurementMaxRange1";
             this.lblMeasurementMaxRange1.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMaxRange1.TabIndex = 14;
-            this.lblMeasurementMaxRange1.Text = "0,0";
+            this.lblMeasurementMaxRange1.Text = "0.0";
             this.lblMeasurementMaxRange1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMinRange1
@@ -1587,7 +1586,7 @@
             this.lblMeasurementMinRange1.Name = "lblMeasurementMinRange1";
             this.lblMeasurementMinRange1.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMinRange1.TabIndex = 14;
-            this.lblMeasurementMinRange1.Text = "0,0";
+            this.lblMeasurementMinRange1.Text = "0.0";
             this.lblMeasurementMinRange1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // barAi1
@@ -1624,7 +1623,7 @@
             this.lbl75Bar0.Name = "lbl75Bar0";
             this.lbl75Bar0.Size = new System.Drawing.Size(36, 17);
             this.lbl75Bar0.TabIndex = 14;
-            this.lbl75Bar0.Text = "0,0";
+            this.lbl75Bar0.Text = "0.0";
             this.lbl75Bar0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl25Bar0
@@ -1636,7 +1635,7 @@
             this.lbl25Bar0.Name = "lbl25Bar0";
             this.lbl25Bar0.Size = new System.Drawing.Size(36, 17);
             this.lbl25Bar0.TabIndex = 14;
-            this.lbl25Bar0.Text = "0,0";
+            this.lbl25Bar0.Text = "0.0";
             this.lbl25Bar0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMidleBar0
@@ -1648,7 +1647,7 @@
             this.lblMidleBar0.Name = "lblMidleBar0";
             this.lblMidleBar0.Size = new System.Drawing.Size(36, 17);
             this.lblMidleBar0.TabIndex = 14;
-            this.lblMidleBar0.Text = "0,0";
+            this.lblMidleBar0.Text = "0.0";
             this.lblMidleBar0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMaxRange0
@@ -1660,7 +1659,7 @@
             this.lblMeasurementMaxRange0.Name = "lblMeasurementMaxRange0";
             this.lblMeasurementMaxRange0.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMaxRange0.TabIndex = 14;
-            this.lblMeasurementMaxRange0.Text = "0,0";
+            this.lblMeasurementMaxRange0.Text = "0.0";
             this.lblMeasurementMaxRange0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblMeasurementMinRange0
@@ -1672,7 +1671,7 @@
             this.lblMeasurementMinRange0.Name = "lblMeasurementMinRange0";
             this.lblMeasurementMinRange0.Size = new System.Drawing.Size(36, 17);
             this.lblMeasurementMinRange0.TabIndex = 14;
-            this.lblMeasurementMinRange0.Text = "0,0";
+            this.lblMeasurementMinRange0.Text = "0.0";
             this.lblMeasurementMinRange0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // barAi0
@@ -1699,8 +1698,7 @@
             // 
             // lblAlarmAi6
             // 
-            this.lblAlarmAi6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblAlarmAi6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAlarmAi6.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblAlarmAi6.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblAlarmAi6.Location = new System.Drawing.Point(32, 14);
@@ -1723,8 +1721,7 @@
             // 
             // lblAlarmAi5
             // 
-            this.lblAlarmAi5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblAlarmAi5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAlarmAi5.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblAlarmAi5.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblAlarmAi5.Location = new System.Drawing.Point(32, 14);
@@ -1747,8 +1744,7 @@
             // 
             // lblAlarmAi4
             // 
-            this.lblAlarmAi4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblAlarmAi4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAlarmAi4.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblAlarmAi4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblAlarmAi4.Location = new System.Drawing.Point(32, 14);
@@ -1771,8 +1767,7 @@
             // 
             // lblAlarmAi3
             // 
-            this.lblAlarmAi3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblAlarmAi3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAlarmAi3.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblAlarmAi3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblAlarmAi3.Location = new System.Drawing.Point(32, 14);
@@ -1795,8 +1790,7 @@
             // 
             // lblAlarmAi2
             // 
-            this.lblAlarmAi2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblAlarmAi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAlarmAi2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblAlarmAi2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblAlarmAi2.Location = new System.Drawing.Point(32, 14);
@@ -1819,8 +1813,7 @@
             // 
             // lblAlarmAi1
             // 
-            this.lblAlarmAi1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblAlarmAi1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAlarmAi1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblAlarmAi1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblAlarmAi1.Location = new System.Drawing.Point(32, 14);
@@ -1843,8 +1836,7 @@
             // 
             // lblAlarmAi0
             // 
-            this.lblAlarmAi0.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblAlarmAi0.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAlarmAi0.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblAlarmAi0.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblAlarmAi0.Location = new System.Drawing.Point(32, 14);
@@ -1863,7 +1855,7 @@
             this.lblAiDataCh0.Name = "lblAiDataCh0";
             this.lblAiDataCh0.Size = new System.Drawing.Size(101, 38);
             this.lblAiDataCh0.TabIndex = 10;
-            this.lblAiDataCh0.Text = "0,0";
+            this.lblAiDataCh0.Text = "0.0";
             this.lblAiDataCh0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblISBT0
@@ -1875,7 +1867,7 @@
             this.lblISBT0.Name = "lblISBT0";
             this.lblISBT0.Size = new System.Drawing.Size(101, 38);
             this.lblISBT0.TabIndex = 10;
-            this.lblISBT0.Text = "0,0";
+            this.lblISBT0.Text = "0.0";
             this.lblISBT0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblISBT1
@@ -1887,7 +1879,7 @@
             this.lblISBT1.Name = "lblISBT1";
             this.lblISBT1.Size = new System.Drawing.Size(101, 38);
             this.lblISBT1.TabIndex = 10;
-            this.lblISBT1.Text = "0,0";
+            this.lblISBT1.Text = "0.0";
             this.lblISBT1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblISBT2
@@ -1899,7 +1891,7 @@
             this.lblISBT2.Name = "lblISBT2";
             this.lblISBT2.Size = new System.Drawing.Size(101, 38);
             this.lblISBT2.TabIndex = 10;
-            this.lblISBT2.Text = "0,0";
+            this.lblISBT2.Text = "0.0";
             this.lblISBT2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblISBT3
@@ -1911,7 +1903,7 @@
             this.lblISBT3.Name = "lblISBT3";
             this.lblISBT3.Size = new System.Drawing.Size(101, 38);
             this.lblISBT3.TabIndex = 10;
-            this.lblISBT3.Text = "0,0";
+            this.lblISBT3.Text = "0.0";
             this.lblISBT3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblISBT4
@@ -1923,7 +1915,7 @@
             this.lblISBT4.Name = "lblISBT4";
             this.lblISBT4.Size = new System.Drawing.Size(101, 38);
             this.lblISBT4.TabIndex = 10;
-            this.lblISBT4.Text = "0,0";
+            this.lblISBT4.Text = "0.0";
             this.lblISBT4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblISBT5
@@ -1935,7 +1927,7 @@
             this.lblISBT5.Name = "lblISBT5";
             this.lblISBT5.Size = new System.Drawing.Size(101, 38);
             this.lblISBT5.TabIndex = 10;
-            this.lblISBT5.Text = "0,0";
+            this.lblISBT5.Text = "0.0";
             this.lblISBT5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblISBT6
@@ -1947,7 +1939,7 @@
             this.lblISBT6.Name = "lblISBT6";
             this.lblISBT6.Size = new System.Drawing.Size(101, 38);
             this.lblISBT6.TabIndex = 10;
-            this.lblISBT6.Text = "0,0";
+            this.lblISBT6.Text = "0.0";
             this.lblISBT6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblISBT7
@@ -1959,7 +1951,7 @@
             this.lblISBT7.Name = "lblISBT7";
             this.lblISBT7.Size = new System.Drawing.Size(101, 38);
             this.lblISBT7.TabIndex = 10;
-            this.lblISBT7.Text = "0,0";
+            this.lblISBT7.Text = "0.0";
             this.lblISBT7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAutoMode
@@ -2004,7 +1996,8 @@
             // 
             // lblTime
             // 
-            this.lblTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTime.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblTime.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTime.Location = new System.Drawing.Point(1458, 156);
@@ -2026,8 +2019,8 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(222, 50);
             this.label8.TabIndex = 6;
-            this.label8.Text = "Time Remain (s)";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label8.Text = "       Time Remain (s)";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Silence
             // 
