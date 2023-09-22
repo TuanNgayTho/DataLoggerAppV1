@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Setting));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.label16 = new System.Windows.Forms.Label();
             this.txbSensorMin7 = new System.Windows.Forms.TextBox();
             this.txbSensorMax7 = new System.Windows.Forms.TextBox();
             this.txbOffsetAi7 = new System.Windows.Forms.TextBox();
@@ -129,6 +130,14 @@
             this.txbNameAi6 = new System.Windows.Forms.TextBox();
             this.txbNameAi7 = new System.Windows.Forms.TextBox();
             this.txbNameAi1 = new System.Windows.Forms.TextBox();
+            this.tbxISBT0 = new System.Windows.Forms.TextBox();
+            this.tbxISBT1 = new System.Windows.Forms.TextBox();
+            this.tbxISBT2 = new System.Windows.Forms.TextBox();
+            this.tbxISBT3 = new System.Windows.Forms.TextBox();
+            this.tbxISBT4 = new System.Windows.Forms.TextBox();
+            this.tbxISBT5 = new System.Windows.Forms.TextBox();
+            this.tbxISBT6 = new System.Windows.Forms.TextBox();
+            this.tbxISBT7 = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label12 = new System.Windows.Forms.Label();
@@ -139,15 +148,7 @@
             this.txbCycleTime = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.tbxISBT0 = new System.Windows.Forms.TextBox();
-            this.tbxISBT1 = new System.Windows.Forms.TextBox();
-            this.tbxISBT2 = new System.Windows.Forms.TextBox();
-            this.tbxISBT3 = new System.Windows.Forms.TextBox();
-            this.tbxISBT4 = new System.Windows.Forms.TextBox();
-            this.tbxISBT5 = new System.Windows.Forms.TextBox();
-            this.tbxISBT6 = new System.Windows.Forms.TextBox();
-            this.tbxISBT7 = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -155,7 +156,8 @@
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel1.ColumnCount = 12;
@@ -295,6 +297,19 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1555, 677);
             this.tableLayoutPanel1.TabIndex = 2;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label16.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(1325, 1);
+            this.label16.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(119, 80);
+            this.label16.TabIndex = 19;
+            this.label16.Text = "ISBT STD";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txbSensorMin7
             // 
@@ -1585,167 +1600,6 @@
             this.txbNameAi1.TabIndex = 18;
             this.txbNameAi1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // btnSave
-            // 
-            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSave.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
-            this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSave.Location = new System.Drawing.Point(1440, 893);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.btnSave.Size = new System.Drawing.Size(156, 53);
-            this.btnSave.TabIndex = 14;
-            this.btnSave.Text = "Save";
-            this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel2.ColumnCount = 3;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel2.Controls.Add(this.label12, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label13, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label14, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.txbVentTime, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.txbAnalysisTime, 1, 1);
-            this.tableLayoutPanel2.Controls.Add(this.txbCycleTime, 2, 1);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(41, 780);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 2;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1555, 100);
-            this.tableLayoutPanel2.TabIndex = 17;
-            this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label12.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(7, 1);
-            this.label12.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(515, 48);
-            this.label12.TabIndex = 18;
-            this.label12.Text = "Vent Time (s)";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label13.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(535, 1);
-            this.label13.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(499, 48);
-            this.label13.TabIndex = 18;
-            this.label13.Text = "Analysis Time (s)";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label13.Click += new System.EventHandler(this.label13_Click);
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label14.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(1047, 1);
-            this.label14.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(501, 48);
-            this.label14.TabIndex = 18;
-            this.label14.Text = "Sample Cycle (s)";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txbVentTime
-            // 
-            this.txbVentTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txbVentTime.BackColor = System.Drawing.SystemColors.Control;
-            this.txbVentTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbVentTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbVentTime.Location = new System.Drawing.Point(7, 62);
-            this.txbVentTime.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txbVentTime.Name = "txbVentTime";
-            this.txbVentTime.Size = new System.Drawing.Size(515, 25);
-            this.txbVentTime.TabIndex = 18;
-            this.txbVentTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txbAnalysisTime
-            // 
-            this.txbAnalysisTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txbAnalysisTime.BackColor = System.Drawing.SystemColors.Control;
-            this.txbAnalysisTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbAnalysisTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbAnalysisTime.Location = new System.Drawing.Point(535, 62);
-            this.txbAnalysisTime.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txbAnalysisTime.Name = "txbAnalysisTime";
-            this.txbAnalysisTime.Size = new System.Drawing.Size(499, 25);
-            this.txbAnalysisTime.TabIndex = 18;
-            this.txbAnalysisTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txbCycleTime
-            // 
-            this.txbCycleTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txbCycleTime.BackColor = System.Drawing.SystemColors.Control;
-            this.txbCycleTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbCycleTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbCycleTime.Location = new System.Drawing.Point(1047, 62);
-            this.txbCycleTime.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.txbCycleTime.Name = "txbCycleTime";
-            this.txbCycleTime.Size = new System.Drawing.Size(501, 25);
-            this.txbCycleTime.TabIndex = 18;
-            this.txbCycleTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel3.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel3.ColumnCount = 1;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.label15, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(41, 738);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1555, 43);
-            this.tableLayoutPanel3.TabIndex = 18;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label15.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(7, 1);
-            this.label15.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(1541, 41);
-            this.label15.TabIndex = 19;
-            this.label15.Text = "STREAM SELECTION SETTING";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label15.Click += new System.EventHandler(this.label15_Click);
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label16.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(1325, 1);
-            this.label16.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(119, 80);
-            this.label16.TabIndex = 19;
-            this.label16.Text = "ISBT STD";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // tbxISBT0
             // 
             this.tbxISBT0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -1850,6 +1704,163 @@
             this.tbxISBT7.TabIndex = 27;
             this.tbxISBT7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // btnSave
+            // 
+            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSave.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
+            this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSave.Location = new System.Drawing.Point(1440, 893);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.btnSave.Size = new System.Drawing.Size(156, 53);
+            this.btnSave.TabIndex = 14;
+            this.btnSave.Text = "Save";
+            this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel2.ColumnCount = 3;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel2.Controls.Add(this.label12, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.label13, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.label14, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.txbVentTime, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.txbAnalysisTime, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.txbCycleTime, 2, 1);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(41, 780);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 2;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1555, 100);
+            this.tableLayoutPanel2.TabIndex = 17;
+            this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label12.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(7, 1);
+            this.label12.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(515, 48);
+            this.label12.TabIndex = 18;
+            this.label12.Text = "Vent Time (s)";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label13.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(535, 1);
+            this.label13.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(499, 48);
+            this.label13.TabIndex = 18;
+            this.label13.Text = "Analysis Time (s)";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label13.Click += new System.EventHandler(this.label13_Click);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label14.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(1047, 1);
+            this.label14.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(501, 48);
+            this.label14.TabIndex = 18;
+            this.label14.Text = "Sample Cycle (s)";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txbVentTime
+            // 
+            this.txbVentTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbVentTime.BackColor = System.Drawing.SystemColors.Control;
+            this.txbVentTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbVentTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbVentTime.Location = new System.Drawing.Point(7, 62);
+            this.txbVentTime.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbVentTime.Name = "txbVentTime";
+            this.txbVentTime.Size = new System.Drawing.Size(515, 25);
+            this.txbVentTime.TabIndex = 18;
+            this.txbVentTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbAnalysisTime
+            // 
+            this.txbAnalysisTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbAnalysisTime.BackColor = System.Drawing.SystemColors.Control;
+            this.txbAnalysisTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbAnalysisTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbAnalysisTime.Location = new System.Drawing.Point(535, 62);
+            this.txbAnalysisTime.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbAnalysisTime.Name = "txbAnalysisTime";
+            this.txbAnalysisTime.Size = new System.Drawing.Size(499, 25);
+            this.txbAnalysisTime.TabIndex = 18;
+            this.txbAnalysisTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txbCycleTime
+            // 
+            this.txbCycleTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txbCycleTime.BackColor = System.Drawing.SystemColors.Control;
+            this.txbCycleTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbCycleTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbCycleTime.Location = new System.Drawing.Point(1047, 62);
+            this.txbCycleTime.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbCycleTime.Name = "txbCycleTime";
+            this.txbCycleTime.Size = new System.Drawing.Size(501, 25);
+            this.txbCycleTime.TabIndex = 18;
+            this.txbCycleTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel3.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel3.ColumnCount = 1;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.label15, 0, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(41, 738);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1555, 43);
+            this.tableLayoutPanel3.TabIndex = 18;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label15.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(7, 1);
+            this.label15.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(1541, 41);
+            this.label15.TabIndex = 19;
+            this.label15.Text = "STREAM SELECTION SETTING";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label15.Click += new System.EventHandler(this.label15_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Location = new System.Drawing.Point(36, 729);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1576, 229);
+            this.panel1.TabIndex = 19;
+            // 
             // Setting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
@@ -1860,6 +1871,7 @@
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
@@ -1998,5 +2010,6 @@
         private System.Windows.Forms.TextBox tbxISBT5;
         private System.Windows.Forms.TextBox tbxISBT6;
         private System.Windows.Forms.TextBox tbxISBT7;
+        private System.Windows.Forms.Panel panel1;
     }
 }
