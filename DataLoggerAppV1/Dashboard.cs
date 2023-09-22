@@ -101,6 +101,8 @@ namespace DataLoggerAppV1
             instance = this;
 
             //Creat a new thread and then run method Connect PLC
+            Thread.Sleep(500);
+
             Thread t1 = new Thread(() =>
             {
                 WriteSampleToDatabase();
