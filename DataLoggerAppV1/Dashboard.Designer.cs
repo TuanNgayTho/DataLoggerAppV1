@@ -939,7 +939,7 @@
             // 
             this.lblMidleBar7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMidleBar7.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMidleBar7.Location = new System.Drawing.Point(326, 47);
+            this.lblMidleBar7.Location = new System.Drawing.Point(373, 47);
             this.lblMidleBar7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMidleBar7.Name = "lblMidleBar7";
             this.lblMidleBar7.Size = new System.Drawing.Size(36, 17);
@@ -951,7 +951,7 @@
             // 
             this.lbl75Bar7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl75Bar7.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl75Bar7.Location = new System.Drawing.Point(542, 47);
+            this.lbl75Bar7.Location = new System.Drawing.Point(569, 47);
             this.lbl75Bar7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl75Bar7.Name = "lbl75Bar7";
             this.lbl75Bar7.Size = new System.Drawing.Size(36, 17);
@@ -963,7 +963,7 @@
             // 
             this.lbl25Bar7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl25Bar7.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl25Bar7.Location = new System.Drawing.Point(110, 48);
+            this.lbl25Bar7.Location = new System.Drawing.Point(183, 48);
             this.lbl25Bar7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl25Bar7.Name = "lbl25Bar7";
             this.lbl25Bar7.Size = new System.Drawing.Size(36, 17);
@@ -1108,7 +1108,7 @@
             // 
             this.lblMidleBar6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMidleBar6.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMidleBar6.Location = new System.Drawing.Point(326, 52);
+            this.lblMidleBar6.Location = new System.Drawing.Point(373, 52);
             this.lblMidleBar6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMidleBar6.Name = "lblMidleBar6";
             this.lblMidleBar6.Size = new System.Drawing.Size(36, 17);
@@ -1120,7 +1120,7 @@
             // 
             this.lbl75Bar6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl75Bar6.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl75Bar6.Location = new System.Drawing.Point(542, 52);
+            this.lbl75Bar6.Location = new System.Drawing.Point(569, 52);
             this.lbl75Bar6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl75Bar6.Name = "lbl75Bar6";
             this.lbl75Bar6.Size = new System.Drawing.Size(36, 17);
@@ -1132,7 +1132,7 @@
             // 
             this.lbl25Bar6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl25Bar6.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl25Bar6.Location = new System.Drawing.Point(110, 52);
+            this.lbl25Bar6.Location = new System.Drawing.Point(183, 52);
             this.lbl25Bar6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl25Bar6.Name = "lbl25Bar6";
             this.lbl25Bar6.Size = new System.Drawing.Size(36, 17);
@@ -1193,7 +1193,7 @@
             // 
             this.lblMidleBar5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMidleBar5.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMidleBar5.Location = new System.Drawing.Point(326, 52);
+            this.lblMidleBar5.Location = new System.Drawing.Point(373, 52);
             this.lblMidleBar5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMidleBar5.Name = "lblMidleBar5";
             this.lblMidleBar5.Size = new System.Drawing.Size(36, 17);
@@ -1205,7 +1205,7 @@
             // 
             this.lbl75Bar5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl75Bar5.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl75Bar5.Location = new System.Drawing.Point(542, 53);
+            this.lbl75Bar5.Location = new System.Drawing.Point(569, 53);
             this.lbl75Bar5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl75Bar5.Name = "lbl75Bar5";
             this.lbl75Bar5.Size = new System.Drawing.Size(36, 17);
@@ -1217,7 +1217,7 @@
             // 
             this.lbl25Bar5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl25Bar5.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl25Bar5.Location = new System.Drawing.Point(110, 52);
+            this.lbl25Bar5.Location = new System.Drawing.Point(183, 52);
             this.lbl25Bar5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl25Bar5.Name = "lbl25Bar5";
             this.lbl25Bar5.Size = new System.Drawing.Size(36, 17);
@@ -1278,7 +1278,7 @@
             // 
             this.lblMidleBar4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMidleBar4.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMidleBar4.Location = new System.Drawing.Point(326, 52);
+            this.lblMidleBar4.Location = new System.Drawing.Point(373, 52);
             this.lblMidleBar4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMidleBar4.Name = "lblMidleBar4";
             this.lblMidleBar4.Size = new System.Drawing.Size(36, 17);
@@ -1290,7 +1290,7 @@
             // 
             this.lbl75Bar4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl75Bar4.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl75Bar4.Location = new System.Drawing.Point(542, 53);
+            this.lbl75Bar4.Location = new System.Drawing.Point(569, 53);
             this.lbl75Bar4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl75Bar4.Name = "lbl75Bar4";
             this.lbl75Bar4.Size = new System.Drawing.Size(36, 17);
@@ -1302,7 +1302,7 @@
             // 
             this.lbl25Bar4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl25Bar4.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl25Bar4.Location = new System.Drawing.Point(110, 54);
+            this.lbl25Bar4.Location = new System.Drawing.Point(183, 54);
             this.lbl25Bar4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl25Bar4.Name = "lbl25Bar4";
             this.lbl25Bar4.Size = new System.Drawing.Size(36, 17);
@@ -1363,7 +1363,7 @@
             // 
             this.lblMidleBar3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMidleBar3.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMidleBar3.Location = new System.Drawing.Point(326, 52);
+            this.lblMidleBar3.Location = new System.Drawing.Point(373, 52);
             this.lblMidleBar3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMidleBar3.Name = "lblMidleBar3";
             this.lblMidleBar3.Size = new System.Drawing.Size(36, 17);
@@ -1375,7 +1375,7 @@
             // 
             this.lbl75Bar3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl75Bar3.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl75Bar3.Location = new System.Drawing.Point(542, 54);
+            this.lbl75Bar3.Location = new System.Drawing.Point(569, 54);
             this.lbl75Bar3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl75Bar3.Name = "lbl75Bar3";
             this.lbl75Bar3.Size = new System.Drawing.Size(36, 17);
@@ -1387,7 +1387,7 @@
             // 
             this.lbl25Bar3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl25Bar3.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl25Bar3.Location = new System.Drawing.Point(110, 53);
+            this.lbl25Bar3.Location = new System.Drawing.Point(183, 53);
             this.lbl25Bar3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl25Bar3.Name = "lbl25Bar3";
             this.lbl25Bar3.Size = new System.Drawing.Size(36, 17);
@@ -1448,7 +1448,7 @@
             // 
             this.lblMidleBar2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMidleBar2.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMidleBar2.Location = new System.Drawing.Point(326, 52);
+            this.lblMidleBar2.Location = new System.Drawing.Point(373, 52);
             this.lblMidleBar2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMidleBar2.Name = "lblMidleBar2";
             this.lblMidleBar2.Size = new System.Drawing.Size(36, 17);
@@ -1460,7 +1460,7 @@
             // 
             this.lbl75Bar2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl75Bar2.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl75Bar2.Location = new System.Drawing.Point(542, 52);
+            this.lbl75Bar2.Location = new System.Drawing.Point(569, 52);
             this.lbl75Bar2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl75Bar2.Name = "lbl75Bar2";
             this.lbl75Bar2.Size = new System.Drawing.Size(36, 17);
@@ -1472,7 +1472,7 @@
             // 
             this.lbl25Bar2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl25Bar2.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl25Bar2.Location = new System.Drawing.Point(110, 53);
+            this.lbl25Bar2.Location = new System.Drawing.Point(183, 53);
             this.lbl25Bar2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl25Bar2.Name = "lbl25Bar2";
             this.lbl25Bar2.Size = new System.Drawing.Size(36, 17);
@@ -1533,7 +1533,7 @@
             // 
             this.lblMidleBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMidleBar1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMidleBar1.Location = new System.Drawing.Point(326, 52);
+            this.lblMidleBar1.Location = new System.Drawing.Point(373, 52);
             this.lblMidleBar1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMidleBar1.Name = "lblMidleBar1";
             this.lblMidleBar1.Size = new System.Drawing.Size(36, 17);
@@ -1545,7 +1545,7 @@
             // 
             this.lbl75Bar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl75Bar1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl75Bar1.Location = new System.Drawing.Point(542, 52);
+            this.lbl75Bar1.Location = new System.Drawing.Point(569, 52);
             this.lbl75Bar1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl75Bar1.Name = "lbl75Bar1";
             this.lbl75Bar1.Size = new System.Drawing.Size(36, 17);
@@ -1557,7 +1557,7 @@
             // 
             this.lbl25Bar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl25Bar1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl25Bar1.Location = new System.Drawing.Point(110, 53);
+            this.lbl25Bar1.Location = new System.Drawing.Point(183, 53);
             this.lbl25Bar1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl25Bar1.Name = "lbl25Bar1";
             this.lbl25Bar1.Size = new System.Drawing.Size(36, 17);
@@ -1618,7 +1618,7 @@
             // 
             this.lbl75Bar0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl75Bar0.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl75Bar0.Location = new System.Drawing.Point(542, 52);
+            this.lbl75Bar0.Location = new System.Drawing.Point(569, 52);
             this.lbl75Bar0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl75Bar0.Name = "lbl75Bar0";
             this.lbl75Bar0.Size = new System.Drawing.Size(36, 17);
@@ -1630,7 +1630,7 @@
             // 
             this.lbl25Bar0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl25Bar0.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl25Bar0.Location = new System.Drawing.Point(110, 52);
+            this.lbl25Bar0.Location = new System.Drawing.Point(183, 52);
             this.lbl25Bar0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl25Bar0.Name = "lbl25Bar0";
             this.lbl25Bar0.Size = new System.Drawing.Size(36, 17);
@@ -1642,7 +1642,7 @@
             // 
             this.lblMidleBar0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMidleBar0.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMidleBar0.Location = new System.Drawing.Point(326, 52);
+            this.lblMidleBar0.Location = new System.Drawing.Point(373, 52);
             this.lblMidleBar0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMidleBar0.Name = "lblMidleBar0";
             this.lblMidleBar0.Size = new System.Drawing.Size(36, 17);
