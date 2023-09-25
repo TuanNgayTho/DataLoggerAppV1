@@ -3485,8 +3485,8 @@ namespace DataLoggerAppV1
             label49.Text = Properties.Settings.Default.UnitAi0;
             label55.Text = Properties.Settings.Default.UnitAi1;
             label57.Text = Properties.Settings.Default.UnitAi2;
-            label53.Text = Properties.Settings.Default.UnitAi3;
-            label59.Text = Properties.Settings.Default.UnitAi4;
+            label59.Text = Properties.Settings.Default.UnitAi3;
+            label53.Text = Properties.Settings.Default.UnitAi4;
 
             label48.Text = Properties.Settings.Default.NameAi0;
             label60.Text = Properties.Settings.Default.NameAi1;
