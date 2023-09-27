@@ -236,7 +236,7 @@ namespace DataLoggerAppV1
                 LabelFormatter = val => val + " " + Properties.Settings.Default.UnitAi4,
                 DisableAnimations = true,
                 Position = AxisPosition.RightTop,
-                Foreground = Brushes.Gray,
+                Foreground = Brushes.Lime,
                 //MinValue = 0,
                 Separator = new Separator
                 {
@@ -376,7 +376,7 @@ namespace DataLoggerAppV1
                 Title = Properties.Settings.Default.NameAi4,
                 Values = _viewModel.Values4,
                 Fill = Brushes.Transparent,
-                Stroke = Brushes.Gray,
+                Stroke = Brushes.Lime,
                 PointGeometrySize = 1,
                 StrokeThickness = 2,
                 ScalesYAt = 4
