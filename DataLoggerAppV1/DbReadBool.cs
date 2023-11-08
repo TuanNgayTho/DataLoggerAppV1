@@ -40,7 +40,7 @@ namespace DataLoggerAppV1
         public bool BypassStream1 { get; set; }
         public bool BypassStream2 { get; set; }
         public bool BypassStream3 { get; set; }
-        public bool Free25 { get; set; }
+        public bool LevelSwitch { get; set; }
         public bool Free26 { get; set; }
 
         public bool HighAlarm0 { get; set; }

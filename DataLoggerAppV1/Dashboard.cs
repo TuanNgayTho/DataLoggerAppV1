@@ -56,6 +56,8 @@ namespace DataLoggerAppV1
         public static bool boolBypassStream1;
         public static bool boolBypassStream2;
         public static bool boolBypassStream3;
+        public static bool boolLevelSwitch;
+
         public static bool isConnect;
         public static bool isStay = false;
 
@@ -331,6 +333,8 @@ namespace DataLoggerAppV1
                                 boolBypassStream2 = DbReadBool.BypassStream2;
                                 boolBypassStream3 = DbReadBool.BypassStream3;
 
+                                boolLevelSwitch = DbReadBool.LevelSwitch;
+
                                 Invoke(new Action(() =>
                                 {
 
@@ -366,6 +370,16 @@ namespace DataLoggerAppV1
                                         btnStream2.Enabled = true;
                                         btnStream3.Enabled = true;
                                         btnSart.Enabled = false;
+                                    }
+
+                                    // LevelSwitch Status
+                                    if(DbReadBool.LevelSwitch == true)
+                                    {
+                                        lblLevelSwitch.BackColor = Color.LightGreen;
+                                    }
+                                    else
+                                    {
+                                        lblLevelSwitch.BackColor = SystemColors.ControlLight;
                                     }
 
                                     // System Status
