@@ -459,12 +459,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_FA5C6FF934F8403B9EE592C4B8185DDD"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_82177B37CA2F4596825F0B86F2C813AD"
         "MsmSig" = "8:_UNDEFINED"
@@ -1643,26 +1637,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FA5C6FF934F8403B9EE592C4B8185DDD"
-            {
-            "SourcePath" = "8:..\\..\\JCT-removebg.ico"
-            "TargetName" = "8:JCT-removebg.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_072E5776FA72440B8CA92050A85CB48E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
         }
         "FileType"
         {
@@ -1851,7 +1825,7 @@
             "Target" = "8:_82177B37CA2F4596825F0B86F2C813AD"
             "Folder" = "8:_93DD73E11EC444AF81DA57F71939B059"
             "WorkingFolder" = "8:_072E5776FA72440B8CA92050A85CB48E"
-            "Icon" = "8:_FA5C6FF934F8403B9EE592C4B8185DDD"
+            "Icon" = "8:_561C97BC072849A7BD257AB499DF087C"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C4BE79577DD344368C83B1F8E941541D"
