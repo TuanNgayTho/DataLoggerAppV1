@@ -62,7 +62,7 @@ namespace DataLoggerAppV1
             tbxISBT6.Text = Properties.Settings.Default.ISBT6;
             tbxISBT7.Text = Properties.Settings.Default.ISBT7;
 
-            txbCycleTime.Text = Convert.ToString(Properties.Settings.Default.CycleTime / 1000);
+            txbCycleTime.Text = Convert.ToString(Properties.Settings.Default.SampleTime / 1000);
 
             // Creat a new thread and then run method read from PLC
             Thread t = new Thread(() =>
@@ -310,9 +310,13 @@ namespace DataLoggerAppV1
 
                             //Vent Time
                             txbVentTime.Text = Convert.ToString(Convert.ToInt32(DbSettingData.VentTime * 100) / 100000F);
+                            Properties.Settings.Default.VentTime = txbVentTime.Text;
 
                             //Analysis Time
                             txbAnalysisTime.Text = Convert.ToString(Convert.ToInt32(DbSettingData.AnalysisTime * 100) / 100000F);
+                            Properties.Settings.Default.AnalysisTime = txbAnalysisTime.Text;
+
+                            Properties.Settings.Default.Save();
                         }));
 
                         // Read Disable Signal From PLC
@@ -482,7 +486,7 @@ namespace DataLoggerAppV1
                         Properties.Settings.Default.NameAi6 = txbNameAi6.Text;
                         Properties.Settings.Default.NameAi7 = txbNameAi7.Text;
 
-                        Properties.Settings.Default.CycleTime = Convert.ToInt32(txbCycleTime.Text) * 1000;
+                        Properties.Settings.Default.SampleTime = Convert.ToInt32(txbCycleTime.Text) * 1000;
 
                         Properties.Settings.Default.MinAi0 = Convert.ToDouble(txbMesurementMin0.Text);
                         Properties.Settings.Default.MinAi1 = Convert.ToDouble(txbMesurementMin1.Text);
@@ -510,6 +514,12 @@ namespace DataLoggerAppV1
                         Properties.Settings.Default.ISBT5 = tbxISBT5.Text;
                         Properties.Settings.Default.ISBT6 = tbxISBT6.Text;
                         Properties.Settings.Default.ISBT7 = tbxISBT7.Text;
+
+                        //Vent Time
+                        Properties.Settings.Default.VentTime = txbVentTime.Text;
+
+                        //Analysis Time
+                        Properties.Settings.Default.AnalysisTime = txbAnalysisTime.Text;
 
                         Properties.Settings.Default.Save();
                         MessageBox.Show("Save Successful!");

@@ -83,7 +83,7 @@
     <Setting Name="URL" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="CycleTime" Type="System.Int32" Scope="User">
+    <Setting Name="SampleTime" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">5</Value>
     </Setting>
     <Setting Name="ColorAi0" Type="System.Drawing.Color" Scope="User">
@@ -181,6 +181,15 @@
     </Setting>
     <Setting Name="ISBT7" Type="System.String" Scope="User">
       <Value Profile="(Default)">50.8</Value>
+    </Setting>
+    <Setting Name="VentTime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="AnalysisTime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Sam" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
     </Setting>
   </Settings>
 </SettingsFile>

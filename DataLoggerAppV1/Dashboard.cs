@@ -40,6 +40,8 @@ namespace DataLoggerAppV1
         public Label AiDataCh6;
         public Label AiDataCh7;
 
+        public Label TextRemainTime;
+
         public static double DataAi0;
         public static double DataAi1;
         public static double DataAi2;
@@ -237,6 +239,7 @@ namespace DataLoggerAppV1
                                     barAi7.Value = DbAiData.AiPercent7;
 
                                     lblTime.Text = Convert.ToString(Convert.ToInt32(DbAiData.CountDownCycleTime / 1000));
+                                    TextRemainTime.Text = lblTime.Text;
 
                                 }));
 
@@ -1088,7 +1091,7 @@ namespace DataLoggerAppV1
                     try
                     {
                         //Connect To Mysql
-                        Thread.Sleep(Properties.Settings.Default.CycleTime);
+                        Thread.Sleep(Properties.Settings.Default.SampleTime);
                         string server = "localhost";
                         string database = "datalogger";
                         string uid = "root";

@@ -350,12 +350,12 @@ namespace DataLoggerAppV1.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
-        public int CycleTime {
+        public int SampleTime {
             get {
-                return ((int)(this["CycleTime"]));
+                return ((int)(this["SampleTime"]));
             }
             set {
-                this["CycleTime"] = value;
+                this["SampleTime"] = value;
             }
         }
         
@@ -740,6 +740,42 @@ namespace DataLoggerAppV1.Properties {
             }
             set {
                 this["ISBT7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string VentTime {
+            get {
+                return ((string)(this["VentTime"]));
+            }
+            set {
+                this["VentTime"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string AnalysisTime {
+            get {
+                return ((string)(this["AnalysisTime"]));
+            }
+            set {
+                this["AnalysisTime"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int Sam {
+            get {
+                return ((int)(this["Sam"]));
+            }
+            set {
+                this["Sam"] = value;
             }
         }
     }
