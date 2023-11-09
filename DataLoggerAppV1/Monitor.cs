@@ -173,7 +173,7 @@ namespace DataLoggerAppV1
             this.standardControl35 = new SymbolFactoryDotNet.StandardControl();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.label33 = new System.Windows.Forms.Label();
+            this.RemainTime = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.analysisTime = new System.Windows.Forms.Label();
@@ -3120,22 +3120,22 @@ namespace DataLoggerAppV1
             // 
             this.panel12.BackColor = System.Drawing.Color.Cyan;
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel12.Controls.Add(this.label33);
+            this.panel12.Controls.Add(this.RemainTime);
             this.panel12.Controls.Add(this.label35);
             this.panel12.Location = new System.Drawing.Point(433, 70);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(242, 45);
             this.panel12.TabIndex = 195;
             // 
-            // label33
+            // RemainTime
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(171, 9);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(32, 24);
-            this.label33.TabIndex = 178;
-            this.label33.Text = "62";
+            this.RemainTime.AutoSize = true;
+            this.RemainTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RemainTime.Location = new System.Drawing.Point(171, 9);
+            this.RemainTime.Name = "RemainTime";
+            this.RemainTime.Size = new System.Drawing.Size(32, 24);
+            this.RemainTime.TabIndex = 178;
+            this.RemainTime.Text = "62";
             // 
             // label35
             // 
@@ -3691,9 +3691,10 @@ namespace DataLoggerAppV1
             label61.Text = Properties.Settings.Default.NameAi2;
             label62.Text = Properties.Settings.Default.NameAi3;
             label51.Text = Properties.Settings.Default.NameAi4;
-            ventTime.Text = Properties.Settings.Default.NameAi4;
-            analysisTime.Text = Properties.Settings.Default.NameAi4;
+            ventTime.Text = Properties.Settings.Default.VentTime;
+            analysisTime.Text = Properties.Settings.Default.AnalysisTime;
             sampleTime.Text = Properties.Settings.Default.SampleTime.ToString();
+            RemainTime.Text = Dashboard.TextRemainTime.Text;
 
         }
 
@@ -3746,7 +3747,7 @@ namespace DataLoggerAppV1
         private Label sampleTime;
         private Label ventTime;
         private Panel panel12;
-        private Label label33;
+        private Label RemainTime;
         private Label label35;
 
      
