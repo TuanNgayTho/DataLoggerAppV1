@@ -349,7 +349,7 @@ namespace DataLoggerAppV1.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("5")]
+        [global::System.Configuration.DefaultSettingValueAttribute("5000")]
         public int SampleTime {
             get {
                 return ((int)(this["SampleTime"]));

@@ -84,7 +84,7 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="SampleTime" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">5</Value>
+      <Value Profile="(Default)">5000</Value>
     </Setting>
     <Setting Name="ColorAi0" Type="System.Drawing.Color" Scope="User">
       <Value Profile="(Default)">Red</Value>

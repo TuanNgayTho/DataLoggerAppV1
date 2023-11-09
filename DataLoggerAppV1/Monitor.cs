@@ -3693,7 +3693,7 @@ namespace DataLoggerAppV1
             label51.Text = Properties.Settings.Default.NameAi4;
             ventTime.Text = Properties.Settings.Default.VentTime;
             analysisTime.Text = Properties.Settings.Default.AnalysisTime;
-            sampleTime.Text = Properties.Settings.Default.SampleTime.ToString();
+            sampleTime.Text = Convert.ToString(Properties.Settings.Default.SampleTime / 1000);
             RemainTime.Text = Dashboard.RemainTime.ToString();
 
         }
