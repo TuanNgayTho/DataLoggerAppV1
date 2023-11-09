@@ -40,8 +40,7 @@ namespace DataLoggerAppV1
         public Label AiDataCh6;
         public Label AiDataCh7;
 
-        public Label TextRemainTime;
-
+        public static double RemainTime;
         public static double DataAi0;
         public static double DataAi1;
         public static double DataAi2;
@@ -102,7 +101,6 @@ namespace DataLoggerAppV1
             AiDataCh5 = lblAiDataCh5;
             AiDataCh6 = lblAiDataCh6;
             AiDataCh7 = lblAiDataCh7;
-            TextRemainTime = lblTime;
             instance = this;
 
             //Creat a new thread and then run method Connect PLC
@@ -240,6 +238,7 @@ namespace DataLoggerAppV1
                                     barAi7.Value = DbAiData.AiPercent7;
 
                                     lblTime.Text = Convert.ToString(Convert.ToInt32(DbAiData.CountDownCycleTime / 1000));
+                                    RemainTime = Convert.ToInt32(DbAiData.CountDownCycleTime / 1000);
 
                                 }));
 
