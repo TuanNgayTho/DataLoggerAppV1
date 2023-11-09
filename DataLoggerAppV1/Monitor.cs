@@ -3143,9 +3143,9 @@ namespace DataLoggerAppV1
             this.label35.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.Location = new System.Drawing.Point(8, 12);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(126, 22);
+            this.label35.Size = new System.Drawing.Size(150, 22);
             this.label35.TabIndex = 3;
-            this.label35.Text = "Remain Time:";
+            this.label35.Text = "Remain Time (s):";
             // 
             // panel11
             // 
@@ -3174,9 +3174,9 @@ namespace DataLoggerAppV1
             this.label34.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.Location = new System.Drawing.Point(8, 12);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(130, 22);
+            this.label34.Size = new System.Drawing.Size(154, 22);
             this.label34.TabIndex = 3;
-            this.label34.Text = "Analysis Time:";
+            this.label34.Text = "Analysis Time (s):";
             // 
             // panel10
             // 
@@ -3205,9 +3205,9 @@ namespace DataLoggerAppV1
             this.sampleTime1.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sampleTime1.Location = new System.Drawing.Point(8, 12);
             this.sampleTime1.Name = "sampleTime1";
-            this.sampleTime1.Size = new System.Drawing.Size(123, 22);
+            this.sampleTime1.Size = new System.Drawing.Size(147, 22);
             this.sampleTime1.TabIndex = 3;
-            this.sampleTime1.Text = "Sample Time:";
+            this.sampleTime1.Text = "Sample Time (s):";
             // 
             // panel9
             // 
@@ -3237,9 +3237,9 @@ namespace DataLoggerAppV1
             this.label32.ForeColor = System.Drawing.Color.Black;
             this.label32.Location = new System.Drawing.Point(8, 12);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(97, 22);
+            this.label32.Size = new System.Drawing.Size(121, 22);
             this.label32.TabIndex = 3;
-            this.label32.Text = "Vent Time:";
+            this.label32.Text = "Vent Time (s):";
             // 
             // standardControl67
             // 
