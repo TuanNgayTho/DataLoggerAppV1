@@ -145,7 +145,7 @@ namespace DataLoggerAppV1
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.standardControl69 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl70 = new SymbolFactoryDotNet.StandardControl();
-            this.standardControl65 = new SymbolFactoryDotNet.StandardControl();
+            this.Tank = new SymbolFactoryDotNet.StandardControl();
             this.standardControl49 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl54 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl63 = new SymbolFactoryDotNet.StandardControl();
@@ -172,10 +172,23 @@ namespace DataLoggerAppV1
             this.standardControl30 = new SymbolFactoryDotNet.StandardControl();
             this.standardControl35 = new SymbolFactoryDotNet.StandardControl();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.analysisTime = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.sampleTime = new System.Windows.Forms.Label();
+            this.sampleTime1 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.ventTime = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.standardControl67 = new SymbolFactoryDotNet.StandardControl();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl45)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl90)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl91)).BeginInit();
@@ -243,7 +256,7 @@ namespace DataLoggerAppV1
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl69)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl70)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl65)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Tank)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl49)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl54)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl63)).BeginInit();
@@ -269,6 +282,11 @@ namespace DataLoggerAppV1
             ((System.ComponentModel.ISupportInitialize)(this.standardControl30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl35)).BeginInit();
             this.panel8.SuspendLayout();
+            this.panel12.SuspendLayout();
+            this.panel11.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.standardControl67)).BeginInit();
             this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -349,11 +367,12 @@ namespace DataLoggerAppV1
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(970, 832);
+            this.label29.Location = new System.Drawing.Point(429, 832);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(107, 23);
+            this.label29.Size = new System.Drawing.Size(102, 23);
             this.label29.TabIndex = 264;
-            this.label29.Text = "FID AIR IN";
+            this.label29.Text = "ZERO AIR";
+            this.label29.Click += new System.EventHandler(this.label29_Click);
             // 
             // label27
             // 
@@ -599,7 +618,7 @@ namespace DataLoggerAppV1
             this.standardControl87.Category = "1PIPE.cat2";
             this.standardControl87.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl87.DebugData"));
             this.standardControl87.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl87.Location = new System.Drawing.Point(31, 576);
+            this.standardControl87.Location = new System.Drawing.Point(32, 576);
             this.standardControl87.Name = "standardControl87";
             this.standardControl87.Size = new System.Drawing.Size(191, 2);
             this.standardControl87.Stretch = true;
@@ -1161,9 +1180,9 @@ namespace DataLoggerAppV1
             this.panel4.Controls.Add(this.label43);
             this.panel4.Controls.Add(this.label42);
             this.panel4.Controls.Add(this.label3);
-            this.panel4.Location = new System.Drawing.Point(135, 821);
+            this.panel4.Location = new System.Drawing.Point(67, 768);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(242, 141);
+            this.panel4.Size = new System.Drawing.Size(242, 129);
             this.panel4.TabIndex = 191;
             // 
             // label44
@@ -1234,9 +1253,9 @@ namespace DataLoggerAppV1
             this.standardControl74.Category = "1PIPE.cat2";
             this.standardControl74.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl74.DebugData"));
             this.standardControl74.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl74.Location = new System.Drawing.Point(328, 859);
+            this.standardControl74.Location = new System.Drawing.Point(636, 859);
             this.standardControl74.Name = "standardControl74";
-            this.standardControl74.Size = new System.Drawing.Size(984, 2);
+            this.standardControl74.Size = new System.Drawing.Size(677, 2);
             this.standardControl74.Stretch = true;
             this.standardControl74.SymbolHandle = ((long)(823526416));
             this.standardControl74.TabIndex = 219;
@@ -1516,7 +1535,7 @@ namespace DataLoggerAppV1
             this.standardControl22.Category = "1ARW.cat2";
             this.standardControl22.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl22.DebugData"));
             this.standardControl22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl22.Location = new System.Drawing.Point(6, 11);
+            this.standardControl22.Location = new System.Drawing.Point(10, 11);
             this.standardControl22.Name = "standardControl22";
             this.standardControl22.Rotation = SymbolFactoryNetEngine.RotationOptions.Rotate180;
             this.standardControl22.Size = new System.Drawing.Size(69, 63);
@@ -1717,7 +1736,7 @@ namespace DataLoggerAppV1
             this.panel1.Controls.Add(this.standardControl11);
             this.panel1.Location = new System.Drawing.Point(204, 121);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(464, 393);
+            this.panel1.Size = new System.Drawing.Size(471, 393);
             this.panel1.TabIndex = 175;
             // 
             // label37
@@ -2375,29 +2394,29 @@ namespace DataLoggerAppV1
             this.standardControl70.SymbolHandle = ((long)(823526416));
             this.standardControl70.TabIndex = 213;
             // 
-            // standardControl65
+            // Tank
             // 
-            this.standardControl65.AnalogIntValue1 = ((short)(0));
-            this.standardControl65.AnalogValue1 = 0D;
-            this.standardControl65.BackColor = System.Drawing.Color.Transparent;
-            this.standardControl65.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
-            this.standardControl65.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
-            this.standardControl65.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.standardControl65.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
-            this.standardControl65.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
-            this.standardControl65.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
-            this.standardControl65.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
-            this.standardControl65.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
-            this.standardControl65.BlinkColor = System.Drawing.Color.Red;
-            this.standardControl65.Category = "1TANK.cat2";
-            this.standardControl65.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl65.DebugData"));
-            this.standardControl65.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.standardControl65.Location = new System.Drawing.Point(762, 739);
-            this.standardControl65.Name = "standardControl65";
-            this.standardControl65.Size = new System.Drawing.Size(36, 75);
-            this.standardControl65.Stretch = true;
-            this.standardControl65.SymbolHandle = ((long)(2057225536));
-            this.standardControl65.TabIndex = 209;
+            this.Tank.AnalogIntValue1 = ((short)(0));
+            this.Tank.AnalogValue1 = 0D;
+            this.Tank.BackColor = System.Drawing.Color.Transparent;
+            this.Tank.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
+            this.Tank.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
+            this.Tank.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.Tank.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
+            this.Tank.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
+            this.Tank.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
+            this.Tank.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
+            this.Tank.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
+            this.Tank.BlinkColor = System.Drawing.Color.Red;
+            this.Tank.Category = "1TANK.cat2";
+            this.Tank.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("Tank.DebugData"));
+            this.Tank.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Tank.Location = new System.Drawing.Point(762, 739);
+            this.Tank.Name = "Tank";
+            this.Tank.Size = new System.Drawing.Size(36, 75);
+            this.Tank.Stretch = true;
+            this.Tank.SymbolHandle = ((long)(2057225536));
+            this.Tank.TabIndex = 209;
             // 
             // standardControl49
             // 
@@ -2981,6 +3000,12 @@ namespace DataLoggerAppV1
             // panel8
             // 
             this.panel8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel8.Controls.Add(this.panel12);
+            this.panel8.Controls.Add(this.panel11);
+            this.panel8.Controls.Add(this.panel10);
+            this.panel8.Controls.Add(this.panel9);
+            this.panel8.Controls.Add(this.panel4);
+            this.panel8.Controls.Add(this.standardControl67);
             this.panel8.Controls.Add(this.panel2);
             this.panel8.Controls.Add(this.standardControl34);
             this.panel8.Controls.Add(this.panel6);
@@ -3040,7 +3065,6 @@ namespace DataLoggerAppV1
             this.panel8.Controls.Add(this.standardControl78);
             this.panel8.Controls.Add(this.label5);
             this.panel8.Controls.Add(this.standardControl77);
-            this.panel8.Controls.Add(this.panel4);
             this.panel8.Controls.Add(this.standardControl74);
             this.panel8.Controls.Add(this.standardControl47);
             this.panel8.Controls.Add(this.standardControl32);
@@ -3060,7 +3084,7 @@ namespace DataLoggerAppV1
             this.panel8.Controls.Add(this.panel7);
             this.panel8.Controls.Add(this.standardControl69);
             this.panel8.Controls.Add(this.standardControl70);
-            this.panel8.Controls.Add(this.standardControl65);
+            this.panel8.Controls.Add(this.Tank);
             this.panel8.Controls.Add(this.standardControl49);
             this.panel8.Controls.Add(this.standardControl63);
             this.panel8.Controls.Add(this.standardControl64);
@@ -3092,35 +3116,154 @@ namespace DataLoggerAppV1
             this.panel8.Size = new System.Drawing.Size(1641, 970);
             this.panel8.TabIndex = 281;
             // 
-            // label51
+            // panel12
             // 
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(18, 23);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(62, 22);
-            this.label51.TabIndex = 167;
-            this.label51.Text = "6200T";
+            this.panel12.BackColor = System.Drawing.Color.Cyan;
+            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel12.Controls.Add(this.label33);
+            this.panel12.Controls.Add(this.label35);
+            this.panel12.Location = new System.Drawing.Point(433, 70);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(242, 45);
+            this.panel12.TabIndex = 195;
             // 
-            // label53
+            // label33
             // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(180, 22);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(58, 22);
-            this.label53.TabIndex = 167;
-            this.label53.Text = "mmm";
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(171, 9);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(32, 24);
+            this.label33.TabIndex = 178;
+            this.label33.Text = "62";
             // 
-            // label52
+            // label35
             // 
-            this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(106, 19);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(32, 24);
-            this.label52.TabIndex = 168;
-            this.label52.Text = "62";
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(8, 12);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(120, 22);
+            this.label35.TabIndex = 3;
+            this.label35.Text = "Remain Time";
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.Cyan;
+            this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel11.Controls.Add(this.analysisTime);
+            this.panel11.Controls.Add(this.label34);
+            this.panel11.Location = new System.Drawing.Point(750, 922);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(242, 45);
+            this.panel11.TabIndex = 194;
+            // 
+            // analysisTime
+            // 
+            this.analysisTime.AutoSize = true;
+            this.analysisTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.analysisTime.Location = new System.Drawing.Point(171, 9);
+            this.analysisTime.Name = "analysisTime";
+            this.analysisTime.Size = new System.Drawing.Size(32, 24);
+            this.analysisTime.TabIndex = 178;
+            this.analysisTime.Text = "62";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(8, 12);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(124, 22);
+            this.label34.TabIndex = 3;
+            this.label34.Text = "Analysis Time";
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.Cyan;
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel10.Controls.Add(this.sampleTime);
+            this.panel10.Controls.Add(this.sampleTime1);
+            this.panel10.Location = new System.Drawing.Point(1349, 922);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(242, 45);
+            this.panel10.TabIndex = 193;
+            // 
+            // sampleTime
+            // 
+            this.sampleTime.AutoSize = true;
+            this.sampleTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sampleTime.Location = new System.Drawing.Point(159, 9);
+            this.sampleTime.Name = "sampleTime";
+            this.sampleTime.Size = new System.Drawing.Size(32, 24);
+            this.sampleTime.TabIndex = 179;
+            this.sampleTime.Text = "62";
+            // 
+            // sampleTime1
+            // 
+            this.sampleTime1.AutoSize = true;
+            this.sampleTime1.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sampleTime1.Location = new System.Drawing.Point(8, 12);
+            this.sampleTime1.Name = "sampleTime1";
+            this.sampleTime1.Size = new System.Drawing.Size(117, 22);
+            this.sampleTime1.TabIndex = 3;
+            this.sampleTime1.Text = "Sample Time";
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.Cyan;
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel9.Controls.Add(this.ventTime);
+            this.panel9.Controls.Add(this.label32);
+            this.panel9.Location = new System.Drawing.Point(112, 922);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(242, 45);
+            this.panel9.TabIndex = 192;
+            // 
+            // ventTime
+            // 
+            this.ventTime.AutoSize = true;
+            this.ventTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ventTime.Location = new System.Drawing.Point(150, 9);
+            this.ventTime.Name = "ventTime";
+            this.ventTime.Size = new System.Drawing.Size(32, 24);
+            this.ventTime.TabIndex = 177;
+            this.ventTime.Text = "62";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.Black;
+            this.label32.Location = new System.Drawing.Point(8, 12);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(91, 22);
+            this.label32.TabIndex = 3;
+            this.label32.Text = "Vent Time";
+            // 
+            // standardControl67
+            // 
+            this.standardControl67.AnalogIntValue1 = ((short)(0));
+            this.standardControl67.AnalogValue1 = 0D;
+            this.standardControl67.BackColor = System.Drawing.Color.Transparent;
+            this.standardControl67.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
+            this.standardControl67.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
+            this.standardControl67.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
+            this.standardControl67.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
+            this.standardControl67.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
+            this.standardControl67.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
+            this.standardControl67.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
+            this.standardControl67.BandsCollection.Add(new SymbolFactoryNetEngine.Band(0D, 0, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band7"));
+            this.standardControl67.BlinkColor = System.Drawing.Color.Red;
+            this.standardControl67.Category = "1PIPE.cat2";
+            this.standardControl67.DebugData = new SymbolFactoryDotNet.DebugClass(resources.GetString("standardControl67.DebugData"));
+            this.standardControl67.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.standardControl67.Location = new System.Drawing.Point(299, 859);
+            this.standardControl67.Name = "standardControl67";
+            this.standardControl67.Size = new System.Drawing.Size(410, 2);
+            this.standardControl67.Stretch = true;
+            this.standardControl67.SymbolHandle = ((long)(823526416));
+            this.standardControl67.TabIndex = 281;
             // 
             // panel6
             // 
@@ -3133,6 +3276,36 @@ namespace DataLoggerAppV1
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(261, 73);
             this.panel6.TabIndex = 276;
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.Location = new System.Drawing.Point(106, 19);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(32, 24);
+            this.label52.TabIndex = 168;
+            this.label52.Text = "62";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.Location = new System.Drawing.Point(180, 22);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(58, 22);
+            this.label53.TabIndex = 167;
+            this.label53.Text = "mmm";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.Location = new System.Drawing.Point(18, 23);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(62, 22);
+            this.label51.TabIndex = 167;
+            this.label51.Text = "6200T";
             // 
             // Monitor
             // 
@@ -3214,7 +3387,7 @@ namespace DataLoggerAppV1
             this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl69)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl70)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.standardControl65)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Tank)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl49)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl54)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl63)).EndInit();
@@ -3242,6 +3415,15 @@ namespace DataLoggerAppV1
             ((System.ComponentModel.ISupportInitialize)(this.standardControl35)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.standardControl67)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.ResumeLayout(false);
@@ -3367,7 +3549,7 @@ namespace DataLoggerAppV1
         private Timer timer1;
         private SymbolFactoryDotNet.StandardControl standardControl69;
         private SymbolFactoryDotNet.StandardControl standardControl70;
-        private SymbolFactoryDotNet.StandardControl standardControl65;
+        private SymbolFactoryDotNet.StandardControl Tank;
         private SymbolFactoryDotNet.StandardControl standardControl49;
         private SymbolFactoryDotNet.StandardControl standardControl54;
         private SymbolFactoryDotNet.StandardControl standardControl63;
@@ -3476,6 +3658,22 @@ namespace DataLoggerAppV1
 
             }
 
+            if (Dashboard.boolLevelSwitch == true)
+            {
+
+                Tank.DiscreteValue3 = true;
+                
+
+            }
+            else
+            {
+                Tank.DiscreteValue3 = false;
+                
+
+
+            }
+
+
             label50.Text = Convert.ToString(Convert.ToInt32(Dashboard.DataAi0 * 100) / 100F);
             label54.Text = Convert.ToString(Convert.ToInt32(Dashboard.DataAi1 * 100) / 100F);
             label56.Text = Convert.ToString(Convert.ToInt32(Dashboard.DataAi2 * 100) / 100F);
@@ -3493,6 +3691,9 @@ namespace DataLoggerAppV1
             label61.Text = Properties.Settings.Default.NameAi2;
             label62.Text = Properties.Settings.Default.NameAi3;
             label51.Text = Properties.Settings.Default.NameAi4;
+            ventTime.Text = Properties.Settings.Default.NameAi4;
+            analysisTime.Text = Properties.Settings.Default.NameAi4;
+            sampleTime.Text = Properties.Settings.Default.CycleTime.ToString();
 
         }
 
@@ -3528,5 +3729,26 @@ namespace DataLoggerAppV1
         private Label label52;
         private Label label53;
         private Label label51;
+
+        private void label29_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private SymbolFactoryDotNet.StandardControl standardControl67;
+        private Panel panel9;
+        private Label label32;
+        private Panel panel10;
+        private Label sampleTime1;
+        private Panel panel11;
+        private Label analysisTime;
+        private Label label34;
+        private Label sampleTime;
+        private Label ventTime;
+        private Panel panel12;
+        private Label label33;
+        private Label label35;
+
+     
     }
 }
