@@ -374,16 +374,6 @@ namespace DataLoggerAppV1
                                         btnSart.Enabled = false;
                                     }
 
-                                    // LevelSwitch Status
-                                    if(DbReadBool.LevelSwitch == true)
-                                    {
-                                        lblLevelSwitch.BackColor = Color.LightGreen;
-                                    }
-                                    else
-                                    {
-                                        lblLevelSwitch.BackColor = SystemColors.ControlLight;
-                                    }
-
                                     // System Status
                                     if (DbReadBool.SystemStatusAuto && lblAlarmSystem.BackColor != Color.LightGreen)
                                     {

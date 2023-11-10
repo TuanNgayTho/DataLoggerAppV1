@@ -332,6 +332,17 @@ namespace DataLoggerAppV1
                             cbxAi5.Checked = DbEnableSignal.DisconnectAi5;
                             cbxAi6.Checked = DbEnableSignal.DisconnectAi6;
                             cbxAi7.Checked = DbEnableSignal.DisconnectAi7;
+
+                            Properties.Settings.Default.EnableAI0 = DbEnableSignal.DisconnectAi0;
+                            Properties.Settings.Default.EnableAI1 = DbEnableSignal.DisconnectAi1;
+                            Properties.Settings.Default.EnableAI2 = DbEnableSignal.DisconnectAi2;
+                            Properties.Settings.Default.EnableAI3 = DbEnableSignal.DisconnectAi3;
+                            Properties.Settings.Default.EnableAI4 = DbEnableSignal.DisconnectAi4;
+                            Properties.Settings.Default.EnableAI5 = DbEnableSignal.DisconnectAi5;
+                            Properties.Settings.Default.EnableAI6 = DbEnableSignal.DisconnectAi6;
+                            Properties.Settings.Default.EnableAI7 = DbEnableSignal.DisconnectAi7;
+
+                            Properties.Settings.Default.Save();
                         }));
                     }
                 }

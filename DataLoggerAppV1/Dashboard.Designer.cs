@@ -172,7 +172,6 @@
             this.lblTime = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.Silence = new System.Windows.Forms.Button();
-            this.lblLevelSwitch = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -1977,7 +1976,6 @@
             // 
             this.panel17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel17.Controls.Add(this.lblLevelSwitch);
             this.panel17.Controls.Add(this.lblTime);
             this.panel17.Controls.Add(this.lblAlarmSystem);
             this.panel17.Controls.Add(this.label8);
@@ -2036,16 +2034,6 @@
             this.Silence.UseVisualStyleBackColor = true;
             this.Silence.Click += new System.EventHandler(this.Silence_Click);
             // 
-            // lblLevelSwitch
-            // 
-            this.lblLevelSwitch.AutoSize = true;
-            this.lblLevelSwitch.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.lblLevelSwitch.Location = new System.Drawing.Point(1444, 26);
-            this.lblLevelSwitch.Name = "lblLevelSwitch";
-            this.lblLevelSwitch.Size = new System.Drawing.Size(120, 24);
-            this.lblLevelSwitch.TabIndex = 8;
-            this.lblLevelSwitch.Text = "Level Switch";
-            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
@@ -2082,7 +2070,6 @@
             this.panel15.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
             this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2231,6 +2218,5 @@
         private System.Windows.Forms.Label lblISBT5;
         private System.Windows.Forms.Label lblISBT6;
         private System.Windows.Forms.Label lblISBT7;
-        private System.Windows.Forms.Label lblLevelSwitch;
     }
 }

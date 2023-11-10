@@ -778,5 +778,101 @@ namespace DataLoggerAppV1.Properties {
                 this["Sam"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool EnableAI0 {
+            get {
+                return ((bool)(this["EnableAI0"]));
+            }
+            set {
+                this["EnableAI0"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool EnableAI1 {
+            get {
+                return ((bool)(this["EnableAI1"]));
+            }
+            set {
+                this["EnableAI1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool EnableAI2 {
+            get {
+                return ((bool)(this["EnableAI2"]));
+            }
+            set {
+                this["EnableAI2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool EnableAI3 {
+            get {
+                return ((bool)(this["EnableAI3"]));
+            }
+            set {
+                this["EnableAI3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool EnableAI4 {
+            get {
+                return ((bool)(this["EnableAI4"]));
+            }
+            set {
+                this["EnableAI4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool EnableAI5 {
+            get {
+                return ((bool)(this["EnableAI5"]));
+            }
+            set {
+                this["EnableAI5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool EnableAI6 {
+            get {
+                return ((bool)(this["EnableAI6"]));
+            }
+            set {
+                this["EnableAI6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool EnableAI7 {
+            get {
+                return ((bool)(this["EnableAI7"]));
+            }
+            set {
+                this["EnableAI7"] = value;
+            }
+        }
     }
 }

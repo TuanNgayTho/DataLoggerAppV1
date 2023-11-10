@@ -1815,6 +1815,7 @@
             this.txbCycleTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbCycleTime.Location = new System.Drawing.Point(1047, 62);
             this.txbCycleTime.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.txbCycleTime.MaxLength = 1000;
             this.txbCycleTime.Name = "txbCycleTime";
             this.txbCycleTime.Size = new System.Drawing.Size(501, 25);
             this.txbCycleTime.TabIndex = 18;
