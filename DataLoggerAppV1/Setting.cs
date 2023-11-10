@@ -14,7 +14,15 @@ namespace DataLoggerAppV1
     public partial class Setting : Form
     {
         public static Setting instance;
-        
+        public static bool save_para1;
+        public static bool enable1;
+        public static bool enable2;
+        public static bool enable3;
+        public static bool enable4;
+        public static bool enable5;
+        public static bool enable6;
+        public static bool enable7;
+        public static bool enable8;
         public static bool isStay = false;
         public static Plc plc = new Plc(CpuType.S71200, "192.168.0.2", 0, 1);
         public Setting()
@@ -81,6 +89,7 @@ namespace DataLoggerAppV1
         private void button1_Click(object sender, EventArgs e)
         {
             // Creat a new thread and then run method read from PLC
+            
             Thread t1 = new Thread(() =>
             {
                 WriteToPlc();
@@ -342,6 +351,15 @@ namespace DataLoggerAppV1
                             Properties.Settings.Default.EnableAI6 = DbEnableSignal.DisconnectAi6;
                             Properties.Settings.Default.EnableAI7 = DbEnableSignal.DisconnectAi7;
 
+                            enable1 = DbEnableSignal.DisconnectAi0;
+                            enable2 = DbEnableSignal.DisconnectAi1;
+                            enable3 = DbEnableSignal.DisconnectAi2;
+                            enable4 = DbEnableSignal.DisconnectAi3;
+                            enable5 = DbEnableSignal.DisconnectAi4;
+                            enable6 = DbEnableSignal.DisconnectAi5;
+                            enable7 = DbEnableSignal.DisconnectAi6;
+                            enable8 = DbEnableSignal.DisconnectAi7;
+
                             Properties.Settings.Default.Save();
                         }));
                     }
@@ -531,7 +549,7 @@ namespace DataLoggerAppV1
 
                         //Analysis Time
                         Properties.Settings.Default.AnalysisTime = txbAnalysisTime.Text;
-                        Properties.Settings.Default.save_para = true;
+                        save_para1 = true;
                         Properties.Settings.Default.Save();
                         MessageBox.Show("Save Successful!");
                     }

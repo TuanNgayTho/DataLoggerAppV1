@@ -874,5 +874,17 @@ namespace DataLoggerAppV1.Properties {
                 this["EnableAI7"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool save_para {
+            get {
+                return ((bool)(this["save_para"]));
+            }
+            set {
+                this["save_para"] = value;
+            }
+        }
     }
 }

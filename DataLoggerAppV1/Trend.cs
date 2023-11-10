@@ -426,10 +426,11 @@ namespace DataLoggerAppV1
 
           };
 
+            
 
 
-            // System.Windows.Controls.Panel.SetZIndex(MaterialGas9, 1);
-             if (Properties.Settings.Default.MinAi0 != Properties.Settings.Default.MaxAi0) { 
+
+            if (Properties.Settings.Default.MinAi0 != Properties.Settings.Default.MaxAi0) { 
             cartesianChart1.AxisY[0].MaxValue = Properties.Settings.Default.MaxAi0;
             cartesianChart1.AxisY[0].MinValue = Properties.Settings.Default.MinAi0;
 
@@ -508,8 +509,14 @@ namespace DataLoggerAppV1
                 cartesianChart1.AxisY[7].MinValue = con;
             }
 
-
-
+            //checkBox1.Enabled = false;
+            //checkBox2.Enabled = false;
+            //checkBox3.Enabled = false;
+           // checkBox4.Enabled = false;
+           // checkBox5.Enabled = false;
+            //checkBox6.Enabled = false;
+           // checkBox7.Enabled = false;
+           // checkBox8.Enabled = false;
         }
 
 
@@ -567,10 +574,7 @@ namespace DataLoggerAppV1
             hour2.Value= date.Value;
         }
 
-        private void checkBox1_CheckStateChanged(object sender, EventArgs e)
-        {
-            
-        }
+       
 
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
@@ -673,8 +677,13 @@ namespace DataLoggerAppV1
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (Properties.Settings.Default.save_para == true)
+            
+            if (Setting.save_para1 == true)
             {
+
+                
+               
+               
                 if (Properties.Settings.Default.MinAi0 != Properties.Settings.Default.MaxAi0)
                 {
                     cartesianChart1.AxisY[0].MaxValue = Properties.Settings.Default.MaxAi0;
@@ -764,6 +773,14 @@ namespace DataLoggerAppV1
                 cartesianChart1.AxisY[5].Title = Properties.Settings.Default.NameAi5;
                 cartesianChart1.AxisY[6].Title = Properties.Settings.Default.NameAi6;
                 cartesianChart1.AxisY[7].Title = Properties.Settings.Default.NameAi7;
+                MaterialGas1.Title= Properties.Settings.Default.NameAi0;
+                MaterialGas2.Title = Properties.Settings.Default.NameAi1;
+                MaterialGas3.Title = Properties.Settings.Default.NameAi2;
+                MaterialGas4.Title = Properties.Settings.Default.NameAi3;
+                MaterialGas5.Title = Properties.Settings.Default.NameAi4;
+                MaterialGas6.Title = Properties.Settings.Default.NameAi5;
+                MaterialGas7.Title = Properties.Settings.Default.NameAi6;
+                MaterialGas8.Title = Properties.Settings.Default.NameAi7;
                 checkBox1.Text = Properties.Settings.Default.NameAi0;
                 checkBox2.Text = Properties.Settings.Default.NameAi1;
                 checkBox3.Text = Properties.Settings.Default.NameAi2;
@@ -780,8 +797,9 @@ namespace DataLoggerAppV1
                 checkBox6.ForeColor = Properties.Settings.Default.ColorAi5;
                 checkBox7.ForeColor = Properties.Settings.Default.ColorAi6;
                 checkBox8.ForeColor = Properties.Settings.Default.ColorAi7;
-                Properties.Settings.Default.save_para = false;
-                Properties.Settings.Default.Save();
+                Setting.save_para1 = false;
+                
+
             }
         }
 

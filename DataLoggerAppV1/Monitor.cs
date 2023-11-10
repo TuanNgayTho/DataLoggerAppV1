@@ -629,7 +629,7 @@ namespace DataLoggerAppV1
             // 
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(795, 651);
+            this.label21.Location = new System.Drawing.Point(795, 654);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(21, 23);
             this.label21.TabIndex = 248;
@@ -2398,11 +2398,12 @@ namespace DataLoggerAppV1
             // 
             this.Tank.AnalogIntValue1 = ((short)(0));
             this.Tank.AnalogValue1 = 0D;
+            this.Tank.AnimationMode = SymbolFactoryNetEngine.AnimationModeOptions.DiscreteColorFill;
             this.Tank.BackColor = System.Drawing.Color.Transparent;
             this.Tank.BackStyle = SymbolFactoryNetEngine.BackStyleOptions.Transparent;
             this.Tank.BandsCollection.Add(new SymbolFactoryNetEngine.Band(90D, 90, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Red, "Band1"));
             this.Tank.BandsCollection.Add(new SymbolFactoryNetEngine.Band(80D, 80, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkShaded, System.Drawing.Color.Yellow, "Band2"));
-            this.Tank.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Green, "Band3"));
+            this.Tank.BandsCollection.Add(new SymbolFactoryNetEngine.Band(70D, 70, false, SymbolFactoryNetEngine.BandStyleOptions.BlinkSolid, System.Drawing.Color.Red, "Band3"));
             this.Tank.BandsCollection.Add(new SymbolFactoryNetEngine.Band(50D, 50, false, SymbolFactoryNetEngine.BandStyleOptions.Original, System.Drawing.Color.Yellow, "Band4"));
             this.Tank.BandsCollection.Add(new SymbolFactoryNetEngine.Band(30D, 30, false, SymbolFactoryNetEngine.BandStyleOptions.Shaded, System.Drawing.Color.Red, "Band5"));
             this.Tank.BandsCollection.Add(new SymbolFactoryNetEngine.Band(20D, 20, false, SymbolFactoryNetEngine.BandStyleOptions.Solid, System.Drawing.Color.Yellow, "Band6"));
