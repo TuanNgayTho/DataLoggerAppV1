@@ -531,7 +531,7 @@ namespace DataLoggerAppV1
 
                         //Analysis Time
                         Properties.Settings.Default.AnalysisTime = txbAnalysisTime.Text;
-
+                        Properties.Settings.Default.save_para = true;
                         Properties.Settings.Default.Save();
                         MessageBox.Show("Save Successful!");
                     }

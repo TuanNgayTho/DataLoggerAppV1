@@ -51,7 +51,7 @@ namespace DataLoggerAppV1
         List<float> valueChart7 = new List<float>();
         bool busy1, busy2, busy3;
         int count,count_tong,sott, count_inc,temp,temp1;
-
+        const double con = 0.0;
 
         String iDay, iMonth, iYear, iHour, iMininute, iSeconds;
         String iDay2, iMonth2, iYear2, iHour2, iMininute2, iSeconds2;
@@ -429,30 +429,89 @@ namespace DataLoggerAppV1
 
 
             // System.Windows.Controls.Panel.SetZIndex(MaterialGas9, 1);
-            cartesianChart1.AxisY[0].MaxRange = Properties.Settings.Default.MaxAi0;
-            cartesianChart1.AxisY[0].MinRange = Properties.Settings.Default.MinAi0;
+             if (Properties.Settings.Default.MinAi0 != Properties.Settings.Default.MaxAi0) { 
             cartesianChart1.AxisY[0].MaxValue = Properties.Settings.Default.MaxAi0;
             cartesianChart1.AxisY[0].MinValue = Properties.Settings.Default.MinAi0;
-            cartesianChart1.AxisY[1].MaxValue = Properties.Settings.Default.MaxAi1;
-            cartesianChart1.AxisY[1].MinValue = Properties.Settings.Default.MinAi1;
-            cartesianChart1.AxisY[2].MaxValue = Properties.Settings.Default.MaxAi2;
-            cartesianChart1.AxisY[2].MinValue = Properties.Settings.Default.MinAi2;
-            cartesianChart1.AxisY[3].MaxValue = Properties.Settings.Default.MaxAi3;
-            cartesianChart1.AxisY[3].MinValue = Properties.Settings.Default.MinAi3;
-            cartesianChart1.AxisY[4].MaxValue = Properties.Settings.Default.MaxAi4;
-            cartesianChart1.AxisY[4].MinValue = Properties.Settings.Default.MinAi4;
-            cartesianChart1.AxisY[5].MaxValue = Properties.Settings.Default.MaxAi5;
-            cartesianChart1.AxisY[5].MinValue = Properties.Settings.Default.MinAi5;
-            cartesianChart1.AxisY[6].MaxValue = Properties.Settings.Default.MaxAi6;
-            cartesianChart1.AxisY[6].MinValue = Properties.Settings.Default.MinAi6;
-            cartesianChart1.AxisY[7].MaxValue = Properties.Settings.Default.MaxAi7;
-            cartesianChart1.AxisY[7].MinValue = Properties.Settings.Default.MinAi7;
 
+              }
+             else
+              {
+                  cartesianChart1.AxisY[0].MaxValue = double.NaN;
+                cartesianChart1.AxisY[0].MinValue = con;
+              }
+            if (Properties.Settings.Default.MinAi1 != Properties.Settings.Default.MaxAi1)
+            {
+                cartesianChart1.AxisY[1].MaxValue = Properties.Settings.Default.MaxAi1;
+                cartesianChart1.AxisY[1].MinValue = Properties.Settings.Default.MinAi1;
+            }
+            else
+            {
+                cartesianChart1.AxisY[1].MaxValue = double.NaN;
+                cartesianChart1.AxisY[1].MinValue = con;
+            }
+            if (Properties.Settings.Default.MinAi2 != Properties.Settings.Default.MaxAi2)
+            {
+                cartesianChart1.AxisY[2].MaxValue = Properties.Settings.Default.MaxAi2;
+                cartesianChart1.AxisY[2].MinValue = Properties.Settings.Default.MinAi2;
+            }
+            else {
+                cartesianChart1.AxisY[2].MaxValue = double.NaN;
+                cartesianChart1.AxisY[2].MinValue = con;
+            }
+            if (Properties.Settings.Default.MinAi3 != Properties.Settings.Default.MaxAi3)
+            {
+                cartesianChart1.AxisY[3].MaxValue = Properties.Settings.Default.MaxAi3;
+                cartesianChart1.AxisY[3].MinValue = Properties.Settings.Default.MinAi3;
+            }
+            else
+            {
+                cartesianChart1.AxisY[3].MaxValue = double.NaN;
+                cartesianChart1.AxisY[3].MinValue = con;
+            }
+            if (Properties.Settings.Default.MinAi4 != Properties.Settings.Default.MaxAi4)
+            {
+                cartesianChart1.AxisY[4].MaxValue = Properties.Settings.Default.MaxAi4;
+                cartesianChart1.AxisY[4].MinValue = Properties.Settings.Default.MinAi4;
+            }
+            else
+            {
+                cartesianChart1.AxisY[4].MaxValue = double.NaN;
+                cartesianChart1.AxisY[4].MinValue = con;
+            }
+            if (Properties.Settings.Default.MinAi5 != Properties.Settings.Default.MaxAi5)
+            {
+                cartesianChart1.AxisY[5].MaxValue = Properties.Settings.Default.MaxAi5;
+                cartesianChart1.AxisY[5].MinValue = Properties.Settings.Default.MinAi5;
+            }
+            else
+            {
+                cartesianChart1.AxisY[5].MaxValue = double.NaN;
+                cartesianChart1.AxisY[5].MinValue = con;
+            }
+            if (Properties.Settings.Default.MinAi6 != Properties.Settings.Default.MaxAi6)
+            {
+                cartesianChart1.AxisY[6].MaxValue = Properties.Settings.Default.MaxAi6;
+                cartesianChart1.AxisY[6].MinValue = Properties.Settings.Default.MinAi6;
+            }
+            else {
+                cartesianChart1.AxisY[6].MaxValue = double.NaN;
+                cartesianChart1.AxisY[6].MinValue = con;
+            }
+            if (Properties.Settings.Default.MinAi7 != Properties.Settings.Default.MaxAi7)
+            {
+                cartesianChart1.AxisY[7].MaxValue = Properties.Settings.Default.MaxAi7;
+                cartesianChart1.AxisY[7].MinValue = Properties.Settings.Default.MinAi7;
+            }
+            else
+            {
+                cartesianChart1.AxisY[7].MaxValue = double.NaN;
+                cartesianChart1.AxisY[7].MinValue = con;
+            }
 
 
 
         }
-      
+
 
 
         private void SetAxisLimits()
@@ -474,13 +533,7 @@ namespace DataLoggerAppV1
 
        
 
-        private void TimeTick()
-        {
-
-           
-         
-
-        }
+       
         private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
         {
             MaterialGas1.Visibility = MaterialGas1.Visibility == Visibility.Visible
@@ -620,7 +673,116 @@ namespace DataLoggerAppV1
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            //textBox1.Text = _viewModel.Count.ToString();
+            if (Properties.Settings.Default.save_para == true)
+            {
+                if (Properties.Settings.Default.MinAi0 != Properties.Settings.Default.MaxAi0)
+                {
+                    cartesianChart1.AxisY[0].MaxValue = Properties.Settings.Default.MaxAi0;
+                    cartesianChart1.AxisY[0].MinValue = Properties.Settings.Default.MinAi0;
+                }
+                else
+                {
+                    cartesianChart1.AxisY[0].MaxValue = double.NaN;
+                    cartesianChart1.AxisY[0].MinValue = 0;
+                }
+                if (Properties.Settings.Default.MinAi1 != Properties.Settings.Default.MaxAi1)
+                {
+                    cartesianChart1.AxisY[1].MaxValue = Properties.Settings.Default.MaxAi1;
+                    cartesianChart1.AxisY[1].MinValue = Properties.Settings.Default.MinAi1;
+                }
+                else
+                {
+                    cartesianChart1.AxisY[1].MaxValue = double.NaN;
+                    cartesianChart1.AxisY[1].MinValue = 0;
+                }
+                if (Properties.Settings.Default.MinAi2 != Properties.Settings.Default.MaxAi2)
+                {
+                    cartesianChart1.AxisY[2].MaxValue = Properties.Settings.Default.MaxAi2;
+                    cartesianChart1.AxisY[2].MinValue = Properties.Settings.Default.MinAi2;
+                }
+                else
+                {
+                    cartesianChart1.AxisY[2].MaxValue = double.NaN;
+                    cartesianChart1.AxisY[2].MinValue = 0;
+                }
+                if (Properties.Settings.Default.MinAi3 != Properties.Settings.Default.MaxAi3)
+                {
+                    cartesianChart1.AxisY[3].MaxValue = Properties.Settings.Default.MaxAi3;
+                    cartesianChart1.AxisY[3].MinValue = Properties.Settings.Default.MinAi3;
+                }
+                else
+                {
+                    cartesianChart1.AxisY[3].MaxValue = double.NaN;
+                    cartesianChart1.AxisY[3].MinValue = 0;
+                }
+                if (Properties.Settings.Default.MinAi4 != Properties.Settings.Default.MaxAi4)
+                {
+                    cartesianChart1.AxisY[4].MaxValue = Properties.Settings.Default.MaxAi4;
+                    cartesianChart1.AxisY[4].MinValue = Properties.Settings.Default.MinAi4;
+                }
+                else
+                {
+                    cartesianChart1.AxisY[4].MaxValue = double.NaN;
+                    cartesianChart1.AxisY[4].MinValue = 0;
+                }
+                if (Properties.Settings.Default.MinAi5 != Properties.Settings.Default.MaxAi5)
+                {
+                    cartesianChart1.AxisY[5].MaxValue = Properties.Settings.Default.MaxAi5;
+                    cartesianChart1.AxisY[5].MinValue = Properties.Settings.Default.MinAi5;
+                }
+                else
+                {
+                    cartesianChart1.AxisY[5].MaxValue = double.NaN;
+                    cartesianChart1.AxisY[5].MinValue = 0;
+                }
+                if (Properties.Settings.Default.MinAi6 != Properties.Settings.Default.MaxAi6)
+                {
+                    cartesianChart1.AxisY[6].MaxValue = Properties.Settings.Default.MaxAi6;
+                    cartesianChart1.AxisY[6].MinValue = Properties.Settings.Default.MinAi6;
+                }
+                else
+                {
+                    cartesianChart1.AxisY[6].MaxValue = double.NaN;
+                    cartesianChart1.AxisY[6].MinValue = 0;
+                }
+                if (Properties.Settings.Default.MinAi7 != Properties.Settings.Default.MaxAi7)
+                {
+                    cartesianChart1.AxisY[7].MaxValue = Properties.Settings.Default.MaxAi7;
+                    cartesianChart1.AxisY[7].MinValue = Properties.Settings.Default.MinAi7;
+                }
+                else
+                {
+                    cartesianChart1.AxisY[7].MaxValue = double.NaN;
+                    cartesianChart1.AxisY[7].MinValue = 0;
+                }
+               
+                cartesianChart1.AxisY[0].Title = Properties.Settings.Default.NameAi0;
+                cartesianChart1.AxisY[1].Title = Properties.Settings.Default.NameAi1;
+                cartesianChart1.AxisY[2].Title = Properties.Settings.Default.NameAi2;
+                cartesianChart1.AxisY[3].Title = Properties.Settings.Default.NameAi3;
+                cartesianChart1.AxisY[4].Title = Properties.Settings.Default.NameAi4;
+                cartesianChart1.AxisY[5].Title = Properties.Settings.Default.NameAi5;
+                cartesianChart1.AxisY[6].Title = Properties.Settings.Default.NameAi6;
+                cartesianChart1.AxisY[7].Title = Properties.Settings.Default.NameAi7;
+                checkBox1.Text = Properties.Settings.Default.NameAi0;
+                checkBox2.Text = Properties.Settings.Default.NameAi1;
+                checkBox3.Text = Properties.Settings.Default.NameAi2;
+                checkBox4.Text = Properties.Settings.Default.NameAi3;
+                checkBox5.Text = Properties.Settings.Default.NameAi4;
+                checkBox6.Text = Properties.Settings.Default.NameAi5;
+                checkBox7.Text = Properties.Settings.Default.NameAi6;
+                checkBox8.Text = Properties.Settings.Default.NameAi7;
+                checkBox1.ForeColor = Properties.Settings.Default.ColorAi0;
+                checkBox2.ForeColor = Properties.Settings.Default.ColorAi1;
+                checkBox3.ForeColor = Properties.Settings.Default.ColorAi2;
+                checkBox4.ForeColor = Properties.Settings.Default.ColorAi3;
+                checkBox5.ForeColor = Properties.Settings.Default.ColorAi4;
+                checkBox6.ForeColor = Properties.Settings.Default.ColorAi5;
+                checkBox7.ForeColor = Properties.Settings.Default.ColorAi6;
+                checkBox8.ForeColor = Properties.Settings.Default.ColorAi7;
+                Properties.Settings.Default.save_para = false;
+                Properties.Settings.Default.Save();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)

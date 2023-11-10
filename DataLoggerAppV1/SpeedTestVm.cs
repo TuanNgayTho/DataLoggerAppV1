@@ -105,13 +105,13 @@ namespace Geared.Winforms.SpeedTest
                         string password = "root";
                         string constring = "server=" + server + "; database=" + database + "; uid=" + uid + "; pwd=" + password;
                         
-                        MySqlConnection con = new MySqlConnection(constring);
-                        con.Open();
+                        MySqlConnection connect = new MySqlConnection(constring);
+                        connect.Open();
 
 
                         var query = "Select aivalue0,aivalue1,aivalue2,aivalue3,aivalue4,aivalue5,aivalue6,aivalue7,ts from samples ORDER BY id DESC LIMIT 1";
 
-                        MySqlCommand cmd = new MySqlCommand(query, con);
+                        MySqlCommand cmd = new MySqlCommand(query, connect);
                         MySqlDataReader reader = cmd.ExecuteReader();
                        // System.Windows.MessageBox.Show("ok");
                         while (reader.Read())
@@ -171,7 +171,7 @@ namespace Geared.Winforms.SpeedTest
                         //    ChartValues/GearedValues returns a thread safe copy once you enumerate it.
                         //    TIPS: use foreach instead of for
                         //    LINQ methods also enumerate the collections
-                        con.Close();
+                        connect.Close();
                     }
 
                     catch { }
