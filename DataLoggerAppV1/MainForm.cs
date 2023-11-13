@@ -25,6 +25,8 @@ namespace DataLoggerAppV1
 
         public MainForm()
         {
+
+            
             InitializeComponent();
             UserNameLabelel = lblUserName;
             instance = this;
@@ -59,6 +61,8 @@ namespace DataLoggerAppV1
             Setting.isStay = false;
 
         }
+
+      
 
         private void Form1_Load(object sender, EventArgs e)
         {

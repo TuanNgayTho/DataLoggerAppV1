@@ -15,6 +15,7 @@ namespace DataLoggerAppV1
         {
             //Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new splashscreen());
             Application.Run(new MainForm());
         }
     }
