@@ -450,7 +450,7 @@ namespace DataLoggerAppV1
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(136, 21);
+            this.label54.Location = new System.Drawing.Point(117, 25);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(32, 24);
             this.label54.TabIndex = 170;
@@ -484,7 +484,7 @@ namespace DataLoggerAppV1
             // 
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(227, 21);
+            this.label55.Location = new System.Drawing.Point(191, 29);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(58, 22);
             this.label55.TabIndex = 169;
@@ -865,7 +865,7 @@ namespace DataLoggerAppV1
             // 
             this.label57.AutoSize = true;
             this.label57.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(227, 83);
+            this.label57.Location = new System.Drawing.Point(225, 19);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(58, 22);
             this.label57.TabIndex = 171;
@@ -1092,7 +1092,7 @@ namespace DataLoggerAppV1
             // 
             this.label58.AutoSize = true;
             this.label58.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(136, 146);
+            this.label58.Location = new System.Drawing.Point(134, 82);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(32, 24);
             this.label58.TabIndex = 174;
@@ -1102,7 +1102,7 @@ namespace DataLoggerAppV1
             // 
             this.label59.AutoSize = true;
             this.label59.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(227, 148);
+            this.label59.Location = new System.Drawing.Point(225, 84);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(58, 22);
             this.label59.TabIndex = 173;
@@ -1232,7 +1232,7 @@ namespace DataLoggerAppV1
             // 
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(136, 83);
+            this.label56.Location = new System.Drawing.Point(134, 19);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(32, 24);
             this.label56.TabIndex = 172;
@@ -2299,15 +2299,15 @@ namespace DataLoggerAppV1
             // 
             this.panel7.BackColor = System.Drawing.Color.White;
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.label52);
             this.panel7.Controls.Add(this.label62);
+            this.panel7.Controls.Add(this.label53);
+            this.panel7.Controls.Add(this.label51);
             this.panel7.Controls.Add(this.label61);
-            this.panel7.Controls.Add(this.label60);
             this.panel7.Controls.Add(this.label58);
             this.panel7.Controls.Add(this.label59);
             this.panel7.Controls.Add(this.label56);
             this.panel7.Controls.Add(this.label57);
-            this.panel7.Controls.Add(this.label54);
-            this.panel7.Controls.Add(this.label55);
             this.panel7.Location = new System.Drawing.Point(328, 554);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(319, 192);
@@ -2317,7 +2317,7 @@ namespace DataLoggerAppV1
             // 
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(33, 149);
+            this.label62.Location = new System.Drawing.Point(31, 85);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(62, 22);
             this.label62.TabIndex = 176;
@@ -2327,7 +2327,7 @@ namespace DataLoggerAppV1
             // 
             this.label61.AutoSize = true;
             this.label61.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(33, 83);
+            this.label61.Location = new System.Drawing.Point(31, 19);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(62, 22);
             this.label61.TabIndex = 175;
@@ -2338,7 +2338,7 @@ namespace DataLoggerAppV1
             // 
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(33, 24);
+            this.label60.Location = new System.Drawing.Point(16, 28);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(62, 22);
             this.label60.TabIndex = 169;
@@ -3307,9 +3307,9 @@ namespace DataLoggerAppV1
             // 
             this.panel6.BackColor = System.Drawing.Color.White;
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.label52);
-            this.panel6.Controls.Add(this.label53);
-            this.panel6.Controls.Add(this.label51);
+            this.panel6.Controls.Add(this.label55);
+            this.panel6.Controls.Add(this.label54);
+            this.panel6.Controls.Add(this.label60);
             this.panel6.Location = new System.Drawing.Point(1137, 565);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(261, 73);
@@ -3319,7 +3319,7 @@ namespace DataLoggerAppV1
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(106, 19);
+            this.label52.Location = new System.Drawing.Point(134, 146);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(32, 24);
             this.label52.TabIndex = 168;
@@ -3329,7 +3329,7 @@ namespace DataLoggerAppV1
             // 
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(180, 22);
+            this.label53.Location = new System.Drawing.Point(225, 149);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(58, 22);
             this.label53.TabIndex = 167;
@@ -3339,7 +3339,7 @@ namespace DataLoggerAppV1
             // 
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(18, 23);
+            this.label51.Location = new System.Drawing.Point(31, 149);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(62, 22);
             this.label51.TabIndex = 167;
