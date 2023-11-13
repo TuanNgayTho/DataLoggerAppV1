@@ -2020,7 +2020,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(222, 50);
             this.label8.TabIndex = 6;
-            this.label8.Text = "       Time Remain (s)";
+            this.label8.Text = "       Remain Time (s)";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Silence
@@ -2042,7 +2042,7 @@
             this.label10.ForeColor = System.Drawing.Color.Gray;
             this.label10.Location = new System.Drawing.Point(1560, 945);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(67, 16);
+            this.label10.Size = new System.Drawing.Size(66, 16);
             this.label10.TabIndex = 8;
             this.label10.Text = "v1.23.1113";
             // 
