@@ -3158,7 +3158,7 @@ namespace DataLoggerAppV1
             this.panel11.Controls.Add(this.Aiunit7);
             this.panel11.Controls.Add(this.Aivalue7);
             this.panel11.Controls.Add(this.Ainame7);
-            this.panel11.Location = new System.Drawing.Point(732, 922);
+            this.panel11.Location = new System.Drawing.Point(656, 922);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(328, 45);
             this.panel11.TabIndex = 194;
