@@ -886,5 +886,17 @@ namespace DataLoggerAppV1.Properties {
                 this["save_para"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string URLExcelTemplate {
+            get {
+                return ((string)(this["URLExcelTemplate"]));
+            }
+            set {
+                this["URLExcelTemplate"] = value;
+            }
+        }
     }
 }

@@ -23,7 +23,7 @@ namespace DataLoggerAppV1
 {
     internal class WriteExcel
     {
-        public static void writeExcel(string url, string[] Infor,
+        public static void writeExcel(string url, string excelPath, string[] Infor,
             string[] DataAi0,
             string[] DataAi1,
             string[] DataAi2,
@@ -43,86 +43,88 @@ namespace DataLoggerAppV1
             )
 
         {
-            const string MyFileName = "ExcelTemplate.xlsx";
-            string execPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase);
-            var filePath = Path.Combine(execPath, MyFileName);
-            Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
-            Workbook wb;
-            Worksheet ws;
-
-            wb = excel.Workbooks.Open(filePath);
-            ws = (Microsoft.Office.Interop.Excel.Worksheet)wb.Sheets[3];
-
-            // Write Customer information Value to Excel
-            Range celRange = ws.Range["D2:G2"];
-            string[] CustomerInfor = Infor;
-            celRange.set_Value(XlRangeValueDataType.xlRangeValueDefault, CustomerInfor);
             
-            // Write Ai Value to Excel
-            int stt = 2;
-            string range = "A" + stt + ":" + "C" + stt;
-            Range WriteAiValue = ws.Range[range];
-
-            if (SelectAi0)
-            {
-                WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi0);
-                stt++;
-                range = "A" + stt + ":" + "C" + stt;
-                WriteAiValue = ws.Range[range];
-            }
-            if (SelectAi1)
-            {
-                WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi1);
-                stt++;
-                range = "A" + stt + ":" + "C" + stt;
-                WriteAiValue = ws.Range[range];
-            }
-            if (SelectAi2)
-            {
-                WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi2);
-                stt++;
-                range = "A" + stt + ":" + "C" + stt;
-                WriteAiValue = ws.Range[range];
-            }
-            if (SelectAi3)
-            {
-                WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi3);
-                stt++;
-                range = "A" + stt + ":" + "C" + stt;
-                WriteAiValue = ws.Range[range];
-            }
-            if (SelectAi4)
-            {
-                WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi4);
-                stt++;
-                range = "A" + stt + ":" + "C" + stt;
-                WriteAiValue = ws.Range[range];
-            }
-            if (SelectAi5)
-            {
-                WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi5);
-                stt++;
-                range = "A" + stt + ":" + "C" + stt;
-                WriteAiValue = ws.Range[range];
-            }
-            if (SelectAi6)
-            {
-                WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi6);
-                stt++;
-                range = "A" + stt + ":" + "C" + stt;
-                WriteAiValue = ws.Range[range];
-            }
-            if (SelectAi7)
-            {
-                WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi7);
-                stt++;
-                range = "A" + stt + ":" + "C" + stt;
-                WriteAiValue = ws.Range[range];
-            }
 
             // SaveAs Excel file
             try
             {
+                const string MyFileName = "ExcelTemplate.xlsx";
+                //string execPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase);
+                //var filePath = Path.Combine(execPath, MyFileName);
+                var filePath = excelPath;
+                Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
+                Workbook wb;
+                Worksheet ws;
+
+                wb = excel.Workbooks.Open(filePath);
+                ws = (Microsoft.Office.Interop.Excel.Worksheet)wb.Sheets[3];
+
+                // Write Customer information Value to Excel
+                Range celRange = ws.Range["D2:G2"];
+                string[] CustomerInfor = Infor;
+                celRange.set_Value(XlRangeValueDataType.xlRangeValueDefault, CustomerInfor);
+
+                // Write Ai Value to Excel
+                int stt = 2;
+                string range = "A" + stt + ":" + "C" + stt;
+                Range WriteAiValue = ws.Range[range];
+
+                if (SelectAi0)
+                {
+                    WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi0);
+                    stt++;
+                    range = "A" + stt + ":" + "C" + stt;
+                    WriteAiValue = ws.Range[range];
+                }
+                if (SelectAi1)
+                {
+                    WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi1);
+                    stt++;
+                    range = "A" + stt + ":" + "C" + stt;
+                    WriteAiValue = ws.Range[range];
+                }
+                if (SelectAi2)
+                {
+                    WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi2);
+                    stt++;
+                    range = "A" + stt + ":" + "C" + stt;
+                    WriteAiValue = ws.Range[range];
+                }
+                if (SelectAi3)
+                {
+                    WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi3);
+                    stt++;
+                    range = "A" + stt + ":" + "C" + stt;
+                    WriteAiValue = ws.Range[range];
+                }
+                if (SelectAi4)
+                {
+                    WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi4);
+                    stt++;
+                    range = "A" + stt + ":" + "C" + stt;
+                    WriteAiValue = ws.Range[range];
+                }
+                if (SelectAi5)
+                {
+                    WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi5);
+                    stt++;
+                    range = "A" + stt + ":" + "C" + stt;
+                    WriteAiValue = ws.Range[range];
+                }
+                if (SelectAi6)
+                {
+                    WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi6);
+                    stt++;
+                    range = "A" + stt + ":" + "C" + stt;
+                    WriteAiValue = ws.Range[range];
+                }
+                if (SelectAi7)
+                {
+                    WriteAiValue.set_Value(XlRangeValueDataType.xlRangeValueDefault, DataAi7);
+                    stt++;
+                    range = "A" + stt + ":" + "C" + stt;
+                    WriteAiValue = ws.Range[range];
+                }
                 wb.SaveAs(url);
                 wb.Close();
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -53,6 +54,7 @@ namespace DataLoggerAppV1
             tbxCustomerName.Text = Properties.Settings.Default.CustomerName;
             tbxCustomerID.Text = Properties.Settings.Default.CustomerID;
             txbFilePath.Text = Properties.Settings.Default.URL;
+            txbTemplate.Text = Properties.Settings.Default.URLExcelTemplate;
 
             cbxAi0.Checked = Properties.Settings.Default.SlectAi0;
             cbxAi1.Checked = Properties.Settings.Default.SlectAi1;
@@ -97,6 +99,7 @@ namespace DataLoggerAppV1
             dateTimePickerTime.Value = dateTimePicker2.Value;
             dateTimePickerDate.Value = dateTimePicker1.Value;
 
+            string excelPath = txbTemplate.Text;
             string url = txbFilePath.Text + "\\" + dateTimePickerTime.Text + dateTimePickerDate.Text + "_" + tbxCustomerName.Text + ".xlsx";
 
             string[] CustomerInfor = {dateTimePicker2.Text, dateTimePicker1.Text, tbxCustomerName.Text,tbxCustomerID.Text};
@@ -118,7 +121,7 @@ namespace DataLoggerAppV1
             bool SelectAi6 = cbxAi6.Checked;
             bool SelectAi7 = cbxAi7.Checked;
 
-            WriteExcel.writeExcel(url, CustomerInfor, DataAi0, DataAi1, DataAi2, DataAi3, DataAi4, DataAi5, DataAi6, DataAi7, SelectAi0, SelectAi1, SelectAi2, SelectAi3, SelectAi4, SelectAi5, SelectAi6, SelectAi7);
+            WriteExcel.writeExcel(url, excelPath, CustomerInfor, DataAi0, DataAi1, DataAi2, DataAi3, DataAi4, DataAi5, DataAi6, DataAi7, SelectAi0, SelectAi1, SelectAi2, SelectAi3, SelectAi4, SelectAi5, SelectAi6, SelectAi7);
         }
 
         private void CreaCertificate_FormClosing(object sender, FormClosingEventArgs e)
@@ -135,6 +138,7 @@ namespace DataLoggerAppV1
             Properties.Settings.Default.CustomerName = tbxCustomerName.Text;
             Properties.Settings.Default.CustomerID = tbxCustomerID.Text;
             Properties.Settings.Default.URL = txbFilePath.Text;
+            Properties.Settings.Default.URLExcelTemplate = txbTemplate.Text;
 
             Properties.Settings.Default.Save();
         }
@@ -144,6 +148,17 @@ namespace DataLoggerAppV1
             folderBrowserDialog1.SelectedPath = txbFilePath.Text;
             folderBrowserDialog1.ShowDialog();
             txbFilePath.Text = folderBrowserDialog1.SelectedPath.ToString();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.FileName = txbTemplate.Text;
+            openFileDialog1.ShowDialog();
+            try
+            {
+                txbTemplate.Text = Path.GetFullPath(openFileDialog1.FileName);
+            }
+            catch { }
         }
     }
 }
