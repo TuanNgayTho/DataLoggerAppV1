@@ -176,19 +176,22 @@ namespace DataLoggerAppV1
             this.RemainTime = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.analysisTime = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
+            this.Aivalue7 = new System.Windows.Forms.Label();
+            this.Ainame7 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.sampleTime = new System.Windows.Forms.Label();
-            this.sampleTime1 = new System.Windows.Forms.Label();
+            this.Aivalue8 = new System.Windows.Forms.Label();
+            this.Ainame8 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.ventTime = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
+            this.Aivalue6 = new System.Windows.Forms.Label();
+            this.Ainame6 = new System.Windows.Forms.Label();
             this.standardControl67 = new SymbolFactoryDotNet.StandardControl();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
+            this.Aiunit6 = new System.Windows.Forms.Label();
+            this.Aiunit7 = new System.Windows.Forms.Label();
+            this.Aiunit8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl45)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl90)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.standardControl91)).BeginInit();
@@ -3152,95 +3155,98 @@ namespace DataLoggerAppV1
             // 
             this.panel11.BackColor = System.Drawing.Color.Cyan;
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel11.Controls.Add(this.analysisTime);
-            this.panel11.Controls.Add(this.label34);
-            this.panel11.Location = new System.Drawing.Point(750, 922);
+            this.panel11.Controls.Add(this.Aiunit7);
+            this.panel11.Controls.Add(this.Aivalue7);
+            this.panel11.Controls.Add(this.Ainame7);
+            this.panel11.Location = new System.Drawing.Point(732, 922);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(242, 45);
+            this.panel11.Size = new System.Drawing.Size(328, 45);
             this.panel11.TabIndex = 194;
             // 
-            // analysisTime
+            // Aivalue7
             // 
-            this.analysisTime.AutoSize = true;
-            this.analysisTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.analysisTime.Location = new System.Drawing.Point(171, 9);
-            this.analysisTime.Name = "analysisTime";
-            this.analysisTime.Size = new System.Drawing.Size(32, 24);
-            this.analysisTime.TabIndex = 178;
-            this.analysisTime.Text = "62";
+            this.Aivalue7.AutoSize = true;
+            this.Aivalue7.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Aivalue7.Location = new System.Drawing.Point(152, 11);
+            this.Aivalue7.Name = "Aivalue7";
+            this.Aivalue7.Size = new System.Drawing.Size(32, 24);
+            this.Aivalue7.TabIndex = 178;
+            this.Aivalue7.Text = "62";
             // 
-            // label34
+            // Ainame7
             // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(8, 12);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(154, 22);
-            this.label34.TabIndex = 3;
-            this.label34.Text = "Analysis Time (s):";
+            this.Ainame7.AutoSize = true;
+            this.Ainame7.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ainame7.Location = new System.Drawing.Point(30, 12);
+            this.Ainame7.Name = "Ainame7";
+            this.Ainame7.Size = new System.Drawing.Size(62, 22);
+            this.Ainame7.TabIndex = 3;
+            this.Ainame7.Text = "6200T";
             // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.Cyan;
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Controls.Add(this.sampleTime);
-            this.panel10.Controls.Add(this.sampleTime1);
-            this.panel10.Location = new System.Drawing.Point(1349, 922);
+            this.panel10.Controls.Add(this.Aiunit8);
+            this.panel10.Controls.Add(this.Aivalue8);
+            this.panel10.Controls.Add(this.Ainame8);
+            this.panel10.Location = new System.Drawing.Point(1300, 922);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(242, 45);
+            this.panel10.Size = new System.Drawing.Size(328, 45);
             this.panel10.TabIndex = 193;
             // 
-            // sampleTime
+            // Aivalue8
             // 
-            this.sampleTime.AutoSize = true;
-            this.sampleTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sampleTime.Location = new System.Drawing.Point(159, 9);
-            this.sampleTime.Name = "sampleTime";
-            this.sampleTime.Size = new System.Drawing.Size(32, 24);
-            this.sampleTime.TabIndex = 179;
-            this.sampleTime.Text = "62";
+            this.Aivalue8.AutoSize = true;
+            this.Aivalue8.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Aivalue8.Location = new System.Drawing.Point(148, 11);
+            this.Aivalue8.Name = "Aivalue8";
+            this.Aivalue8.Size = new System.Drawing.Size(32, 24);
+            this.Aivalue8.TabIndex = 179;
+            this.Aivalue8.Text = "62";
             // 
-            // sampleTime1
+            // Ainame8
             // 
-            this.sampleTime1.AutoSize = true;
-            this.sampleTime1.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sampleTime1.Location = new System.Drawing.Point(8, 12);
-            this.sampleTime1.Name = "sampleTime1";
-            this.sampleTime1.Size = new System.Drawing.Size(147, 22);
-            this.sampleTime1.TabIndex = 3;
-            this.sampleTime1.Text = "Sample Time (s):";
+            this.Ainame8.AutoSize = true;
+            this.Ainame8.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ainame8.Location = new System.Drawing.Point(26, 12);
+            this.Ainame8.Name = "Ainame8";
+            this.Ainame8.Size = new System.Drawing.Size(62, 22);
+            this.Ainame8.TabIndex = 3;
+            this.Ainame8.Text = "6200T";
             // 
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.Cyan;
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel9.Controls.Add(this.ventTime);
-            this.panel9.Controls.Add(this.label32);
-            this.panel9.Location = new System.Drawing.Point(112, 922);
+            this.panel9.Controls.Add(this.Aiunit6);
+            this.panel9.Controls.Add(this.Aivalue6);
+            this.panel9.Controls.Add(this.Ainame6);
+            this.panel9.Location = new System.Drawing.Point(12, 922);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(242, 45);
+            this.panel9.Size = new System.Drawing.Size(328, 45);
             this.panel9.TabIndex = 192;
             // 
-            // ventTime
+            // Aivalue6
             // 
-            this.ventTime.AutoSize = true;
-            this.ventTime.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ventTime.Location = new System.Drawing.Point(150, 9);
-            this.ventTime.Name = "ventTime";
-            this.ventTime.Size = new System.Drawing.Size(32, 24);
-            this.ventTime.TabIndex = 177;
-            this.ventTime.Text = "62";
+            this.Aivalue6.AutoSize = true;
+            this.Aivalue6.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Aivalue6.Location = new System.Drawing.Point(153, 11);
+            this.Aivalue6.Name = "Aivalue6";
+            this.Aivalue6.Size = new System.Drawing.Size(32, 24);
+            this.Aivalue6.TabIndex = 177;
+            this.Aivalue6.Text = "62";
             // 
-            // label32
+            // Ainame6
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.Black;
-            this.label32.Location = new System.Drawing.Point(8, 12);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(121, 22);
-            this.label32.TabIndex = 3;
-            this.label32.Text = "Vent Time (s):";
+            this.Ainame6.AutoSize = true;
+            this.Ainame6.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ainame6.ForeColor = System.Drawing.Color.Black;
+            this.Ainame6.Location = new System.Drawing.Point(32, 12);
+            this.Ainame6.Name = "Ainame6";
+            this.Ainame6.Size = new System.Drawing.Size(62, 22);
+            this.Ainame6.TabIndex = 3;
+            this.Ainame6.Text = "6200T";
             // 
             // standardControl67
             // 
@@ -3307,6 +3313,36 @@ namespace DataLoggerAppV1
             this.label51.Size = new System.Drawing.Size(62, 22);
             this.label51.TabIndex = 167;
             this.label51.Text = "6200T";
+            // 
+            // Aiunit6
+            // 
+            this.Aiunit6.AutoSize = true;
+            this.Aiunit6.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Aiunit6.Location = new System.Drawing.Point(244, 12);
+            this.Aiunit6.Name = "Aiunit6";
+            this.Aiunit6.Size = new System.Drawing.Size(58, 22);
+            this.Aiunit6.TabIndex = 177;
+            this.Aiunit6.Text = "mmm";
+            // 
+            // Aiunit7
+            // 
+            this.Aiunit7.AutoSize = true;
+            this.Aiunit7.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Aiunit7.Location = new System.Drawing.Point(244, 12);
+            this.Aiunit7.Name = "Aiunit7";
+            this.Aiunit7.Size = new System.Drawing.Size(58, 22);
+            this.Aiunit7.TabIndex = 178;
+            this.Aiunit7.Text = "mmm";
+            // 
+            // Aiunit8
+            // 
+            this.Aiunit8.AutoSize = true;
+            this.Aiunit8.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Aiunit8.Location = new System.Drawing.Point(240, 12);
+            this.Aiunit8.Name = "Aiunit8";
+            this.Aiunit8.Size = new System.Drawing.Size(58, 22);
+            this.Aiunit8.TabIndex = 179;
+            this.Aiunit8.Text = "mmm";
             // 
             // Monitor
             // 
@@ -3680,21 +3716,29 @@ namespace DataLoggerAppV1
             label56.Text = Convert.ToString(Convert.ToInt32(Dashboard.DataAi2 * 100) / 100F);
             label58.Text = Convert.ToString(Convert.ToInt32(Dashboard.DataAi3 * 100) / 100F);
             label52.Text = Convert.ToString(Convert.ToInt32(Dashboard.DataAi4 * 100) / 100F);
+            Aivalue6.Text = Convert.ToString(Convert.ToInt32(Dashboard.DataAi5 * 100) / 100F);
+            Aivalue7.Text = Convert.ToString(Convert.ToInt32(Dashboard.DataAi6 * 100) / 100F);
+            Aivalue8.Text = Convert.ToString(Convert.ToInt32(Dashboard.DataAi7 * 100) / 100F);
 
             label49.Text = Properties.Settings.Default.UnitAi0;
             label55.Text = Properties.Settings.Default.UnitAi1;
             label57.Text = Properties.Settings.Default.UnitAi2;
             label59.Text = Properties.Settings.Default.UnitAi3;
             label53.Text = Properties.Settings.Default.UnitAi4;
+            Aiunit6.Text = Properties.Settings.Default.UnitAi5;
+            Aiunit7.Text = Properties.Settings.Default.UnitAi6;
+            Aiunit8.Text = Properties.Settings.Default.UnitAi7;
 
             label48.Text = Properties.Settings.Default.NameAi0;
             label60.Text = Properties.Settings.Default.NameAi1;
             label61.Text = Properties.Settings.Default.NameAi2;
             label62.Text = Properties.Settings.Default.NameAi3;
             label51.Text = Properties.Settings.Default.NameAi4;
-            ventTime.Text = Properties.Settings.Default.VentTime;
-            analysisTime.Text = Properties.Settings.Default.AnalysisTime;
-            sampleTime.Text = Convert.ToString(Properties.Settings.Default.SampleTime / 1000);
+            Ainame6.Text = Properties.Settings.Default.NameAi5;
+            Ainame7.Text = Properties.Settings.Default.NameAi6;
+            Ainame8.Text = Properties.Settings.Default.NameAi7;
+
+            
             RemainTime.Text = Dashboard.RemainTime.ToString();
 
         }
@@ -3739,18 +3783,19 @@ namespace DataLoggerAppV1
 
         private SymbolFactoryDotNet.StandardControl standardControl67;
         private Panel panel9;
-        private Label label32;
+        private Label Ainame6;
         private Panel panel10;
-        private Label sampleTime1;
+        private Label Ainame8;
         private Panel panel11;
-        private Label analysisTime;
-        private Label label34;
-        private Label sampleTime;
-        private Label ventTime;
+        private Label Aivalue7;
+        private Label Ainame7;
+        private Label Aivalue8;
+        private Label Aivalue6;
         private Panel panel12;
         private Label RemainTime;
         private Label label35;
-
-     
+        private Label Aiunit7;
+        private Label Aiunit8;
+        private Label Aiunit6;
     }
 }
