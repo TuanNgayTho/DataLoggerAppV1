@@ -43,8 +43,6 @@ namespace DataLoggerAppV1
             )
 
         {
-            
-
             // SaveAs Excel file
             try
             {
@@ -329,7 +327,6 @@ namespace DataLoggerAppV1
                     value_7[temp] = Convert.ToInt32(float.Parse(reader["aivalue7"].ToString()) * 100) / 100F;
                     //System.Windows.MessageBox.Show("ok");
 
-
                     temp++;
                 }
                 con.Close();
@@ -338,12 +335,6 @@ namespace DataLoggerAppV1
                 Array.Clear(array, 0, temp);
                 int stt = 1;
 
-
-   
-
-          
-
-           
                 SaveFileDialog sfd = new SaveFileDialog();
                 sfd.Filter = "PDF (*.pdf)|*.pdf";
                 sfd.FileName = "Output.pdf";
@@ -383,7 +374,6 @@ namespace DataLoggerAppV1
                             pdfTable.AddCell("Ai7");
                             pdfTable.AddCell("Time");
 
-
                             for (int i = 0; i < temp - 1; i++)
                         {
                             array[i] = new string[9];
@@ -407,10 +397,7 @@ namespace DataLoggerAppV1
                                 pdfTable.AddCell(array[i][7].ToString());
                                 pdfTable.AddCell(array[i][8].ToString());
 
-
                             }
-
-                        
 
                             using (FileStream stream = new FileStream(sfd.FileName, FileMode.Create))
                             {
