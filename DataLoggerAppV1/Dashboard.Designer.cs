@@ -172,6 +172,7 @@
             this.lblTime = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.Silence = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -2034,12 +2035,24 @@
             this.Silence.UseVisualStyleBackColor = true;
             this.Silence.Click += new System.EventHandler(this.Silence_Click);
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Gray;
+            this.label10.Location = new System.Drawing.Point(1560, 945);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(67, 16);
+            this.label10.TabIndex = 8;
+            this.label10.Text = "v1.23.1113";
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1640, 970);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.panel17);
             this.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
@@ -2071,6 +2084,7 @@
             this.panel16.ResumeLayout(false);
             this.panel17.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -2218,5 +2232,6 @@
         private System.Windows.Forms.Label lblISBT5;
         private System.Windows.Forms.Label lblISBT6;
         private System.Windows.Forms.Label lblISBT7;
+        private System.Windows.Forms.Label label10;
     }
 }
