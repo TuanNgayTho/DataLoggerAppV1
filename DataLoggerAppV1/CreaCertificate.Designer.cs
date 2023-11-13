@@ -582,10 +582,10 @@
             this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(528, 831);
+            this.button1.Location = new System.Drawing.Point(528, 807);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(12, 0, 12, 0);
-            this.button1.Size = new System.Drawing.Size(156, 53);
+            this.button1.Size = new System.Drawing.Size(156, 58);
             this.button1.TabIndex = 13;
             this.button1.Text = "Export";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -628,11 +628,11 @@
             // 
             // txbFilePath
             // 
-            this.txbFilePath.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbFilePath.Location = new System.Drawing.Point(39, 764);
+            this.txbFilePath.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbFilePath.Location = new System.Drawing.Point(39, 766);
             this.txbFilePath.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbFilePath.Name = "txbFilePath";
-            this.txbFilePath.Size = new System.Drawing.Size(355, 32);
+            this.txbFilePath.Size = new System.Drawing.Size(355, 29);
             this.txbFilePath.TabIndex = 17;
             // 
             // pictureBox1
@@ -651,7 +651,7 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(39, 742);
+            this.label1.Location = new System.Drawing.Point(39, 743);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 27);
             this.label1.TabIndex = 19;
@@ -692,7 +692,7 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.InitialImage = null;
-            this.pictureBox2.Location = new System.Drawing.Point(405, 842);
+            this.pictureBox2.Location = new System.Drawing.Point(405, 826);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(43, 42);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -702,18 +702,18 @@
             // 
             // txbTemplate
             // 
-            this.txbTemplate.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbTemplate.Location = new System.Drawing.Point(39, 846);
+            this.txbTemplate.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbTemplate.Location = new System.Drawing.Point(40, 832);
             this.txbTemplate.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.txbTemplate.Name = "txbTemplate";
-            this.txbTemplate.Size = new System.Drawing.Size(355, 32);
+            this.txbTemplate.Size = new System.Drawing.Size(355, 29);
             this.txbTemplate.TabIndex = 23;
             // 
             // label6
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(37, 823);
+            this.label6.Location = new System.Drawing.Point(36, 809);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(92, 27);
             this.label6.TabIndex = 25;
@@ -728,7 +728,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(720, 912);
+            this.ClientSize = new System.Drawing.Size(720, 892);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.txbTemplate);
             this.Controls.Add(this.pictureBox1);
