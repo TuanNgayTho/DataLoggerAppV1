@@ -832,6 +832,7 @@ namespace DataLoggerAppV1
             busy1 = false;
             count_tong = 0;
             count = 0;
+            
             iDay = date.Value.Day.ToString();
             iMonth = date.Value.Month.ToString();
             iYear = date.Value.Year.ToString();
