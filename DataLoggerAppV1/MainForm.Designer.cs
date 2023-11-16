@@ -95,7 +95,7 @@
             this.lblUserName.Name = "lblUserName";
             this.lblUserName.Size = new System.Drawing.Size(187, 44);
             this.lblUserName.TabIndex = 1;
-            this.lblUserName.Text = "User Name";
+            this.lblUserName.Text = "USER NAME";
             this.lblUserName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblUserName.Click += new System.EventHandler(this.label1_Click);
             // 

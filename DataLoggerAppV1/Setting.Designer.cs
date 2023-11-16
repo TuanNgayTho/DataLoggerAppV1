@@ -1256,7 +1256,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(119, 80);
             this.label3.TabIndex = 17;
-            this.label3.Text = "Sensor Min Range";
+            this.label3.Text = "Min Range";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label3.Click += new System.EventHandler(this.label4_Click);
             // 
@@ -1298,7 +1298,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(119, 80);
             this.label2.TabIndex = 17;
-            this.label2.Text = "Sensor Name";
+            this.label2.Text = "Component";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
@@ -1312,7 +1312,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(119, 80);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Sensor Unit";
+            this.label4.Text = "Unit";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
@@ -1326,7 +1326,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(119, 80);
             this.label6.TabIndex = 17;
-            this.label6.Text = "Sensor Max Range";
+            this.label6.Text = "Max Range";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label6.Click += new System.EventHandler(this.label4_Click);
             // 
@@ -1353,7 +1353,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(126, 80);
             this.label8.TabIndex = 17;
-            this.label8.Text = "Measurement Max Range";
+            this.label8.Text = "Value Bar Max";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label8.Click += new System.EventHandler(this.label4_Click);
             // 
@@ -1489,7 +1489,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(126, 80);
             this.label7.TabIndex = 17;
-            this.label7.Text = "Measurement Min Range";
+            this.label7.Text = "Value Bar Min";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label7.Click += new System.EventHandler(this.label4_Click);
             // 
@@ -1777,7 +1777,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(501, 48);
             this.label14.TabIndex = 18;
-            this.label14.Text = "Sample Time (s)";
+            this.label14.Text = "Sample Rate (s)";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txbVentTime

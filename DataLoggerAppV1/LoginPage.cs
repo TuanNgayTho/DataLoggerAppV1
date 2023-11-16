@@ -25,7 +25,7 @@ namespace DataLoggerAppV1
 
         private void LoginPage_Load(object sender, EventArgs e)
         {
-
+            txtUser.Focus();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -37,7 +37,7 @@ namespace DataLoggerAppV1
         {
             if (txtUser.Text == "admin" && txtPassWord.Text == "admin")
             {
-                MainForm.instance.UserNameLabelel.Text = txtUser.Text;
+                MainForm.instance.UserNameLabelel.Text = txtUser.Text.ToUpper();
                 MainForm.IsLogIn = true;
                 this.Hide();
             }
