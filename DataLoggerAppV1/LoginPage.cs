@@ -51,7 +51,7 @@ namespace DataLoggerAppV1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MainForm.instance.UserNameLabelel.Text = "User Name";
+            MainForm.instance.UserNameLabelel.Text = "USER NAME";
             MainForm.IsLogIn = false;
             this.Hide();
         }
